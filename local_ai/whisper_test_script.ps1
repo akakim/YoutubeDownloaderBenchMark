@@ -1,0 +1,1 @@
+python3 .\faster_whisper_test.py --inputAudioPath ../backend/uploads/jobs/0610005125_023da53a/audio.mp3

@@ -1,0 +1,33 @@
+사용한 명령어 :  python .\faster_whisper_test.py --inputAudioPath ../backend/uploads/jobs/0610005125_023da53a/audio.mp3
+faster_whisper 옵션 : device="cuda" ,  cpu_threads=8 , num_workers=1 
+start_time :  6067.5164123
+end_time :  6148.4418095
+Elapsed Time: 01:20:925
+
+
+사용한 명령어 :  python .\faster_whisper_test.py --inputAudioPath ../backend/uploads/jobs/0610005125_023da53a/audio.mp3 --cpu_threads 12 
+start_time :  10082.2426348
+end_time :  10162.5123143
+Elapsed Time: 01:20:269
+
+
+사용한 명령어 :  python .\faster_whisper_test.py --inputAudioPath ../backend/uploads/jobs/0610005125_023da53a/audio.mp3 --model large-v3 --cpu_threads 4 --num_workers 2
+start_time :  10265.1550392
+end_time :  10344.6991691
+Elapsed Time: 01:19:544
+
+
+사용한 명령어 :  python .\faster_whisper_test.py --inputAudioPath ../backend/uploads/jobs/0610005125_023da53a/audio.mp3 --model large-v3-turbo --cpu_threads 4 --num_workers 2
+start_time :  11297.3914152
+end_time :  11322.49194
+Elapsed Time: 00:25:100
+
+사용한 명령어 : python .\faster_whisper_test.py --inputAudioPath ../backend/uploads/jobs/0610005125_023da53a/audio.mp3 --model distil-large-v3 --cpu_threads 4 --num_workers 2
+start_time :  11804.7344718
+end_time :  11835.6000402
+Elapsed Time: 00:30:865
+
+사용한 명령어 : python .\faster_whisper_test.py --inputAudioPath ../backend/uploads/jobs/0610005125_023da53a/audio.mp3 --model distil-large-v3 --cpu_threads 8 --num_workers 1
+start_time :  13379.4184502
+end_time :  13420.084128
+Elapsed Time: 00:40:665

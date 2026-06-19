@@ -1,0 +1,3311 @@
+request
+
+https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics%2CcontentDetails&id=Qo3iWSG_sQA%2CKhmV21jHHbI%2C4vWzEuPustE%2CxG5PiLvKWNw%2CHh2YaEMaDVE%2CZkAUsn4S9HM%2C5FuQRu4bL4o%2CSnyp-sUpFnE%2CAzrMJICWTIc%2Ch2DnvkutQf4%2CEK5Jj1t98uw%2C8H8oQOYCHIU%2CP5D3EV1B32Q%2CgtRvxu_Z-tg%2Cgie1fMp11f0%2CuIq6pseJTn4%2CzckLvZ7z60o%2CDqqPr1Ej71M%2CKWQ2bilaDFs%2CDTldzX8krQU%2CQMOy_O1GNSk%2CSK7Hsn-YjBU%2C5ruqsR4IAsI%2CmTRkhU2kpjg%2Cg3eri56QTkw%2CSN8Ul3TJAII%2Ccjc-dPLq9eg%2CzKYvWklkUJU%2CxqxRwRFRzOQ%2CMWge6H4LQbE%2C_Icspsz1shg%2CdKo5nkqdVeQ%2CHYzMaBd06ZE%2C1iLWTFLxzcI%2Cw8o4obHa2nk%2C3-m1GahqzZM%2CstPolRjalzA%2CRcIowzkDjA0%2Co1MQmsG7E2I%2CLrHZRYtjI8w%2ChIN9b292yx0%2CJ3_5ZIM-CV0%2CYkToUogoyGY%2CjtnHCxysxWQ%2Cv7L4leTNd_I&key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
+
+response
+
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "QMQA8KLGygAVq1q8NyFhdLA2-EU",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "hp8zaPnjCIU8zi3q7uwuApKcRiI",
+      "id": "Qo3iWSG_sQA",
+      "snippet": {
+        "publishedAt": "2026-06-18T07:08:56Z",
+        "channelId": "UCOB2_VhrjvchNZiEfL8NgJg",
+        "title": "계곡에서 바가지 씌운 건달의 최후 #유머 #사이다 #반전 #액션",
+        "description": "본 영상은 시청자 분들의 재미와 감동을 위해 다양한 AI를 활용하여 제작되었으며, \n창작 또는 각색/재구성되었습니다. \n현실의 존재하는 실존 인물·단체·사건을 지칭하지 않으며, 실제와 무관합니다.\n\n\"산전수전 다 겪은 당신의 인생을 대변하는, 삶의 한 수\"\n'삶의 한 수'는 부조리에 날리는 시원한 사이다 같은 일침부터\n때로는 평범한 일상 속, 빵!!하고 터지는 웃음과 반전을,\n때로는 고단한 인생을 위로하는 감동을 전달합니다.\n\n📌 구독을 통해 매일 새로운 영상을 받아보세요!\n\n#삶의한수 #유머 #코믹 #웃긴 #반전쇼츠 #웃긴영상 #코믹영상 #유머쇼츠 #웃긴썰 #재미있는영상 #유튜브쇼츠 #반전 #60대공감 #중장년남성 #중장년여성 #개그 #코미디 #꿀잼 #시니어 #60대 #70대 #중장년층 #쇼츠 #ai #중장년 #유쾌 #funny #funnyvideos #funnyclips #funnyshorts #humor #humorshorts #comedy #comedyshorts #액션 #싸움",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qo3iWSG_sQA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qo3iWSG_sQA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qo3iWSG_sQA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Qo3iWSG_sQA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Qo3iWSG_sQA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "삶의한수",
+        "tags": [
+          "유머",
+          "사이다",
+          "반전",
+          "삶의한수",
+          "60대공감",
+          "중장년남성",
+          "개그",
+          "코미디",
+          "웃긴영상",
+          "꿀잼",
+          "시니어",
+          "60대",
+          "70대",
+          "중장년층",
+          "쇼츠",
+          "공감",
+          "ai",
+          "영상",
+          "중장년",
+          "유쾌",
+          "중장년여성",
+          "액션"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "계곡에서 바가지 씌운 건달의 최후 #유머 #사이다 #반전 #액션",
+          "description": "본 영상은 시청자 분들의 재미와 감동을 위해 다양한 AI를 활용하여 제작되었으며, \n창작 또는 각색/재구성되었습니다. \n현실의 존재하는 실존 인물·단체·사건을 지칭하지 않으며, 실제와 무관합니다.\n\n\"산전수전 다 겪은 당신의 인생을 대변하는, 삶의 한 수\"\n'삶의 한 수'는 부조리에 날리는 시원한 사이다 같은 일침부터\n때로는 평범한 일상 속, 빵!!하고 터지는 웃음과 반전을,\n때로는 고단한 인생을 위로하는 감동을 전달합니다.\n\n📌 구독을 통해 매일 새로운 영상을 받아보세요!\n\n#삶의한수 #유머 #코믹 #웃긴 #반전쇼츠 #웃긴영상 #코믹영상 #유머쇼츠 #웃긴썰 #재미있는영상 #유튜브쇼츠 #반전 #60대공감 #중장년남성 #중장년여성 #개그 #코미디 #꿀잼 #시니어 #60대 #70대 #중장년층 #쇼츠 #ai #중장년 #유쾌 #funny #funnyvideos #funnyclips #funnyshorts #humor #humorshorts #comedy #comedyshorts #액션 #싸움"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT42S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "86973",
+        "likeCount": "1986",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "kHMeYTCAnlvUuWQzgyJ7phrtDdE",
+      "id": "KhmV21jHHbI",
+      "snippet": {
+        "publishedAt": "2026-06-17T07:00:22Z",
+        "channelId": "UCdlr0rVI5wXFAKifpPm6JPA",
+        "title": "꼬맹이의 비밀을 알게 되었다",
+        "description": "#웃기시네 #스케치코미디 #코미디\n\n♡인스타 놀러오세요♡\n성준 인스타 - http://www.instagram.com/sungjunya0\n희주 인스타 - http://www.instagram.com/1o._.z3",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KhmV21jHHbI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KhmV21jHHbI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KhmV21jHHbI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KhmV21jHHbI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KhmV21jHHbI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "웃기시네",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "꼬맹이의 비밀을 알게 되었다",
+          "description": "#웃기시네 #스케치코미디 #코미디\n\n♡인스타 놀러오세요♡\n성준 인스타 - http://www.instagram.com/sungjunya0\n희주 인스타 - http://www.instagram.com/1o._.z3"
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "contentDetails": {
+        "duration": "PT5M39S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "284077",
+        "likeCount": "4293",
+        "favoriteCount": "0",
+        "commentCount": "314"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "x4buJX89x_57p9SfFiXumR9b0Ts",
+      "id": "4vWzEuPustE",
+      "snippet": {
+        "publishedAt": "2026-06-18T03:33:20Z",
+        "channelId": "UCsp3QShiz_-9mLOlMkO8New",
+        "title": "전생에 나라를 두번 구하면 벌어지는 일 #스케치코미디 #전생",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4vWzEuPustE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4vWzEuPustE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4vWzEuPustE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4vWzEuPustE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4vWzEuPustE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "코믹펀치",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "전생에 나라를 두번 구하면 벌어지는 일 #스케치코미디 #전생",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT56S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "29438",
+        "likeCount": "141",
+        "favoriteCount": "0",
+        "commentCount": "9"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "SA4oj5gnto3iOZ9faJ0XAj6lCOw",
+      "id": "xG5PiLvKWNw",
+      "snippet": {
+        "publishedAt": "2026-06-13T05:15:21Z",
+        "channelId": "UC6IqHw1J10LWb-Qos5Xs0Nw",
+        "title": "서로가 필요한 이유",
+        "description": "#하이픽션 #스케치코미디 #이혼숙려기간 #이혼숙려캠프 #결혼 #이혼 #연애 #연인 #커플 #웃긴영상 #재밌는영상 #이숙기\n\n이혼숙려기간 부부편 재밌게 봐주세요~! ♥\n좋아요와 좋은 댓글은 배우님들께 많은 힘이 됩니다!\n\n📌 Instagram\n주호 - 방주호 https://www.instagram.com/bbangju2/\n난영 - 황난영 https://www.instagram.com/81.6zero/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "하이픽션",
+        "tags": [
+          "하이픽션",
+          "조폭여자친구",
+          "조폭여친",
+          "솔직함",
+          "연애",
+          "연인",
+          "커플",
+          "사랑",
+          "남자친구",
+          "여자친구",
+          "여친",
+          "남친",
+          "스케치코미디",
+          "드라마",
+          "영화",
+          "방주호",
+          "백시연",
+          "여사친",
+          "남사친",
+          "황난영",
+          "이혼",
+          "결혼",
+          "전부인",
+          "전남편",
+          "이혼숙려기간",
+          "이혼숙려캠프",
+          "한달",
+          "전여친",
+          "전남친",
+          "이별",
+          "슬픔",
+          "동거",
+          "신혼",
+          "부부",
+          "남편",
+          "부인",
+          "와이프",
+          "아내",
+          "결혼식",
+          "띱",
+          "숏박스",
+          "별거",
+          "숙려기간",
+          "몰아보기",
+          "숙려캠프",
+          "이혼부부",
+          "돌싱",
+          "재산분할",
+          "부부싸움",
+          "권태기",
+          "이혼재산분할",
+          "이혼숙려",
+          "이혼가정",
+          "솔직한연애",
+          "거짓말없는세상",
+          "겨ㅓ짓말",
+          "송예빈",
+          "코미디",
+          "개그",
+          "싸움",
+          "커플싸움",
+          "전와이프",
+          "바람",
+          "불륜",
+          "난영",
+          "말다툼",
+          "다툼",
+          "하이픽션이혼숙려기간",
+          "친구",
+          "거짓말",
+          "추억",
+          "재결합",
+          "기억",
+          "의지",
+          "동반자"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "서로가 필요한 이유",
+          "description": "#하이픽션 #스케치코미디 #이혼숙려기간 #이혼숙려캠프 #결혼 #이혼 #연애 #연인 #커플 #웃긴영상 #재밌는영상 #이숙기\n\n이혼숙려기간 부부편 재밌게 봐주세요~! ♥\n좋아요와 좋은 댓글은 배우님들께 많은 힘이 됩니다!\n\n📌 Instagram\n주호 - 방주호 https://www.instagram.com/bbangju2/\n난영 - 황난영 https://www.instagram.com/81.6zero/"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT3M39S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "651633",
+        "likeCount": "7133",
+        "favoriteCount": "0",
+        "commentCount": "468"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "KT5ap5w1CGNZtmuzPtfcOnrK4ls",
+      "id": "Hh2YaEMaDVE",
+      "snippet": {
+        "publishedAt": "2026-06-15T12:45:20Z",
+        "channelId": "UC5VrYKGx4Q2EL9WlEsnNA1Q",
+        "title": "주마등이 스치면 생기는일 #스케치코미디",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Hh2YaEMaDVE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Hh2YaEMaDVE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Hh2YaEMaDVE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Hh2YaEMaDVE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Hh2YaEMaDVE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "1분수혈",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "주마등이 스치면 생기는일 #스케치코미디",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT51S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "32730",
+        "likeCount": "354",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "DCtKLnjQ_qmLEZYjrGbFqt9KT5k",
+      "id": "ZkAUsn4S9HM",
+      "snippet": {
+        "publishedAt": "2026-06-14T01:13:18Z",
+        "channelId": "UCoOouSZDR8giBbLe8ueKdOw",
+        "title": "장모님에게 잘해야 하는 이유 #스케치코미디 #코미디 #유머 #개그",
+        "description": "#스케치코미디 #코미디 #개그 #유머 #싱글벙글",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZkAUsn4S9HM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZkAUsn4S9HM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZkAUsn4S9HM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZkAUsn4S9HM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZkAUsn4S9HM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "오늘의코미디",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "장모님에게 잘해야 하는 이유 #스케치코미디 #코미디 #유머 #개그",
+          "description": "#스케치코미디 #코미디 #개그 #유머 #싱글벙글"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "154487",
+        "likeCount": "1102",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "sdboGamUk7x8_9GwLWbP3VQX6mQ",
+      "id": "5FuQRu4bL4o",
+      "snippet": {
+        "publishedAt": "2026-06-18T01:13:16Z",
+        "channelId": "UCHok4LrPKb-LJgwQtBFoFzA",
+        "title": "문 앞에서 주저앉은 사연 | 중년 사연, 웃긴 장면, 코미디, 상황극",
+        "description": "박사장님 문좀 열어주세요~\n오늘도 웃는 날 되세요",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5FuQRu4bL4o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5FuQRu4bL4o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5FuQRu4bL4o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5FuQRu4bL4o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5FuQRu4bL4o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "웃음꽃 여사들",
+        "tags": [
+          "아줌마",
+          "중년",
+          "웃긴",
+          "코메디"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "문 앞에서 주저앉은 사연 | 중년 사연, 웃긴 장면, 코미디, 상황극",
+          "description": "박사장님 문좀 열어주세요~\n오늘도 웃는 날 되세요"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "82426",
+        "likeCount": "943",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "iWb03iJnooDqR0FCON3HZ-xixGQ",
+      "id": "Snyp-sUpFnE",
+      "snippet": {
+        "publishedAt": "2026-06-18T05:57:14Z",
+        "channelId": "UCsp3QShiz_-9mLOlMkO8New",
+        "title": "사람을 너무 쉽게 믿으면 안되는 이유 #스케치코미디 #뺑소니",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Snyp-sUpFnE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Snyp-sUpFnE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Snyp-sUpFnE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Snyp-sUpFnE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Snyp-sUpFnE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "코믹펀치",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "사람을 너무 쉽게 믿으면 안되는 이유 #스케치코미디 #뺑소니",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT34S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "54726",
+        "likeCount": "306",
+        "favoriteCount": "0",
+        "commentCount": "9"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "gmlbPfykFfn3EtskfdR7x5bT-Jk",
+      "id": "AzrMJICWTIc",
+      "snippet": {
+        "publishedAt": "2026-06-15T09:00:10Z",
+        "channelId": "UCq3IMlVZeedAwCdY4f0qIjQ",
+        "title": "우린 무슨 사이예요? #스케치코미디 #킬링타임 #코믹마트 #임준빈 #이윤우",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AzrMJICWTIc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AzrMJICWTIc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AzrMJICWTIc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AzrMJICWTIc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AzrMJICWTIc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "숏타몽",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "우린 무슨 사이예요? #스케치코미디 #킬링타임 #코믹마트 #임준빈 #이윤우",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT45S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "30602",
+        "likeCount": "118",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Exj5ShIHAdYYiCgQTYQtUv_dtvo",
+      "id": "h2DnvkutQf4",
+      "snippet": {
+        "publishedAt": "2026-06-15T08:45:05Z",
+        "channelId": "UCCKGhl7WYpiU0mP8p_KWXpQ",
+        "title": "후임이 릴스중독자일 때 #릴스 #시트콤 #패러디 #코미디",
+        "description": "오랜만에 0.5 초심감성 첨부",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h2DnvkutQf4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h2DnvkutQf4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h2DnvkutQf4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/h2DnvkutQf4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/h2DnvkutQf4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "정범빈",
+        "tags": [
+          "정범빈",
+          "릴스",
+          "챌린지",
+          "릴스중독자",
+          "패러디",
+          "코미디",
+          "개그",
+          "시트콤"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "후임이 릴스중독자일 때 #릴스 #시트콤 #패러디 #코미디",
+          "description": "오랜만에 0.5 초심감성 첨부"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M4S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "40342",
+        "likeCount": "1567",
+        "favoriteCount": "0",
+        "commentCount": "34"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "QXaooWGCkma55gB-MnPXyZZ8b50",
+      "id": "EK5Jj1t98uw",
+      "snippet": {
+        "publishedAt": "2026-06-14T09:00:28Z",
+        "channelId": "UCKh0e6Or7UIriEMWu7oxbng",
+        "title": "친구 임신, 도와줄 수 있다 vs 없다 😬😂 #커플 #미국코미디 #유머 #shorts",
+        "description": "#스탠드업코미디 #영어공부 #영어회화 #영어 #미국 #미국코미디 #회화 #웃긴짤 #유머 #각종유머 #standupcomedy #comedy \n\n😂 웃다 보면 터지는 영어감각 \n영어 + 문화 + 웃음 = 빵글리쉬 \n👉 구독하면 매일 올라와요!\n\n오늘의 빵글🤓\n\nSource: Andy and Michelle \n\n미국 스탠드업 코미디와 인기 팟캐스트에서 실제로 쓰이는 진짜 영어, 표현, 뉘앙스, 문화 코드를 한국어 번역과 해설로 쉽게 풀어드립니다. 교과서 영어가 아닌 실전 영어를 배우고 싶은 분들에게 최적의 채널입니다. 모든 콘텐츠는 원작자 소유이며, 공정 사용(Fair Use) 원칙에 따라 교육·해설 목적으로만 활용됩니다. 크레딧, 저작권 문제, 삭제 요청 등은 메일로 연락 주시면 신속히 처리하겠습니다. 📩 heyppangle@gmail.com \n\nLearn REAL English, cultural context, everyday expressions, humor, and nuance through the funniest stand-up comedy and podcast clips. We break down jokes, cultural references, tone, slang, and context with Korean translations and bilingual subtitles. Perfect for learners who want authentic English — not textbook English.\n\nNote: All content remains the property of the original creators and is used solely for educational and commentary purposes in accordance with Fair Use. For credits, copyright concerns, or removal requests, feel free to contact us — we will address the issue immediately: 📩 heyppangle@gmail.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EK5Jj1t98uw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EK5Jj1t98uw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EK5Jj1t98uw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EK5Jj1t98uw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EK5Jj1t98uw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "빵글리쉬",
+        "tags": [
+          "영어",
+          "영어회화",
+          "#유머",
+          "코미디",
+          "영어표현",
+          "영어쉐도잉",
+          "코믹",
+          "실전영어",
+          "영어공부",
+          "미국영어",
+          "영어리스닝",
+          "영어강의",
+          "영어팟캐스트",
+          "영어유튜브",
+          "원어민영어",
+          "미국문화",
+          "미국유머",
+          "코믹한 영어",
+          "웃긴영상",
+          "real english",
+          "daily english",
+          "learn english",
+          "english for korean speakers",
+          "english lesson",
+          "english listening practice",
+          "american english",
+          "english expressions",
+          "english vocabulary",
+          "english subtitles",
+          "english pronunciation",
+          "learn english with comedy",
+          "stand up comedy",
+          "미국"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "친구 임신, 도와줄 수 있다 vs 없다 😬😂 #커플 #미국코미디 #유머 #shorts",
+          "description": "#스탠드업코미디 #영어공부 #영어회화 #영어 #미국 #미국코미디 #회화 #웃긴짤 #유머 #각종유머 #standupcomedy #comedy \n\n😂 웃다 보면 터지는 영어감각 \n영어 + 문화 + 웃음 = 빵글리쉬 \n👉 구독하면 매일 올라와요!\n\n오늘의 빵글🤓\n\nSource: Andy and Michelle \n\n미국 스탠드업 코미디와 인기 팟캐스트에서 실제로 쓰이는 진짜 영어, 표현, 뉘앙스, 문화 코드를 한국어 번역과 해설로 쉽게 풀어드립니다. 교과서 영어가 아닌 실전 영어를 배우고 싶은 분들에게 최적의 채널입니다. 모든 콘텐츠는 원작자 소유이며, 공정 사용(Fair Use) 원칙에 따라 교육·해설 목적으로만 활용됩니다. 크레딧, 저작권 문제, 삭제 요청 등은 메일로 연락 주시면 신속히 처리하겠습니다. 📩 heyppangle@gmail.com \n\nLearn REAL English, cultural context, everyday expressions, humor, and nuance through the funniest stand-up comedy and podcast clips. We break down jokes, cultural references, tone, slang, and context with Korean translations and bilingual subtitles. Perfect for learners who want authentic English — not textbook English.\n\nNote: All content remains the property of the original creators and is used solely for educational and commentary purposes in accordance with Fair Use. For credits, copyright concerns, or removal requests, feel free to contact us — we will address the issue immediately: 📩 heyppangle@gmail.com"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT1M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "184746",
+        "favoriteCount": "0",
+        "commentCount": "33"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "XVagFZfLvtHfPsnUaHeZlmbpbJo",
+      "id": "8H8oQOYCHIU",
+      "snippet": {
+        "publishedAt": "2026-06-14T09:00:26Z",
+        "channelId": "UC7FNcZgZWeG6wh5lerv84eg",
+        "title": "🔥잘못된 전력메이드!🔥(feat. 항상해맑음 ) #memes #shorts #스케치코미디 #challenge #코미디",
+        "description": "멤버십에 가입하여 다양한 혜택을 누려보세요\nhttps://www.youtube.com/channel/UC7FNcZgZWeG6wh5lerv84eg/join\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n   라이브🎥https://chzzk.naver.com/ee8a617e26072a2808147b43fdf91c45\n   유튜브🎬 https://youtube.com/@기찬아\n   다시보기📽️ https://www.youtube.com/@kichan97_game\n   팬카페📺 https://cafe.naver.com/kichan97\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔥잘못된 전력메이드!🔥(feat. 항상해맑음 ) @항상해맑음 \n #memes #shorts #스케치코미디 #challenge #코미디",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8H8oQOYCHIU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8H8oQOYCHIU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8H8oQOYCHIU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8H8oQOYCHIU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8H8oQOYCHIU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "기찬아 - 귀찮아서 기찬아",
+        "tags": [
+          "전력메이드",
+          "항상해맑음",
+          "memes",
+          "challenge",
+          "챌린지",
+          "밈",
+          "스케치코미디",
+          "상황극",
+          "일상공감",
+          "추천",
+          "기찬아",
+          "shorts",
+          "낭만박상환",
+          "김동희 세계관",
+          "코밈"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "🔥잘못된 전력메이드!🔥(feat. 항상해맑음 ) #memes #shorts #스케치코미디 #challenge #코미디",
+          "description": "멤버십에 가입하여 다양한 혜택을 누려보세요\nhttps://www.youtube.com/channel/UC7FNcZgZWeG6wh5lerv84eg/join\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n   라이브🎥https://chzzk.naver.com/ee8a617e26072a2808147b43fdf91c45\n   유튜브🎬 https://youtube.com/@기찬아\n   다시보기📽️ https://www.youtube.com/@kichan97_game\n   팬카페📺 https://cafe.naver.com/kichan97\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔥잘못된 전력메이드!🔥(feat. 항상해맑음 ) @항상해맑음 \n #memes #shorts #스케치코미디 #challenge #코미디"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT28S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "58911",
+        "favoriteCount": "0",
+        "commentCount": "136"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "iChR6gPcW5jdMms2fgaylr80vlI",
+      "id": "P5D3EV1B32Q",
+      "snippet": {
+        "publishedAt": "2026-06-18T03:34:35Z",
+        "channelId": "UC5Rym2uMcm6WLe79iNPAV_w",
+        "title": "동네 형 스펙으로장관 가능할까 #웃찾사 #레전드코미디 #대통령과장관",
+        "description": "스펙 위주가 아닌 능력 위주의 인재 등용! \n우리 동네 '상철이 형'이 법무부 장관이 될 수 없는 이유?! 🤣\n\n자막 없이 미드를 보고, 화투판에서 우리 동네 최초로 '상철법'을 제정하신 대단한 분인데 말이죠... 인사청문회 낙타 바늘구멍 통과할 수 있을까요? \n\n추억의 웃찾사 레전드 코미디, 지금 영상으로 확인하세요! 👍",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P5D3EV1B32Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P5D3EV1B32Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P5D3EV1B32Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/P5D3EV1B32Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/P5D3EV1B32Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "도파미니",
+        "tags": [
+          "웃찾사",
+          "웃찾사 레전드",
+          "개그 레전드",
+          "법무부장관",
+          "추억의 개그",
+          "레전드 코미디",
+          "도파미니"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "동네 형 스펙으로장관 가능할까 #웃찾사 #레전드코미디 #대통령과장관",
+          "description": "스펙 위주가 아닌 능력 위주의 인재 등용! \n우리 동네 '상철이 형'이 법무부 장관이 될 수 없는 이유?! 🤣\n\n자막 없이 미드를 보고, 화투판에서 우리 동네 최초로 '상철법'을 제정하신 대단한 분인데 말이죠... 인사청문회 낙타 바늘구멍 통과할 수 있을까요? \n\n추억의 웃찾사 레전드 코미디, 지금 영상으로 확인하세요! 👍"
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "contentDetails": {
+        "duration": "PT50S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "61685",
+        "likeCount": "1243",
+        "favoriteCount": "0",
+        "commentCount": "3"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "vnM_EKyzzYzRxu-yfi-V64pAlSw",
+      "id": "gtRvxu_Z-tg",
+      "snippet": {
+        "publishedAt": "2026-06-12T23:32:49Z",
+        "channelId": "UCoOouSZDR8giBbLe8ueKdOw",
+        "title": "진심으로 환자를 위하는 참된 의사 #스케치코미디 #코미디 #유머 #개그",
+        "description": "#스케치코미디 #코미디 #개그 #유머 #싱글벙글",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gtRvxu_Z-tg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gtRvxu_Z-tg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gtRvxu_Z-tg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gtRvxu_Z-tg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gtRvxu_Z-tg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "오늘의코미디",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "진심으로 환자를 위하는 참된 의사 #스케치코미디 #코미디 #유머 #개그",
+          "description": "#스케치코미디 #코미디 #개그 #유머 #싱글벙글"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT54S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "181625",
+        "likeCount": "1224",
+        "favoriteCount": "0",
+        "commentCount": "11"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "jzaIQSfFx1_8UBILR9pz9nJrPM0",
+      "id": "gie1fMp11f0",
+      "snippet": {
+        "publishedAt": "2026-06-16T10:00:34Z",
+        "channelId": "UCQffyh2MAb8742wpl2a38mQ",
+        "title": "동상이몽 - 학교 흡연 빌런",
+        "description": "#스타뚜 #코미디",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gie1fMp11f0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gie1fMp11f0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gie1fMp11f0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gie1fMp11f0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gie1fMp11f0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "스타뚜",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "동상이몽 - 학교 흡연 빌런",
+          "description": "#스타뚜 #코미디"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT54S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "226090",
+        "likeCount": "4977",
+        "favoriteCount": "0",
+        "commentCount": "104"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "njPmcnunQOwJxvRL1gw_mWJ5MBY",
+      "id": "uIq6pseJTn4",
+      "snippet": {
+        "publishedAt": "2026-06-16T04:26:20Z",
+        "channelId": "UCsp3QShiz_-9mLOlMkO8New",
+        "title": "예비군 썰이 갑자기 다큐가 된 이유 #스케치코미디 #예비군 #허세",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uIq6pseJTn4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uIq6pseJTn4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uIq6pseJTn4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uIq6pseJTn4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uIq6pseJTn4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "코믹펀치",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "예비군 썰이 갑자기 다큐가 된 이유 #스케치코미디 #예비군 #허세",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT47S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "113668",
+        "likeCount": "207",
+        "favoriteCount": "0",
+        "commentCount": "8"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "jpRdvqwvw0LghgRBIJThY0PpmBw",
+      "id": "zckLvZ7z60o",
+      "snippet": {
+        "publishedAt": "2026-06-16T06:49:41Z",
+        "channelId": "UC5Rym2uMcm6WLe79iNPAV_w",
+        "title": "대통령 친구 둔시골 친구의 클라스ㅋ#웃찾사 #코미디레전드 #국방부장관",
+        "description": "[대통령 친구 둔 시골 친구의 클래스?! 국방부장관 시켜달라는 평발 친구의 최후 ㅋㅋㅋ]\n\n군대 얘기만 나오면 평발이라고 무시당하는 게 억울해서... \"나 국방부장관 시켜주라!!\"를 외치는 역대급 스케일의 시골 친구가 나타났다! 🤣\n전투기 살 돈으로 전투기만 사고, 탱크 살 돈으로 탱크만 사면 술자리 무시 안 당한다는 기적의 논리 ㅋㅋㅋ\n\n요즘 보니까 다들 짧게 짧게(?) 하던데 딱 2~3일만 시켜달라는 이 친구, 과연 임명될 수 있을까요?\n오늘도 배꼽 잡는 레전드 개그 보시고 매일매일 웃음 가득한 하루 보내세요!\n\n구독과 좋아요, 알림 설정은 채널 운영에 큰 힘이 됩니다! 🔔",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zckLvZ7z60o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zckLvZ7z60o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zckLvZ7z60o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zckLvZ7z60o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zckLvZ7z60o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "도파미니",
+        "tags": [
+          "웃찾사",
+          "코미디레전드",
+          "국방부장관",
+          "개그레전드",
+          "도파미니",
+          "유머숏폼",
+          "웃긴영상"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "대통령 친구 둔시골 친구의 클라스ㅋ#웃찾사 #코미디레전드 #국방부장관",
+          "description": "[대통령 친구 둔 시골 친구의 클래스?! 국방부장관 시켜달라는 평발 친구의 최후 ㅋㅋㅋ]\n\n군대 얘기만 나오면 평발이라고 무시당하는 게 억울해서... \"나 국방부장관 시켜주라!!\"를 외치는 역대급 스케일의 시골 친구가 나타났다! 🤣\n전투기 살 돈으로 전투기만 사고, 탱크 살 돈으로 탱크만 사면 술자리 무시 안 당한다는 기적의 논리 ㅋㅋㅋ\n\n요즘 보니까 다들 짧게 짧게(?) 하던데 딱 2~3일만 시켜달라는 이 친구, 과연 임명될 수 있을까요?\n오늘도 배꼽 잡는 레전드 개그 보시고 매일매일 웃음 가득한 하루 보내세요!\n\n구독과 좋아요, 알림 설정은 채널 운영에 큰 힘이 됩니다! 🔔"
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "contentDetails": {
+        "duration": "PT45S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "108641",
+        "likeCount": "2226",
+        "favoriteCount": "0",
+        "commentCount": "28"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "D2DQlRSU-6hf_qvSOHTx-GGW3jM",
+      "id": "DqqPr1Ej71M",
+      "snippet": {
+        "publishedAt": "2026-06-17T08:45:01Z",
+        "channelId": "UCCKGhl7WYpiU0mP8p_KWXpQ",
+        "title": "학과별 뒷공부하는 법 [학과의 중요성] #대학생 #공감 #코미디 #TeraBox #TeraBoxAIStudy",
+        "description": "마케팅학과 오랜만에 일한다",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DqqPr1Ej71M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DqqPr1Ej71M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DqqPr1Ej71M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DqqPr1Ej71M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DqqPr1Ej71M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "정범빈",
+        "tags": [
+          "정범빈",
+          "학과의중요성",
+          "학과의 중요성",
+          "학과 쇼츠",
+          "학과 공감",
+          "공대생",
+          "대학생 공감",
+          "대학교 공감",
+          "뒷공부",
+          "기말고사",
+          "코미디",
+          "개그",
+          "스케치코미디"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "학과별 뒷공부하는 법 [학과의 중요성] #대학생 #공감 #코미디 #TeraBox #TeraBoxAIStudy",
+          "description": "마케팅학과 오랜만에 일한다"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M35S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "59641",
+        "likeCount": "2497",
+        "favoriteCount": "0",
+        "commentCount": "70"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "vWOyjeipvfvjuovPZysXY4Errmo",
+      "id": "KWQ2bilaDFs",
+      "snippet": {
+        "publishedAt": "2026-06-14T08:54:34Z",
+        "channelId": "UCyh6XNV85u6Z9mLTJvZdp2w",
+        "title": "바나나와 딸기의 금지된 사랑",
+        "description": "#더빙 #웃긴더빙 #병맛 #병맛더빙 #웃긴영상 #공감 #코미디 #유머 #일상 #ai #meme #memes #memesdaily #memeshorts #memesvideo #성우 #성우더빙 #성우녹음 #덕수 #덕순 #덕수와덕순 #밈 #해외밈 #해외밈더빙 #레전드\n\n오리지널 : IG @graceandmattt\n더빙 : 덕수&덕순",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KWQ2bilaDFs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KWQ2bilaDFs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KWQ2bilaDFs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KWQ2bilaDFs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KWQ2bilaDFs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "덕수와 덕순",
+        "tags": [
+          "더빙",
+          "웃긴더빙",
+          "병맛더빙",
+          "상황극",
+          "드라마",
+          "쇼츠",
+          "릴스",
+          "인스타",
+          "유튜브",
+          "콘텐츠",
+          "일상",
+          "코미디",
+          "유머",
+          "병맛",
+          "웃긴",
+          "웃긴영상",
+          "밈",
+          "해외밈",
+          "해외밈더빙",
+          "덕수",
+          "덕순",
+          "덕수와덕순"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "바나나와 딸기의 금지된 사랑",
+          "description": "#더빙 #웃긴더빙 #병맛 #병맛더빙 #웃긴영상 #공감 #코미디 #유머 #일상 #ai #meme #memes #memesdaily #memeshorts #memesvideo #성우 #성우더빙 #성우녹음 #덕수 #덕순 #덕수와덕순 #밈 #해외밈 #해외밈더빙 #레전드\n\n오리지널 : IG @graceandmattt\n더빙 : 덕수&덕순"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT37S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "191593",
+        "likeCount": "2696",
+        "favoriteCount": "0",
+        "commentCount": "56"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "wyotAstAUMLMC1ByHFj8JtwoUuQ",
+      "id": "DTldzX8krQU",
+      "snippet": {
+        "publishedAt": "2026-06-14T02:30:39Z",
+        "channelId": "UCAgAsH5n26IHMDyzwhF3wIw",
+        "title": "ईमानदार Guar😂 II #sevengers #comedy #shorts",
+        "description": "Love You All Youtube Family❤️\nKeep Supporting🙌 \nLike,Comments,Share & Subscribe ➡️Sevengers\nFor daily routine updates\nFollow on Instagram👇👇\nMasterji : https://instagram.com/master_jii_official\nBunny : https://instagram.com/nadeem_bunny\nhttps://www.facebook.com/Sevengersofficial",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DTldzX8krQU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DTldzX8krQU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DTldzX8krQU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DTldzX8krQU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DTldzX8krQU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SEVENGERS",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "ईमानदार Guar😂 II #sevengers #comedy #shorts",
+          "description": "Love You All Youtube Family❤️\nKeep Supporting🙌 \nLike,Comments,Share & Subscribe ➡️Sevengers\nFor daily routine updates\nFollow on Instagram👇👇\nMasterji : https://instagram.com/master_jii_official\nBunny : https://instagram.com/nadeem_bunny\nhttps://www.facebook.com/Sevengersofficial"
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT1M18S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1716001",
+        "likeCount": "69601",
+        "favoriteCount": "0",
+        "commentCount": "319"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "GLrXbpb-tz7JItiYF04I-FtXTVY",
+      "id": "QMOy_O1GNSk",
+      "snippet": {
+        "publishedAt": "2026-06-13T19:35:49Z",
+        "channelId": "UC31SWVbkuG98CBfjuISTe5w",
+        "title": "Abiade once said…😂❤️",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QMOy_O1GNSk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QMOy_O1GNSk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QMOy_O1GNSk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QMOy_O1GNSk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QMOy_O1GNSk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Marlycoal Comedy",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Abiade once said…😂❤️",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "65293",
+        "likeCount": "4356",
+        "favoriteCount": "0",
+        "commentCount": "47"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "PlWv1u3zoTSysXFdmK5aKMsihNM",
+      "id": "SK7Hsn-YjBU",
+      "snippet": {
+        "publishedAt": "2026-06-13T02:34:13Z",
+        "channelId": "UC63SXP9m4KW9Ki3IFxZSyOQ",
+        "title": "Anil khariya new comedy video #anilkhariyacomedy #comedy #newमारवाड़ीcomedy #funny #trandingcomady",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SK7Hsn-YjBU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SK7Hsn-YjBU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SK7Hsn-YjBU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SK7Hsn-YjBU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SK7Hsn-YjBU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Anil Khariya f p",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Anil khariya new comedy video #anilkhariyacomedy #comedy #newमारवाड़ीcomedy #funny #trandingcomady",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT22S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "212104",
+        "likeCount": "4227",
+        "favoriteCount": "0",
+        "commentCount": "15"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "nsqOfMXqsLtQsOZO8uDBweJMheI",
+      "id": "5ruqsR4IAsI",
+      "snippet": {
+        "publishedAt": "2026-06-14T07:28:43Z",
+        "channelId": "UCwl3Lm2A9aQfSUDNuID-Pug",
+        "title": "진짜 '개도 안먹는' 음식ㅋㅋㅋㅋ#유머 #웃긴영상 #코미디",
+        "description": "이번 영상은 남자가 먹던 음식을 개에게 베풀었더니, 오히려 영역표시를 해버리는 황당한 일을 담았습니다 ㅋㅋㅋㅋ\n분명 먹을 걸 애처롭게 쳐다보는 강아지처럼 보였는데, 막상 음식을 주니 암모니아 냄새가 났는지 바로 영역표시를 해버리는데요!\n영상 속 중국 남성이 먹던 게 도대체 어떤 음식일지가 궁금해지네요ㅋㅋㅋㅋ\n여러분은 여행가서 드셨던 최악의 음식이 뭐가요?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5ruqsR4IAsI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5ruqsR4IAsI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5ruqsR4IAsI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5ruqsR4IAsI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5ruqsR4IAsI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "두쫀숏",
+        "tags": [
+          "두쫀숏",
+          "쇼츠",
+          "유튜브쇼츠",
+          "shorts",
+          "funnyshorts",
+          "웃긴영상",
+          "웃긴쇼츠",
+          "유머",
+          "개그",
+          "코미디",
+          "실화",
+          "레전드",
+          "해외밈",
+          "meme",
+          "memes",
+          "웃긴밈",
+          "웃긴장면",
+          "웃긴사고",
+          "황당한순간",
+          "놀라운순간",
+          "충격실화",
+          "반전",
+          "반전영상",
+          "해외영상",
+          "해외이슈",
+          "화제영상",
+          "바이럴영상",
+          "인기영상",
+          "웃음참기",
+          "웃참",
+          "웃긴동물",
+          "강아지",
+          "고양이",
+          "사람웃긴영상",
+          "재밌는영상",
+          "틱톡",
+          "tiktok",
+          "reels",
+          "viral",
+          "funny",
+          "comedy",
+          "fail",
+          "epicfail",
+          "unexpected",
+          "hilarious",
+          "entertainment",
+          "dailyshorts",
+          "shortsfeed",
+          "trending",
+          "trendingshorts",
+          "funnyclips",
+          "viralvideo",
+          "funnymoments",
+          "두쫀숏쇼츠",
+          "쇼츠추천",
+          "쇼츠모음",
+          "숏폼",
+          "숏폼콘텐츠",
+          "숏츠",
+          "웃긴클립",
+          "재밌는클립",
+          "명장면",
+          "유머영상",
+          "코믹영상"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "진짜 '개도 안먹는' 음식ㅋㅋㅋㅋ#유머 #웃긴영상 #코미디",
+          "description": "이번 영상은 남자가 먹던 음식을 개에게 베풀었더니, 오히려 영역표시를 해버리는 황당한 일을 담았습니다 ㅋㅋㅋㅋ\n분명 먹을 걸 애처롭게 쳐다보는 강아지처럼 보였는데, 막상 음식을 주니 암모니아 냄새가 났는지 바로 영역표시를 해버리는데요!\n영상 속 중국 남성이 먹던 게 도대체 어떤 음식일지가 궁금해지네요ㅋㅋㅋㅋ\n여러분은 여행가서 드셨던 최악의 음식이 뭐가요?"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "32074",
+        "likeCount": "39",
+        "favoriteCount": "0",
+        "commentCount": "6"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "y6zKOvxxqc92unJXqBlWPdLbuwU",
+      "id": "mTRkhU2kpjg",
+      "snippet": {
+        "publishedAt": "2026-06-16T14:15:02Z",
+        "channelId": "UCdMU-1-gMHfwP3J7HtPGuPA",
+        "title": "가족 없다던 맥스가 바로 무너짐 #shorts #코미디 #시트콤 #미드 #2BrokeGirls",
+        "description": "마드 시트콤 [2 BROKE GIRLS]의 빵터지는 명장면 모음입니다 😆 코미디 좋아하면 현웃 보장!\n미국 시트콤 레전드 장면을 한국어 자막으로 골라 담았어요.\n구독하면 매일 새로운 미드 코미디 짤 업로드됩니다.\n\n#shorts #코미디 #시트콤 #미드 #2BrokeGirls",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mTRkhU2kpjg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mTRkhU2kpjg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mTRkhU2kpjg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mTRkhU2kpjg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mTRkhU2kpjg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "mintcozy",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "가족 없다던 맥스가 바로 무너짐 #shorts #코미디 #시트콤 #미드 #2BrokeGirls",
+          "description": "마드 시트콤 [2 BROKE GIRLS]의 빵터지는 명장면 모음입니다 😆 코미디 좋아하면 현웃 보장!\n미국 시트콤 레전드 장면을 한국어 자막으로 골라 담았어요.\n구독하면 매일 새로운 미드 코미디 짤 업로드됩니다.\n\n#shorts #코미디 #시트콤 #미드 #2BrokeGirls"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "17742",
+        "likeCount": "66",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "V8ueQOys-VJDDLHTuA7axPhAQww",
+      "id": "g3eri56QTkw",
+      "snippet": {
+        "publishedAt": "2026-06-14T13:45:18Z",
+        "channelId": "UCH2PslY8MY2bW_CccvFSz0Q",
+        "title": "Wait for end 😂 #funny #comedy #jokes #memes #sureshguru #shorts",
+        "description": "Wait for end 😂 #funny #comedy #jokes #memes #sureshguru #shorts",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g3eri56QTkw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g3eri56QTkw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g3eri56QTkw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/g3eri56QTkw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/g3eri56QTkw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Suresh Guru Comedy",
+        "tags": [
+          "Suresh guru",
+          "Suresh guru funny",
+          "Suresh guru comedy",
+          "Suresh guru jokes",
+          "Suresh guru memes",
+          "Suresh guru reels",
+          "Suresh guru shorts",
+          "Suresh guru videos",
+          "Telugu comedy videos",
+          "Telugu comedy"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Wait for end 😂 #funny #comedy #jokes #memes #sureshguru #shorts",
+          "description": "Wait for end 😂 #funny #comedy #jokes #memes #sureshguru #shorts"
+        },
+        "defaultAudioLanguage": "te"
+      },
+      "contentDetails": {
+        "duration": "PT16S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "843363",
+        "likeCount": "26678",
+        "favoriteCount": "0",
+        "commentCount": "53"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "eZZUO44-Z6jl6lhyVq1B_7sQpoE",
+      "id": "SN8Ul3TJAII",
+      "snippet": {
+        "publishedAt": "2026-06-12T11:54:40Z",
+        "channelId": "UCiqWGbfsJ3UZDk9s3cZXHHQ",
+        "title": "Nalla thirudan ..🐩👮\u200d♀️…💯twist comedy…🙏🏻🤣🤣.. #shorts #funny #comedy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SN8Ul3TJAII/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SN8Ul3TJAII/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SN8Ul3TJAII/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SN8Ul3TJAII/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SN8Ul3TJAII/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Shiva_entertainment",
+        "tags": [
+          "Shiva entertainment comedy",
+          "Twist comedy",
+          "Full entertainment video",
+          "Reality comedy",
+          "Noppana uthaikka comedy",
+          "Pudukkottaikaaran comedy",
+          "Cow theft comedy"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-IN",
+        "localized": {
+          "title": "Nalla thirudan ..🐩👮\u200d♀️…💯twist comedy…🙏🏻🤣🤣.. #shorts #funny #comedy",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ta"
+      },
+      "contentDetails": {
+        "duration": "PT57S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1507057",
+        "likeCount": "68539",
+        "favoriteCount": "0",
+        "commentCount": "240"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NJkYHoe6UZ8bqG5eaGDJFuxAW-4",
+      "id": "cjc-dPLq9eg",
+      "snippet": {
+        "publishedAt": "2026-06-13T12:25:11Z",
+        "channelId": "UCiqWGbfsJ3UZDk9s3cZXHHQ",
+        "title": "Childhood memories 🫵🏻💯..twist comedy..🙏🏻🤣🤣.. #shorts #funny #comedy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cjc-dPLq9eg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cjc-dPLq9eg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cjc-dPLq9eg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cjc-dPLq9eg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cjc-dPLq9eg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Shiva_entertainment",
+        "tags": [
+          "Shiva entertainment comedy",
+          "Twist comedy",
+          "Full entertainment comedy",
+          "Reality comedy",
+          "Childhood memories",
+          "Full fun and comedy"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-IN",
+        "localized": {
+          "title": "Childhood memories 🫵🏻💯..twist comedy..🙏🏻🤣🤣.. #shorts #funny #comedy",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ta"
+      },
+      "contentDetails": {
+        "duration": "PT1M23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2039571",
+        "likeCount": "123090",
+        "favoriteCount": "0",
+        "commentCount": "315"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "apVMwLvl03FOnYMTZvKCpSMdQHY",
+      "id": "zKYvWklkUJU",
+      "snippet": {
+        "publishedAt": "2026-06-12T10:00:27Z",
+        "channelId": "UCKh0e6Or7UIriEMWu7oxbng",
+        "title": "남편에게 걸려온 수상한 전화😳 #미국코미디 #커플 #영어공부 #shorts",
+        "description": "#스탠드업코미디 #영어공부 #영어회화 #영어 #미국 #미국코미디 #회화 #웃긴짤 #유머 #각종유머 #standupcomedy #comedy \n\n😂 웃다 보면 터지는 영어감각 \n영어 + 문화 + 웃음 = 빵글리쉬 \n👉 구독하면 매일 올라와요!\n\n오늘의 빵글🤓\n\nSource: Andy and Michelle\n\n미국 스탠드업 코미디와 인기 팟캐스트에서 실제로 쓰이는 진짜 영어, 표현, 뉘앙스, 문화 코드를 한국어 번역과 해설로 쉽게 풀어드립니다. 교과서 영어가 아닌 실전 영어를 배우고 싶은 분들에게 최적의 채널입니다. 모든 콘텐츠는 원작자 소유이며, 공정 사용(Fair Use) 원칙에 따라 교육·해설 목적으로만 활용됩니다. 크레딧, 저작권 문제, 삭제 요청 등은 메일로 연락 주시면 신속히 처리하겠습니다. 📩 heyppangle@gmail.com \n\nLearn REAL English, cultural context, everyday expressions, humor, and nuance through the funniest stand-up comedy and podcast clips. We break down jokes, cultural references, tone, slang, and context with Korean translations and bilingual subtitles. Perfect for learners who want authentic English — not textbook English.\n\nNote: All content remains the property of the original creators and is used solely for educational and commentary purposes in accordance with Fair Use. For credits, copyright concerns, or removal requests, feel free to contact us — we will address the issue immediately: 📩 heyppangle@gmail.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zKYvWklkUJU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zKYvWklkUJU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zKYvWklkUJU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zKYvWklkUJU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zKYvWklkUJU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "빵글리쉬",
+        "tags": [
+          "영어",
+          "영어회화",
+          "#유머",
+          "코미디",
+          "영어표현",
+          "영어쉐도잉",
+          "코믹",
+          "실전영어",
+          "영어공부",
+          "미국영어",
+          "영어리스닝",
+          "영어강의",
+          "영어팟캐스트",
+          "영어유튜브",
+          "원어민영어",
+          "미국문화",
+          "미국유머",
+          "코믹한 영어",
+          "웃긴영상",
+          "real english",
+          "daily english",
+          "learn english",
+          "english for korean speakers",
+          "english lesson",
+          "english listening practice",
+          "american english",
+          "english expressions",
+          "english vocabulary",
+          "english subtitles",
+          "english pronunciation",
+          "learn english with comedy",
+          "stand up comedy",
+          "미국"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "남편에게 걸려온 수상한 전화😳 #미국코미디 #커플 #영어공부 #shorts",
+          "description": "#스탠드업코미디 #영어공부 #영어회화 #영어 #미국 #미국코미디 #회화 #웃긴짤 #유머 #각종유머 #standupcomedy #comedy \n\n😂 웃다 보면 터지는 영어감각 \n영어 + 문화 + 웃음 = 빵글리쉬 \n👉 구독하면 매일 올라와요!\n\n오늘의 빵글🤓\n\nSource: Andy and Michelle\n\n미국 스탠드업 코미디와 인기 팟캐스트에서 실제로 쓰이는 진짜 영어, 표현, 뉘앙스, 문화 코드를 한국어 번역과 해설로 쉽게 풀어드립니다. 교과서 영어가 아닌 실전 영어를 배우고 싶은 분들에게 최적의 채널입니다. 모든 콘텐츠는 원작자 소유이며, 공정 사용(Fair Use) 원칙에 따라 교육·해설 목적으로만 활용됩니다. 크레딧, 저작권 문제, 삭제 요청 등은 메일로 연락 주시면 신속히 처리하겠습니다. 📩 heyppangle@gmail.com \n\nLearn REAL English, cultural context, everyday expressions, humor, and nuance through the funniest stand-up comedy and podcast clips. We break down jokes, cultural references, tone, slang, and context with Korean translations and bilingual subtitles. Perfect for learners who want authentic English — not textbook English.\n\nNote: All content remains the property of the original creators and is used solely for educational and commentary purposes in accordance with Fair Use. For credits, copyright concerns, or removal requests, feel free to contact us — we will address the issue immediately: 📩 heyppangle@gmail.com"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT24S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "113101",
+        "favoriteCount": "0",
+        "commentCount": "12"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "jpCZ7FfZQo36x_SiUK_M5fu9KlM",
+      "id": "xqxRwRFRzOQ",
+      "snippet": {
+        "publishedAt": "2026-06-12T19:08:09Z",
+        "channelId": "UCdKkJL5CZcSLgUjyQK1xLOA",
+        "title": "It isn't an exact science #Shorts",
+        "description": "Lucy Darling\nhttps://www.instagram.com/carisahendrix/\nhttps://www.tiktok.com/@carisahendrix\nhttps://www.reddit.com/r/LucyDarling/\n\nVisit for tickets https://www.carisahendrix.com/tour/\n\nHelp choose the next tour stop! Vote at https://www.carisahendrix.com/vote/\n\n #standup #crowdwork #lucydarling #comedy #drag",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xqxRwRFRzOQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xqxRwRFRzOQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xqxRwRFRzOQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xqxRwRFRzOQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xqxRwRFRzOQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Carisa Hendrix & Lucy Darling",
+        "tags": [
+          "Lucy Darling",
+          "Carisa Hendrix",
+          "Crowd work",
+          "comedy",
+          "drag",
+          "magic",
+          "magician",
+          "Lucy",
+          "darling",
+          "Carisa",
+          "Hendrix",
+          "stand up"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "It isn't an exact science #Shorts",
+          "description": "Lucy Darling\nhttps://www.instagram.com/carisahendrix/\nhttps://www.tiktok.com/@carisahendrix\nhttps://www.reddit.com/r/LucyDarling/\n\nVisit for tickets https://www.carisahendrix.com/tour/\n\nHelp choose the next tour stop! Vote at https://www.carisahendrix.com/vote/\n\n #standup #crowdwork #lucydarling #comedy #drag"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT49S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "564989",
+        "likeCount": "36213",
+        "favoriteCount": "0",
+        "commentCount": "202"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "cD4jROP4I83JzJLKh5YI7jg9ORo",
+      "id": "MWge6H4LQbE",
+      "snippet": {
+        "publishedAt": "2026-06-13T02:17:13Z",
+        "channelId": "UCqX9Ymc1nYQYsJ7gw5t9a9Q",
+        "title": "북한 스탠드업 코미디언 12 #북한 #스탠드업코미디 #코미디 #fyp",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MWge6H4LQbE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MWge6H4LQbE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MWge6H4LQbE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MWge6H4LQbE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MWge6H4LQbE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "지랙이",
+        "tags": [
+          "북한",
+          "코미디",
+          "스탠드업코미디",
+          "개그",
+          "코미디빅리그",
+          "메타코미디",
+          "오지택",
+          "스탠드업",
+          "러닝",
+          "런닝",
+          "런닝맨"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "북한 스탠드업 코미디언 12 #북한 #스탠드업코미디 #코미디 #fyp",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT34S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "24684",
+        "likeCount": "161",
+        "favoriteCount": "0",
+        "commentCount": "6"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "V4X_v5hBhRw-ZME9spjKbecgz0s",
+      "id": "_Icspsz1shg",
+      "snippet": {
+        "publishedAt": "2026-06-14T16:03:25Z",
+        "channelId": "UC5CzL1x6Jb9widCZ4KmIOLw",
+        "title": "Female Advocate in a comedy show  | Vikas Kush Sharma | Standup Comedy Crowd Work #standupcomedy",
+        "description": "Female Advocate in a comedy show  | Vikas Kush Sharma | Standup Comedy Crowd Work #standupcomedy",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Icspsz1shg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Icspsz1shg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Icspsz1shg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_Icspsz1shg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_Icspsz1shg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vikas Kush Sharma",
+        "tags": [
+          "Vikas Kush Sharma",
+          "vikas kush sharma stand up",
+          "standup comedy",
+          "latest stand up comedy",
+          "crowd work comedy",
+          "stand up",
+          "new stand up video",
+          "standup up comedy",
+          "hindi standup comedy",
+          "best crowd work",
+          "latest comedy videos",
+          "vikas kush sharma crowd work",
+          "vikas kush sharma comedy",
+          "vikas kush sharma",
+          "vikas kush sharma full video",
+          "stand up comedy latest",
+          "comedy video",
+          "stand up comedy indian",
+          "comedy stand up",
+          "Female Advocate",
+          "advocate"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-IN",
+        "localized": {
+          "title": "Female Advocate in a comedy show  | Vikas Kush Sharma | Standup Comedy Crowd Work #standupcomedy",
+          "description": "Female Advocate in a comedy show  | Vikas Kush Sharma | Standup Comedy Crowd Work #standupcomedy"
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT57S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1051765",
+        "likeCount": "23665",
+        "favoriteCount": "0",
+        "commentCount": "106"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "e1qtAPuGfecSqCr2BzpBcYjd8KE",
+      "id": "dKo5nkqdVeQ",
+      "snippet": {
+        "publishedAt": "2026-06-13T14:51:06Z",
+        "channelId": "UCpCsBNnO5Safz7ZWhzsFFvg",
+        "title": "keju ka bhootiya dost 🤣 #trendingshorts #viralshorts #youtubeshorts #funny #comedy #relatable",
+        "description": "keju ka bhootiya dost 🤣 #trendingshorts #viralshorts #youtubeshorts #funny #comedy #relatable",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dKo5nkqdVeQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dKo5nkqdVeQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dKo5nkqdVeQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/dKo5nkqdVeQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/dKo5nkqdVeQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "keju cool official",
+        "tags": [
+          "trending shorts",
+          "viral shorts",
+          "youtube shorts",
+          "funny",
+          "comedy",
+          "relatable",
+          "chaman shorts",
+          "we r loser",
+          "entertainment shorts",
+          "shorts feed",
+          "shorts"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "keju ka bhootiya dost 🤣 #trendingshorts #viralshorts #youtubeshorts #funny #comedy #relatable",
+          "description": "keju ka bhootiya dost 🤣 #trendingshorts #viralshorts #youtubeshorts #funny #comedy #relatable"
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT30S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "4059614",
+        "likeCount": "22524",
+        "favoriteCount": "0",
+        "commentCount": "7"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "lOretGSr_uu0PMyV7nakMg2pdRw",
+      "id": "HYzMaBd06ZE",
+      "snippet": {
+        "publishedAt": "2026-06-13T08:24:57Z",
+        "channelId": "UCoOouSZDR8giBbLe8ueKdOw",
+        "title": "남자의 허세는 목숨보다 소중하다 #스케치코미디 #코미디 #유머 #개그",
+        "description": "#스케치코미디 #코미디 #개그 #유머 #싱글벙글",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HYzMaBd06ZE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HYzMaBd06ZE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HYzMaBd06ZE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HYzMaBd06ZE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HYzMaBd06ZE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "오늘의코미디",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "남자의 허세는 목숨보다 소중하다 #스케치코미디 #코미디 #유머 #개그",
+          "description": "#스케치코미디 #코미디 #개그 #유머 #싱글벙글"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "15484",
+        "likeCount": "134",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "YKL_6AtKMnvkNrF2IiRXkIf-_Rk",
+      "id": "1iLWTFLxzcI",
+      "snippet": {
+        "publishedAt": "2026-06-14T16:30:04Z",
+        "channelId": "UCrq11szgal4N031rzisp1rA",
+        "title": "Hair comb 🪮 | #love #funny #comedy #trending #youtubeshorts #food #shorts #short #viral #ytshorts",
+        "description": "\"Welcome to [Abhijeet Singhania Channel ], where laughter knows no bounds! Dive into a world of hilarious sketches, witty commentary, and side-splitting parodies. Our team of comedians fearlessly tackles the absurdities of everyday life, delivering gut-busting content that will leave you rolling on the floor with laughter. From satirical takes on current events to relatable skits about relationships, we guarantee a non-stop comedy extravaganza that will keep you coming back for more. Subscribe now and join our community of laughter-loving viewers!\"\n\n“Our channel is intended solely for informational purposes. The way we demonstrate the use of the food is for consumption only. Please do not apply it to the face, hair, or any other non-edible use. We are providing safe and correct information only.”",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1iLWTFLxzcI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1iLWTFLxzcI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1iLWTFLxzcI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/1iLWTFLxzcI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/1iLWTFLxzcI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Abhijeet Singhania",
+        "tags": [
+          "funny comedy shorts",
+          "funny shorts videos",
+          "comedy shorts",
+          "shorts videos",
+          "viral comedy shorts",
+          "funny shorts",
+          "comedy videos",
+          "comedy shorts 2026",
+          "funny videos",
+          "shorts funny",
+          "top comedy videos",
+          "prank video funny videos 2020",
+          "funny dog videos",
+          "telugu comedy videos",
+          "funny videos 2021",
+          "new comedy videos 2022",
+          "shorts video",
+          "funny husky videos",
+          "azazvines comedy videos",
+          "funny telugu videos",
+          "telugu funny videos",
+          "bhagam bhag comedy videos",
+          "rajpal yadav funny comedy scenes"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Hair comb 🪮 | #love #funny #comedy #trending #youtubeshorts #food #shorts #short #viral #ytshorts",
+          "description": "\"Welcome to [Abhijeet Singhania Channel ], where laughter knows no bounds! Dive into a world of hilarious sketches, witty commentary, and side-splitting parodies. Our team of comedians fearlessly tackles the absurdities of everyday life, delivering gut-busting content that will leave you rolling on the floor with laughter. From satirical takes on current events to relatable skits about relationships, we guarantee a non-stop comedy extravaganza that will keep you coming back for more. Subscribe now and join our community of laughter-loving viewers!\"\n\n“Our channel is intended solely for informational purposes. The way we demonstrate the use of the food is for consumption only. Please do not apply it to the face, hair, or any other non-edible use. We are providing safe and correct information only.”"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1447328",
+        "likeCount": "6655",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "WqR-_JaqSN5mNVZNywTAvO_0b1A",
+      "id": "w8o4obHa2nk",
+      "snippet": {
+        "publishedAt": "2026-06-13T14:00:20Z",
+        "channelId": "UCCv4wyD_Na9bC4C8pBpOYmQ",
+        "title": "진실보다 뒷담화가 중요한 사람 특징 #스케치코미디 #뒷담화",
+        "description": "#스케치코미디 #뒷담화 #선입견 #오해 #코미디 #유머 #개그 #띱",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w8o4obHa2nk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w8o4obHa2nk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w8o4obHa2nk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/w8o4obHa2nk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/w8o4obHa2nk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠이슈",
+        "tags": [
+          "스케치코미디",
+          "웹드라마",
+          "뒷담화",
+          "선입견",
+          "오해",
+          "코미디",
+          "유머",
+          "개그",
+          "코믹숏무비",
+          "김규남",
+          "윤태용",
+          "윤혁준"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "진실보다 뒷담화가 중요한 사람 특징 #스케치코미디 #뒷담화",
+          "description": "#스케치코미디 #뒷담화 #선입견 #오해 #코미디 #유머 #개그 #띱"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT56S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "18390",
+        "likeCount": "24",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "9uQOQOr2HLfFtHc3g937-SW4KZY",
+      "id": "3-m1GahqzZM",
+      "snippet": {
+        "publishedAt": "2026-06-14T05:49:15Z",
+        "channelId": "UC7mn8IUedabEp5ojU-AZ-GA",
+        "title": "Jadu-Tona 🤣 Sajan Ahir #comedy #funny",
+        "description": "Jadu-Tona 🤣 Sajan Ahir #comedy #funny \n\n\n😂 Welcome to Sajan Ahir Shorts! 😂\nEnjoy the best village comedy, funny shorts, desi entertainment, and relatable humor videos. Our goal is to create family-friendly content that brings laughter, joy, and entertainment to viewers of all ages.\n🎬 On this channel, you'll find: • Comedy Shorts\n• Funny Village Comedy Videos\n• Desi Comedy Content\n• Entertaining Short Films\n• Family-Friendly Humor\n\n👍 Like, Share & Subscribe for more entertaining videos.\n🔔 Turn on notifications so you never miss an upload.\n\nEntertainment Disclaimer: This video is created solely for entertainment purposes. All characters, situations, and dialogues are fictional and intended for humor only. No harm, offense, or disrespect toward any individual, community, religion, or profession is intended.\n\n\nCopyright Disclaimer: Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is permitted by copyright statute that might otherwise be infringing. Non-profit, educational,\n\n#SajanAhirShorts #ComedyShorts #FunnyShorts #VillageComedy #DesiComedy #HindiComedy #YouTubeShorts #Entertainment #FunnyVideos #ViralShorts #ComedyVideo #IndianComedy #FamilyFriendly #ShortFilm #TrendingShorts\n\n☞︎︎︎ Çàst : Sajan Ahir  , Suraj Ahir  , Kari  , Manish Jacktion , Champa , Mr Sujit ,\n\n☞︎︎︎𝐂𝐚𝐦𝐞𝐫𝐚 𝐦𝐚𝐧 : Binay Moni \n\n☞︎︎︎𝐄𝐝𝐢𝐭𝐨𝐫: Binay Moni \n\n\n\n\n                ꧁   𝐓𝐞𝐚𝐦 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦  ꧂\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 1𝐬𝐭 𝐢𝐝 ) : https://instagram.com/sajanahir123?igshid=MzRlODBiNWFlZA==\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 2𝐧𝐝 𝐢𝐝 ) :  https://instagram.com/sajanahir143?igshid=MzRlODBiNWFlZA==\n\n\nThank you for watching and supporting Sajan Ahir Shorts!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3-m1GahqzZM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3-m1GahqzZM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3-m1GahqzZM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3-m1GahqzZM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3-m1GahqzZM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sajan Ahir Shorts ",
+        "tags": [
+          "Jadu-Tona",
+          "Sajan Ahir",
+          "Comedy",
+          "Funny",
+          "Funny Moments",
+          "Funny Fails",
+          "Funny video",
+          "funny Clips",
+          "Sajan Ahir Official",
+          "Sajan Ahir Comedy",
+          "Sajan Ahir Comedy Video",
+          "Trending",
+          "Shorts",
+          "Viral",
+          "Explorepage",
+          "Comedy Videos",
+          "Comedy Tips",
+          "Comedy Shorts",
+          "Comedy Video",
+          "Comedy clips",
+          "Aashish Yadav",
+          "Raushan Rohi",
+          "Sajan Ahir Shorts"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "Jadu-Tona 🤣 Sajan Ahir #comedy #funny",
+          "description": "Jadu-Tona 🤣 Sajan Ahir #comedy #funny \n\n\n😂 Welcome to Sajan Ahir Shorts! 😂\nEnjoy the best village comedy, funny shorts, desi entertainment, and relatable humor videos. Our goal is to create family-friendly content that brings laughter, joy, and entertainment to viewers of all ages.\n🎬 On this channel, you'll find: • Comedy Shorts\n• Funny Village Comedy Videos\n• Desi Comedy Content\n• Entertaining Short Films\n• Family-Friendly Humor\n\n👍 Like, Share & Subscribe for more entertaining videos.\n🔔 Turn on notifications so you never miss an upload.\n\nEntertainment Disclaimer: This video is created solely for entertainment purposes. All characters, situations, and dialogues are fictional and intended for humor only. No harm, offense, or disrespect toward any individual, community, religion, or profession is intended.\n\n\nCopyright Disclaimer: Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is permitted by copyright statute that might otherwise be infringing. Non-profit, educational,\n\n#SajanAhirShorts #ComedyShorts #FunnyShorts #VillageComedy #DesiComedy #HindiComedy #YouTubeShorts #Entertainment #FunnyVideos #ViralShorts #ComedyVideo #IndianComedy #FamilyFriendly #ShortFilm #TrendingShorts\n\n☞︎︎︎ Çàst : Sajan Ahir  , Suraj Ahir  , Kari  , Manish Jacktion , Champa , Mr Sujit ,\n\n☞︎︎︎𝐂𝐚𝐦𝐞𝐫𝐚 𝐦𝐚𝐧 : Binay Moni \n\n☞︎︎︎𝐄𝐝𝐢𝐭𝐨𝐫: Binay Moni \n\n\n\n\n                ꧁   𝐓𝐞𝐚𝐦 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦  ꧂\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 1𝐬𝐭 𝐢𝐝 ) : https://instagram.com/sajanahir123?igshid=MzRlODBiNWFlZA==\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 2𝐧𝐝 𝐢𝐝 ) :  https://instagram.com/sajanahir143?igshid=MzRlODBiNWFlZA==\n\n\nThank you for watching and supporting Sajan Ahir Shorts!"
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT2M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "6652589",
+        "likeCount": "103921",
+        "favoriteCount": "0",
+        "commentCount": "89"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "iRmn3V-EAa8LGDxm8mBT2FdXnLo",
+      "id": "stPolRjalzA",
+      "snippet": {
+        "publishedAt": "2026-06-15T15:01:56Z",
+        "channelId": "UC7mn8IUedabEp5ojU-AZ-GA",
+        "title": "Sadhu Ki Beti  🤣 Sajan Ahir #comedy #funny",
+        "description": "Sadhu Ki Beti  🤣 Sajan Ahir #comedy #funny \n\n\n😂 Welcome to Sajan Ahir Shorts! 😂\nEnjoy the best village comedy, funny shorts, desi entertainment, and relatable humor videos. Our goal is to create family-friendly content that brings laughter, joy, and entertainment to viewers of all ages.\n🎬 On this channel, you'll find: • Comedy Shorts\n• Funny Village Comedy Videos\n• Desi Comedy Content\n• Entertaining Short Films\n• Family-Friendly Humor\n\n👍 Like, Share & Subscribe for more entertaining videos.\n🔔 Turn on notifications so you never miss an upload.\n\nEntertainment Disclaimer: This video is created solely for entertainment purposes. All characters, situations, and dialogues are fictional and intended for humor only. No harm, offense, or disrespect toward any individual, community, religion, or profession is intended.\n\n\nCopyright Disclaimer: Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is permitted by copyright statute that might otherwise be infringing. Non-profit, educational,\n\n#SajanAhirShorts #ComedyShorts #FunnyShorts #VillageComedy #DesiComedy #HindiComedy #YouTubeShorts #Entertainment #FunnyVideos #ViralShorts #ComedyVideo #IndianComedy #FamilyFriendly #ShortFilm #TrendingShorts\n\n☞︎︎︎ Çàst : Sajan Ahir  , Suraj Ahir  , Kari  , Manish Jacktion , Champa , Mr Sujit ,\n\n☞︎︎︎𝐂𝐚𝐦𝐞𝐫𝐚 𝐦𝐚𝐧 : Binay Moni \n\n☞︎︎︎𝐄𝐝𝐢𝐭𝐨𝐫: Binay Moni \n\n\n\n\n                ꧁   𝐓𝐞𝐚𝐦 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦  ꧂\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 1𝐬𝐭 𝐢𝐝 ) : https://instagram.com/sajanahir123?igshid=MzRlODBiNWFlZA==\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 2𝐧𝐝 𝐢𝐝 ) :  https://instagram.com/sajanahir143?igshid=MzRlODBiNWFlZA==\n\n\nThank you for watching and supporting Sajan Ahir Shorts!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/stPolRjalzA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/stPolRjalzA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/stPolRjalzA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/stPolRjalzA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/stPolRjalzA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Sajan Ahir Shorts ",
+        "tags": [
+          "Sadhu Ki Beti",
+          "Sajan Ahir",
+          "Comedy",
+          "Funny",
+          "Funny Tips",
+          "Comedy Video",
+          "Sajan Ahir comedy",
+          "Sajan Ahir Shorts",
+          "Trending",
+          "Viral videos",
+          "Comedy Club",
+          "Comedy Shorts",
+          "Aashish yadav",
+          "Mani Meraj Comedy",
+          "Raushan Rohi",
+          "Shorts Comedy",
+          "Funny Fails",
+          "Sajan Ahir Official",
+          "Sajan Ahir Ka Gana"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "Sadhu Ki Beti  🤣 Sajan Ahir #comedy #funny",
+          "description": "Sadhu Ki Beti  🤣 Sajan Ahir #comedy #funny \n\n\n😂 Welcome to Sajan Ahir Shorts! 😂\nEnjoy the best village comedy, funny shorts, desi entertainment, and relatable humor videos. Our goal is to create family-friendly content that brings laughter, joy, and entertainment to viewers of all ages.\n🎬 On this channel, you'll find: • Comedy Shorts\n• Funny Village Comedy Videos\n• Desi Comedy Content\n• Entertaining Short Films\n• Family-Friendly Humor\n\n👍 Like, Share & Subscribe for more entertaining videos.\n🔔 Turn on notifications so you never miss an upload.\n\nEntertainment Disclaimer: This video is created solely for entertainment purposes. All characters, situations, and dialogues are fictional and intended for humor only. No harm, offense, or disrespect toward any individual, community, religion, or profession is intended.\n\n\nCopyright Disclaimer: Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is permitted by copyright statute that might otherwise be infringing. Non-profit, educational,\n\n#SajanAhirShorts #ComedyShorts #FunnyShorts #VillageComedy #DesiComedy #HindiComedy #YouTubeShorts #Entertainment #FunnyVideos #ViralShorts #ComedyVideo #IndianComedy #FamilyFriendly #ShortFilm #TrendingShorts\n\n☞︎︎︎ Çàst : Sajan Ahir  , Suraj Ahir  , Kari  , Manish Jacktion , Champa , Mr Sujit ,\n\n☞︎︎︎𝐂𝐚𝐦𝐞𝐫𝐚 𝐦𝐚𝐧 : Binay Moni \n\n☞︎︎︎𝐄𝐝𝐢𝐭𝐨𝐫: Binay Moni \n\n\n\n\n                ꧁   𝐓𝐞𝐚𝐦 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦  ꧂\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 1𝐬𝐭 𝐢𝐝 ) : https://instagram.com/sajanahir123?igshid=MzRlODBiNWFlZA==\n\n☞︎︎︎𝐒𝐚𝐣𝐚𝐧 𝐀𝐡𝐢𝐫 ( 2𝐧𝐝 𝐢𝐝 ) :  https://instagram.com/sajanahir143?igshid=MzRlODBiNWFlZA==\n\n\nThank you for watching and supporting Sajan Ahir Shorts!"
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT2M34S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1338324",
+        "likeCount": "28735",
+        "favoriteCount": "0",
+        "commentCount": "88"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "_N1XE3MwQBj1T3Up6A9XjDDMSZw",
+      "id": "RcIowzkDjA0",
+      "snippet": {
+        "publishedAt": "2026-06-14T03:30:27Z",
+        "channelId": "UC_kerVwmsCqY5zPi908ZpqQ",
+        "title": "Majburi me aisa bolna pada 🤪🤪 #abramputan #youtube #comedy #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RcIowzkDjA0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RcIowzkDjA0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RcIowzkDjA0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RcIowzkDjA0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RcIowzkDjA0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Abram Puttan Vlogs",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Majburi me aisa bolna pada 🤪🤪 #abramputan #youtube #comedy #shorts",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1M7S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "541204",
+        "likeCount": "10026",
+        "favoriteCount": "0",
+        "commentCount": "35"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1_P5MgJTafLpkGuNwv_Z1pk5sMc",
+      "id": "o1MQmsG7E2I",
+      "snippet": {
+        "publishedAt": "2026-06-14T01:30:11Z",
+        "channelId": "UCgwIlMHWjlAkHBKM4hRPU8w",
+        "title": "Raat ko sone se pahale 🤣#trendingshorts #vairalshort #youtubeshorts #shorts #comedy #relatable",
+        "description": "Raat ko sone se pahale 🤣#trendingshorts #vairalshort #youtubeshorts #shorts #comedy #relatable",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o1MQmsG7E2I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o1MQmsG7E2I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o1MQmsG7E2I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/o1MQmsG7E2I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/o1MQmsG7E2I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Pk dhakadhak",
+        "tags": [
+          "Trending shorts",
+          "Viral shorts",
+          "Youtube shorts",
+          "Yt shorts",
+          "Comedy shorts",
+          "Funny shorts",
+          "Shorts",
+          "Wer loser",
+          "Chamn shorts",
+          "Reletabale",
+          "Pkdhadhak"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "Raat ko sone se pahale 🤣#trendingshorts #vairalshort #youtubeshorts #shorts #comedy #relatable",
+          "description": "Raat ko sone se pahale 🤣#trendingshorts #vairalshort #youtubeshorts #shorts #comedy #relatable"
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT31S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "24773507",
+        "likeCount": "125738",
+        "favoriteCount": "0",
+        "commentCount": "30"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "irSvpgadluwJrVtt_sOlYXPrtko",
+      "id": "LrHZRYtjI8w",
+      "snippet": {
+        "publishedAt": "2026-06-13T09:00:18Z",
+        "channelId": "UCJBR7wMtCSCftCOC095UiSg",
+        "title": "The 빌런(담배)",
+        "description": "#유유상종 #웃긴영상 #코미디 #상황극 #빌런",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LrHZRYtjI8w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LrHZRYtjI8w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LrHZRYtjI8w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LrHZRYtjI8w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LrHZRYtjI8w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "유유상종",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "The 빌런(담배)",
+          "description": "#유유상종 #웃긴영상 #코미디 #상황극 #빌런"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1M17S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "122307",
+        "likeCount": "2369",
+        "favoriteCount": "0",
+        "commentCount": "27"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "SWOyHCKOAnXAXp8oz0nwf8pK9S8",
+      "id": "hIN9b292yx0",
+      "snippet": {
+        "publishedAt": "2026-06-14T01:31:06Z",
+        "channelId": "UCexFjP5XTqDFrokLWRMtxsg",
+        "title": "Swimming pool ke andar shark ban gaya 🦈 Part 2 #comedy #funny #summerofgoals",
+        "description": "#shortsfeed #viralvideo #cutebaby",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hIN9b292yx0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hIN9b292yx0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hIN9b292yx0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hIN9b292yx0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hIN9b292yx0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Chunnu Munnu Vines",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "Swimming pool ke andar shark ban gaya 🦈 Part 2 #comedy #funny #summerofgoals",
+          "description": "#shortsfeed #viralvideo #cutebaby"
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "21171399",
+        "favoriteCount": "0",
+        "commentCount": "25"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "jt92JBUAZsbj5wv14TaTU5jpQPY",
+      "id": "J3_5ZIM-CV0",
+      "snippet": {
+        "publishedAt": "2026-06-13T08:42:49Z",
+        "channelId": "UCIPnPp27nvOVQmbmuz1ioyg",
+        "title": "Alto, Bhabhi, Cigarette | Stand-up comedy by Devesh Dixit",
+        "description": "Jokes about alto, bhabhi, cigarettes and more.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Devesh Dixit",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Alto, Bhabhi, Cigarette | Stand-up comedy by Devesh Dixit",
+          "description": "Jokes about alto, bhabhi, cigarettes and more."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT16M36S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "738159",
+        "likeCount": "25803",
+        "favoriteCount": "0",
+        "commentCount": "489"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "PNq_VOp1-LJLMURImcQ0f6aU4HM",
+      "id": "YkToUogoyGY",
+      "snippet": {
+        "publishedAt": "2026-06-12T10:49:35Z",
+        "channelId": "UCScf00O9p1oavQYC06_pL8A",
+        "title": "1주년 축하해주러 온 유명인들ㅣ이상준쇼ㅣEP.56",
+        "description": "1주년 특집 도플갱어 - 유명인 편 🐸🐸\n어느분이 제일 닮았나요? 게시판에 투표해주세요! 💚💚\n\n#이상준 #이상준쇼 #standupcomedy",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이상준쇼",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "1주년 축하해주러 온 유명인들ㅣ이상준쇼ㅣEP.56",
+          "description": "1주년 특집 도플갱어 - 유명인 편 🐸🐸\n어느분이 제일 닮았나요? 게시판에 투표해주세요! 💚💚\n\n#이상준 #이상준쇼 #standupcomedy"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT21M31S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "414871",
+        "likeCount": "4673",
+        "favoriteCount": "0",
+        "commentCount": "1175"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "cq196-tU7-drIODafNzr65bLdN8",
+      "id": "jtnHCxysxWQ",
+      "snippet": {
+        "publishedAt": "2026-06-13T00:00:33Z",
+        "channelId": "UCq3IMlVZeedAwCdY4f0qIjQ",
+        "title": "뭐야 뭐야 둘이 뭐야 #스케치코미디 #킬링타임 #코믹마트 #임준빈 #이윤우 #백승훈 #처음본여자",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jtnHCxysxWQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jtnHCxysxWQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jtnHCxysxWQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jtnHCxysxWQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jtnHCxysxWQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "숏타몽",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "뭐야 뭐야 둘이 뭐야 #스케치코미디 #킬링타임 #코믹마트 #임준빈 #이윤우 #백승훈 #처음본여자",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT53S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "105126",
+        "likeCount": "196",
+        "favoriteCount": "0",
+        "commentCount": "3"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NKurSe9JwfOr5RD7NyKGvhqXCvo",
+      "id": "v7L4leTNd_I",
+      "snippet": {
+        "publishedAt": "2026-06-16T08:22:35Z",
+        "channelId": "UCsp3QShiz_-9mLOlMkO8New",
+        "title": "평범한 남자들이 게이로 입문하게 되는 과정 #스케치코미디 #용원게이",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v7L4leTNd_I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v7L4leTNd_I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v7L4leTNd_I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/v7L4leTNd_I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/v7L4leTNd_I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "코믹펀치",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "평범한 남자들이 게이로 입문하게 되는 과정 #스케치코미디 #용원게이",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT54S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "13728",
+        "likeCount": "82",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 45,
+    "resultsPerPage": 45
+  }
+}

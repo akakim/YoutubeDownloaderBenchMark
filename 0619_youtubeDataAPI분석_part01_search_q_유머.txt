@@ -1,0 +1,1719 @@
+request
+
+https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=50&order=viewCount&publishedAfter=2026-06-11T18%3A26%3A29.575Z&q=%EC%BD%94%EB%AF%B8%EB%94%94&videoCategoryId=23&regionCode=KR&relevanceLanguage=ko&key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
+
+response
+
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "-tSFTpg1BRdCnQcp-1p2mAKtH5M",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 542586,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ADUy-OyClLIjEgCTEJsHILiKnf4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IvrnqsXdbxk"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T11:38:54Z",
+        "channelId": "UCoGeAPYfUZOAKHCTVBVzaWQ",
+        "title": "apka hi intezar tha #poonammalik #comedy #funny #funnyshort #comedyshorts #viral #reelscomedy",
+        "description": "funny #comedy #viral #daru #comedy king.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IvrnqsXdbxk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IvrnqsXdbxk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IvrnqsXdbxk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Poonam & sunil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T11:38:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sJ449qaJN6NpdhUROaIlZ4vIC9k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FgOqDKwXESg"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-16T04:37:28Z",
+        "channelId": "UCgJ5_1F6yJhYLnyMszUdmUg",
+        "title": "That one reel on my feed 😵\u200d💫😂 #shortsbreak #comedy",
+        "description": "Follow Shorts Break on social media and stay connected with us: Instagram : https://www.instagram.com/shortsbreak Facebook ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FgOqDKwXESg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FgOqDKwXESg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FgOqDKwXESg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Shorts Break",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-16T04:37:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mb6nPn1a5NFxl-_9YMzV76myDss",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "q_JfNtEUtmA"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-17T01:30:09Z",
+        "channelId": "UCGE-L0dJpos3ut0N96H75Jw",
+        "title": "Natia Comedy Part 687 || Bansi Puara Akoishia",
+        "description": "Play Natia mobile game in playhubz - https://play.google.com/store/apps/details?id=com.thinktrek.playzhub Natia puja cycle tour ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q_JfNtEUtmA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q_JfNtEUtmA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q_JfNtEUtmA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "utkal cartoonworld",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-17T01:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8mBSPaQB9eSfI5xICz7ZloqCh7o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cOkr4tvidLs"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T07:14:17Z",
+        "channelId": "UCsp3QShiz_-9mLOlMkO8New",
+        "title": "안 속는게 더 신기한 업그레이드 보이스피싱 #스케치코미디 #보이스피싱 #교육 #방지",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cOkr4tvidLs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cOkr4tvidLs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cOkr4tvidLs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "코믹펀치",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T07:14:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hDUBEW3IlMOoieNKvNsrzHcc5Ow",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ALXZCcK9Q8M"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T11:30:39Z",
+        "channelId": "UC4P7fgvQinbOJDEJ9lluZWA",
+        "title": "ഒന്നും വേണ്ട😑|HOTEL FOOD  |FUN DA |Malayalam Comedy |Shorts|",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ALXZCcK9Q8M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ALXZCcK9Q8M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ALXZCcK9Q8M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fun Da.",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T11:30:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YCIqi-EJuiFl_oZw8aRH4YYScds",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s0_VYCWPvLU"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T23:17:40Z",
+        "channelId": "UCUKhn9nCYVt7GmuYivsoFkQ",
+        "title": "Los dulces  🤣 #viralshorts #comedy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s0_VYCWPvLU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s0_VYCWPvLU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s0_VYCWPvLU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Kike y su familia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T23:17:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dhll7_gKnLyzm6_vxiRdSFbGmNc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "65JNpXPWvgc"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T02:15:08Z",
+        "channelId": "UCLLhvkB1ICs5C-JnM4MVu6A",
+        "title": "worker😂//#comedy #trending #viral #shorts #emirabalaraju #nenumeekutelusa #ytshorts #reels #funny",
+        "description": "Watch this hilarious Telugu comedy skit — \"worker  //” from Emira Balaraju! This short is packed with funny Telugu moments, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/65JNpXPWvgc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/65JNpXPWvgc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/65JNpXPWvgc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Emira Balaraju",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T02:15:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SnxMTVFqutmDLfVc_P3mS2ysUd4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rR0gWt4CfLU"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T13:12:05Z",
+        "channelId": "UCfoJ19luM4_jCzuHl_H5a7w",
+        "title": "운전 연습을 키보드로 하면 안되는 이유",
+        "description": "shorts #meme #comedy #reels #funny #daily #relatable #viral #skit #밈 #유머 #코미디 #릴스 #쇼츠 #공감 #일상 #바이럴 - ℹ️ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rR0gWt4CfLU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rR0gWt4CfLU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rR0gWt4CfLU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "밈터스텔라",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T13:12:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gJZmGwoSUVEUGIHHuWitrmwANPo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JSObQhBmsik"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T08:13:23Z",
+        "channelId": "UCPUQH3bb72dE8DJQSGG5W0g",
+        "title": "महा-पनौती😱😂#funny #panauti #ytshorts #ytshorts #comedy",
+        "description": "ये आदमी पनौती नहीं महा पनौती है अंत तक मज़ा आयेगा महा-पनौती    #funny ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JSObQhBmsik/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JSObQhBmsik/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JSObQhBmsik/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ranjan Master",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T08:13:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "itZYamTaLXGUerVUrrl1nIxwOx8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KYhciUUXP6s"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T10:51:40Z",
+        "channelId": "UCz4WD6AzYLQ5apRf7MOenFw",
+        "title": "2006 2026 2106의 내가 모두 만났다고?",
+        "description": "렛츠교우 #상황극 #공감 #코미디 #웃긴영상 #월드컵 #개그.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KYhciUUXP6s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KYhciUUXP6s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KYhciUUXP6s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "렛츠교우",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T10:51:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-NQFEHWkI11pjZfKtrDdjMqj8Tc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bo4OKnnRNwY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T11:00:09Z",
+        "channelId": "UCnoqvTW4YZExfDeq7_Wmd-w",
+        "title": "#shorts - Chammak Chandra &amp; Team Comedy Performance #Nagababu #Rashmi #jabardasth #comedyshow",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bo4OKnnRNwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bo4OKnnRNwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bo4OKnnRNwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ETV Jabardasth",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T11:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vIx6yCFCcIW-ShvOngvZ1kNxODY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J3_5ZIM-CV0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T08:42:49Z",
+        "channelId": "UCIPnPp27nvOVQmbmuz1ioyg",
+        "title": "Alto, Bhabhi, Cigarette | Stand-up comedy by Devesh Dixit",
+        "description": "Jokes about alto, bhabhi, cigarettes and more.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J3_5ZIM-CV0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Devesh Dixit",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T08:42:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2FYTgJeQqImFpSV0g5Es9egGgsc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xG5PiLvKWNw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T05:15:21Z",
+        "channelId": "UC6IqHw1J10LWb-Qos5Xs0Nw",
+        "title": "서로가 필요한 이유",
+        "description": "하이픽션 #스케치코미디 #이혼숙려기간 #이혼숙려캠프 #결혼 #이혼 #연애 #연인 #커플 #웃긴영상 #재밌는영상 #이숙기 이혼숙려 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xG5PiLvKWNw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하이픽션",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T05:15:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GBIDqAHWTf5e3IjOiXdCUo_J1gI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8L9Cqb6xeSQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T12:15:36Z",
+        "channelId": "UCnoqvTW4YZExfDeq7_Wmd-w",
+        "title": "#shorts - Faima &amp; Immauel Ultimate Comedy Performance #SudigaliSudheer #entertainment #comedyshow",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8L9Cqb6xeSQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8L9Cqb6xeSQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8L9Cqb6xeSQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ETV Jabardasth",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T12:15:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZM_FzRNQFfQENfSDmFw9ZB8Zxxk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8TJMruy-nQA"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-16T14:54:20Z",
+        "channelId": "UCfoJ19luM4_jCzuHl_H5a7w",
+        "title": "생겨날 때 눈 개수 정하기(수정불가)",
+        "description": "shorts #meme #comedy #reels #funny #daily #relatable #viral #skit #밈 #유머 #코미디 #릴스 #쇼츠 #공감 #일상 #바이럴 - ℹ️ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8TJMruy-nQA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8TJMruy-nQA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8TJMruy-nQA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "밈터스텔라",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-16T14:54:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c2ovSrczadkTaUpBq382fKy3iVU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6h4CQr5MWns"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T15:30:39Z",
+        "channelId": "UCQj1cc-mFvTy28I8mX_zw7w",
+        "title": "Bachpan mah bahut khela tha isa🚑😭#funny #comedy #reels #shorts #bachpan #family #fun",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6h4CQr5MWns/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6h4CQr5MWns/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6h4CQr5MWns/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "FunForitee",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T15:30:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6PFC6ZO1ir9nSt7Q9JVprQlIJsw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UQoCqnyOIj4"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T08:56:29Z",
+        "channelId": "UCyh6XNV85u6Z9mLTJvZdp2w",
+        "title": "모두와 경쟁하는 연애시장",
+        "description": "더빙 #병맛더빙 #웃긴더빙 #해외밈더빙 #병맛 #웃긴 #해외밈 #밈 #웃긴밈 #레전드더빙 #성우 #성우더빙 #덕수 #덕순 #덕수와덕순 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UQoCqnyOIj4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UQoCqnyOIj4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UQoCqnyOIj4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "덕수와 덕순",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T08:56:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JkUHLpnvI3lky480BCmNcTevdLA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YkToUogoyGY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T10:49:35Z",
+        "channelId": "UCScf00O9p1oavQYC06_pL8A",
+        "title": "1주년 축하해주러 온 유명인들ㅣ이상준쇼ㅣEP.56",
+        "description": "1주년 특집 도플갱어 - 유명인 편 어느분이 제일 닮았나요? 게시판에 투표해주세요! #이상준 #이상준쇼 #standupcomedy.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YkToUogoyGY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이상준쇼",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T10:49:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V5D5f6iYhLzGxRf3MILxrVDq_Ts",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nXPzhEqvMzY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T17:28:08Z",
+        "channelId": "UCGmMFJB36GBXTgaLtfGd6Jg",
+        "title": "Kevin hart roast! - mark normand #standupcomedy #comedy #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nXPzhEqvMzY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nXPzhEqvMzY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nXPzhEqvMzY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "mark normand",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T17:28:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RVm5OuopBRNxB2c8Boueiv5G0C4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NpvlrKwHRs8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T12:45:18Z",
+        "channelId": "UCs4G6zQjRbAYmq6KdXOIhhw",
+        "title": "तो एक मित्र 🤣 | Mangesh Kakad | Mangaajjii #comedy #funny #friends #money #mangaajjii #marathi",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NpvlrKwHRs8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NpvlrKwHRs8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NpvlrKwHRs8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mangaajjii",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T12:45:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nIiENtwZ4t0h6ffzMmj3r7BxpLs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EzWafTb6rdg"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T06:18:12Z",
+        "channelId": "UC8fip5YEUZtJ1dE18yU14Hw",
+        "title": "Cooking Bihari Quarter Chicken recipe😅😂 #comedy #cooking #bihari #bachelor #wine #funny #vnofficial1",
+        "description": "Cooking Bihari Quarter Chicken recipe     #comedy #cooking #bihari #bachelor #wine #funny #vnofficial1 #youtubeshorts ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EzWafTb6rdg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EzWafTb6rdg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EzWafTb6rdg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "VN  official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T06:18:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "p2uUz-8uelAvQMhFvxssRhZSJ5Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RqRD10uTMUw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T01:00:20Z",
+        "channelId": "UCPQKqC2ZWkEaVJFyQChQZHw",
+        "title": "Huma Ko Zyada Gussa Kyu #comedy #ytshorts",
+        "description": "Huma Ko Zyada Gussa Kyu #comedy #ytshorts #humaqureshi #hindishorts #comedyvideo #funnycomedy Subscribe to ADMD ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RqRD10uTMUw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RqRD10uTMUw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RqRD10uTMUw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ADMD Comedy Dhamaal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T01:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5T0ydGrTcT2JAi6R3v1o3hR3aUY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IWnC4qhkV8A"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T12:30:32Z",
+        "channelId": "UCsAZaL2HD2_6WeYe0BCAe3g",
+        "title": "जन्मदिन का निमंत्रण #brithday #funnyvideo #comedy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IWnC4qhkV8A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IWnC4qhkV8A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IWnC4qhkV8A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ajay SS Comedy Shorts Official ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T12:30:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6croWoBcZdETrxWvGgpZyrPibmg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IHbqdASfoo0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T03:46:32Z",
+        "channelId": "UC8-69dk33fn8Dt1IhyMHsiQ",
+        "title": "🏏 Twist 🤣 Batsman 📈 Comedy  | #shorts  #comedy #trending #cricket  #batsman",
+        "description": "Twist Cricket Batsman Small Boys Comedy. #shorts #video #newepisode #trending #comedy #judaai #funny #khesari #twist ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IHbqdASfoo0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IHbqdASfoo0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IHbqdASfoo0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ivununga Comalis",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T03:46:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R8hU2Ngpo91w-_auOhL0FqV9Zq4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zXFFLU-FIDY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-17T04:13:03Z",
+        "channelId": "UC92rZ-OvzaYIvKajXGGVqTQ",
+        "title": "Tag her😍🥹 #relatable #comedy #viral #relatable #familydrama",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zXFFLU-FIDY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zXFFLU-FIDY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zXFFLU-FIDY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Diksha soni",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-17T04:13:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Bh2G6ykQtlotp7truLJt-MdCQRU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vo4reu4EOj8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-16T09:30:14Z",
+        "channelId": "UC-yywNPqk7HkqboLe1xHzOA",
+        "title": "Aunty karne lagi saamne se chori😬 #middleclasfamily #comedy #relatable #aunty",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vo4reu4EOj8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vo4reu4EOj8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vo4reu4EOj8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sonal Raghuvanshi ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-16T09:30:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nmpD2VhXiVcTnMEupwugGqzjd0E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "G6Z4hKNHmjk"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-16T10:50:12Z",
+        "channelId": "UCz4WD6AzYLQ5apRf7MOenFw",
+        "title": "1년 전 나와 영상통화",
+        "description": "렛츠교우 #상황극 #공감 #웃긴영상 #코미디 #개그.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G6Z4hKNHmjk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G6Z4hKNHmjk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G6Z4hKNHmjk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "렛츠교우",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-16T10:50:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Yyg0jK2GBjHzUXkJnK0VX_ZvyhA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "d7KrjtHFC6Y"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T13:30:36Z",
+        "channelId": "UCHQUiwOBNCzEXInluX7zRtw",
+        "title": "Back to Back Ghost Comedy 😂👻Rajendra Prasad &amp; Pragathi  | Intlo Deyyam Naakem Bhayam | Telugu comedy",
+        "description": "Intlo Deyyam Naakem Bhayam Intlo Deyyam Nakem Bhayam” is a 2016 Telugu horror-comedy film. The story follows a man ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/d7KrjtHFC6Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/d7KrjtHFC6Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/d7KrjtHFC6Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sun Gemini Comedy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T13:30:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tG34mwhSWvxZvoQqY04gYfqXimU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "okM5id8NkbU"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T11:46:20Z",
+        "channelId": "UC63ZteSzvfptzi9vxj2eAgA",
+        "title": "내가 더 월드컵 중계 해설 잘 하겠다",
+        "description": "복티형 #코미디 #월드컵.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/okM5id8NkbU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/okM5id8NkbU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/okM5id8NkbU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "복티형",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T11:46:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0NNqzLA81SBwowhAQub6w0baW_Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AEsLFFz4DCE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T07:39:27Z",
+        "channelId": "UC2LjFDaDuY87wPehX50Vr5A",
+        "title": "#shorts #standupcomedy #ravigupta #anubhavsinghbassi #trending #comedy#viralvideo #roast#samayraina",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AEsLFFz4DCE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AEsLFFz4DCE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AEsLFFz4DCE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Comedy sharma ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T07:39:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0jL1sEXTS_pa6SwjTs6yMiOFeWI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JTuthuv9Yy4"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-17T04:44:01Z",
+        "channelId": "UCsp3QShiz_-9mLOlMkO8New",
+        "title": "대한민국에 치킨이 사라지면 벌어지는 일 #유머 #코미디 #치킨 #멸망",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JTuthuv9Yy4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JTuthuv9Yy4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JTuthuv9Yy4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "코믹펀치",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-17T04:44:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aN3do-_GpDDTCNniTvbzItymmBU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ECGYQQ4GIYk"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T11:11:57Z",
+        "channelId": "UC63ZteSzvfptzi9vxj2eAgA",
+        "title": "보험 사기 빌런 참교육",
+        "description": "복티형 #코미디 #빌런.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ECGYQQ4GIYk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ECGYQQ4GIYk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ECGYQQ4GIYk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "복티형",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T11:11:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wO6HDpJgM0bUuxOBMVDnCKJNfFI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1Re0F15i4zU"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T11:39:07Z",
+        "channelId": "UCZJQEUWX2pk_aNCjMKpFBTg",
+        "title": "Mother &amp; Daughter 💪❤️ #comedy #ventriloquism",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1Re0F15i4zU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1Re0F15i4zU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1Re0F15i4zU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Nina Conti",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T11:39:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5-iPlNE0zehuqS1PMaFLdZBba-0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rnr0XwSei0M"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T12:15:28Z",
+        "channelId": "UCF36rABWObo_N5Nr2sAAL2Q",
+        "title": "Wait for funny video😂🙄🤣 #funny #shahidsvlog #comedy",
+        "description": "Wait for funny video       #funny #shahidsvlog #comedy viral comedy trending funny shahid vlogs tv.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rnr0XwSei0M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rnr0XwSei0M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rnr0XwSei0M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Shahid Vlogs Tv",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T12:15:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_dW_qqTiEpmPwkIFr1TJ7LJSM50",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_6oVMjQy1dA"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T22:44:52Z",
+        "channelId": "UCUKhn9nCYVt7GmuYivsoFkQ",
+        "title": "Mi papá cuando hago bailes raros 🤣 #viralshorts #comedy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_6oVMjQy1dA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_6oVMjQy1dA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_6oVMjQy1dA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Kike y su familia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T22:44:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ia4MXBdxc9P-89zw8VFELmK3YmQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lFtPBN52eHg"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T05:05:28Z",
+        "channelId": "UC4h6EDhX0u9ji_Cs2zMm7Qw",
+        "title": "fulmati 🤣ll jeevan sahu ll cg comedy #cgcomedy #comedy #funny",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lFtPBN52eHg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lFtPBN52eHg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lFtPBN52eHg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "jeevansahu03",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T05:05:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SuBUbg9XWTkwzPRyD8gat4l9bcs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aXkyOwkF79Q"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T13:35:00Z",
+        "channelId": "UCfoJ19luM4_jCzuHl_H5a7w",
+        "title": "현재 황인범 고평가 중인 해외 축구 팬들ㅋㅋ",
+        "description": "shorts #meme #comedy #reels #funny #daily #relatable #viral #skit #밈 #유머 #코미디 #릴스 #쇼츠 #공감 #일상 #바이럴 - ℹ️ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aXkyOwkF79Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aXkyOwkF79Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aXkyOwkF79Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "밈터스텔라",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T13:35:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0uhPPEmDX2STvX5qvVeDYv4dvME",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NSSA2zt3aEA"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-17T09:30:18Z",
+        "channelId": "UCQffyh2MAb8742wpl2a38mQ",
+        "title": "빨간색 번호판을 하면 안 되는 이유",
+        "description": "스타뚜 #코미디.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NSSA2zt3aEA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NSSA2zt3aEA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NSSA2zt3aEA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스타뚜",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-17T09:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d_zwr-sm-uRbVlwf_wqfeSDBYxs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zvAoiSuqv0k"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T01:30:32Z",
+        "channelId": "UCWXxdmRaDvFKZMRi__jBHGQ",
+        "title": "Wait for end 😂😁😂 #comedy #funny #shorts",
+        "description": "Aaj ka comedy short – wait for end Mazaa aayega dekh kar, pura video end tak zarur dekho! Aur comedy shorts dekhne ke ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zvAoiSuqv0k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zvAoiSuqv0k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zvAoiSuqv0k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ajay bhau ki comedy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T01:30:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zaU-Q3VwAdHbZN1ZpMW4UoPlNro",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o7QhmBRq1bc"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T10:47:07Z",
+        "channelId": "UC13E1NTLkq0xNUiUIoadHTQ",
+        "title": "코미디 영화 같은 태국 병맛 광고",
+        "description": "출처 : TheMrHatakabb.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o7QhmBRq1bc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o7QhmBRq1bc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o7QhmBRq1bc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "유머팬더",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T10:47:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rBxKFfTbn2oIM0wBaQrRLo86kpg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_uOTw3ii7pE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T16:41:06Z",
+        "channelId": "UClmqaM3KYjV5I87U_s2Br2A",
+        "title": "official skullmug comp pt. 2 #shorts #memes #funny #gaming #comedy #compilation",
+        "description": "https://www.patreon.com/cw/SKMG https://skullmugshop.net/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_uOTw3ii7pE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_uOTw3ii7pE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_uOTw3ii7pE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Xx_skull_mug_xX",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T16:41:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pZivxTfiFPQaSLxjfoOh20xPCFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gWiZ-LRB084"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T23:30:03Z",
+        "channelId": "UCHcGgaJ_Ovw2RBaW7FHoJ8A",
+        "title": "I See You… #shorts #comedy",
+        "description": "shorts #funny #comedy #suspense #couple.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gWiZ-LRB084/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gWiZ-LRB084/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gWiZ-LRB084/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Casal Amor e Humor",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T23:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XxLrcfjH7gLQIN__0SnAvFOdsQk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Mmiel22Ac8Q"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-18T09:00:03Z",
+        "channelId": "UCz4WD6AzYLQ5apRf7MOenFw",
+        "title": "20년 전 나와 영상통화 - 축구 응원편",
+        "description": "렛츠교우 #상황극 #공감 #웃긴영상 #코미디 #개그 #월드컵 #광고 #유플러스멤버십 #엘지유플러스 #유플투쁠 #유독 #축구 #축구 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Mmiel22Ac8Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Mmiel22Ac8Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Mmiel22Ac8Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "렛츠교우",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-18T09:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aBsYFtR3zi3XsUMC2vtmbNnDW6A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "K51bMPi1J-I"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T13:13:33Z",
+        "channelId": "UCb1KcFxGgyWatFM4Gwu0F6Q",
+        "title": "Ye kya hua🤣🤣 #youtube # #comedy #shortvideo #shortvideo #shotrs #triplefunvlog",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/K51bMPi1J-I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/K51bMPi1J-I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/K51bMPi1J-I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": " Triplefunvlog",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T13:13:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tt-or7yC_C32bRdre8IPTE-3Go8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KxehKKN49BY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T12:55:01Z",
+        "channelId": "UCC6oUYl4RlpatbjeZAU1nVg",
+        "title": "😀😎😁🤪#shorts #funny #comedy #freefire #tiger",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KxehKKN49BY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KxehKKN49BY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KxehKKN49BY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Raj Funny Comedy Shorts",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T12:55:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ak1_UY3bjKIM63kIM8bOypcPpSo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i2uj_uC4Lvo"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T10:57:21Z",
+        "channelId": "UCovqdc2ybPHOWbMMypVUB5Q",
+        "title": "&#39;정통성 마케팅&#39;의 중요성을 뼈때리게 보여주는 영상ㅋㅋㅋㅋ",
+        "description": "유머 #웃긴 #코미디 #쇼츠.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i2uj_uC4Lvo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i2uj_uC4Lvo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i2uj_uC4Lvo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏마니아",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T10:57:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fmC9kxtjpV0JUrpmfHbUgR6hu8c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XFNsMjQhJH4"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T08:45:26Z",
+        "channelId": "UCCKGhl7WYpiU0mP8p_KWXpQ",
+        "title": "통계학과가 월드컵 보는 법 [학과의 중요성] #대학생 #공감 #코미디 #학과의중요성",
+        "description": "결국 늦잠자서 축구를 못봤지만 알고리즘을 타야 하는 나:",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XFNsMjQhJH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XFNsMjQhJH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XFNsMjQhJH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "정범빈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T08:45:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A2EYqjAOCHYgNjpFsr1E_OrR8uM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4S1QD-v7qxQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T05:55:30Z",
+        "channelId": "UCLZxBOWzi8XGBCczRSgMp8w",
+        "title": "Sep Ambilkan Emak Sapu Donk#funny #comedy #lucu #ngakak #shorts #fyp #feedshorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4S1QD-v7qxQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4S1QD-v7qxQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4S1QD-v7qxQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Royes Gabe Official",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T05:55:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Aib2aDE0G-3QkPMKU70Uk_J6WOo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fojE6gOjcpo"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T12:45:18Z",
+        "channelId": "UCVzaOwiZ-QRaTv_cp_jAFmw",
+        "title": "Cg comedy video 😂 ‼️ #youtube #youtubeshortsfeed #cgviral #explore",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fojE6gOjcpo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fojE6gOjcpo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fojE6gOjcpo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Shahil36garhiya",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T12:45:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9lKBxaUuZyadpK2CDtFFj3RR1SY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oDHxQ8yimQI"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T13:00:38Z",
+        "channelId": "UCa13NBKrvcReJqm554j_KwQ",
+        "title": "대한민국에 이런 판사 어디없나요?ㅋㅋ",
+        "description": "스케치코미디 #코미디 #너덜트 #전상협 #유현규 #재판 #통쾌.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oDHxQ8yimQI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oDHxQ8yimQI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oDHxQ8yimQI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "빵터짐티비",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T13:00:38Z"
+      }
+    }
+  ]
+}
+

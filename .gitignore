@@ -1,0 +1,39 @@
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+backend/openai.json
+backend/capcut_metadata.json
+
+# Generated uploads, media, and results
+uploads/
+backend/uploads/
+local_ai/audio/
+local_ai/results/
+backend/test/Cache_Data/
+
+# Downloaded third-party binaries and archives
+backend/bin/
+local_ai/cuBLAS.and.cuDNN_CUDA12_win_v3/
+
+# Build output and logs
+dist/
+build/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,3428 @@
+https://www.googleapis.com/youtube/v3/videos?
+part=snippet%2C
+statistics%2CcontentDetails&
+id=_zjmePC9pCE%2CEK8TXSz8N5g%2CJqcPRW0ke_Y%2CbJbNFmY3gmI%2CV_E6Ioej9Ks%2C8mD7xHyt-vk%2Cc3fc-f8kpFY%2CI12FgeYursc%2CU7gpUoJWFkI%2CTlw0Qg_vMmQ%2CidrTaht80Bs%2CqxpsDTcrzOg%2CFiRF37Ay9_0%2CUhUlZTaEDN8%2C9UrEXF7MJt8%2CqnP-iH78z24%2Chpaxn7yZjhc%2C24f1_JFE4kE%2CkFQYNopnzPw%2C0gmtFxF9Qt8%2CwmdNwpLt0jU%2Cy66sPRxjx34%2CNMRxjf5h8fU%2Ckef9R3dk5kQ%2Cn6soVnWc_Io%2Cm8FoiTpKZnA%2C7jMXkW9Tfn0%2CtFOu9WSWgag%2CjsusCX48SHk%2CScD2Ha8fJkU%2CFMmXs40nuaw%2C_waicy5sWeY%2CzWZRLbCI5Ec%2CAlFzCCk5NNA%2C44dYEyRUw2o%2CXnBfhg2JRgQ%2C5a1KEQk_o64%2CJPb8MFHFcN0%2Csz19H3PPI9U%2CzcOt2XqMa1o%2CWoiyTqyyjd0%2CHvMJldh3-_k%2CnmksV9C1OJc%2CxBWbvzCtE_4%2COX1Re9C58WE%2CvNH7J_1IqJA%2CFjNC59SehqM%2CJewDFIqM3j8%2CtFoK75bYCXc%2C-AxC2l6hi84&key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
+
+
+
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "0i32rOe_2DJn8BHgqIC_MCKMnSc",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "GbcSPPjtPdUktgpVkBR8cQW2x1o",
+      "id": "_zjmePC9pCE",
+      "snippet": {
+        "publishedAt": "2026-06-14T04:00:06Z",
+        "channelId": "UCRIz6RSCqjb6Icy9NsSIS0g",
+        "title": "콘크리트 구조물 분쇄하는 방법: 인테리어 리모델링을 위한 안전한 조적벽 타격 및 철거 방법 #worker #process #interior #masonry #heavywork",
+        "description": "1. 작업개요\n본 작업은 내부 공간 확장 및 인테리어 레이아웃 변경을 위해 건축물 내부의 비내력벽(콘크리트 및 조적 구조)을 철거하는 공정입니다. 작업자의 숙련된 해머링을 통해 구조물을 안전하게 파쇄하고 공간을 확보하는 것을 목표로 합니다.\n\n2. 사용재료및장비\n- 롱핸들 슬레지해머 (오발마): 타격력을 극대화하기 위해 자루가 길게 연장된 특수 철거용 망치\n- 안전 장비: 작업복, 안전화 (현장 상황에 따라 보안경, 방진마스크, 안전모 착용 필요)\n\n3. 시공절차\n- 철거 대상 벽면의 구조(비내력벽 여부) 및 내부 배관·배선 상태를 사전에 점검합니다.\n- 롱핸들 슬레지해머의 지렛대 원리와 스윙 원심력을 이용하여 벽면 상단 및 균열 부위를 집중 타격합니다.\n- 균열이 발생한 콘크리트 및 벽돌 구조물을 순차적으로 파쇄하여 아래로 떨어뜨립니다.\n- 낙하한 건축 폐기물(잔해)을 작업 공간에서 주기적으로 정리하며 철거를 완수합니다.\n\n4. 작업의중요성\n벽체 철거는 인테리어 리모델링의 첫 단추로, 공간의 구조적 변화를 이끌어내는 핵심 공정입니다. 장비를 활용한 정밀한 타격은 주변 구조물의 손상을 최소화하고, 효율적인 폐기물 분리를 가능하게 하여 후속 공정(미장, 목공 등)의 완성도를 높입니다.\n\n5. 가이드라인준수및교육적목적\n본 영상은 인테리어 시공 프로세스와 수작업 철거 공구 활용법을 전달하기 위한 '교육 및 정보 제공'을 목적으로 제작되었습니다. 영상 내 작업은 통제된 환경에서 숙련된 전문가에 의해 안전하게 진행되었으며, 건물 구조(내력벽 유무)에 대한 사전 진단 없이 벽면을 임의로 타격하는 행위는 건물 붕괴 등의 위험을 초래할 수 있으므로 절대 따라 하지 마시기 바랍니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_zjmePC9pCE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_zjmePC9pCE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_zjmePC9pCE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_zjmePC9pCE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_zjmePC9pCE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SnapWorks",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "콘크리트 구조물 분쇄하는 방법: 인테리어 리모델링을 위한 안전한 조적벽 타격 및 철거 방법 #worker #process #interior #masonry #heavywork",
+          "description": "1. 작업개요\n본 작업은 내부 공간 확장 및 인테리어 레이아웃 변경을 위해 건축물 내부의 비내력벽(콘크리트 및 조적 구조)을 철거하는 공정입니다. 작업자의 숙련된 해머링을 통해 구조물을 안전하게 파쇄하고 공간을 확보하는 것을 목표로 합니다.\n\n2. 사용재료및장비\n- 롱핸들 슬레지해머 (오발마): 타격력을 극대화하기 위해 자루가 길게 연장된 특수 철거용 망치\n- 안전 장비: 작업복, 안전화 (현장 상황에 따라 보안경, 방진마스크, 안전모 착용 필요)\n\n3. 시공절차\n- 철거 대상 벽면의 구조(비내력벽 여부) 및 내부 배관·배선 상태를 사전에 점검합니다.\n- 롱핸들 슬레지해머의 지렛대 원리와 스윙 원심력을 이용하여 벽면 상단 및 균열 부위를 집중 타격합니다.\n- 균열이 발생한 콘크리트 및 벽돌 구조물을 순차적으로 파쇄하여 아래로 떨어뜨립니다.\n- 낙하한 건축 폐기물(잔해)을 작업 공간에서 주기적으로 정리하며 철거를 완수합니다.\n\n4. 작업의중요성\n벽체 철거는 인테리어 리모델링의 첫 단추로, 공간의 구조적 변화를 이끌어내는 핵심 공정입니다. 장비를 활용한 정밀한 타격은 주변 구조물의 손상을 최소화하고, 효율적인 폐기물 분리를 가능하게 하여 후속 공정(미장, 목공 등)의 완성도를 높입니다.\n\n5. 가이드라인준수및교육적목적\n본 영상은 인테리어 시공 프로세스와 수작업 철거 공구 활용법을 전달하기 위한 '교육 및 정보 제공'을 목적으로 제작되었습니다. 영상 내 작업은 통제된 환경에서 숙련된 전문가에 의해 안전하게 진행되었으며, 건물 구조(내력벽 유무)에 대한 사전 진단 없이 벽면을 임의로 타격하는 행위는 건물 붕괴 등의 위험을 초래할 수 있으므로 절대 따라 하지 마시기 바랍니다."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT7S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2074301",
+        "likeCount": "2431",
+        "favoriteCount": "0",
+        "commentCount": "10"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "-9j9jGsg5ULGHUFcCK4zgFP7dLM",
+      "id": "EK8TXSz8N5g",
+      "snippet": {
+        "publishedAt": "2026-06-12T09:22:44Z",
+        "channelId": "UCJxoKpkZxeueXZ4yhdM44PQ",
+        "title": "경리단길 방1화1 월세 55만원…?!🤔#hometour #룸투어 #roomtour #경리단길 #인테리어",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EK8TXSz8N5g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EK8TXSz8N5g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EK8TXSz8N5g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EK8TXSz8N5g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EK8TXSz8N5g/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "손원익 Son Wonik",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "경리단길 방1화1 월세 55만원…?!🤔#hometour #룸투어 #roomtour #경리단길 #인테리어",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M34S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "575929",
+        "likeCount": "2035",
+        "favoriteCount": "0",
+        "commentCount": "132"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NOoVcfd-14T4jbgc2EJv6Ow61e4",
+      "id": "JqcPRW0ke_Y",
+      "snippet": {
+        "publishedAt": "2026-06-12T02:58:40Z",
+        "channelId": "UCBFu04us6bv9OFcwrJDXdMg",
+        "title": "제조사도 당황한 뜻밖의 사용법 #셀프인테리어",
+        "description": "#인테리어 #집꾸미기 #셀프인테리어 #페인트추천",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JqcPRW0ke_Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JqcPRW0ke_Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JqcPRW0ke_Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JqcPRW0ke_Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JqcPRW0ke_Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "살림킹왕짱",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "제조사도 당황한 뜻밖의 사용법 #셀프인테리어",
+          "description": "#인테리어 #집꾸미기 #셀프인테리어 #페인트추천"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "465295",
+        "likeCount": "1629",
+        "favoriteCount": "0",
+        "commentCount": "25"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "26EgQTo469cw8VyHQE0HMa7drlY",
+      "id": "bJbNFmY3gmI",
+      "snippet": {
+        "publishedAt": "2026-06-12T05:06:05Z",
+        "channelId": "UCSbb98LyJcTV5LflHO4ORZg",
+        "title": "주방에서 가장 후회 없는 설계 다섯 가지",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bJbNFmY3gmI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bJbNFmY3gmI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bJbNFmY3gmI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bJbNFmY3gmI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bJbNFmY3gmI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KR_designFuru",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "주방에서 가장 후회 없는 설계 다섯 가지",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1M15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "461696",
+        "likeCount": "3976",
+        "favoriteCount": "0",
+        "commentCount": "25"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "JwKu0i_jSYsgBclg4ArQ0yChUVs",
+      "id": "V_E6Ioej9Ks",
+      "snippet": {
+        "publishedAt": "2026-06-16T05:30:20Z",
+        "channelId": "UCzVvsyV1HntQ30s4GJBxvcA",
+        "title": "빌트인 인테리어 최후 ㄷㄷ",
+        "description": "1억이나 주고 신혼집에 전부다 빌트인으로 인테리어 했는데...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V_E6Ioej9Ks/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V_E6Ioej9Ks/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V_E6Ioej9Ks/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/V_E6Ioej9Ks/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/V_E6Ioej9Ks/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "유머핑",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "빌트인 인테리어 최후 ㄷㄷ",
+          "description": "1억이나 주고 신혼집에 전부다 빌트인으로 인테리어 했는데..."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "461485",
+        "likeCount": "960",
+        "favoriteCount": "0",
+        "commentCount": "56"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "5qCLkT19ibNxT2-JQgmHMvysARI",
+      "id": "8mD7xHyt-vk",
+      "snippet": {
+        "publishedAt": "2026-06-15T11:00:12Z",
+        "channelId": "UCZ1wYQHk1yVle18u8FA8AvA",
+        "title": "1평 화장실 셀프 인테리어",
+        "description": "공중 변소 리모델링 대 성공했습니당ㅎㅎ\n\n비즈니스 및 각종 문의 : malraeng4247@naver.com\n\n인스타그램 : https://www.instagram.com/baebae_geonwoo\n페이스북: https://www.facebook.com/baemalrang\n\n#배말랭 #배씨표류기 #3도4촌 #자취 #생존 #귀촌",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8mD7xHyt-vk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8mD7xHyt-vk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8mD7xHyt-vk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8mD7xHyt-vk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8mD7xHyt-vk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "배말랭",
+        "tags": [
+          "배말랭",
+          "별다먹",
+          "백수",
+          "자취",
+          "핫소스",
+          "생존",
+          "배씨표류기",
+          "원룸",
+          "베란다",
+          "월세5만원",
+          "배건우",
+          "셀프",
+          "인테리어",
+          "화장실",
+          "공중",
+          "변소"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "1평 화장실 셀프 인테리어",
+          "description": "공중 변소 리모델링 대 성공했습니당ㅎㅎ\n\n비즈니스 및 각종 문의 : malraeng4247@naver.com\n\n인스타그램 : https://www.instagram.com/baebae_geonwoo\n페이스북: https://www.facebook.com/baemalrang\n\n#배말랭 #배씨표류기 #3도4촌 #자취 #생존 #귀촌"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT10M41S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "219375",
+        "likeCount": "2765",
+        "favoriteCount": "0",
+        "commentCount": "232"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "vZSr-NpwhbHyxxdgo_kkuAiioOE",
+      "id": "c3fc-f8kpFY",
+      "snippet": {
+        "publishedAt": "2026-06-16T09:02:46Z",
+        "channelId": "UCJxoKpkZxeueXZ4yhdM44PQ",
+        "title": "성수동 방3 화1 대출 자가..?!💸🙀 #hometour #roomtour #룸투어 #인테리어 #realestate",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c3fc-f8kpFY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c3fc-f8kpFY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c3fc-f8kpFY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/c3fc-f8kpFY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/c3fc-f8kpFY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "손원익 Son Wonik",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "성수동 방3 화1 대출 자가..?!💸🙀 #hometour #roomtour #룸투어 #인테리어 #realestate",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M52S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "269383",
+        "likeCount": "988",
+        "favoriteCount": "0",
+        "commentCount": "77"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "9h4D-IUbfOFFVr3kMyi1z3Fn9ns",
+      "id": "I12FgeYursc",
+      "snippet": {
+        "publishedAt": "2026-06-14T03:00:07Z",
+        "channelId": "UCDBr5TfaSHWVnifL2uy2bEw",
+        "title": "한국인은 무조건 좋아할 인테리어 l 서울 24평 신축아파트를 샀어요 l 동대문구 아파트 매매",
+        "description": "-하이라이트(00:00)\n-인터뷰(00:36)\n-집구경 시작(03:45)\n.\n-이케아 거실 스탠드(11:55)\nhttps://ozip.me/s8ggqv3?af\n\n-에몬스 리클라이너 쇼파(12:20)\nhttps://www.emons.co.kr/product/product_view.php?grp=PRI3&prodId=10751\n\n-마켓비 카페장(14:05)\nhttps://link.coupang.com/a/epVTZgogV2\n\n-라벨프린터기(14:38)\nhttps://link.coupang.com/a/epXF1HymCy\n\n-팬트리 바스켓(14:38)\nhttps://link.coupang.com/a/epVYwGKFbM\n\n-캔음료 디스펜서(14:42)\nhttps://link.coupang.com/a/epV6qsenpQ\n\n-냉장고 페이퍼백(14:57)\nhttps://link.coupang.com/a/epWbL1Aidg\n\n-본죽 장조림(15:08)\nhttps://link.coupang.com/a/epWdS5zU2S\n\n-갈릭디핑 마요소스(15:13)\nhttps://link.coupang.com/a/epWgwRxge4\n\n-쉐푸드 통돈까스(15:50)\nhttps://link.coupang.com/a/epWj2cCqPs\n\n-이케아 세탁실 선반유닛(16:40)\nhttps://ozip.me/WEWtyKx?af\n\n-이케아 식기건조대(17:30)\nhttps://ozip.me/4vkbVgl?af\n\n-다이닝룸 테이블(18:55)\nhttps://ozip.me/PZaz3iN?af\n\n-다이닝룸 책장(19:15)\nhttps://ozip.me/MWrab9g?af\n\n-LG 다이닝룸 와인셀러(19:30)\nhttps://link.coupang.com/a/epWMyesyZw\n\n-베개커버(20:55)\nhttps://ozip.me/R3grqpQ?af\n.\n촬영문의 및 러브레터 : contact@jachinam.com\n신청방법 :  간단한 자기소개와 집사진 몇 장 보내주시면, 선정자분들에게 개별적으로 답장드릴게요!\n인스타그램 : kimeptony\n.\n.\n유부남 채널에 출연하신 룸메님께서 추천하는 제품들을 오늘의집, 쿠팡, 네이버에서 만나보세요!\n위 링크를 통해 구매하시면 일정액의 수수료를 제공받습니다\n.\n.\n* 이 콘텐츠가 기사화되는 걸 원하지 않습니다.\n** 출연해주신 룸메님에 대한 악의적인 내용 혹은 확인되지 않은 추측성 댓글은 삭제될 수 있습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I12FgeYursc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I12FgeYursc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I12FgeYursc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/I12FgeYursc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/I12FgeYursc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "유부남",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "한국인은 무조건 좋아할 인테리어 l 서울 24평 신축아파트를 샀어요 l 동대문구 아파트 매매",
+          "description": "-하이라이트(00:00)\n-인터뷰(00:36)\n-집구경 시작(03:45)\n.\n-이케아 거실 스탠드(11:55)\nhttps://ozip.me/s8ggqv3?af\n\n-에몬스 리클라이너 쇼파(12:20)\nhttps://www.emons.co.kr/product/product_view.php?grp=PRI3&prodId=10751\n\n-마켓비 카페장(14:05)\nhttps://link.coupang.com/a/epVTZgogV2\n\n-라벨프린터기(14:38)\nhttps://link.coupang.com/a/epXF1HymCy\n\n-팬트리 바스켓(14:38)\nhttps://link.coupang.com/a/epVYwGKFbM\n\n-캔음료 디스펜서(14:42)\nhttps://link.coupang.com/a/epV6qsenpQ\n\n-냉장고 페이퍼백(14:57)\nhttps://link.coupang.com/a/epWbL1Aidg\n\n-본죽 장조림(15:08)\nhttps://link.coupang.com/a/epWdS5zU2S\n\n-갈릭디핑 마요소스(15:13)\nhttps://link.coupang.com/a/epWgwRxge4\n\n-쉐푸드 통돈까스(15:50)\nhttps://link.coupang.com/a/epWj2cCqPs\n\n-이케아 세탁실 선반유닛(16:40)\nhttps://ozip.me/WEWtyKx?af\n\n-이케아 식기건조대(17:30)\nhttps://ozip.me/4vkbVgl?af\n\n-다이닝룸 테이블(18:55)\nhttps://ozip.me/PZaz3iN?af\n\n-다이닝룸 책장(19:15)\nhttps://ozip.me/MWrab9g?af\n\n-LG 다이닝룸 와인셀러(19:30)\nhttps://link.coupang.com/a/epWMyesyZw\n\n-베개커버(20:55)\nhttps://ozip.me/R3grqpQ?af\n.\n촬영문의 및 러브레터 : contact@jachinam.com\n신청방법 :  간단한 자기소개와 집사진 몇 장 보내주시면, 선정자분들에게 개별적으로 답장드릴게요!\n인스타그램 : kimeptony\n.\n.\n유부남 채널에 출연하신 룸메님께서 추천하는 제품들을 오늘의집, 쿠팡, 네이버에서 만나보세요!\n위 링크를 통해 구매하시면 일정액의 수수료를 제공받습니다\n.\n.\n* 이 콘텐츠가 기사화되는 걸 원하지 않습니다.\n** 출연해주신 룸메님에 대한 악의적인 내용 혹은 확인되지 않은 추측성 댓글은 삭제될 수 있습니다."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT22M16S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "115501",
+        "likeCount": "915",
+        "favoriteCount": "0",
+        "commentCount": "153"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "4NJazxCIJl_eGOIo7D3RsW3VbgU",
+      "id": "U7gpUoJWFkI",
+      "snippet": {
+        "publishedAt": "2026-06-12T09:50:01Z",
+        "channelId": "UCcXZRV-WfKS5sZLP6i4LATA",
+        "title": "원목문은 무조건 좋은 줄 알았죠? #애니 #만화 #문종류 #원목문 #인테리어",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U7gpUoJWFkI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U7gpUoJWFkI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U7gpUoJWFkI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/U7gpUoJWFkI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/U7gpUoJWFkI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "한스푼성장노트",
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "원목문은 무조건 좋은 줄 알았죠? #애니 #만화 #문종류 #원목문 #인테리어",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "233571",
+        "likeCount": "2686",
+        "favoriteCount": "0",
+        "commentCount": "34"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "85QByCQcaOXjn3Cads_5cWd2Wo8",
+      "id": "Tlw0Qg_vMmQ",
+      "snippet": {
+        "publishedAt": "2026-06-13T05:51:22Z",
+        "channelId": "UCGBQiCI5IE7iJobQlxJsP0g",
+        "title": "구축 인테리어 답 안뷰일땐 야매살림 #살림팁 #구축아파트 #작은집인테리어",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tlw0Qg_vMmQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tlw0Qg_vMmQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tlw0Qg_vMmQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Tlw0Qg_vMmQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Tlw0Qg_vMmQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "야매살림",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "구축 인테리어 답 안뷰일땐 야매살림 #살림팁 #구축아파트 #작은집인테리어",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT36S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "225624",
+        "likeCount": "421",
+        "favoriteCount": "0",
+        "commentCount": "37"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NHuFoO5jzlCArWuz1kZ2HRTWCR4",
+      "id": "idrTaht80Bs",
+      "snippet": {
+        "publishedAt": "2026-06-12T10:41:16Z",
+        "channelId": "UCHGQ20v_QtgcRnS_7qrt79Q",
+        "title": "1인 가구 주목! 이동휘 가죽소파가 혼자 쉬기 최적인 이유#이동휘소파 #가죽소파 #1인용소파 #1인가구인테리어 #소파추천 #리뷰 #연예인추천템",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/idrTaht80Bs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/idrTaht80Bs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/idrTaht80Bs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/idrTaht80Bs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/idrTaht80Bs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "유니크픽",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "hi",
+        "localized": {
+          "title": "1인 가구 주목! 이동휘 가죽소파가 혼자 쉬기 최적인 이유#이동휘소파 #가죽소파 #1인용소파 #1인가구인테리어 #소파추천 #리뷰 #연예인추천템",
+          "description": ""
+        },
+        "defaultAudioLanguage": "hi"
+      },
+      "contentDetails": {
+        "duration": "PT24S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "158879",
+        "likeCount": "403",
+        "favoriteCount": "0",
+        "commentCount": "14"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "iJcwzwjZtXcoqEMFxRsJUGLZAcU",
+      "id": "qxpsDTcrzOg",
+      "snippet": {
+        "publishedAt": "2026-06-13T03:35:24Z",
+        "channelId": "UCNCMs983KyeRjIczk1MV46w",
+        "title": "나뭇잎으로 만드는 감성 인테리어 조명 DIY",
+        "description": "자연에서 얻은 나뭇잎으로 만드는 세상에 단 하나뿐인 특별한 조명! 🌿✨\n진짜 잎사귀의 잎맥을 그대로 살린 투명 레진 아트의 마법을 확인해보세요. \n어두운 거실을 숲속처럼 바꿔주는 신비로운 분위기, 여러분도 직접 만드실 수 있습니다.\n\n[제작 순서]\n1. 나뭇잎 위에 UV 레진 도포\n2. 붓으로 잎맥 꼼꼼히 채우기\n3. UV 램프 경화 후 잎사귀 제거\n4. LED 전구 부착 후 배치\n\n오늘 영상이 도움되셨다면 '구독'과 '좋아요' 부탁드립니다! 😊\n\n#레진공예 #인테리어소품 #DIY조명 #나뭇잎조명 #방꾸미기",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qxpsDTcrzOg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qxpsDTcrzOg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qxpsDTcrzOg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qxpsDTcrzOg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qxpsDTcrzOg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Shocking Spot",
+        "tags": [
+          "이겸",
+          "레진아트",
+          "UV레진",
+          "조명만들기",
+          "셀프인테리어",
+          "나뭇잎공예",
+          "핸드메이드",
+          "감성인테리어",
+          "거실꾸미기",
+          "DIY아이디어",
+          "취미생활",
+          "ASMR제작",
+          "투명잎사귀",
+          "조명디자인",
+          "인테리어꿀팁",
+          "ResinArt",
+          "DIYLamp",
+          "NatureCraft",
+          "InteriorDesign",
+          "HandmadeLighting"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "나뭇잎으로 만드는 감성 인테리어 조명 DIY",
+          "description": "자연에서 얻은 나뭇잎으로 만드는 세상에 단 하나뿐인 특별한 조명! 🌿✨\n진짜 잎사귀의 잎맥을 그대로 살린 투명 레진 아트의 마법을 확인해보세요. \n어두운 거실을 숲속처럼 바꿔주는 신비로운 분위기, 여러분도 직접 만드실 수 있습니다.\n\n[제작 순서]\n1. 나뭇잎 위에 UV 레진 도포\n2. 붓으로 잎맥 꼼꼼히 채우기\n3. UV 램프 경화 후 잎사귀 제거\n4. LED 전구 부착 후 배치\n\n오늘 영상이 도움되셨다면 '구독'과 '좋아요' 부탁드립니다! 😊\n\n#레진공예 #인테리어소품 #DIY조명 #나뭇잎조명 #방꾸미기"
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "contentDetails": {
+        "duration": "PT25S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "218520",
+        "likeCount": "989",
+        "favoriteCount": "0",
+        "commentCount": "6"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "MgLru5dtzUe7yKNSsWvXuYXX5B4",
+      "id": "FiRF37Ay9_0",
+      "snippet": {
+        "publishedAt": "2026-06-14T01:30:34Z",
+        "channelId": "UCtYHCl8yhhvpWfcvdA_sCVg",
+        "title": "살아보고 싶었던 17평 아파트 인테리어 l 성수 아파트 전세",
+        "description": "어? 본 것 같은데..? 하면 맞습니다.\n어제 유튜브 재생 이슈로 재 업로드 되었습니다.\n또 재밌게 봐주시면 감사드립니당 ㅎㅎ\n.\n.\n촬영문의 및 러브레터 👉 contact@jachinam.com\n인스타그램 👉 kimeptony\n.\n-하이라이트(00:00)\n-인터뷰(00:22)\n-집구경 시작(02:53)\n.\n-샤오미 보일러에 붙여둔 센서등(05:38)\nhttps://link.coupang.com/a/eiSktGFJ7c\n\n-전자레인지를 올려둔 수납랙(11:00)\nhttps://ozip.me/mkkymwy?af\n\n-필립스 화장 거울(11:30)\nhttps://link.coupang.com/a/eiStSyj18S\n\n-자주 쓰는 물건을 보관하는 수납박스(11:45)\nhttps://ozip.me/DioV6ML?af\n\n-가마솥(14:59)\nhttps://smartstore.naver.com/tastaz/products/5332888245\n\n-닭가슴살칩(16:15)\nhttps://link.coupang.com/a/eiSGfETvGu\n\n-1단계로 변기 코팅해주는 아이템(17:55)\nhttps://link.coupang.com/a/eiSKD7ddTw\n\n-2단계로 변기에 넣어두는 아이템(18:10)\nhttps://link.coupang.com/a/eiSOknR9KC\n\n-편백 스프레이(18:16)\nhttps://link.coupang.com/a/eiSWjf66Wy\n\n-소창 수건(18:30)\nhttps://link.coupang.com/a/eiS1D8YJk4\n\n-침실에 둔 크림색 행거(21:10)\nhttps://ozip.me/qD4bZFq?af\n\n-말아서 보관 중인 토퍼(21:27)\nhttps://ozip.me/dSzJ8KH?af\n\n-목베개(22:00)\nhttps://buly.kr/EI5sUPt\n\n-화장대 거울 미끄럼 방지 스티커(22:35)\nhttps://link.coupang.com/a/eiTh9j7V9M\n\n-식빵 모양 휴대폰 거치대(22:50)\nhttps://ozip.me/BZQCv8M?af\n.\n오늘 할 빨래를 내일로 미루지 말자..!\n블루워시 캡슐세제 50% 할인 - 룸메님들을 위한 가격입니다!\nhttps://smartstore.naver.com/bluewash/products/11663669433\n.\n.\n자취남 채널에 출연하신 룸메님께서 추천하는 제품들을 오늘의집, 쿠팡, 네이버에서 만나보세요!\n위 링크를 통해 구매하시면 일정액의 수수료를 제공받습니다.\n.\n.\n* 이 콘텐츠가 기사화되는 걸 원하지 않습니다.\n** 출연해주신 룸메님에 대한 악의적인 내용 혹은 확인되지 않은 추측성 댓글은 삭제될 수 있습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FiRF37Ay9_0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FiRF37Ay9_0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FiRF37Ay9_0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FiRF37Ay9_0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FiRF37Ay9_0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "자취남",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "살아보고 싶었던 17평 아파트 인테리어 l 성수 아파트 전세",
+          "description": "어? 본 것 같은데..? 하면 맞습니다.\n어제 유튜브 재생 이슈로 재 업로드 되었습니다.\n또 재밌게 봐주시면 감사드립니당 ㅎㅎ\n.\n.\n촬영문의 및 러브레터 👉 contact@jachinam.com\n인스타그램 👉 kimeptony\n.\n-하이라이트(00:00)\n-인터뷰(00:22)\n-집구경 시작(02:53)\n.\n-샤오미 보일러에 붙여둔 센서등(05:38)\nhttps://link.coupang.com/a/eiSktGFJ7c\n\n-전자레인지를 올려둔 수납랙(11:00)\nhttps://ozip.me/mkkymwy?af\n\n-필립스 화장 거울(11:30)\nhttps://link.coupang.com/a/eiStSyj18S\n\n-자주 쓰는 물건을 보관하는 수납박스(11:45)\nhttps://ozip.me/DioV6ML?af\n\n-가마솥(14:59)\nhttps://smartstore.naver.com/tastaz/products/5332888245\n\n-닭가슴살칩(16:15)\nhttps://link.coupang.com/a/eiSGfETvGu\n\n-1단계로 변기 코팅해주는 아이템(17:55)\nhttps://link.coupang.com/a/eiSKD7ddTw\n\n-2단계로 변기에 넣어두는 아이템(18:10)\nhttps://link.coupang.com/a/eiSOknR9KC\n\n-편백 스프레이(18:16)\nhttps://link.coupang.com/a/eiSWjf66Wy\n\n-소창 수건(18:30)\nhttps://link.coupang.com/a/eiS1D8YJk4\n\n-침실에 둔 크림색 행거(21:10)\nhttps://ozip.me/qD4bZFq?af\n\n-말아서 보관 중인 토퍼(21:27)\nhttps://ozip.me/dSzJ8KH?af\n\n-목베개(22:00)\nhttps://buly.kr/EI5sUPt\n\n-화장대 거울 미끄럼 방지 스티커(22:35)\nhttps://link.coupang.com/a/eiTh9j7V9M\n\n-식빵 모양 휴대폰 거치대(22:50)\nhttps://ozip.me/BZQCv8M?af\n.\n오늘 할 빨래를 내일로 미루지 말자..!\n블루워시 캡슐세제 50% 할인 - 룸메님들을 위한 가격입니다!\nhttps://smartstore.naver.com/bluewash/products/11663669433\n.\n.\n자취남 채널에 출연하신 룸메님께서 추천하는 제품들을 오늘의집, 쿠팡, 네이버에서 만나보세요!\n위 링크를 통해 구매하시면 일정액의 수수료를 제공받습니다.\n.\n.\n* 이 콘텐츠가 기사화되는 걸 원하지 않습니다.\n** 출연해주신 룸메님에 대한 악의적인 내용 혹은 확인되지 않은 추측성 댓글은 삭제될 수 있습니다."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT24M54S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "65589",
+        "likeCount": "692",
+        "favoriteCount": "0",
+        "commentCount": "66"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "0uKtZAGo-h4w647YQ0wdjBEw6B4",
+      "id": "UhUlZTaEDN8",
+      "snippet": {
+        "publishedAt": "2026-06-14T13:05:53Z",
+        "channelId": "UCffyiNeYrciBYUP8HizkAKw",
+        "title": "박성준 역술가가 알려주는 복이 들어오는 풍수 인테리어#개운법 #풍수비법",
+        "description": "#박성준역술가 #풍수 인테리어#개운법 #풍수비법",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UhUlZTaEDN8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UhUlZTaEDN8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UhUlZTaEDN8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UhUlZTaEDN8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/UhUlZTaEDN8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "상위 1%",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "박성준 역술가가 알려주는 복이 들어오는 풍수 인테리어#개운법 #풍수비법",
+          "description": "#박성준역술가 #풍수 인테리어#개운법 #풍수비법"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT53S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "95193",
+        "likeCount": "886",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "bPyzW46qMw1JbIC_1RrPbXBmL-w",
+      "id": "9UrEXF7MJt8",
+      "snippet": {
+        "publishedAt": "2026-06-12T08:00:30Z",
+        "channelId": "UCzay0uHEiaSsKmuGkCg-mSg",
+        "title": "이거 전부 공짜에요.. 근데 공사 끝나고 하면 1,000만원 손해입니다..",
+        "description": "말 안하면 공짜로 못 받는 인테리어 꿀팁 10가지. 아정당에서 무료로 받으세요!\n* 현장마다 적용 여부가 다를 수 있어 공사 전 확인을 권장합니다.\n\n✅ 인테리어 계약 후 추가금 요구 시 100% 환불! 가계약만 해도 실측, 상담, 3D견적서까지 무료 제공!\nhttps://ajd.kr/9sO8j\n\n✅ 영상 속 시공 사례 자세히 보기! \nhttps://ajd.kr/qzsb1\n\n✅ 인터넷TV 최대 48만원, 법으로 정해진 비밀 지원금 확인 하기!\nhttps://ajd.kr/dnEWh\n\n✅ 2026년 TOP3 정수기! 최대 30만원 법으로 정해진 지원금 받고 공짜로 쓰자!\nhttps://ajd.kr/Vo5V4\n\n✅ 아정당에선 12만원 받으면서, 요금은 반값, 데이터는 무제한으로 개통 가능!\nhttps://ajd.kr/5XkBw\n\n✅ 쇼핑 페이백 최대 10% 받고 최대 10만 포인트 첫 이용 100% 당첨!\nhttps://ajd.kr/yTiRg\n\n✅ 이사중 파손, 본사가 책임지고 보장! 무료 견적 받고 체크리스트 챙기자! (보상 금액 및 범위는 소비자 보호원 지침에 따름)\nhttps://ajd.kr/oaOJ4\n\n아정당 인테리어로 365일 언제든지 연락주세요!\n📞 1833-5052 (빠른 상담)\n\n⏳️타임라인⌛️\n00:00 인트로\n00:16 ① 간접조명 배선\n00:51 ② 줄다보\n01:17 ③ 세라믹 상판 활용\n01:43 ④ 콘센트 제거\n02:09 ⑤ 방문 방향\n02:36 ⑥ 배관 단열재\n03:14 ⑦ 싱크대·세면대 높이\n03:51 ⑧ 줄눈 색상\n04:18 ⑨ 스위치 회로 분리\n04:42 ⑩ 자재 설치 서비스\n\n#인테리어 #인테리어꿀팁 #아파트인테리어 #아파트리모델링 #구축아파트 #인테리어비용절약 #욕실리모델링 #주방리모델링 #인테리어업체",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9UrEXF7MJt8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9UrEXF7MJt8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9UrEXF7MJt8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9UrEXF7MJt8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9UrEXF7MJt8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "아정당 인테리어",
+        "tags": [
+          "인테리어",
+          "인테리어꿀팁",
+          "아파트인테리어",
+          "구축아파트"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "이거 전부 공짜에요.. 근데 공사 끝나고 하면 1,000만원 손해입니다..",
+          "description": "말 안하면 공짜로 못 받는 인테리어 꿀팁 10가지. 아정당에서 무료로 받으세요!\n* 현장마다 적용 여부가 다를 수 있어 공사 전 확인을 권장합니다.\n\n✅ 인테리어 계약 후 추가금 요구 시 100% 환불! 가계약만 해도 실측, 상담, 3D견적서까지 무료 제공!\nhttps://ajd.kr/9sO8j\n\n✅ 영상 속 시공 사례 자세히 보기! \nhttps://ajd.kr/qzsb1\n\n✅ 인터넷TV 최대 48만원, 법으로 정해진 비밀 지원금 확인 하기!\nhttps://ajd.kr/dnEWh\n\n✅ 2026년 TOP3 정수기! 최대 30만원 법으로 정해진 지원금 받고 공짜로 쓰자!\nhttps://ajd.kr/Vo5V4\n\n✅ 아정당에선 12만원 받으면서, 요금은 반값, 데이터는 무제한으로 개통 가능!\nhttps://ajd.kr/5XkBw\n\n✅ 쇼핑 페이백 최대 10% 받고 최대 10만 포인트 첫 이용 100% 당첨!\nhttps://ajd.kr/yTiRg\n\n✅ 이사중 파손, 본사가 책임지고 보장! 무료 견적 받고 체크리스트 챙기자! (보상 금액 및 범위는 소비자 보호원 지침에 따름)\nhttps://ajd.kr/oaOJ4\n\n아정당 인테리어로 365일 언제든지 연락주세요!\n📞 1833-5052 (빠른 상담)\n\n⏳️타임라인⌛️\n00:00 인트로\n00:16 ① 간접조명 배선\n00:51 ② 줄다보\n01:17 ③ 세라믹 상판 활용\n01:43 ④ 콘센트 제거\n02:09 ⑤ 방문 방향\n02:36 ⑥ 배관 단열재\n03:14 ⑦ 싱크대·세면대 높이\n03:51 ⑧ 줄눈 색상\n04:18 ⑨ 스위치 회로 분리\n04:42 ⑩ 자재 설치 서비스\n\n#인테리어 #인테리어꿀팁 #아파트인테리어 #아파트리모델링 #구축아파트 #인테리어비용절약 #욕실리모델링 #주방리모델링 #인테리어업체"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT6M27S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "42405",
+        "likeCount": "532",
+        "favoriteCount": "0",
+        "commentCount": "25"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "mTfW3_aPnjMkdSmhX3KImL1D8QU",
+      "id": "qnP-iH78z24",
+      "snippet": {
+        "publishedAt": "2026-06-14T07:00:21Z",
+        "channelId": "UCtYHCl8yhhvpWfcvdA_sCVg",
+        "title": "✨ 옛날 부잣집의 흔적이 남아있는 구옥 빌라",
+        "description": "촬영문의 및 러브레터 👉 contact@jachinam.com\n인스타그램 👉 kimeptony",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qnP-iH78z24/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qnP-iH78z24/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qnP-iH78z24/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qnP-iH78z24/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qnP-iH78z24/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "자취남",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "✨ 옛날 부잣집의 흔적이 남아있는 구옥 빌라",
+          "description": "촬영문의 및 러브레터 👉 contact@jachinam.com\n인스타그램 👉 kimeptony"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT45S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "70761",
+        "likeCount": "164",
+        "favoriteCount": "0",
+        "commentCount": "5"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "6TT9PGLso0oXDIEnrXw27IxnDIE",
+      "id": "hpaxn7yZjhc",
+      "snippet": {
+        "publishedAt": "2026-06-13T05:11:55Z",
+        "channelId": "UCSbb98LyJcTV5LflHO4ORZg",
+        "title": "침실 자투리 공간 활용법 9가지",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hpaxn7yZjhc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hpaxn7yZjhc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hpaxn7yZjhc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hpaxn7yZjhc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hpaxn7yZjhc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KR_designFuru",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "침실 자투리 공간 활용법 9가지",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1M18S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "73462",
+        "likeCount": "764",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "4VvWEbVhcQLCsNUQIyJeH-Bp3HY",
+      "id": "24f1_JFE4kE",
+      "snippet": {
+        "publishedAt": "2026-06-16T20:00:01Z",
+        "channelId": "UCE7DeMQ7Tui2gr_1H6rbFbQ",
+        "title": "박성준 역술가가 말하는 복을 부르는 침실 풍수 #침실풍수 #박성준 #풍수인테리어",
+        "description": "박성준 역술가가 말하는 복을 부르는 침실 풍수 \n\n#침실풍수 #박성준 #풍수인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/24f1_JFE4kE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/24f1_JFE4kE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/24f1_JFE4kE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/24f1_JFE4kE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/24f1_JFE4kE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "청춘반납불가",
+        "tags": [
+          "#침실풍수",
+          "#박성준풍수",
+          "#풍수인테리어",
+          "#침실정리",
+          "#운을부르는법",
+          "#복이들어오는집",
+          "#숙면취하는법",
+          "#풍수지리",
+          "#인테리어꿀팁",
+          "#정리정돈",
+          "#안방인테리어",
+          "#재물운",
+          "#부자되는법",
+          "#집꾸미기",
+          "#풍수소품",
+          "#건강운",
+          "#미니멀라이프",
+          "#청소법",
+          "#안방풍수",
+          "#행운의집"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "박성준 역술가가 말하는 복을 부르는 침실 풍수 #침실풍수 #박성준 #풍수인테리어",
+          "description": "박성준 역술가가 말하는 복을 부르는 침실 풍수 \n\n#침실풍수 #박성준 #풍수인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT6S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "144580",
+        "likeCount": "96",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "N6qP9ck3S2lp78uP7rdE5EhZ4r4",
+      "id": "kFQYNopnzPw",
+      "snippet": {
+        "publishedAt": "2026-06-13T05:46:10Z",
+        "channelId": "UCQhGIeWVFnyl9gsbdkx4d8A",
+        "title": "목공 인테리어현장 클램프",
+        "description": "팔만원짜리 메이커 장비 필요 읍써! 이\n높이조절 #클램프 요놈 최대 200킬로까지 끄떡없는겨!\n\n#인테리어현장 에서 무거운 싱크대 상판 들고 낑낑대고 캐비닛 맞추느라 허리 나갈 필요 없이 요놈 하나면 혼자서도 작업 가능한겨.\n\n리프트잭 바닥에 딱 받쳐주고 발로 눌러주기만 하면 무거운 자재도 쑤욱 올라가는 놈이랑께.\n싱크대 상판 설치할 때는 물론이고 문짝, \n\n#리모델링 할때 캐비닛, 가구 조립할 때 높이 맞추기가 엄청 편해지는겨.\n\n#가구설치 하는 행님들이나 #인테리어시공 하는 행님들은 세컨드 손 하나 생긴 거랑 똑같다고 하는겨.\n\n높이도 거의 1미터 가까이 올라가부러서 무거운 자재 위치 잡고 미세 조절하는 것도 가능한겨.\n\n조금 올리고 조금 내리고 세밀하게 맞출 수 있어부러서 수평 잡기에도 유용한 놈이랑께.\n\n#목공 할 때도 좋고 #셀프인테리어 하는 행님들도 혼자 작업할 때 엄청 도움 되는겨.\n\n최대 200킬로까지 버텨부러서 웬만한 자재는 거뜬하게 들어올릴 수 있는디 가격은 치킨값 수준이라 가성비도 직여버리는겨.\n\n인자 무거운 거 들고 허리 망가뜨리지 말고 가격이랑 사양부터 언능 봐부러!\n\n\n최대 200kg 하중 지원\n높이 미세 조절 가능\n약 1m 높이 작업 가능\n싱크대 상판 설치 활용\n캐비닛 설치 활용\n가구 조립 활용\n혼자서 작업 가능\n수평 조절 용이\n허리 부담 감소\n초가성비 공구\n\n\n#목공diy #diy #인테리어 #공사현장 #집수리 #캐비닛",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kFQYNopnzPw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kFQYNopnzPw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kFQYNopnzPw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kFQYNopnzPw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kFQYNopnzPw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "행님쇼핑 ",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "목공 인테리어현장 클램프",
+          "description": "팔만원짜리 메이커 장비 필요 읍써! 이\n높이조절 #클램프 요놈 최대 200킬로까지 끄떡없는겨!\n\n#인테리어현장 에서 무거운 싱크대 상판 들고 낑낑대고 캐비닛 맞추느라 허리 나갈 필요 없이 요놈 하나면 혼자서도 작업 가능한겨.\n\n리프트잭 바닥에 딱 받쳐주고 발로 눌러주기만 하면 무거운 자재도 쑤욱 올라가는 놈이랑께.\n싱크대 상판 설치할 때는 물론이고 문짝, \n\n#리모델링 할때 캐비닛, 가구 조립할 때 높이 맞추기가 엄청 편해지는겨.\n\n#가구설치 하는 행님들이나 #인테리어시공 하는 행님들은 세컨드 손 하나 생긴 거랑 똑같다고 하는겨.\n\n높이도 거의 1미터 가까이 올라가부러서 무거운 자재 위치 잡고 미세 조절하는 것도 가능한겨.\n\n조금 올리고 조금 내리고 세밀하게 맞출 수 있어부러서 수평 잡기에도 유용한 놈이랑께.\n\n#목공 할 때도 좋고 #셀프인테리어 하는 행님들도 혼자 작업할 때 엄청 도움 되는겨.\n\n최대 200킬로까지 버텨부러서 웬만한 자재는 거뜬하게 들어올릴 수 있는디 가격은 치킨값 수준이라 가성비도 직여버리는겨.\n\n인자 무거운 거 들고 허리 망가뜨리지 말고 가격이랑 사양부터 언능 봐부러!\n\n\n최대 200kg 하중 지원\n높이 미세 조절 가능\n약 1m 높이 작업 가능\n싱크대 상판 설치 활용\n캐비닛 설치 활용\n가구 조립 활용\n혼자서 작업 가능\n수평 조절 용이\n허리 부담 감소\n초가성비 공구\n\n\n#목공diy #diy #인테리어 #공사현장 #집수리 #캐비닛"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "69359",
+        "likeCount": "108",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "noURmd49yRr19L4FbqIjkd9Vvjc",
+      "id": "0gmtFxF9Qt8",
+      "snippet": {
+        "publishedAt": "2026-06-14T12:30:04Z",
+        "channelId": "UCKDmPgAsdNQj3YSRHosPExA",
+        "title": "Turn Your Small Home into a Modern Palace with Smart Furniture ✨",
+        "description": "Welcome to our channel 🏡✨\nYour go-to space for smart interior design ideas that turn small homes into luxurious living spaces.\n\nWe share:\n• Space-saving design tips\n• Modern home decor ideas\n• Budget-friendly interior solutions\n• Latest trends & transformations\n\nWhether you're designing a new home or upgrading your space, we’ve got you covered with practical and stylish ideas.\n\nSubscribe now and transform your home with smart design ✨\n\n#Smallhomeinterior #luxuryinteriors #incore",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0gmtFxF9Qt8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0gmtFxF9Qt8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0gmtFxF9Qt8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0gmtFxF9Qt8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0gmtFxF9Qt8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Incore interior ",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Turn Your Small Home into a Modern Palace with Smart Furniture ✨",
+          "description": "Welcome to our channel 🏡✨\nYour go-to space for smart interior design ideas that turn small homes into luxurious living spaces.\n\nWe share:\n• Space-saving design tips\n• Modern home decor ideas\n• Budget-friendly interior solutions\n• Latest trends & transformations\n\nWhether you're designing a new home or upgrading your space, we’ve got you covered with practical and stylish ideas.\n\nSubscribe now and transform your home with smart design ✨\n\n#Smallhomeinterior #luxuryinteriors #incore"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "52619",
+        "likeCount": "1110",
+        "favoriteCount": "0",
+        "commentCount": "289"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "6E2kmlhqngBliWcF9h-dj6TZnrU",
+      "id": "wmdNwpLt0jU",
+      "snippet": {
+        "publishedAt": "2026-06-17T11:45:05Z",
+        "channelId": "UCzbwy2eqpkO7GUUk4Ro1IJg",
+        "title": "신발보다 싼 합판인테리어",
+        "description": "영상에서 사용한 '우드스테인' 구매링크\n▼▼▼\nhttps://mkt.shopping.naver.com/link/6865d39bcc201f0eab06b175\n\n\n■박반장이 운영하는 셀프인테리어 스토어■\n👉 https://smartstore.naver.com/topstarstore\n\n박반장이 수차례 테스트하고 선택한 셀프 전용 용품들\n\n✅ 이런 고민 중인 분들께 추천합니다!\n✔️ 지긋지긋한 결로·곰팡이 해결하고 싶은 분\n \"박반장이 직접 써보고 성능 확인한 [단열용품]\n\n✔️ 비만 오면 걱정되는 누수, 직접 잡고 싶은 분\n \"전문가 부르기 전, 내 손으로 끝내는 [방수용품]\n\n✔️ 떨어지고 벌어지는 하자에 지치신 분\n \"한 번 붙이면 끝! 접착력 끝판왕 [접착용품]\n\n✔️ 영상 속 그 제품이 어디 건지 궁금했던 분\n\"유튜브 호응도 1위! 검증된 셀프인테리어 필수 아이템\n\n\n\n\n\n📌영상 요약\n안녕하세요! 오늘은 단돈 10만원 정도의 자재비를 투자해서 엄청난 인테리어 효과를 낼 수 있는 가성비 합판 인테리어 방법을 준비했습니다.   밋밋하고 볼품없는 공간도 합판을 활용하면 따뜻하고 고급스러운 분위기로 확 바꿀 수 있어요. 합판 시공이 어렵다고 느끼셨던 분들을 위해 재단부터 스테인 바르는 요령, 그리고 쫄대 시공까지 최대한 쉽게 설명해 드립니다. \n\n■요약치수 측정과 재단\n바닥은 수평이 안 맞을 수 있으므로 레이저 레벨기를 띄워놓고 상태를 먼저 확인해야 합니다. 합판을 여러 장 재단할 때는 동일한 나뭇결 방향대로 재단되는 것이 중요합니다. \n\n■우드 스테인 바르기 (가장 중요!)\n실내에서는 수용성 우드 스테인을 사용하는 것이 안전합니다. 개봉 후 바닥에 가라앉은 색소를 잘 저어주는 것이 필수입니다. 스테인은 무조건 나뭇결 방향대로 문질러야 얼룩 없이 깔끔하게 칠해집니다. 마무리용 새 걸레로 얼룩을 자연스럽게 닦아주면 합판 인테리어 특유의 고급스러운 멋이 살아납니다. \n\n■스테인 칠하는 타이밍\n시공을 다 하고 나서 스테인을 칠하면 코너 부분이 뭉치고 지저분해지기 쉽습니다. 꼭 미리 재단한 상태에서 스테인을 먼저 칠해주고 시공을 하는 것이 마감을 깔끔하게 빼는 디테일입니다. 중간에 들어갈 쫄대도 뭉쳐서 한 번에 미리 칠해주세요.\n\n■합판 및 쫄대 시공\n표면 치장 용도이므로 두꺼운 합판을 쓸 필요 없이 5mm 합판이면 충분합니다. 뒷면에 실리콘이나 목공본드를 바르고 구조적으로 중요한 4면 테두리를 밀착시켜 타카핀을 박아줍니다. 쫄대 4개를 동일하게 자를 때는 절연 테이프를 감아 한 번에 자르면 오차 없이 아주 간편합니다.\n\n이번 시공에는 5mm 합판 4.5장, 쫄대용 9mm 합판 1장, 우드 스테인 1통이 사용되었고, 총 자재비는 딱 10만원 정도 들었습니다. 예산이 빠듯하지만 확실한 인테리어 효과를 주고 싶을 때 꼭 한번 활용해 보세요!   영상이 도움이 되셨다면 구독과 좋아요 부탁드리고, 다음에도 유익한 꿀팁 영상으로 찾아오겠습니다. 감사합니다.\n\n#셀프인테리어 #합판인테리어 #가성비인테리어 #우드스테인 #10만원인테리어 #목공기초 #셀프목공 #방꾸미기 #인테리어꿀팁\n\n\n\n\n\n🤝톱스타와 함께 성장할 사업 파트너를 찾고 있습니다 \n▶홍보가 부족해서 가치 있는 상품이 빛을 보지 못하나요?\n▶톱스타가 판매와 마케팅을 책임져 드릴게요\n▶마케팅이 필요한 제조사 사장님이나 영업 담당자 분\n▶비즈니스 메일로 연락 주세요(비용X)\n\n\n🔨톱스타 채널에 출연할 개성 있고 사연 있는 목수를 찾습니다\n▶때려 죽어도 목수를 할 수밖에 없는 목수 희망자\n▶집 팔아서 연장 산 괴짜 목수\n▶유튜브에서 넘치는 끼를 발산 못하고 죽으면 한 될 것 같은 목수  \n▶그 밖의 재밌고 감동적인 사연 있는 목수 분들도 연락 주세요\n\n\n🏠톱스타가 공짜로 고쳐드릴게요!\n▶장사 안돼서 인테리어 엄두가 안 나는 자영업자 사장님\n▶형편이 어려워 춥고 낡은 집에서 생활하는 분\n▶그 밖에 인테리어가 꼭 필요한 사연 있는 분\n▶메일로 사연 남겨 주시면 무료 인테리어의 기회가 주어집니다\n\n\n📩비즈니스 제안 및 사연 신청 메일: sweeterior1@naver.com\n▶모든 메일에 일일이 답장을 드리기 어렵다는 점 미리 양해 말씀드립니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wmdNwpLt0jU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wmdNwpLt0jU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wmdNwpLt0jU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wmdNwpLt0jU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wmdNwpLt0jU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "인테리어 목수 톱스타",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "신발보다 싼 합판인테리어",
+          "description": "영상에서 사용한 '우드스테인' 구매링크\n▼▼▼\nhttps://mkt.shopping.naver.com/link/6865d39bcc201f0eab06b175\n\n\n■박반장이 운영하는 셀프인테리어 스토어■\n👉 https://smartstore.naver.com/topstarstore\n\n박반장이 수차례 테스트하고 선택한 셀프 전용 용품들\n\n✅ 이런 고민 중인 분들께 추천합니다!\n✔️ 지긋지긋한 결로·곰팡이 해결하고 싶은 분\n \"박반장이 직접 써보고 성능 확인한 [단열용품]\n\n✔️ 비만 오면 걱정되는 누수, 직접 잡고 싶은 분\n \"전문가 부르기 전, 내 손으로 끝내는 [방수용품]\n\n✔️ 떨어지고 벌어지는 하자에 지치신 분\n \"한 번 붙이면 끝! 접착력 끝판왕 [접착용품]\n\n✔️ 영상 속 그 제품이 어디 건지 궁금했던 분\n\"유튜브 호응도 1위! 검증된 셀프인테리어 필수 아이템\n\n\n\n\n\n📌영상 요약\n안녕하세요! 오늘은 단돈 10만원 정도의 자재비를 투자해서 엄청난 인테리어 효과를 낼 수 있는 가성비 합판 인테리어 방법을 준비했습니다.   밋밋하고 볼품없는 공간도 합판을 활용하면 따뜻하고 고급스러운 분위기로 확 바꿀 수 있어요. 합판 시공이 어렵다고 느끼셨던 분들을 위해 재단부터 스테인 바르는 요령, 그리고 쫄대 시공까지 최대한 쉽게 설명해 드립니다. \n\n■요약치수 측정과 재단\n바닥은 수평이 안 맞을 수 있으므로 레이저 레벨기를 띄워놓고 상태를 먼저 확인해야 합니다. 합판을 여러 장 재단할 때는 동일한 나뭇결 방향대로 재단되는 것이 중요합니다. \n\n■우드 스테인 바르기 (가장 중요!)\n실내에서는 수용성 우드 스테인을 사용하는 것이 안전합니다. 개봉 후 바닥에 가라앉은 색소를 잘 저어주는 것이 필수입니다. 스테인은 무조건 나뭇결 방향대로 문질러야 얼룩 없이 깔끔하게 칠해집니다. 마무리용 새 걸레로 얼룩을 자연스럽게 닦아주면 합판 인테리어 특유의 고급스러운 멋이 살아납니다. \n\n■스테인 칠하는 타이밍\n시공을 다 하고 나서 스테인을 칠하면 코너 부분이 뭉치고 지저분해지기 쉽습니다. 꼭 미리 재단한 상태에서 스테인을 먼저 칠해주고 시공을 하는 것이 마감을 깔끔하게 빼는 디테일입니다. 중간에 들어갈 쫄대도 뭉쳐서 한 번에 미리 칠해주세요.\n\n■합판 및 쫄대 시공\n표면 치장 용도이므로 두꺼운 합판을 쓸 필요 없이 5mm 합판이면 충분합니다. 뒷면에 실리콘이나 목공본드를 바르고 구조적으로 중요한 4면 테두리를 밀착시켜 타카핀을 박아줍니다. 쫄대 4개를 동일하게 자를 때는 절연 테이프를 감아 한 번에 자르면 오차 없이 아주 간편합니다.\n\n이번 시공에는 5mm 합판 4.5장, 쫄대용 9mm 합판 1장, 우드 스테인 1통이 사용되었고, 총 자재비는 딱 10만원 정도 들었습니다. 예산이 빠듯하지만 확실한 인테리어 효과를 주고 싶을 때 꼭 한번 활용해 보세요!   영상이 도움이 되셨다면 구독과 좋아요 부탁드리고, 다음에도 유익한 꿀팁 영상으로 찾아오겠습니다. 감사합니다.\n\n#셀프인테리어 #합판인테리어 #가성비인테리어 #우드스테인 #10만원인테리어 #목공기초 #셀프목공 #방꾸미기 #인테리어꿀팁\n\n\n\n\n\n🤝톱스타와 함께 성장할 사업 파트너를 찾고 있습니다 \n▶홍보가 부족해서 가치 있는 상품이 빛을 보지 못하나요?\n▶톱스타가 판매와 마케팅을 책임져 드릴게요\n▶마케팅이 필요한 제조사 사장님이나 영업 담당자 분\n▶비즈니스 메일로 연락 주세요(비용X)\n\n\n🔨톱스타 채널에 출연할 개성 있고 사연 있는 목수를 찾습니다\n▶때려 죽어도 목수를 할 수밖에 없는 목수 희망자\n▶집 팔아서 연장 산 괴짜 목수\n▶유튜브에서 넘치는 끼를 발산 못하고 죽으면 한 될 것 같은 목수  \n▶그 밖의 재밌고 감동적인 사연 있는 목수 분들도 연락 주세요\n\n\n🏠톱스타가 공짜로 고쳐드릴게요!\n▶장사 안돼서 인테리어 엄두가 안 나는 자영업자 사장님\n▶형편이 어려워 춥고 낡은 집에서 생활하는 분\n▶그 밖에 인테리어가 꼭 필요한 사연 있는 분\n▶메일로 사연 남겨 주시면 무료 인테리어의 기회가 주어집니다\n\n\n📩비즈니스 제안 및 사연 신청 메일: sweeterior1@naver.com\n▶모든 메일에 일일이 답장을 드리기 어렵다는 점 미리 양해 말씀드립니다."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT13M13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "26820",
+        "likeCount": "639",
+        "favoriteCount": "0",
+        "commentCount": "62"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "bilxVoTQ4fKvdXPtsxZK369xRn0",
+      "id": "y66sPRxjx34",
+      "snippet": {
+        "publishedAt": "2026-06-12T08:00:14Z",
+        "channelId": "UCJilmacrqYKn_wNSWStdJRA",
+        "title": "구옥 셀프인테리어_갬성 넣어 작업방 꾸미기, 건강 라이프에 요즘 잘 쓰는 주방템 소개",
+        "description": "이 영상은 한경희 AI 미니큐브의 마케팅 캠페인을 포함하고 있습니다\n\n\n\n구독자 여러분 안녕하세요😊\n여름을 앞두고 구옥 빌라로 이사를 하게 되었는데요. 음식물 쓰레기를 버릴 때마다 계단을 오르내리는 일이 생각보다 쉽지 않더라고요.\n마침 한경희로부터 최신 음식물처리기를 협찬받아 사용해보게 되었는데, 직접 써보니 만족도가 높아서 여러분께도 소개해드리려고 합니다.\n한경희 AI 미니큐브 음식물처리기는 버튼과 디스플레이가 전면에 위치해 있어 조작이 편리하고, 처리 진행 상태를 한눈에 확인할 수 있어서 좋았어요.\n또 3kg의 넉넉한 용량을 갖추고 있는데도 크기가 아담한 편이라 공간 활용이 좋고, 디자인도 깔끔하고 예뻐서 주방 인테리어와도 잘 어울리더라고요.\n무엇보다 정말 조용한 점이 인상적이었는데요. 밤에 작동시켜 두고 자도 소음 때문에 불편함을 느끼지 않을 정도였습니다.\n장마철을 앞두고 음식물처리기 구매를 고민하고 계신다면 아래 링크를 확인해보세요.\n구독자 전용 이벤트로 최저가 할인 혜택과 추가 필터 사은품도 준비되어 있으니, 관심 있으신 분들께 도움이 되었으면 좋겠습니다 :)\n\n\n📌구매링크\nhttps://mkt.shopping.naver.com/link/6a1cde9b6fd297018b22d229\n※ 한경희 AI 미니큐브는 지자체 지원금 신청이 가능한 제품입니다\n\n📆 구독자 이벤트 기간\n6/12(금) ~ 6/18(목)까지\n\n🎁 구독자 이벤트 혜택\n① 온라인최저가 대비 15% 할인\n② 2만원 상당 추가 필터 사은품 증정 (구매확정자 7/3 일괄발송)\n③ 네이버포인트 1% 적립\n\n📌제품, 배송 관련 문의\n1:1 상담 채널 : https://talk.naver.com/ct/w5vom8\n\n\n\n\n\n제품정보\n테무 커튼\nhttps://share.temu.com/MaW84UuoilA\n\n\n\n📬 E-MAIL :  hangrimm1@gmail.com\n💌 Instagram  :  https://www.instagram.com/han_grimm/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y66sPRxjx34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y66sPRxjx34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y66sPRxjx34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/y66sPRxjx34/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/y66sPRxjx34/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "한그림 HANgrimm",
+        "tags": [
+          "룸투어",
+          "vlog korean",
+          "vlog korean daily life",
+          "vlog korean aesthetic",
+          "korean vlog a day in my life",
+          "vlog alone korea",
+          "korea vlog apartment",
+          "aesthetic vlog seoul",
+          "seoul city vlog",
+          "day in seoul vlog",
+          "vlog in korea seoul",
+          "living alone in seoul vlog",
+          "Roomtour",
+          "Housetour",
+          "room makeover",
+          "room tour vlog",
+          "living alone diaries",
+          "이케아추천템",
+          "이케아인테리어",
+          "이케아가구",
+          "ikea",
+          "이케아",
+          "이케아인테리어소품",
+          "이케아추천",
+          "ikea ivar",
+          "ikea besta",
+          "ikea hack",
+          "ikea korea",
+          "오늘의집",
+          "오늘의집인테리어",
+          "오늘의집추천템",
+          "오늘의집집꾸미기",
+          "집꾸미기브이로그",
+          "집꾸미기인테리어",
+          "구옥꾸미기",
+          "구옥 인테리어",
+          "집꾸미기",
+          "홈스타일링"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "구옥 셀프인테리어_갬성 넣어 작업방 꾸미기, 건강 라이프에 요즘 잘 쓰는 주방템 소개",
+          "description": "이 영상은 한경희 AI 미니큐브의 마케팅 캠페인을 포함하고 있습니다\n\n\n\n구독자 여러분 안녕하세요😊\n여름을 앞두고 구옥 빌라로 이사를 하게 되었는데요. 음식물 쓰레기를 버릴 때마다 계단을 오르내리는 일이 생각보다 쉽지 않더라고요.\n마침 한경희로부터 최신 음식물처리기를 협찬받아 사용해보게 되었는데, 직접 써보니 만족도가 높아서 여러분께도 소개해드리려고 합니다.\n한경희 AI 미니큐브 음식물처리기는 버튼과 디스플레이가 전면에 위치해 있어 조작이 편리하고, 처리 진행 상태를 한눈에 확인할 수 있어서 좋았어요.\n또 3kg의 넉넉한 용량을 갖추고 있는데도 크기가 아담한 편이라 공간 활용이 좋고, 디자인도 깔끔하고 예뻐서 주방 인테리어와도 잘 어울리더라고요.\n무엇보다 정말 조용한 점이 인상적이었는데요. 밤에 작동시켜 두고 자도 소음 때문에 불편함을 느끼지 않을 정도였습니다.\n장마철을 앞두고 음식물처리기 구매를 고민하고 계신다면 아래 링크를 확인해보세요.\n구독자 전용 이벤트로 최저가 할인 혜택과 추가 필터 사은품도 준비되어 있으니, 관심 있으신 분들께 도움이 되었으면 좋겠습니다 :)\n\n\n📌구매링크\nhttps://mkt.shopping.naver.com/link/6a1cde9b6fd297018b22d229\n※ 한경희 AI 미니큐브는 지자체 지원금 신청이 가능한 제품입니다\n\n📆 구독자 이벤트 기간\n6/12(금) ~ 6/18(목)까지\n\n🎁 구독자 이벤트 혜택\n① 온라인최저가 대비 15% 할인\n② 2만원 상당 추가 필터 사은품 증정 (구매확정자 7/3 일괄발송)\n③ 네이버포인트 1% 적립\n\n📌제품, 배송 관련 문의\n1:1 상담 채널 : https://talk.naver.com/ct/w5vom8\n\n\n\n\n\n제품정보\n테무 커튼\nhttps://share.temu.com/MaW84UuoilA\n\n\n\n📬 E-MAIL :  hangrimm1@gmail.com\n💌 Instagram  :  https://www.instagram.com/han_grimm/"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT10M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "23422",
+        "likeCount": "929",
+        "favoriteCount": "0",
+        "commentCount": "127"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "KlEpfFn-BfnQJi6-3F0r5mxAyRk",
+      "id": "NMRxjf5h8fU",
+      "snippet": {
+        "publishedAt": "2026-06-12T11:30:28Z",
+        "channelId": "UCQpMAZGfjCGAKdBEboo_-Pg",
+        "title": "이 5가지만 하면 우리집 안방이 호텔 됩니다!  #인테리어 #침실인테리어",
+        "description": "대한민국 1등🥇하이엔드 주거 디자인 전문기업\n\n📌견적문의 링크 바로가기\nhttps://logid.co.kr/online/online.php\n\n▪ 홈페이지 : https://logid.co.kr\n▪ 연락처 : 02-6951-4540",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NMRxjf5h8fU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NMRxjf5h8fU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NMRxjf5h8fU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NMRxjf5h8fU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NMRxjf5h8fU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "로그디자인",
+        "tags": [
+          "인테리어",
+          "랜선집들이",
+          "아파트 리모델링",
+          "로그디자인",
+          "주방 인테리어",
+          "인테리어 견적",
+          "인테리어 상담",
+          "하이엔드디자인",
+          "대형평수인테리어",
+          "주상복합인테리어",
+          "강남인테리어",
+          "반포인테리어",
+          "대치인테리어"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "이 5가지만 하면 우리집 안방이 호텔 됩니다!  #인테리어 #침실인테리어",
+          "description": "대한민국 1등🥇하이엔드 주거 디자인 전문기업\n\n📌견적문의 링크 바로가기\nhttps://logid.co.kr/online/online.php\n\n▪ 홈페이지 : https://logid.co.kr\n▪ 연락처 : 02-6951-4540"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT44S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "45765",
+        "likeCount": "297",
+        "favoriteCount": "0",
+        "commentCount": "10"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "VzYQfPHu-_3olqGIagR1nVFdZkQ",
+      "id": "kef9R3dk5kQ",
+      "snippet": {
+        "publishedAt": "2026-06-11T22:48:21Z",
+        "channelId": "UCh4f8p28EPSDg2BoZlvOOvw",
+        "title": "항상 애매하던 콘센트 위치 활용하기 ㄷㄷ #인테리어꿀팁 #집꾸미기 #콘센트선반",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kef9R3dk5kQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kef9R3dk5kQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kef9R3dk5kQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kef9R3dk5kQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kef9R3dk5kQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "1분의발견",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "항상 애매하던 콘센트 위치 활용하기 ㄷㄷ #인테리어꿀팁 #집꾸미기 #콘센트선반",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "41290",
+        "likeCount": "260",
+        "favoriteCount": "0",
+        "commentCount": "22"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Lp4nlyjwiuUyBbenKm7uJgSjwsg",
+      "id": "n6soVnWc_Io",
+      "snippet": {
+        "publishedAt": "2026-06-17T08:37:58Z",
+        "channelId": "UCbxW_pHZbCDrj-bTUu2U1Kg",
+        "title": "완전 귀여운데!?  #다이소 인테리어 신상 품절 전에 사세요🔥",
+        "description": "다이소 로 집꾸하는사람~? 저요~🙋\u200d♀️\n감다살 다이소템 골라봤어요!\n\n5천원으로 계절마다 발매트 바꿀수도있고\n가림마커튼으로 숨기고싶은곳은 숨기고 햇빛도 가릴수있다니까요?\n 키친타올홀더는 살짝 흔들릴수있어서\n몬스터겔같은걸로 붙이면 더욱 튼튼하게 쓸수있어요! \n(코스트코 키친타올은 사용불가🥲)\n\n🏠 오늘의 인테리어 꿀템 리스트\n\n태양광 LED 행잉 스탠딩등 ㅣ 품번 : 1064696\n자카드 긴 발매트 120×40cm ㅣ 품번 : 1070830\n선반 걸이형 키친타월 홀더 ㅣ 품번 : 1068916\n미니 스탠드 구름 무드등 ㅣ 품번 : 1051497\n시어서커 커튼 ㅣ품번 : 1073957 \n\n#다이소 #다이소추천템 #다이소신상 #다이소인테리어 #인테리어소품 #집꾸미기 #원룸인테리어 #자취방꾸미기 #가성비템 #생활꿀템 #무드등 #베란다꾸미기 #주방정리 #다이소꿀템",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n6soVnWc_Io/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n6soVnWc_Io/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n6soVnWc_Io/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/n6soVnWc_Io/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/n6soVnWc_Io/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "대신사봤ZIP",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "완전 귀여운데!?  #다이소 인테리어 신상 품절 전에 사세요🔥",
+          "description": "다이소 로 집꾸하는사람~? 저요~🙋\u200d♀️\n감다살 다이소템 골라봤어요!\n\n5천원으로 계절마다 발매트 바꿀수도있고\n가림마커튼으로 숨기고싶은곳은 숨기고 햇빛도 가릴수있다니까요?\n 키친타올홀더는 살짝 흔들릴수있어서\n몬스터겔같은걸로 붙이면 더욱 튼튼하게 쓸수있어요! \n(코스트코 키친타올은 사용불가🥲)\n\n🏠 오늘의 인테리어 꿀템 리스트\n\n태양광 LED 행잉 스탠딩등 ㅣ 품번 : 1064696\n자카드 긴 발매트 120×40cm ㅣ 품번 : 1070830\n선반 걸이형 키친타월 홀더 ㅣ 품번 : 1068916\n미니 스탠드 구름 무드등 ㅣ 품번 : 1051497\n시어서커 커튼 ㅣ품번 : 1073957 \n\n#다이소 #다이소추천템 #다이소신상 #다이소인테리어 #인테리어소품 #집꾸미기 #원룸인테리어 #자취방꾸미기 #가성비템 #생활꿀템 #무드등 #베란다꾸미기 #주방정리 #다이소꿀템"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT42S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "40907",
+        "likeCount": "342",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "GP55CEMxbnfPprCOQQhBT3xTq_8",
+      "id": "m8FoiTpKZnA",
+      "snippet": {
+        "publishedAt": "2026-06-15T23:00:24Z",
+        "channelId": "UCTnZvrXO2BZJKGKV8eZKyVw",
+        "title": "마음대로 리폼하라고 만든 책장 #이케아추천템 #셀프인테리어",
+        "description": "이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에따른 일정액의 수수료를 제공 받습니다.\n이케아 가면 이거 무조건 사세요! 디자이너가 아예 내 맘대로 리폼하라고 작정하고 만들었다는 무한 변신 끝판왕 '칼락스 책장'이에요! ✨\n\n✔ 주방 아일랜드 식탁 변신 (기본 디자인 자체도 심플하고 깔끔한데, 와이프처럼 주방에 두고 상판을 올리거나 조리대 겸 아일랜드 식탁으로 활용하면 좁은 주방 공간 활용도가 미쳤어요 🍳)\n\n✔ 내 맘대로 조립하는 모듈형 (칼락스 전용 인서트 서랍이나 도어를 취향껏 추가해서 내가 원하는 위치에 쏙쏙 끼워 넣으면, 세상에 하나뿐인 나만의 맞춤형 수납장이 뚝딱 완성돼요 🧩)\n\n✔ 눕히면 수납형 휴식 공간 (세워두던 책장을 가로로 길게 눕히고 그 위에 폭신한 방석을 깔아주면, 아래는 넉넉한 수납공간이 되고 위는 책 읽고 쉬기 딱 좋은 아늑한 벤치로 변신해요 🛋️)\n\n✔ 찰떡궁합 전용 바구니 세팅 (이케아에서 파는 다양한 수납 바구니들과 사이즈가 1mm의 오차도 없이 딱 들어맞아서, 지저분한 잡동사니를 싹 숨기고 엄청 깔끔하게 인테리어 할 수 있어요 🧺)\n\n정해진 용도 없이 우리 집 라이프스타일에 맞춰 무한대로 활용할 수 있는 가성비 가구랍니다! 와이프는 벌써 다음엔 또 어떻게 바꿀지 행복한 고민 중이네요 👍\n#이케아가구 #칼락스책장 #이케아추천템 #셀프인테리어 #집꾸미기",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m8FoiTpKZnA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m8FoiTpKZnA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m8FoiTpKZnA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/m8FoiTpKZnA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/m8FoiTpKZnA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "홈그래피",
+        "tags": [
+          "이케아가구",
+          "이케아칼락스",
+          "이케아추천템",
+          "셀프인테리어",
+          "인테리어가구",
+          "가구리폼",
+          "인테리어",
+          "집꾸미기",
+          "방꾸미기"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "마음대로 리폼하라고 만든 책장 #이케아추천템 #셀프인테리어",
+          "description": "이 포스팅은 쿠팡파트너스 활동의 일환으로, 이에따른 일정액의 수수료를 제공 받습니다.\n이케아 가면 이거 무조건 사세요! 디자이너가 아예 내 맘대로 리폼하라고 작정하고 만들었다는 무한 변신 끝판왕 '칼락스 책장'이에요! ✨\n\n✔ 주방 아일랜드 식탁 변신 (기본 디자인 자체도 심플하고 깔끔한데, 와이프처럼 주방에 두고 상판을 올리거나 조리대 겸 아일랜드 식탁으로 활용하면 좁은 주방 공간 활용도가 미쳤어요 🍳)\n\n✔ 내 맘대로 조립하는 모듈형 (칼락스 전용 인서트 서랍이나 도어를 취향껏 추가해서 내가 원하는 위치에 쏙쏙 끼워 넣으면, 세상에 하나뿐인 나만의 맞춤형 수납장이 뚝딱 완성돼요 🧩)\n\n✔ 눕히면 수납형 휴식 공간 (세워두던 책장을 가로로 길게 눕히고 그 위에 폭신한 방석을 깔아주면, 아래는 넉넉한 수납공간이 되고 위는 책 읽고 쉬기 딱 좋은 아늑한 벤치로 변신해요 🛋️)\n\n✔ 찰떡궁합 전용 바구니 세팅 (이케아에서 파는 다양한 수납 바구니들과 사이즈가 1mm의 오차도 없이 딱 들어맞아서, 지저분한 잡동사니를 싹 숨기고 엄청 깔끔하게 인테리어 할 수 있어요 🧺)\n\n정해진 용도 없이 우리 집 라이프스타일에 맞춰 무한대로 활용할 수 있는 가성비 가구랍니다! 와이프는 벌써 다음엔 또 어떻게 바꿀지 행복한 고민 중이네요 👍\n#이케아가구 #칼락스책장 #이케아추천템 #셀프인테리어 #집꾸미기"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "44484",
+        "likeCount": "216",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "sQoIu92GJ-GvhD4vXHmmKaGs03Y",
+      "id": "7jMXkW9Tfn0",
+      "snippet": {
+        "publishedAt": "2026-06-15T06:20:32Z",
+        "channelId": "UCadtfjW9AilEn4SNPDGQJtg",
+        "title": "폴딩 도어 트랙",
+        "description": "일반적인 문은 넓은 회전 반경이 필요해 좁은 집에서는 데드 스페이스를 만들기 일쑤인데요. \n이 특수 도어는 벽의 코너를 따라 궤적을 그리며 꺾이기 때문에, 입구가 좁아도 간섭없이 시원하게 열립니다.\n특수 하드웨어(헤펠레 등)와 맞춤 제작을 통해 시공이 가능하다고 하네요\n#인테리어 #좁은집인테리어 #공간활용 #리모델링꿀팁",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7jMXkW9Tfn0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7jMXkW9Tfn0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7jMXkW9Tfn0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7jMXkW9Tfn0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7jMXkW9Tfn0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "감동채널",
+        "tags": [
+          "해외감동사연",
+          "미국인반응",
+          "외국인반응",
+          "외국반응",
+          "중국반응",
+          "해외반응",
+          "일본반응",
+          "해외사연",
+          "감동이야기",
+          "감동실화",
+          "감동스토리",
+          "미국인 반응",
+          "해외네티즌반응",
+          "외국인경험담",
+          "사연라디오",
+          "실제사연",
+          "한국해외반응",
+          "실화",
+          "해외댓글반응"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "폴딩 도어 트랙",
+          "description": "일반적인 문은 넓은 회전 반경이 필요해 좁은 집에서는 데드 스페이스를 만들기 일쑤인데요. \n이 특수 도어는 벽의 코너를 따라 궤적을 그리며 꺾이기 때문에, 입구가 좁아도 간섭없이 시원하게 열립니다.\n특수 하드웨어(헤펠레 등)와 맞춤 제작을 통해 시공이 가능하다고 하네요\n#인테리어 #좁은집인테리어 #공간활용 #리모델링꿀팁"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "44680",
+        "likeCount": "104",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "0V2rCFknb0vVoBH_nJgGEXq0lyE",
+      "id": "tFOu9WSWgag",
+      "snippet": {
+        "publishedAt": "2026-06-13T00:36:20Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "1평도 안되는 공간 신박한 활용방법 #인테리어",
+        "description": "1평도 안되는 공간 신박한 활용방법 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tFOu9WSWgag/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tFOu9WSWgag/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tFOu9WSWgag/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tFOu9WSWgag/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tFOu9WSWgag/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "1평도 안되는 공간 신박한 활용방법 #인테리어",
+          "description": "1평도 안되는 공간 신박한 활용방법 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "35518",
+        "likeCount": "557",
+        "favoriteCount": "0",
+        "commentCount": "29"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "_IIawKeA8dwNBZ9Ss93-vM9w1bU",
+      "id": "jsusCX48SHk",
+      "snippet": {
+        "publishedAt": "2026-06-13T10:00:30Z",
+        "channelId": "UCgjoHgnvmiHZO4mw96R10rQ",
+        "title": "지갑 구멍난 욕망의 인테리어?🔥 새로 산 가구부터 살림꿀템까지 싹 다 보여주는 이사기념 랜선집들이💞",
+        "description": "© 2026 SJ Media. All Rights Reserved.\nBusiness Contact: songsel@sjmediacrew.com\n\n⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰\n\n👉🏻세라가 잔뜩 구매한 가구가 궁금하다면?👈🏻 \n- 무브먼트랩 홈페이지 : https://www.movementlab.kr/\n#잭슨카멜레온 #플레어테이블 #마르셋 #감보사 #무브먼트랩\n\n\n\n💗 송세라 인스타 @songsel\n　ㄴ https://www.instagram.com/songsel/\n\n💗 인플루언서, 웨딩 커뮤니티: 인플홈\n　ㄴ https://cafe.naver.com/influencerhome\n\n⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jsusCX48SHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jsusCX48SHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jsusCX48SHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jsusCX48SHk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jsusCX48SHk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "송세라",
+        "tags": [
+          "세라정진",
+          "송세라",
+          "박정진",
+          "러브캐처",
+          "하트시그널",
+          "하트페어링",
+          "환승연애",
+          "솔로지옥",
+          "연애남매",
+          "연프",
+          "연애프로그램",
+          "커플vlog",
+          "결혼",
+          "결혼준비",
+          "웨딩",
+          "신부",
+          "신랑",
+          "예복",
+          "출산",
+          "육아",
+          "아옳이"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "지갑 구멍난 욕망의 인테리어?🔥 새로 산 가구부터 살림꿀템까지 싹 다 보여주는 이사기념 랜선집들이💞",
+          "description": "© 2026 SJ Media. All Rights Reserved.\nBusiness Contact: songsel@sjmediacrew.com\n\n⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰\n\n👉🏻세라가 잔뜩 구매한 가구가 궁금하다면?👈🏻 \n- 무브먼트랩 홈페이지 : https://www.movementlab.kr/\n#잭슨카멜레온 #플레어테이블 #마르셋 #감보사 #무브먼트랩\n\n\n\n💗 송세라 인스타 @songsel\n　ㄴ https://www.instagram.com/songsel/\n\n💗 인플루언서, 웨딩 커뮤니티: 인플홈\n　ㄴ https://cafe.naver.com/influencerhome\n\n⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰ ⋱⋰"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT18M58S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "16522",
+        "likeCount": "179",
+        "favoriteCount": "0",
+        "commentCount": "40"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1kDQYsb8Iy2-R8NOmzR1FLRYUjc",
+      "id": "ScD2Ha8fJkU",
+      "snippet": {
+        "publishedAt": "2026-06-13T10:12:08Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "계단옆 애매한 공간 후회없는 인테리어 #인테리어",
+        "description": "계단옆 애매한 공간 후회없는 인테리어 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ScD2Ha8fJkU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ScD2Ha8fJkU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ScD2Ha8fJkU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ScD2Ha8fJkU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ScD2Ha8fJkU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "계단옆 애매한 공간 후회없는 인테리어 #인테리어",
+          "description": "계단옆 애매한 공간 후회없는 인테리어 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "32819",
+        "likeCount": "481",
+        "favoriteCount": "0",
+        "commentCount": "23"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "T64A4GwBv54eNQNYBOoZ7yer134",
+      "id": "FMmXs40nuaw",
+      "snippet": {
+        "publishedAt": "2026-06-13T11:20:33Z",
+        "channelId": "UCeYNZmuXJPEd7ifZYI6aBaQ",
+        "title": "비싼 석재처럼 보이는 가짜의 실체",
+        "description": "유럽 느낌 난간 제작 과정, 로마 기둥 제작 비밀을 공개합니다. 비싼 천연석으로 만든 줄 알았던 고급 난간이 사실은 정교한 몰드(틀)와 콘크리트 기술로 탄생한다는 놀라운 이야기! 기포 제거부터 균일한 타설, 탈형 후 페인팅까지 장인의 손길이 더해져 수백만 원 감성이 완성됩니다. 평범한 재료가 예술 작품으로 변하는 과정을 보면 감탄이 절로 나옵니다. 생활 속 건축 기술과 장인의 숨은 노력까지 함께 확인해 보세요.\n\n#유럽난간 #로마기둥 #콘크리트 #몰드제작 #건축기술 #장인정신 #인테리어 #외장공사 #생활정보 #DIY #쇼츠 #shorts",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FMmXs40nuaw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FMmXs40nuaw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FMmXs40nuaw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FMmXs40nuaw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FMmXs40nuaw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "레몬트리100",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "비싼 석재처럼 보이는 가짜의 실체",
+          "description": "유럽 느낌 난간 제작 과정, 로마 기둥 제작 비밀을 공개합니다. 비싼 천연석으로 만든 줄 알았던 고급 난간이 사실은 정교한 몰드(틀)와 콘크리트 기술로 탄생한다는 놀라운 이야기! 기포 제거부터 균일한 타설, 탈형 후 페인팅까지 장인의 손길이 더해져 수백만 원 감성이 완성됩니다. 평범한 재료가 예술 작품으로 변하는 과정을 보면 감탄이 절로 나옵니다. 생활 속 건축 기술과 장인의 숨은 노력까지 함께 확인해 보세요.\n\n#유럽난간 #로마기둥 #콘크리트 #몰드제작 #건축기술 #장인정신 #인테리어 #외장공사 #생활정보 #DIY #쇼츠 #shorts"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT25S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "34484",
+        "likeCount": "50",
+        "favoriteCount": "0",
+        "commentCount": "5"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "JMqp_ny4rSlJwQizpaNIOG3a-Vo",
+      "id": "_waicy5sWeY",
+      "snippet": {
+        "publishedAt": "2026-06-12T11:41:33Z",
+        "channelId": "UCpANROseo-Ydh7zIhkKZedQ",
+        "title": "제조사도 놀란 이케아 치트키 #사이드테이블 #인테리어소품 #협탁",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_waicy5sWeY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_waicy5sWeY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_waicy5sWeY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_waicy5sWeY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_waicy5sWeY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "홈스토리",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "제조사도 놀란 이케아 치트키 #사이드테이블 #인테리어소품 #협탁",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT17S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "36204",
+        "likeCount": "117",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "q-bfws1T7cblWLNKzC_ZqxwU9Mk",
+      "id": "zWZRLbCI5Ec",
+      "snippet": {
+        "publishedAt": "2026-06-15T10:12:37Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "좁은 곳 200% 활용하는 인테리어 #인테리어",
+        "description": "좁은 곳 200% 활용하는 인테리어 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zWZRLbCI5Ec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zWZRLbCI5Ec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zWZRLbCI5Ec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zWZRLbCI5Ec/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zWZRLbCI5Ec/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "좁은 곳 200% 활용하는 인테리어 #인테리어",
+          "description": "좁은 곳 200% 활용하는 인테리어 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT17S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "31512",
+        "likeCount": "508",
+        "favoriteCount": "0",
+        "commentCount": "19"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "awxDe3dluDCFtBpJej8bJq0nF5c",
+      "id": "AlFzCCk5NNA",
+      "snippet": {
+        "publishedAt": "2026-06-11T19:48:33Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "계단 밑 좁은곳을 이것으로 채웠더니 #인테리어",
+        "description": "계단 밑 좁은곳을 이것으로 채웠더니 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AlFzCCk5NNA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AlFzCCk5NNA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AlFzCCk5NNA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/AlFzCCk5NNA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/AlFzCCk5NNA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "계단 밑 좁은곳을 이것으로 채웠더니 #인테리어",
+          "description": "계단 밑 좁은곳을 이것으로 채웠더니 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "33438",
+        "likeCount": "629",
+        "favoriteCount": "0",
+        "commentCount": "21"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "TgTdaDqCRMegb5UWqsEVIN9ecDM",
+      "id": "44dYEyRUw2o",
+      "snippet": {
+        "publishedAt": "2026-06-15T23:00:30Z",
+        "channelId": "UC6hLlaUavqIj_IomdbocKYQ",
+        "title": "가벽 인테리어 공사 비용 아꼈어요",
+        "description": "평소 거실이나 주방에 가벽 공사 하기엔 부담스럽고\n지저분한 짐들 그냥 두자니 스트레스였는데\n\n이거 달았더니 고민 싹 해결됐어요\n\n통로에 툭 걸어만 주면 한쪽 공간이 딱 분리되면서\n지저분한 게 전부 가려지니까\n\n집 안이 훨씬 넓어 보이고 인테리어 새로 한 것처럼\n고급스러워지는 것 있죠?\n\n원단 자체도 싸구려가 아니라 엄청 탄탄하고 묵직해서\n달아만 놔도 세련된 갤러리 분위 뿜뿜이에요\n\n#가림막커튼 #집꾸미기 #공간활용 #가벽인테리어 #거실인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/44dYEyRUw2o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/44dYEyRUw2o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/44dYEyRUw2o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/44dYEyRUw2o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/44dYEyRUw2o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "오늘머사",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "가벽 인테리어 공사 비용 아꼈어요",
+          "description": "평소 거실이나 주방에 가벽 공사 하기엔 부담스럽고\n지저분한 짐들 그냥 두자니 스트레스였는데\n\n이거 달았더니 고민 싹 해결됐어요\n\n통로에 툭 걸어만 주면 한쪽 공간이 딱 분리되면서\n지저분한 게 전부 가려지니까\n\n집 안이 훨씬 넓어 보이고 인테리어 새로 한 것처럼\n고급스러워지는 것 있죠?\n\n원단 자체도 싸구려가 아니라 엄청 탄탄하고 묵직해서\n달아만 놔도 세련된 갤러리 분위 뿜뿜이에요\n\n#가림막커튼 #집꾸미기 #공간활용 #가벽인테리어 #거실인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "31660",
+        "likeCount": "225",
+        "favoriteCount": "0",
+        "commentCount": "47"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "XdZWmM3mcPK6dRG4sw-XFkQ3sNY",
+      "id": "XnBfhg2JRgQ",
+      "snippet": {
+        "publishedAt": "2026-06-12T14:27:59Z",
+        "channelId": "UCUZOLpjyvXT8Avnnoo0XB6w",
+        "title": "셀프인테리어 중 대참사",
+        "description": "귀찮다고 도구 안 쓰고 이빨 썼다가...\n순서 한 번 잘못 바꿔서 이승 탈출 하이패스 끊었습니다 😇\n\n전기 공사할 때 '차단기'부터 내려야 하는 진짜 이유...\n(여러분은 절대로 따라 하지 마세요!!! ❌⚡)\n\n⚠️ 셀프 인테리어 하시는 분들, 안전이 제일입니다!\n\n#셀프인테리어 #귀차니즘이불러온대참사극 #쇼츠 #shorts #반전 #꿀잼 #대참사 #소름",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XnBfhg2JRgQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XnBfhg2JRgQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XnBfhg2JRgQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XnBfhg2JRgQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XnBfhg2JRgQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "섞어리뷰",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "셀프인테리어 중 대참사",
+          "description": "귀찮다고 도구 안 쓰고 이빨 썼다가...\n순서 한 번 잘못 바꿔서 이승 탈출 하이패스 끊었습니다 😇\n\n전기 공사할 때 '차단기'부터 내려야 하는 진짜 이유...\n(여러분은 절대로 따라 하지 마세요!!! ❌⚡)\n\n⚠️ 셀프 인테리어 하시는 분들, 안전이 제일입니다!\n\n#셀프인테리어 #귀차니즘이불러온대참사극 #쇼츠 #shorts #반전 #꿀잼 #대참사 #소름"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "31431",
+        "likeCount": "143",
+        "favoriteCount": "0",
+        "commentCount": "7"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ZVWKePImFCbSmP2Kc-2M0Jf-ryc",
+      "id": "5a1KEQk_o64",
+      "snippet": {
+        "publishedAt": "2026-06-16T02:45:28Z",
+        "channelId": "UCtX54WmAA_40J3wzXlTrXrg",
+        "title": "역대급 아찔한 셀프 인테리어 대참사 레전드",
+        "description": "셀프 인테리어, 절대 만만하게 보면 안 되는 이유! 😅\n\n멋지게 상의 탈의까지 하고 나무 프레임을 짜맞추던 上남자! 하지만 예상치 못한 네일건 오작동(?)으로 바지가 나무에 그대로 박혀버리는 아찔하고 웃픈 상황이 발생했습니다.\n\n주체할 수 없이 덜덜 떨리는 손으로 장도리를 가져와 겨우겨우 탈출하는 과정의 긴장감이란... ㅋㅋㅋ 다행히 다친 곳 없이 무사히 빠져나와 거친 숨을 몰아쉬는 마지막 장면이 킬포인트입니다.\n\n⚠️ 안전 주의 안내\n본 영상은 다행히 단순한 해프닝으로 끝났지만, 네일건을 비롯한 전동 공구는 자칫 큰 사고로 이어질 수 있습니다. 공구를 사용할 때는 항상 올바른 사용법을 숙지하고, 적절한 안전 장비를 착용해 주세요!\n\n재밌게 보셨다면 구독과 좋아요 부탁드립니다! 👍\n\n#셀프인테리어 #목공대참사 #인테리어DIY #웃픈영상 #안전제일",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5a1KEQk_o64/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5a1KEQk_o64/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5a1KEQk_o64/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5a1KEQk_o64/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5a1KEQk_o64/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "캠이스트리",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "역대급 아찔한 셀프 인테리어 대참사 레전드",
+          "description": "셀프 인테리어, 절대 만만하게 보면 안 되는 이유! 😅\n\n멋지게 상의 탈의까지 하고 나무 프레임을 짜맞추던 上남자! 하지만 예상치 못한 네일건 오작동(?)으로 바지가 나무에 그대로 박혀버리는 아찔하고 웃픈 상황이 발생했습니다.\n\n주체할 수 없이 덜덜 떨리는 손으로 장도리를 가져와 겨우겨우 탈출하는 과정의 긴장감이란... ㅋㅋㅋ 다행히 다친 곳 없이 무사히 빠져나와 거친 숨을 몰아쉬는 마지막 장면이 킬포인트입니다.\n\n⚠️ 안전 주의 안내\n본 영상은 다행히 단순한 해프닝으로 끝났지만, 네일건을 비롯한 전동 공구는 자칫 큰 사고로 이어질 수 있습니다. 공구를 사용할 때는 항상 올바른 사용법을 숙지하고, 적절한 안전 장비를 착용해 주세요!\n\n재밌게 보셨다면 구독과 좋아요 부탁드립니다! 👍\n\n#셀프인테리어 #목공대참사 #인테리어DIY #웃픈영상 #안전제일"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT22S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "32849",
+        "likeCount": "78",
+        "favoriteCount": "0",
+        "commentCount": "11"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "MJiekxXjing_pDotvHScRYj9FjI",
+      "id": "JPb8MFHFcN0",
+      "snippet": {
+        "publishedAt": "2026-06-14T15:01:14Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "1평도 안되는 공간 느낌있게 바꾸는법 #인테리어",
+        "description": "1평도 안되는 공간 느낌있게 바꾸는법 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JPb8MFHFcN0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JPb8MFHFcN0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JPb8MFHFcN0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JPb8MFHFcN0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JPb8MFHFcN0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "1평도 안되는 공간 느낌있게 바꾸는법 #인테리어",
+          "description": "1평도 안되는 공간 느낌있게 바꾸는법 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "31076",
+        "likeCount": "485",
+        "favoriteCount": "0",
+        "commentCount": "20"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "anytEUSMRZONapy5QsgT5TcX9Kc",
+      "id": "sz19H3PPI9U",
+      "snippet": {
+        "publishedAt": "2026-06-14T10:12:05Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "새집 인테리어 이러면 후회없음 #인테리어",
+        "description": "새집 인테리어 이러면 후회없음 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sz19H3PPI9U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sz19H3PPI9U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sz19H3PPI9U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/sz19H3PPI9U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/sz19H3PPI9U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "새집 인테리어 이러면 후회없음 #인테리어",
+          "description": "새집 인테리어 이러면 후회없음 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "29267",
+        "likeCount": "511",
+        "favoriteCount": "0",
+        "commentCount": "10"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "OZznHSogYBHJPbU8_Ig1EbJak4Q",
+      "id": "zcOt2XqMa1o",
+      "snippet": {
+        "publishedAt": "2026-06-14T05:00:35Z",
+        "channelId": "UC1vL4JHA5Qy60luCB7qL3QA",
+        "title": "이제는 돌가루 감성이다",
+        "description": "#스톤카펫 #자갈코팅 #계단코팅 #미끄럼방지 #계단인테리어 #셀프인테리어 #집꾸미기 #홈인테리어 #고급인테리어 #화강석 #자갈바닥 #바닥코팅 #빌라인테리어 #주택인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zcOt2XqMa1o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zcOt2XqMa1o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zcOt2XqMa1o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zcOt2XqMa1o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zcOt2XqMa1o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "만물상점",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "이제는 돌가루 감성이다",
+          "description": "#스톤카펫 #자갈코팅 #계단코팅 #미끄럼방지 #계단인테리어 #셀프인테리어 #집꾸미기 #홈인테리어 #고급인테리어 #화강석 #자갈바닥 #바닥코팅 #빌라인테리어 #주택인테리어"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "34762",
+        "likeCount": "241",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "dGR4WP28At4SC53ZTMRZaGjZZ8o",
+      "id": "WoiyTqyyjd0",
+      "snippet": {
+        "publishedAt": "2026-06-12T10:00:12Z",
+        "channelId": "UC2AwE0KN-upP55W1m7sI8iw",
+        "title": "난간에 걸었더니 발코니가 카페 됐어요☕️",
+        "description": "🎯접이식 테이블 하나로 발코니 분위기 바꿔보세요☕✨\n\n✔️좁은 발코니 공간도 알차게 활용 가능해요\n✔️접었다 펼치며 깔끔하게 사용하는 감성 테이블\n\n#접이식테이블 #발코니테이블 #홈데코 #셀프인테리어 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WoiyTqyyjd0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WoiyTqyyjd0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WoiyTqyyjd0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/WoiyTqyyjd0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/WoiyTqyyjd0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "데일템",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "난간에 걸었더니 발코니가 카페 됐어요☕️",
+          "description": "🎯접이식 테이블 하나로 발코니 분위기 바꿔보세요☕✨\n\n✔️좁은 발코니 공간도 알차게 활용 가능해요\n✔️접었다 펼치며 깔끔하게 사용하는 감성 테이블\n\n#접이식테이블 #발코니테이블 #홈데코 #셀프인테리어 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "34577",
+        "likeCount": "94",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "CbHvYcLWwy-CDMUDuM5umrc_C1s",
+      "id": "HvMJldh3-_k",
+      "snippet": {
+        "publishedAt": "2026-06-13T02:15:03Z",
+        "channelId": "UCh0wvQg80EGqCcBaHD3QYZQ",
+        "title": "여의도 엠파이어 82평을 이렇게 하면.. #아파트인테리어 #shorts",
+        "description": "안녕하세요, 토인입니다.\n\n프로젝트 : 여의도 롯데캐슬엠파이어 82PY\n\n이번 현장은 주상복합 아파트로,\n복잡한 구조와 낮은 천장 때문에\n실제 면적보다 좁고 답답하게\n느껴지는 공간이었습니다.\n\n토인은 이 문제를 해결하기 위해\n천장을 전체 철거 후 높이를 확보하고,\n공간의 레이아웃을 새롭게 정리했습니다.\n\n그 결과,\n넓은 개방감과 따뜻한 우드 무드가 공존하는\n주거 공간으로 완성되었습니다.\n\n──────────────────────\n\n🏡 Since 1989, 실용성과 미감을 완성하는 브랜드\n📌 홈페이지 http://toinhouse.com/\n📌 블로그 https://blog.naver.com/toinhouse_0\n📌 인스타그램 https://www.instagram.com/_toin_official/\n\n#아파트인테리어 #아파트리모델링 #여의도인테리어\n#80평대아파트인테리어 #시공후 #시공전 #befor #after\n#거실인테리어 #주방리모델링 #현관인테리어 #욕실인테리어\n#롯데캐슬엠파이어 #82평 #shorts",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HvMJldh3-_k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HvMJldh3-_k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HvMJldh3-_k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HvMJldh3-_k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HvMJldh3-_k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "토인 toin",
+        "tags": [
+          "여의도인테리어",
+          "여의도리모델링",
+          "인테리어트렌드",
+          "인테리어트랜드",
+          "인테리어잘된집",
+          "인테리어리모델링",
+          "거실인테리어",
+          "주방인테리어",
+          "주방리모델링",
+          "화이트인테리어",
+          "철거",
+          "shorts",
+          "토인인테리어",
+          "비포",
+          "에프터",
+          "시공전",
+          "시공후",
+          "after",
+          "before",
+          "현관인테리어",
+          "구축아파트",
+          "신축아파트",
+          "인테리어예쁜집",
+          "모던인테리어",
+          "한강뷰",
+          "확장인테리어",
+          "서재인테리어",
+          "좁은주방리모델링",
+          "안방인테리어",
+          "여의도아파트",
+          "수납인테리어",
+          "70평대아파트인테리어",
+          "70평아파트",
+          "70평",
+          "현관리모델링",
+          "복도인테리어",
+          "중문인테리어",
+          "중문디자인",
+          "화장실리모델링",
+          "욕실인테리어",
+          "80평대아파트인테리어",
+          "80평아파트",
+          "82평",
+          "80평",
+          "롯데캐슬엠파이어",
+          "시티뷰"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "여의도 엠파이어 82평을 이렇게 하면.. #아파트인테리어 #shorts",
+          "description": "안녕하세요, 토인입니다.\n\n프로젝트 : 여의도 롯데캐슬엠파이어 82PY\n\n이번 현장은 주상복합 아파트로,\n복잡한 구조와 낮은 천장 때문에\n실제 면적보다 좁고 답답하게\n느껴지는 공간이었습니다.\n\n토인은 이 문제를 해결하기 위해\n천장을 전체 철거 후 높이를 확보하고,\n공간의 레이아웃을 새롭게 정리했습니다.\n\n그 결과,\n넓은 개방감과 따뜻한 우드 무드가 공존하는\n주거 공간으로 완성되었습니다.\n\n──────────────────────\n\n🏡 Since 1989, 실용성과 미감을 완성하는 브랜드\n📌 홈페이지 http://toinhouse.com/\n📌 블로그 https://blog.naver.com/toinhouse_0\n📌 인스타그램 https://www.instagram.com/_toin_official/\n\n#아파트인테리어 #아파트리모델링 #여의도인테리어\n#80평대아파트인테리어 #시공후 #시공전 #befor #after\n#거실인테리어 #주방리모델링 #현관인테리어 #욕실인테리어\n#롯데캐슬엠파이어 #82평 #shorts"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "33092",
+        "likeCount": "83",
+        "favoriteCount": "0",
+        "commentCount": "9"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1zv04c9RF1nvCQVBxW_71RlhVuo",
+      "id": "nmksV9C1OJc",
+      "snippet": {
+        "publishedAt": "2026-06-14T13:38:25Z",
+        "channelId": "UCqCCuXzpl3sNkEhLHbti2hg",
+        "title": "천재가 꾸민 인테리어 소름돋는 비밀",
+        "description": "전기가 통하는 펜\n\n#인테리어아이디어 #DIY인테리어 #신박한제품",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nmksV9C1OJc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nmksV9C1OJc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nmksV9C1OJc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nmksV9C1OJc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nmksV9C1OJc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "갓성비추천템",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "천재가 꾸민 인테리어 소름돋는 비밀",
+          "description": "전기가 통하는 펜\n\n#인테리어아이디어 #DIY인테리어 #신박한제품"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "30262",
+        "likeCount": "52",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "BHoOvXQCsKGDnITi9EHkYX37iQI",
+      "id": "xBWbvzCtE_4",
+      "snippet": {
+        "publishedAt": "2026-06-14T03:46:01Z",
+        "channelId": "UCJGzyTaZouEo5-DtsusMjwg",
+        "title": "정말 후회없는 좁은집 현관 인테리어",
+        "description": "현관이 좁은 게 아니라, 신발장이 너무 두꺼웠던 겁니다.\n\n풍수지리 공부한 지인이 현관 바닥은 무조건 깔끔해야 모든 일이 잘 풀린다며 이걸 추천해 줬거든요.\n\n고작 15cm 초슬림형이라 틈새나 벽에 그냥 툭 세워두기만 하면 끝입니다.\n\n너저분한 신발들을 안 보이게 싹 숨겨주는 압도적인 수납 방식 덕분에, 꽉 막혀있던 좁은현관이 두 배는 더 넓어 보이더라고요.\n\n#좁은집인테리어 #좁은집 #신발장추천 #틈새신발장 #슬림신발장 #현관정리 #현관인테리어 #인테리어 #집꾸미기 #신발정리 #정리정돈 #이케아추천템",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xBWbvzCtE_4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xBWbvzCtE_4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xBWbvzCtE_4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xBWbvzCtE_4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xBWbvzCtE_4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "홈스타일러스",
+        "tags": [
+          "집꾸미기",
+          "아파트인테리어",
+          "현관인테리어",
+          "좁은집인테리어",
+          "좁은집",
+          "신발장추천",
+          "틈새신발장",
+          "슬림신발장",
+          "현관정리",
+          "인테리어",
+          "신발정리",
+          "정리정돈",
+          "이케아추천템",
+          "집꾸미기 브이로그",
+          "원룸 신발장",
+          "틈새 수납장",
+          "슬림 수납장",
+          "틈새 수납장 추천",
+          "틈새 수납장 다이소",
+          "다이소 수납장"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "정말 후회없는 좁은집 현관 인테리어",
+          "description": "현관이 좁은 게 아니라, 신발장이 너무 두꺼웠던 겁니다.\n\n풍수지리 공부한 지인이 현관 바닥은 무조건 깔끔해야 모든 일이 잘 풀린다며 이걸 추천해 줬거든요.\n\n고작 15cm 초슬림형이라 틈새나 벽에 그냥 툭 세워두기만 하면 끝입니다.\n\n너저분한 신발들을 안 보이게 싹 숨겨주는 압도적인 수납 방식 덕분에, 꽉 막혀있던 좁은현관이 두 배는 더 넓어 보이더라고요.\n\n#좁은집인테리어 #좁은집 #신발장추천 #틈새신발장 #슬림신발장 #현관정리 #현관인테리어 #인테리어 #집꾸미기 #신발정리 #정리정돈 #이케아추천템"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "30697",
+        "likeCount": "138",
+        "favoriteCount": "0",
+        "commentCount": "6"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "GigOhzwEBP_Ss-kEMgSjBp9x9z8",
+      "id": "OX1Re9C58WE",
+      "snippet": {
+        "publishedAt": "2026-06-15T10:15:37Z",
+        "channelId": "UC8gnZdJJ3E7S19OpnLaGJCw",
+        "title": "집안에 절대 두면 안 되는 풍수 12가지 🚪",
+        "description": "집안 풍수, 작은 것부터 바꿔보세요. \n현관, 침실, 거실에서 꼭 피해야 할 풍수 주의점 12가지를 알려드립니다. \n재물운과 건강운을 지키는 생활 속 풍수 인테리어 팁, 지금 바로 확인하고 우리 집 운을 챙겨보세요. \n\n#풍수 #집안풍수 #인테리어 #재물운 #생활정보",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OX1Re9C58WE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OX1Re9C58WE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OX1Re9C58WE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OX1Re9C58WE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OX1Re9C58WE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "인생다큐 오늘",
+        "tags": [
+          "풍수",
+          "인테리어",
+          "운세",
+          "재물운",
+          "풍수지리",
+          "풍수인테리어",
+          "금전운",
+          "돈복",
+          "집안풍수",
+          "시니어",
+          "건강",
+          "건강정보",
+          "건강상식",
+          "시니어건강",
+          "시니어정보",
+          "집꾸미기",
+          "생활정보",
+          "living info",
+          "집안정리",
+          "현관풍수",
+          "침실풍수",
+          "거실인테리어",
+          "운이좋아지는집",
+          "재물운올리는법",
+          "풍수팁",
+          "집안운",
+          "셀프인테리어",
+          "생활풍수",
+          "중년라이프",
+          "인생다큐오늘"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "집안에 절대 두면 안 되는 풍수 12가지 🚪",
+          "description": "집안 풍수, 작은 것부터 바꿔보세요. \n현관, 침실, 거실에서 꼭 피해야 할 풍수 주의점 12가지를 알려드립니다. \n재물운과 건강운을 지키는 생활 속 풍수 인테리어 팁, 지금 바로 확인하고 우리 집 운을 챙겨보세요. \n\n#풍수 #집안풍수 #인테리어 #재물운 #생활정보"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT5S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "70300",
+        "likeCount": "99",
+        "favoriteCount": "0",
+        "commentCount": "3"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NkkWDQlCjpmDvYAWV-cDxvSDCf4",
+      "id": "vNH7J_1IqJA",
+      "snippet": {
+        "publishedAt": "2026-06-12T01:04:31Z",
+        "channelId": "UCtEVZXVo8ymUr_232dQrF9w",
+        "title": "택배 박스 '1초 컷' 해버리는 인테리어 오브제 가위 #꿀템#인테리어 #선물",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vNH7J_1IqJA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vNH7J_1IqJA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vNH7J_1IqJA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vNH7J_1IqJA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vNH7J_1IqJA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "streetlight_00",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "es",
+        "localized": {
+          "title": "택배 박스 '1초 컷' 해버리는 인테리어 오브제 가위 #꿀템#인테리어 #선물",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT9S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "31057",
+        "likeCount": "14",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "mz9fUCKau_dU3NWuGt8TJEitha0",
+      "id": "FjNC59SehqM",
+      "snippet": {
+        "publishedAt": "2026-06-13T19:48:01Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "매우 만족하는 틈새 인테리어 #인테리어",
+        "description": "매우 만족하는 틈새 인테리어 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FjNC59SehqM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FjNC59SehqM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FjNC59SehqM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FjNC59SehqM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/FjNC59SehqM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "매우 만족하는 틈새 인테리어 #인테리어",
+          "description": "매우 만족하는 틈새 인테리어 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "28182",
+        "likeCount": "596",
+        "favoriteCount": "0",
+        "commentCount": "22"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "TMmDbzyqab-EJgOO4yCkA-jamWE",
+      "id": "JewDFIqM3j8",
+      "snippet": {
+        "publishedAt": "2026-06-14T04:37:05Z",
+        "channelId": "UC9Qv4VO6oAFFLRuQBizQ0vw",
+        "title": "듣도보도 못한 화분이에요! #갤러리 #인테리어",
+        "description": "이거 하나만 세워놨을 뿐인데\n베란다가 카페처럼 바뀌어요🌿\n\n📌 프로필링크 1277번에서 확인할 수 있어요\n👉🏻 바로가기 : @home_design_note\n\n식물 좋아하시는 분들은 아실 거예요.\n\n예쁜 화분을 아무리 사도\n막상 모아두면 어수선해 보일 때가 있잖아요?😅\n\n결국 어디에 어떻게 배치하느냐가 더 중요하더라구요.\n\n그래서 요즘 식집사들 사이에서\n이런 이젤 화분 선반이 인기래요🌱\n\n✔️ 벽에 못 박을 필요 없이 세워두기만 하면 끝\n✔️ 벌집 모양 선반이라 공간 활용도 최고\n✔️ 다육이, 허브, 꽃까지 다양하게 연출 가능\n✔️ 계절마다 식물만 바꿔줘도 새로운 분위기 완성\n\n특히 베란다 한쪽에 두면\n마치 작은 식물원처럼 꾸밀 수 있어서\n보기만 해도 기분이 좋아져요🥰\n\n인테리어는 결국 큰 공사보다\n이런 작은 변화에서 완성되는 것 같아요.\n\n식물 좋아하신다면\n이건 한번쯤 욕심날 수밖에 없겠는데요?🌿\n\n📌 프로필링크 1277번에서 확인할 수 있어요\n👉🏻 바로가기 : @home_design_note\n\n#식물인테리어 #플랜테리어 #화분선반 #집꾸미기 #베란다인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JewDFIqM3j8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JewDFIqM3j8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JewDFIqM3j8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JewDFIqM3j8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JewDFIqM3j8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Home_Design_Note",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "듣도보도 못한 화분이에요! #갤러리 #인테리어",
+          "description": "이거 하나만 세워놨을 뿐인데\n베란다가 카페처럼 바뀌어요🌿\n\n📌 프로필링크 1277번에서 확인할 수 있어요\n👉🏻 바로가기 : @home_design_note\n\n식물 좋아하시는 분들은 아실 거예요.\n\n예쁜 화분을 아무리 사도\n막상 모아두면 어수선해 보일 때가 있잖아요?😅\n\n결국 어디에 어떻게 배치하느냐가 더 중요하더라구요.\n\n그래서 요즘 식집사들 사이에서\n이런 이젤 화분 선반이 인기래요🌱\n\n✔️ 벽에 못 박을 필요 없이 세워두기만 하면 끝\n✔️ 벌집 모양 선반이라 공간 활용도 최고\n✔️ 다육이, 허브, 꽃까지 다양하게 연출 가능\n✔️ 계절마다 식물만 바꿔줘도 새로운 분위기 완성\n\n특히 베란다 한쪽에 두면\n마치 작은 식물원처럼 꾸밀 수 있어서\n보기만 해도 기분이 좋아져요🥰\n\n인테리어는 결국 큰 공사보다\n이런 작은 변화에서 완성되는 것 같아요.\n\n식물 좋아하신다면\n이건 한번쯤 욕심날 수밖에 없겠는데요?🌿\n\n📌 프로필링크 1277번에서 확인할 수 있어요\n👉🏻 바로가기 : @home_design_note\n\n#식물인테리어 #플랜테리어 #화분선반 #집꾸미기 #베란다인테리어"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "32875",
+        "likeCount": "136",
+        "favoriteCount": "0",
+        "commentCount": "7"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ttrg3-g7FE3BYqzqTlMAbItznoA",
+      "id": "tFoK75bYCXc",
+      "snippet": {
+        "publishedAt": "2026-06-18T00:01:57Z",
+        "channelId": "UCoAwe568jJnFaOesF1AHYIg",
+        "title": "마음이 편안해지는 완벽한 타일 시공 과정 😌 #shorts",
+        "description": "전문가의 손길과 신박한 도구들이 만나 완성되는 깔끔한 타일 시공 현장입니다! 👷\u200d♂️\n\n전용 도구로 시멘트를 일정하게 펴 바르고, 진동 기계로 벽에 빈틈없이 밀착시키는 과정이 묘하게 빠져들지 않나요? 마지막에 클립으로 단차까지 딱 맞춰주는 완벽한 마무리까지, 끝까지 보면 마음이 편안해집니다.\n\n영상이 만족스러우셨다면 좋아요 한 번씩 부탁드려요! 👍\n\n#타일시공 #타일작업 #장비빨 #신박템 #만족스러운영상 #마음이편안해지는영상 #인테리어 #건축 #oddlysatisfying #shorts",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tFoK75bYCXc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tFoK75bYCXc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tFoK75bYCXc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tFoK75bYCXc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tFoK75bYCXc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠봐요",
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "마음이 편안해지는 완벽한 타일 시공 과정 😌 #shorts",
+          "description": "전문가의 손길과 신박한 도구들이 만나 완성되는 깔끔한 타일 시공 현장입니다! 👷\u200d♂️\n\n전용 도구로 시멘트를 일정하게 펴 바르고, 진동 기계로 벽에 빈틈없이 밀착시키는 과정이 묘하게 빠져들지 않나요? 마지막에 클립으로 단차까지 딱 맞춰주는 완벽한 마무리까지, 끝까지 보면 마음이 편안해집니다.\n\n영상이 만족스러우셨다면 좋아요 한 번씩 부탁드려요! 👍\n\n#타일시공 #타일작업 #장비빨 #신박템 #만족스러운영상 #마음이편안해지는영상 #인테리어 #건축 #oddlysatisfying #shorts"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT18S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "47990",
+        "likeCount": "45",
+        "favoriteCount": "0",
+        "commentCount": "23"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "szvzrVojMFxjrajWwBktEwdxoiE",
+      "id": "-AxC2l6hi84",
+      "snippet": {
+        "publishedAt": "2026-06-15T15:01:33Z",
+        "channelId": "UCjfIEMgeJnsLagF6p1PMHbg",
+        "title": "공간 활용 인테리어 이건 어떨까 #인테리어",
+        "description": "공간 활용 인테리어 이건 어떨까 #인테리어",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-AxC2l6hi84/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-AxC2l6hi84/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-AxC2l6hi84/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-AxC2l6hi84/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-AxC2l6hi84/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠방앗간",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "공간 활용 인테리어 이건 어떨까 #인테리어",
+          "description": "공간 활용 인테리어 이건 어떨까 #인테리어"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "BY",
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "23981",
+        "likeCount": "298",
+        "favoriteCount": "0",
+        "commentCount": "7"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 50,
+    "resultsPerPage": 50
+  }
+}

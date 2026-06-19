@@ -1,0 +1,1 @@
+..\bin\ffmpeg-8.1.1-full_build\bin\ffmpeg.exe -y -i .\uploads\jobs\0609095813_c04b2871\source.mp4 -vn -acodec libmp3lame -ar 44100 -ac 2 -b:a 192k .\uploads\jobs\0609095813_c04b2871\audio.mp3
