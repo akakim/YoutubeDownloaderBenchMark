@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev:frontend": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0",
+    "dev:frontend": "vite frontend --host 0.0.0.0",
+    "build": "vite frontend build",
+    "preview": "vite preview frontend --host 0.0.0.0",
     "dev:backend": "cross-env VERBOSE=true node ./backend/server.js",
     "dev:aiserver": "cd ai_server && uvicorn server:app --reload --host 0.0.0.0 --port 8000",
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:aiserver\""
