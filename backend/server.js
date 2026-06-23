@@ -17,17 +17,15 @@ const openaiConfig = JSON.parse(fs.readFileSync(openaiConfigPath, 'utf8'));
 
 
 const app = express();
-const port = 3000;
-
-
+const port = process.env.PORT ? process.env.PORT : 3000;
 // Enable CORS
-// app.use(cors({
-//   origin: process.env.NODE_ENV === 'production' 
-//     ? ['https://yourdomain.com', 'https://www.yourdomain.com']  // 운영 도메인
-//     : ['http://localhost:5173'],  // 개발 도메인
-//   methods: ['GET', 'POST'],
-//   credentials: true  // 필요 시 쿠키 허용
-// }));
+app.use(cors({
+  origin: process.env.NODE_ENV === 'production' 
+    ? ['https://yourdomain.com', 'https://www.yourdomain.com']  // 운영 도메인
+    : ['http://localhost:5173'],  // 개발 도메인
+  methods: ['GET', 'POST'],
+  credentials: true  // 필요 시 쿠키 허용
+}));
 
 // Use SSulFactoryAPI routes
 app.use('/api',express.json(), SSulFactoryRouter);

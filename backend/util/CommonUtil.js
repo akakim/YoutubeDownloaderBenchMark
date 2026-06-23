@@ -3,11 +3,11 @@ import v8 from "v8";
 import fs from 'fs';
 import path from 'path';
 
-export const updateMetadataStatus = async(jobId, status) => {
+export const updateMetadataStatus = async(jobDir,jobId, status) => {
   
-    const JOBS_DIR = path.join(process.cwd(), 'backend', 'uploads', 'jobs');
+    // const JOBS_DIR = path.join(process.cwd(), 'backend', 'uploads', 'jobs');
     const result = {};
-    const METADATA_PATH = path.join(JOBS_DIR, jobId, 'metadata.json');
+    const METADATA_PATH = path.join(jobDir, jobId, 'metadata.json');
     if (!fs.existsSync(METADATA_PATH)) {
         return {
             success: false,

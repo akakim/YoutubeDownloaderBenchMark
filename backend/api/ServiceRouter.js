@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import OpenAI from 'openai';
 import multer from 'multer';
+import { JOBS_DIR } from '../repository/VideoToTextRepository.js';
 import crypto from 'crypto';
 import fs from 'fs';
 import spawn from 'cross-spawn';
@@ -12,7 +13,7 @@ import { updateMetadataStatus } from '../util/CommonUtil.js';
 import { getFfmpegPath } from '../util/CommonUtil.js';
 
 const router = express.Router();
-const JOBS_DIR = path.join(process.cwd(), 'backend', 'uploads', 'jobs');
+// const JOBS_DIR = path.join(process.cwd(),'job');
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -68,17 +69,16 @@ const runFfmpeg = (sourceMp4Path, audioMp3Path) => {
 
 
 const convertMp4ToMp3 = async (jobId) => {
-  const jobDir = path.join(JOBS_DIR, jobId);
-  const metadataPath = path.join(jobDir, 'metadata.json');
-  const sourceMp4Path = path.join(jobDir, 'source.mp4');
-  const audioMp3Path = path.join(jobDir, 'audio.mp3');
+  const uploadedJobDir = path.join(JOBS_DIR,jobId);
+  const metadataPath = path.join(uploadedJobDir, 'metadata.json');
+  const sourceMp4Path = path.join(uploadedJobDir, 'source.mp4');
+  const audioMp3Path = path.join(uploadedJobDir, 'audio.mp3');
 
     let caughtError = null;
 
     fs.promises.access(sourceMp4Path)
       .then(() => { 
         runFfmpeg(sourceMp4Path, audioMp3Path)
-
         return "sourceMp4Path exists, ffmpeg conversion attempted";
       })
       .then((ffmpegResult) => {
@@ -99,7 +99,7 @@ const convertMp4ToMp3 = async (jobId) => {
       return {
         success: true,
         jobId,
-        jobDir,
+        uploadedJobDir,
         sourceMp4Path,
         audioMp3Path,
         metadataPath
@@ -211,14 +211,14 @@ router.post('/convertMp4ToMp3', async (req, res) => {
 
   const { jobId } = req.body;
 
-  const jobDir = path.join(JOBS_DIR, jobId);
+  const jobDir = JOBS_DIR;
   const sourceMp4Path = path.join(jobDir, 'source.mp4');
   const audioMp3Path = path.join(jobDir, 'audio.mp3');
 
   const convertResult = await convertMp4ToMp3(jobId);
   
 
-  const updateResult = await updateMetadataStatus(jobId, 'mp3_converted');
+  const updateResult = await updateMetadataStatus(jobDir, jobId, 'mp3_converted');
 
   v_logging({
     step: 'convert_mp4_to_mp3',
@@ -250,14 +250,14 @@ router.post('/convertMp4ToMp3', async (req, res) => {
 
   const { jobId } = req.body;
 
-  const jobDir = path.join(JOBS_DIR, jobId);
+  const jobDir = JOBS_DIR;
   const sourceMp4Path = path.join(jobDir, 'source.mp4');
   const audioMp3Path = path.join(jobDir, 'audio.mp3');
 
   const convertResult = await convertMp4ToMp3(jobId);
   
 
-  const updateResult = await updateMetadataStatus(jobId, 'mp3_converted');
+  const updateResult = await updateMetadataStatus(jobDir,jobId, 'mp3_converted');
 
   v_logging({
     step: 'convert_mp4_to_mp3',
@@ -307,7 +307,7 @@ router.post('/convertMp3ToSTT', async (req, res) => {
   await runFasterWhisper(audioMp3Path,srtPath,model,language)
    .then((sttResult) =>{
        console.log(sttResult); // Python의 print 결과
-       updateMetadataStatus(jobId,STATUS);
+       updateMetadataStatus(jobDir,jobId,STATUS);
        return res.json({
         success: true,
         jobId,

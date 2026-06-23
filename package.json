@@ -3,12 +3,13 @@
     "dev:frontend": "vite frontend --host 0.0.0.0",
     "build": "vite frontend build",
     "preview": "vite preview frontend --host 0.0.0.0",
-    "dev:backend": "cross-env VERBOSE=true node ./backend/server.js",
-    "dev:aiserver": "cd ai_server && uvicorn server:app --reload --host 0.0.0.0 --port 8000",
+    "dev:backend": "cross-env port=5174 VERBOSE=true node ./backend/server.js",
+    "dev:aiserver": "cd ai_server && uvicorn server:app --reload --host 0.0.0.0 --port 5175",
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:aiserver\""
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
+    "axios": "^1.18.0",
     "concurrently": "^10.0.3",
     "cors": "^2.8.6",
     "express": "^5.2.1",

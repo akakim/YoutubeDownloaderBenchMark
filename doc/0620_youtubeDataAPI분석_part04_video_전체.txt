@@ -1,0 +1,3683 @@
+request:
+
+https://www.googleapis.com/youtube/v3/videos?
+part=snippet%2C
+statistics%2C
+contentDetails&
+id=3-pZNGeSdvk%2CV4S5V7My-WA%2C
+-6QonV2BryM%2C
+5b-pLdLS6ec%2Cb6lkHXP82oY%2C
+bUz_SShq_pg%2CU9WPZ6U9sVo%2C80ppOODdpw4%2Cyh5tX2eUMsQ%2CM7dn5NhLOkc%2C2SJqA_hT1Cc%2CinxT8SX6rwY%2CJ1gGO7-_JTc%2CMvFkUiC6ExI%2COS0VMKdqG3E%2CjzwdZw7mE7Q%2CelKWSxOmZxY%2Cp8TS81ZmiS8%2C406DBZMz1B0%2C9MEVjf5_a9M%2CgWolxcI4QbM%2C5Ek9cfJSkWA%2ClzAzszgRHaQ%2CgDKUPlFqe1A%2CmQgBxuJmCXE%2CF0IusuWB9ZI%2CZdB3dIwI9Do%2CrPGC8AItzRo%2C83in0b-BJZk%2CCwXi6upuAiE%2CHrlIWuxwSJo%2Cl6nwEJNPc0M%2CBuz2-ICuQHg%2CfX7emT9ACpY%2CrnLnO4heT4s%2C4lwpcQ6WGF8%2CVnBQ-uy1B6c%2CPmVPsbD8LeA%2CgkMg6MdO15E%2CSZJ52BKddOk%2C_4ibPYSV7R4%2CD46KMnhvdaA%2Cs_3RoQea-Ho%2CRPHmEqob9RY%2C70fsku8g5Zs%2CnOhA0Iky7gg%2C8WreEuL_M5Y%2C2dL4yLrZtnI%2CmoqYpIN6fQo&key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
+
+response
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "gKnvNvmEB_XmZVE91SXKZZ6Mbl4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "SW4x-CiTIZL2zynCwEtB-z8Rqew",
+      "id": "3-pZNGeSdvk",
+      "snippet": {
+        "publishedAt": "2026-06-20T09:00:26Z",
+        "channelId": "UCYrojLqFhc_Nq1c8k4U17ag",
+        "title": "#웃긴영상 #웃긴짤 #예능 #일상 #영상 #쇼츠 #shorts #이민정",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3-pZNGeSdvk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3-pZNGeSdvk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3-pZNGeSdvk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3-pZNGeSdvk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3-pZNGeSdvk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이건뭐?",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "#웃긴영상 #웃긴짤 #예능 #일상 #영상 #쇼츠 #shorts #이민정",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT33S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "3548",
+        "likeCount": "46",
+        "favoriteCount": "0",
+        "commentCount": "2"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "G6YwoDe8upwireI6JoLxE-5-6H0",
+      "id": "V4S5V7My-WA",
+      "snippet": {
+        "publishedAt": "2026-06-16T21:00:16Z",
+        "channelId": "UCpemp5ADB72jHMQuxX9ALcQ",
+        "title": "아기 강아지 애교가 레벨업 하면 생기는 일 #강아지 #쇼츠",
+        "description": "#강아지 #쇼츠 #shorts #포메라니안 #개 #puppy #힐링 #귀여운 #cat #rabbit #고양이 #토끼 #동물영상",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V4S5V7My-WA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V4S5V7My-WA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V4S5V7My-WA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/V4S5V7My-WA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/V4S5V7My-WA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HEART SPOON",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "아기 강아지 애교가 레벨업 하면 생기는 일 #강아지 #쇼츠",
+          "description": "#강아지 #쇼츠 #shorts #포메라니안 #개 #puppy #힐링 #귀여운 #cat #rabbit #고양이 #토끼 #동물영상"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT10S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "28535",
+        "likeCount": "278",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7Oq7dNWsmzUbIW586N3Kuq9xsS0",
+      "id": "-6QonV2BryM",
+      "snippet": {
+        "publishedAt": "2026-06-18T08:15:33Z",
+        "channelId": "UCvTxRVOBcQxXqnzj-cut0GA",
+        "title": "살쪘다고 욕먹은 혜리 근황#쇼츠  #이슈",
+        "description": "#이슈 #유튜브 #유머 #SNS #혜리\n최근 팬미팅에서 오랜만에 걸스데이 무대를 선보인 혜리.\n하지만 한 원피스 때문에 갑자기 '뱃살 논란'이 불거졌고,\n일부에서는 프로답지 못하다는 반응까지 나왔습니다.\n이에 혜리는\n\"왜 꼭 날씬해야 프로 같은 건지는 모르겠다\" 고 말했는데요.\n여러분은 가수를 체중으로 평가하는 문화에 대해 어떻게 생각하시나요?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-6QonV2BryM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-6QonV2BryM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-6QonV2BryM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-6QonV2BryM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-6QonV2BryM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "결말뭐지",
+        "tags": [
+          "유튜브",
+          "SNS",
+          "유행",
+          "이슈",
+          "뉴스",
+          "유머",
+          "쇼츠",
+          "shorts",
+          "혜리",
+          "혜리뱃살",
+          "살찐혜리",
+          "뱃살혜리",
+          "혜리팬미팅"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "살쪘다고 욕먹은 혜리 근황#쇼츠  #이슈",
+          "description": "#이슈 #유튜브 #유머 #SNS #혜리\n최근 팬미팅에서 오랜만에 걸스데이 무대를 선보인 혜리.\n하지만 한 원피스 때문에 갑자기 '뱃살 논란'이 불거졌고,\n일부에서는 프로답지 못하다는 반응까지 나왔습니다.\n이에 혜리는\n\"왜 꼭 날씬해야 프로 같은 건지는 모르겠다\" 고 말했는데요.\n여러분은 가수를 체중으로 평가하는 문화에 대해 어떻게 생각하시나요?"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "331207",
+        "likeCount": "1202",
+        "favoriteCount": "0",
+        "commentCount": "839"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "wSax822Qec4Iu09V20XGoQlVzio",
+      "id": "5b-pLdLS6ec",
+      "snippet": {
+        "publishedAt": "2026-06-20T11:14:27Z",
+        "channelId": "UCI2w5AVqzskpxxy025I755A",
+        "title": "살아 움직이는 베개?! 😱 #장난 #코믹영상 #유머 #쇼츠",
+        "description": "보이는 게 다가 아니에요. 이 장난 영상을 끝까지 확인해보세요!\n\n이 영상은 오락 목적으로 제작된 연출된 장난 영상입니다. 타인에게 피해나 불쾌감을 줄 수 있는 행동은 따라 하지 마세요.\n\n#장난 #코믹영상 #유머 #쇼츠",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5b-pLdLS6ec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5b-pLdLS6ec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5b-pLdLS6ec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5b-pLdLS6ec/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5b-pLdLS6ec/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Pongpan",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "살아 움직이는 베개?! 😱 #장난 #코믹영상 #유머 #쇼츠",
+          "description": "보이는 게 다가 아니에요. 이 장난 영상을 끝까지 확인해보세요!\n\n이 영상은 오락 목적으로 제작된 연출된 장난 영상입니다. 타인에게 피해나 불쾌감을 줄 수 있는 행동은 따라 하지 마세요.\n\n#장난 #코믹영상 #유머 #쇼츠"
+        },
+        "defaultAudioLanguage": "fil"
+      },
+      "contentDetails": {
+        "duration": "PT22S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "3091",
+        "likeCount": "18",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fzeRSxBfwyTDB2vMt9bylxjMZEo",
+      "id": "b6lkHXP82oY",
+      "snippet": {
+        "publishedAt": "2026-06-20T09:30:21Z",
+        "channelId": "UComhAmtkBwTPF_PvwN8Gc6w",
+        "title": "사직구장 없애고 돔 구장 새로? 전재수 직격한 서지영 #쇼츠 #사직구장 #롯데자이언츠 #전재수 #서지영",
+        "description": "#쇼츠 #사직구장 #롯데자이언츠 #전재수 #서지영",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b6lkHXP82oY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b6lkHXP82oY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b6lkHXP82oY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/b6lkHXP82oY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/b6lkHXP82oY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OBS뉴스",
+        "tags": [
+          "obs",
+          "obs news",
+          "오비에스",
+          "오비에스 뉴스",
+          "obs 뉴스",
+          "경인방송",
+          "지상파",
+          "경인",
+          "뉴스오늘",
+          "경인티비",
+          "730",
+          "530",
+          "1030",
+          "뉴스경인",
+          "월드뉴스",
+          "오늘의 월드뉴스",
+          "국민의힘",
+          "더불어민주당",
+          "민주당",
+          "국힘",
+          "총선",
+          "개혁신당",
+          "윤석열",
+          "김건희",
+          "이재명",
+          "김혜경",
+          "한동훈",
+          "대표",
+          "위원장",
+          "이준석",
+          "국회",
+          "대통령실",
+          "용산",
+          "여의도",
+          "국회의원",
+          "공천",
+          "위성정당",
+          "쇼츠",
+          "정치",
+          "유튜브",
+          "사건",
+          "사고",
+          "축구",
+          "웃긴영상",
+          "세계",
+          "소식",
+          "시사",
+          "경찰",
+          "검찰",
+          "진보",
+          "중도",
+          "보수",
+          "short",
+          "라디오",
+          "99.9",
+          "TV",
+          "조국"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "사직구장 없애고 돔 구장 새로? 전재수 직격한 서지영 #쇼츠 #사직구장 #롯데자이언츠 #전재수 #서지영",
+          "description": "#쇼츠 #사직구장 #롯데자이언츠 #전재수 #서지영"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT46S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2562",
+        "likeCount": "181",
+        "favoriteCount": "0",
+        "commentCount": "25"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fDeFYoe7V8GCr612pDFZ4cUbVMs",
+      "id": "bUz_SShq_pg",
+      "snippet": {
+        "publishedAt": "2026-06-16T06:27:15Z",
+        "channelId": "UC80kagSjR3eOUD3HNuj5mgw",
+        "title": "실제 충돌사고였던 마동석 비하인드 #쇼츠 #영화",
+        "description": "영화 〈동네사람들〉 촬영 중 벌어진 실제 충돌 장면.\n\n가볍게 부딪히는 장면이었지만 거리 조절에 실패하면서 촬영이 잠시 중단됐고, 상대 배우는 병원에서 검사를 받았다고 합니다. 다행히 큰 이상은 없었다고 하네요.\n\n#마동석 #동네사람들 #영화비하인드 #촬영비하인드 #영화명장면 #한국영화 #영화쇼츠 #배우비하인드 #촬영현장 #쇼츠",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bUz_SShq_pg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bUz_SShq_pg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bUz_SShq_pg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bUz_SShq_pg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bUz_SShq_pg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "한컷순삭",
+        "tags": [
+          "#쇼츠",
+          "#애드립",
+          "#비하인드",
+          "#영화",
+          "#드라마",
+          "#마동석",
+          "#반전",
+          "#웃긴영상",
+          "#레전드",
+          "#학교"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "실제 충돌사고였던 마동석 비하인드 #쇼츠 #영화",
+          "description": "영화 〈동네사람들〉 촬영 중 벌어진 실제 충돌 장면.\n\n가볍게 부딪히는 장면이었지만 거리 조절에 실패하면서 촬영이 잠시 중단됐고, 상대 배우는 병원에서 검사를 받았다고 합니다. 다행히 큰 이상은 없었다고 하네요.\n\n#마동석 #동네사람들 #영화비하인드 #촬영비하인드 #영화명장면 #한국영화 #영화쇼츠 #배우비하인드 #촬영현장 #쇼츠"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT20S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "32043",
+        "likeCount": "69",
+        "favoriteCount": "0",
+        "commentCount": "5"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "RQIqdNddUjineoLyLWWg-y-WMHI",
+      "id": "U9WPZ6U9sVo",
+      "snippet": {
+        "publishedAt": "2026-06-12T01:17:24Z",
+        "channelId": "UCDQqIkmzmljnkMDyWxMX7Ig",
+        "title": "의외로 사람들이 모르는 연예인 커플들! #이슈 #연예인 #쇼츠",
+        "description": "의외로 사람들이 잘 몰랐던 연예인 커플들을 소개하는 영상입니다!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U9WPZ6U9sVo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U9WPZ6U9sVo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U9WPZ6U9sVo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/U9WPZ6U9sVo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/U9WPZ6U9sVo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이해불가 | 연예계 이슈",
+        "tags": [
+          "#핫이슈",
+          "#쇼츠",
+          "#열애설",
+          "#연예인커플"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "의외로 사람들이 모르는 연예인 커플들! #이슈 #연예인 #쇼츠",
+          "description": "의외로 사람들이 잘 몰랐던 연예인 커플들을 소개하는 영상입니다!"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1545586",
+        "likeCount": "28657",
+        "favoriteCount": "0",
+        "commentCount": "190"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "GhQN933pOHfTz1yClrOTLP6iIHc",
+      "id": "80ppOODdpw4",
+      "snippet": {
+        "publishedAt": "2026-06-15T05:21:19Z",
+        "channelId": "UComhAmtkBwTPF_PvwN8Gc6w",
+        "title": "토론회서 놀라운 발언 꺼낸 신동욱 #쇼츠 #신동욱 #MBC #공영방송 #토론회",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/80ppOODdpw4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/80ppOODdpw4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/80ppOODdpw4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/80ppOODdpw4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/80ppOODdpw4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OBS뉴스",
+        "tags": [
+          "obs",
+          "obs news",
+          "오비에스",
+          "오비에스 뉴스",
+          "obs 뉴스",
+          "경인방송",
+          "지상파",
+          "경인",
+          "뉴스오늘",
+          "경인티비",
+          "730",
+          "530",
+          "1030",
+          "뉴스경인",
+          "월드뉴스",
+          "오늘의 월드뉴스",
+          "국민의힘",
+          "더불어민주당",
+          "민주당",
+          "국힘",
+          "총선",
+          "개혁신당",
+          "윤석열",
+          "김건희",
+          "이재명",
+          "김혜경",
+          "한동훈",
+          "대표",
+          "위원장",
+          "이준석",
+          "국회",
+          "대통령실",
+          "용산",
+          "여의도",
+          "국회의원",
+          "공천",
+          "위성정당",
+          "쇼츠",
+          "정치",
+          "유튜브",
+          "사건",
+          "사고",
+          "축구",
+          "웃긴영상",
+          "세계",
+          "소식",
+          "시사",
+          "경찰",
+          "검찰",
+          "진보",
+          "중도",
+          "보수",
+          "short",
+          "라디오",
+          "99.9",
+          "TV",
+          "조국"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "토론회서 놀라운 발언 꺼낸 신동욱 #쇼츠 #신동욱 #MBC #공영방송 #토론회",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT46S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "198975",
+        "likeCount": "13184",
+        "favoriteCount": "0",
+        "commentCount": "1097"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "2EXWRiQwG2RDyokvh1vWbeK-DBk",
+      "id": "yh5tX2eUMsQ",
+      "snippet": {
+        "publishedAt": "2026-06-17T07:06:35Z",
+        "channelId": "UC8FIdgC8Qwg3ixakwxKEANA",
+        "title": "짝사랑의 현실을 보여주는 한국 반전 광고ㅋㅋㅋㅋ #쇼츠 #광고",
+        "description": "포기하지 않고 계속 진심을 전했던 경표.\n이번에는 마음을 받아주나 싶었지만, 현실은 역시 쉽지 않네요ㅋㅋㅋ\n\n출처: 와키윌리(Wacky WiLLy) 광고\n제작: 돌고래유괴단\n\n#쇼츠 #유튜브쇼츠 #광고 #한국광고 #반전광고 #웃긴광고 #병맛광고 #고경표",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yh5tX2eUMsQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yh5tX2eUMsQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yh5tX2eUMsQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yh5tX2eUMsQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/yh5tX2eUMsQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이슈셔틀",
+        "tags": [
+          "#쇼츠",
+          "#애드립",
+          "#영화",
+          "#드라마",
+          "#반전",
+          "#학생",
+          "#첫사랑",
+          "#광고",
+          "#웃긴영상",
+          "#병맛"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "짝사랑의 현실을 보여주는 한국 반전 광고ㅋㅋㅋㅋ #쇼츠 #광고",
+          "description": "포기하지 않고 계속 진심을 전했던 경표.\n이번에는 마음을 받아주나 싶었지만, 현실은 역시 쉽지 않네요ㅋㅋㅋ\n\n출처: 와키윌리(Wacky WiLLy) 광고\n제작: 돌고래유괴단\n\n#쇼츠 #유튜브쇼츠 #광고 #한국광고 #반전광고 #웃긴광고 #병맛광고 #고경표"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT47S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "28869",
+        "likeCount": "415",
+        "favoriteCount": "0",
+        "commentCount": "3"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "nhA3ayKW2NREkYrT5zwkoSOCkw8",
+      "id": "M7dn5NhLOkc",
+      "snippet": {
+        "publishedAt": "2026-06-20T11:00:25Z",
+        "channelId": "UCvTxRVOBcQxXqnzj-cut0GA",
+        "title": "결혼하고 살쪘다고 임신설?? #쇼츠",
+        "description": "#이슈 #유튜브 #유머 #SNS #에일리#에일리임신\n\n최근 축제 무대에 오른 에일리가 배를 감싸는 듯한 동작으로 인해 임신설에 휩싸였습니다.\n특히 시험관 시술 과정을 공개하며 2세를 준비 중이라는 사실이 알려져 많은 축하가 이어졌는데요.\n하지만 에일리 측은 임신설이 사실이 아니라고 밝혔으며, 기쁜 소식이 생기면 직접 알리겠다고 전했습니다.\n여러분은 어떻게 보셨나요?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M7dn5NhLOkc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M7dn5NhLOkc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M7dn5NhLOkc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/M7dn5NhLOkc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/M7dn5NhLOkc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "결말뭐지",
+        "tags": [
+          "유튜브",
+          "SNS",
+          "유행",
+          "이슈",
+          "뉴스",
+          "유머",
+          "쇼츠",
+          "shorts",
+          "에일리",
+          "에일리임신",
+          "임신",
+          "에일리임신설",
+          "에일리남편"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "결혼하고 살쪘다고 임신설?? #쇼츠",
+          "description": "#이슈 #유튜브 #유머 #SNS #에일리#에일리임신\n\n최근 축제 무대에 오른 에일리가 배를 감싸는 듯한 동작으로 인해 임신설에 휩싸였습니다.\n특히 시험관 시술 과정을 공개하며 2세를 준비 중이라는 사실이 알려져 많은 축하가 이어졌는데요.\n하지만 에일리 측은 임신설이 사실이 아니라고 밝혔으며, 기쁜 소식이 생기면 직접 알리겠다고 전했습니다.\n여러분은 어떻게 보셨나요?"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT26S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "3987",
+        "likeCount": "11",
+        "favoriteCount": "0",
+        "commentCount": "5"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "C2v_b0g-m-UBX-9PHF4plrDIrDc",
+      "id": "2SJqA_hT1Cc",
+      "snippet": {
+        "publishedAt": "2026-06-17T12:44:12Z",
+        "channelId": "UCa74Uywoar4a79HNVKl3JBg",
+        "title": "#한국바이럴 #웃긴영상 #코미디 #꿀잼 #유튜브쇼츠 #쇼츠 #바이럴 #트렌드 #재미 #웃음#웃긴영상#개그#코미디#웃음#재미#꿀잼#웃겨요#유튜브#유튜브쇼츠#쇼츠#숏츠#영상추천",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2SJqA_hT1Cc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2SJqA_hT1Cc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2SJqA_hT1Cc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2SJqA_hT1Cc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2SJqA_hT1Cc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Village Entertainment 2.0.2",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "#한국바이럴 #웃긴영상 #코미디 #꿀잼 #유튜브쇼츠 #쇼츠 #바이럴 #트렌드 #재미 #웃음#웃긴영상#개그#코미디#웃음#재미#꿀잼#웃겨요#유튜브#유튜브쇼츠#쇼츠#숏츠#영상추천",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT16S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "88596",
+        "likeCount": "189",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "qYAf5-5-nVJ547fPgLncPPPifN4",
+      "id": "inxT8SX6rwY",
+      "snippet": {
+        "publishedAt": "2026-06-20T11:15:30Z",
+        "channelId": "UC_GCZcas2r-E5Llw-qcs-xA",
+        "title": "피임약 먹었는데 어떻게 임신? #쇼츠#애니메이션#상황극#부부#참교육#반전#임신",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/inxT8SX6rwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/inxT8SX6rwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/inxT8SX6rwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/inxT8SX6rwY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/inxT8SX6rwY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "툰클리닉",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "피임약 먹었는데 어떻게 임신? #쇼츠#애니메이션#상황극#부부#참교육#반전#임신",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT51S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2435",
+        "likeCount": "31",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Lx4-0ruPLWM-JfNPnbIsCmA-Oks",
+      "id": "J1gGO7-_JTc",
+      "snippet": {
+        "publishedAt": "2026-06-20T13:59:57Z",
+        "channelId": "UC8MWD_uoT_3ISZNO3hwk91g",
+        "title": "핸드폰이 없었으면 좋겠다는 관객의 충격 발언 #쇼츠 #shorts",
+        "description": "💛 예능킹 한줄 💛\n🔹가장 중요한 건 손 안의 기계가 아니라 곁의 사람일 수 있다!\n\n무인도에 이상형과 핸드폰 중에서 하나만 가져갈 수 있다면\n와이프를 데려가겠다는 관객\n그런데 \"핸드폰이 없었으면 좋겠다\"는 말에\n이상준의 예상치 못한 의심에 객석이 웃음 바다가 된 순간입니다.\n무인도에 가져갈 것을 고민하다 보면...\n평소 소중한 것이 보이겠죠?\n\n\n\n#이상준 #이상준쇼 #standupcomedy #스탠드업코미디 #shorts",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J1gGO7-_JTc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J1gGO7-_JTc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J1gGO7-_JTc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/J1gGO7-_JTc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/J1gGO7-_JTc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "예능킹",
+        "tags": [
+          "예능",
+          "예능클립",
+          "쇼츠",
+          "바이럴",
+          "코미디",
+          "웃긴영상",
+          "예능킹",
+          "예능KING",
+          "예능레전드",
+          "순발력레전드",
+          "티키타카",
+          "입담폭발",
+          "상황극",
+          "comedy",
+          "kcomedy",
+          "kvariety",
+          "fun",
+          "funny",
+          "funnyclip",
+          "legendmoment",
+          "viral",
+          "banter",
+          "comedytalk",
+          "shorts",
+          "이상준",
+          "이상준쇼",
+          "스탠드업코미디",
+          "standupcomedy"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "핸드폰이 없었으면 좋겠다는 관객의 충격 발언 #쇼츠 #shorts",
+          "description": "💛 예능킹 한줄 💛\n🔹가장 중요한 건 손 안의 기계가 아니라 곁의 사람일 수 있다!\n\n무인도에 이상형과 핸드폰 중에서 하나만 가져갈 수 있다면\n와이프를 데려가겠다는 관객\n그런데 \"핸드폰이 없었으면 좋겠다\"는 말에\n이상준의 예상치 못한 의심에 객석이 웃음 바다가 된 순간입니다.\n무인도에 가져갈 것을 고민하다 보면...\n평소 소중한 것이 보이겠죠?\n\n\n\n#이상준 #이상준쇼 #standupcomedy #스탠드업코미디 #shorts"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1093",
+        "likeCount": "16",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "cW83Js1hTefb3Uxk3KEdH3lgyoA",
+      "id": "MvFkUiC6ExI",
+      "snippet": {
+        "publishedAt": "2026-06-14T11:00:15Z",
+        "channelId": "UCN8KI6dSzxtYgX6euaaPG7A",
+        "title": "무중력에서 물을 함부로 마시면 생기는 일 #쇼츠애니 #쇼츠",
+        "description": "무중력 상태에서는 물도 지구처럼 아래로 떨어지지 않습니다.\n물방울은 서로 뭉쳐 커다란 물덩어리가 되고, 표면장력 때문에 얼굴이나 주변 물체에 달라붙을 수 있어요.\n\n우주에서는 물 한 방울도 귀한 자원이라, 함부로 버리면 안 됩니다\n#우주 #무중력 #표면장력 #물방울 #우주생활 #우주과학 #과학상식 #과학쇼츠 #애니메이션 #재미있는과학 #우주에서물마시기 #물의원리 #쇼츠",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MvFkUiC6ExI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MvFkUiC6ExI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MvFkUiC6ExI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MvFkUiC6ExI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MvFkUiC6ExI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "모모리툰",
+        "tags": [
+          "short",
+          "애니",
+          "피식",
+          "우주",
+          "무중력",
+          "표면장력",
+          "물방울",
+          "우주생활",
+          "과학쇼츠",
+          "재미있는과학"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "무중력에서 물을 함부로 마시면 생기는 일 #쇼츠애니 #쇼츠",
+          "description": "무중력 상태에서는 물도 지구처럼 아래로 떨어지지 않습니다.\n물방울은 서로 뭉쳐 커다란 물덩어리가 되고, 표면장력 때문에 얼굴이나 주변 물체에 달라붙을 수 있어요.\n\n우주에서는 물 한 방울도 귀한 자원이라, 함부로 버리면 안 됩니다\n#우주 #무중력 #표면장력 #물방울 #우주생활 #우주과학 #과학상식 #과학쇼츠 #애니메이션 #재미있는과학 #우주에서물마시기 #물의원리 #쇼츠"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M4S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "34318",
+        "likeCount": "324",
+        "favoriteCount": "0",
+        "commentCount": "9"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "xcpi8RfgluT577IkiiypJJR_Zfk",
+      "id": "OS0VMKdqG3E",
+      "snippet": {
+        "publishedAt": "2026-06-19T12:00:18Z",
+        "channelId": "UC9OGC-I-pI-W9AphDPyU1nQ",
+        "title": "강이지 털 안버리는 이유 #쇼츠 #강아지 #diy",
+        "description": "강아지 털을 안버리는 이유! 바로 이 액자를 만들기 위해! \n\n#쇼츠 #강아지 #강아지일상 #강아지브이로그 #diy #만들기",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OS0VMKdqG3E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OS0VMKdqG3E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OS0VMKdqG3E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OS0VMKdqG3E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OS0VMKdqG3E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "IMIM 아임아임 스토어",
+        "tags": [
+          "쇼츠",
+          "웃긴 쇼츠",
+          "강아지",
+          "댕댕이",
+          "반려동물",
+          "diy",
+          "만들기"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "강이지 털 안버리는 이유 #쇼츠 #강아지 #diy",
+          "description": "강아지 털을 안버리는 이유! 바로 이 액자를 만들기 위해! \n\n#쇼츠 #강아지 #강아지일상 #강아지브이로그 #diy #만들기"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "22535",
+        "likeCount": "81",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "G5azIV1jDpXyjgnb1YIB3b-WcR8",
+      "id": "jzwdZw7mE7Q",
+      "snippet": {
+        "publishedAt": "2026-06-13T10:45:20Z",
+        "channelId": "UCpemp5ADB72jHMQuxX9ALcQ",
+        "title": "이 작은 꼬물이가 보여준 기적 #short #동물 #귀여운",
+        "description": "이 작은 꼬물이가 보여준 기적\n#쇼츠 #강아지 #귀여운 #날다람쥐 #다람쥐 #고양이 #동물 #shorts #힐링 #puppy",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jzwdZw7mE7Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jzwdZw7mE7Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jzwdZw7mE7Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/jzwdZw7mE7Q/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/jzwdZw7mE7Q/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "HEART SPOON",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "이 작은 꼬물이가 보여준 기적 #short #동물 #귀여운",
+          "description": "이 작은 꼬물이가 보여준 기적\n#쇼츠 #강아지 #귀여운 #날다람쥐 #다람쥐 #고양이 #동물 #shorts #힐링 #puppy"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT25S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "8993",
+        "likeCount": "84",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "swuUTmFN4GHzT56ugNFjqATfO6U",
+      "id": "elKWSxOmZxY",
+      "snippet": {
+        "publishedAt": "2026-06-17T07:03:32Z",
+        "channelId": "UComhAmtkBwTPF_PvwN8Gc6w",
+        "title": "이진숙 '살벌' #쇼츠 #이진숙 #송석준 #국민의힘 #돌발행동",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/elKWSxOmZxY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/elKWSxOmZxY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/elKWSxOmZxY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/elKWSxOmZxY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/elKWSxOmZxY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OBS뉴스",
+        "tags": [
+          "obs",
+          "obs news",
+          "오비에스",
+          "오비에스 뉴스",
+          "obs 뉴스",
+          "경인방송",
+          "지상파",
+          "경인",
+          "뉴스오늘",
+          "경인티비",
+          "730",
+          "530",
+          "1030",
+          "뉴스경인",
+          "월드뉴스",
+          "오늘의 월드뉴스",
+          "국민의힘",
+          "더불어민주당",
+          "민주당",
+          "국힘",
+          "총선",
+          "개혁신당",
+          "윤석열",
+          "김건희",
+          "이재명",
+          "김혜경",
+          "한동훈",
+          "대표",
+          "위원장",
+          "이준석",
+          "국회",
+          "대통령실",
+          "용산",
+          "여의도",
+          "국회의원",
+          "공천",
+          "위성정당",
+          "쇼츠",
+          "정치",
+          "유튜브",
+          "사건",
+          "사고",
+          "축구",
+          "웃긴영상",
+          "세계",
+          "소식",
+          "시사",
+          "경찰",
+          "검찰",
+          "진보",
+          "중도",
+          "보수",
+          "short",
+          "라디오",
+          "99.9",
+          "TV",
+          "조국"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "이진숙 '살벌' #쇼츠 #이진숙 #송석준 #국민의힘 #돌발행동",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT46S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "157306",
+        "likeCount": "3394",
+        "favoriteCount": "0",
+        "commentCount": "1127"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "aPPoFi3W2xl0DGKpfzTVWNaUo9A",
+      "id": "p8TS81ZmiS8",
+      "snippet": {
+        "publishedAt": "2026-06-20T04:15:19Z",
+        "channelId": "UC2EVrqB3IbCy7hybwSX55PA",
+        "title": "몸이 먼저 반응한 아빠의 힘 #쇼츠 #shorts #힐링영상 #감동 #육아 #감동쇼츠",
+        "description": "몸이 먼저 반응한 아빠 #쇼츠 #shorts #힐링영상 #감동 #육아 #감동쇼츠",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p8TS81ZmiS8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p8TS81ZmiS8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p8TS81ZmiS8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/p8TS81ZmiS8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/p8TS81ZmiS8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쇼츠폭탄",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "몸이 먼저 반응한 아빠의 힘 #쇼츠 #shorts #힐링영상 #감동 #육아 #감동쇼츠",
+          "description": "몸이 먼저 반응한 아빠 #쇼츠 #shorts #힐링영상 #감동 #육아 #감동쇼츠"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1249",
+        "likeCount": "11",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "tn8_oT3aPs9JtvHMXy39GHZCsBY",
+      "id": "406DBZMz1B0",
+      "snippet": {
+        "publishedAt": "2026-06-14T08:15:06Z",
+        "channelId": "UCldlevZ_84IKvXVPiv56oMQ",
+        "title": "참교육 쪽수믿고 덤비는 강아치들 #참교육 #깝ㄴㄴ #shorts #쇼츠 #동물쇼츠 #강아지",
+        "description": "와.. 이걸 덤비네;;;; #shorts #쇼츠 #동물쇼츠 #강아지 #참교육 #도베르만",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/406DBZMz1B0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/406DBZMz1B0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/406DBZMz1B0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/406DBZMz1B0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/406DBZMz1B0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "귀여워하는건본능인듯",
+        "tags": [
+          "#shorts",
+          "#쇼츠",
+          "#동물쇼츠",
+          "#강아지",
+          "#참교육"
+        ],
+        "categoryId": "15",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "참교육 쪽수믿고 덤비는 강아치들 #참교육 #깝ㄴㄴ #shorts #쇼츠 #동물쇼츠 #강아지",
+          "description": "와.. 이걸 덤비네;;;; #shorts #쇼츠 #동물쇼츠 #강아지 #참교육 #도베르만"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT18S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2178923",
+        "likeCount": "6147",
+        "favoriteCount": "0",
+        "commentCount": "328"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1RdAweU5VIMwvO_t9q2CFn2lhss",
+      "id": "9MEVjf5_a9M",
+      "snippet": {
+        "publishedAt": "2026-06-20T09:45:24Z",
+        "channelId": "UCw__bhd8AacTkwF5TpCbItg",
+        "title": "맞벌이 아들한테서 매달 오는 전화가 충격입니다 #사연팡 #쇼츠 #korean",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9MEVjf5_a9M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9MEVjf5_a9M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9MEVjf5_a9M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9MEVjf5_a9M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9MEVjf5_a9M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "사연팡 • 시청자 사연라디오",
+        "tags": [
+          "사연팡",
+          "시청자사연라디오",
+          "반전사연",
+          "사이다사연",
+          "감동사연",
+          "실화사연",
+          "신청사연",
+          "사연읽어주는",
+          "오디오북",
+          "라디오드라마"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "맞벌이 아들한테서 매달 오는 전화가 충격입니다 #사연팡 #쇼츠 #korean",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT1M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1174",
+        "likeCount": "26",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ctBKzljP7Sjc1uxe7F3n-7K2-JY",
+      "id": "gWolxcI4QbM",
+      "snippet": {
+        "publishedAt": "2026-06-15T12:00:05Z",
+        "channelId": "UCN8KI6dSzxtYgX6euaaPG7A",
+        "title": "파리 아빠의 식사 교육이 너무 충격적이다ㅋㅋ #쇼츠 #쇼츠애니",
+        "description": "파리는 우리처럼 음식을 씹어 먹지 못합니다.\n대신 소화액을 뿜어 음식을 녹인 뒤, 걸쭉해진 액체를 빨아먹는 방식으로 먹이를 섭취하죠.\n\n그래서 음식 위에 파리가 앉는 장면이 단순히 “잠깐 앉았다”가 아닐 수도 있습니다…\n이번 영상은 파리의 독특한 식사 방식을 코믹하게 풀어낸 짧은 애니메이션입니다.\n\n#파리 #곤충 #과학상식 #웃긴영상  #애니메이션 #생물상식",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gWolxcI4QbM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gWolxcI4QbM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gWolxcI4QbM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gWolxcI4QbM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gWolxcI4QbM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "모모리툰",
+        "tags": [
+          "애니",
+          "피식",
+          "파리",
+          "파리 먹는 법",
+          "파리 소화액",
+          "파리 음식",
+          "곤충 상식",
+          "생물 상식",
+          "과학 상식",
+          "케이크 파리",
+          "병맛 애니",
+          "코믹 애니",
+          "파리 위생",
+          "음식 위생",
+          "벌레 상식"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "파리 아빠의 식사 교육이 너무 충격적이다ㅋㅋ #쇼츠 #쇼츠애니",
+          "description": "파리는 우리처럼 음식을 씹어 먹지 못합니다.\n대신 소화액을 뿜어 음식을 녹인 뒤, 걸쭉해진 액체를 빨아먹는 방식으로 먹이를 섭취하죠.\n\n그래서 음식 위에 파리가 앉는 장면이 단순히 “잠깐 앉았다”가 아닐 수도 있습니다…\n이번 영상은 파리의 독특한 식사 방식을 코믹하게 풀어낸 짧은 애니메이션입니다.\n\n#파리 #곤충 #과학상식 #웃긴영상  #애니메이션 #생물상식"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "49986",
+        "likeCount": "545",
+        "favoriteCount": "0",
+        "commentCount": "10"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "t5_FZA6gw4uRQ83jmGc3fppl3BA",
+      "id": "5Ek9cfJSkWA",
+      "snippet": {
+        "publishedAt": "2026-06-08T22:26:26Z",
+        "channelId": "UCQyCwLQiGxSofpXal7O9nQw",
+        "title": "여왕벌을 협박한 꿀벌의 최후 #쇼츠 #animation #만화 #벌꿀",
+        "description": "\"여왕벌을 협박한 꿀벌의 최후\" 다음엔 어떤일이? #쇼츠 #animation #만화 #벌꿀",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5Ek9cfJSkWA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5Ek9cfJSkWA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5Ek9cfJSkWA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5Ek9cfJSkWA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5Ek9cfJSkWA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "상상탐험",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "여왕벌을 협박한 꿀벌의 최후 #쇼츠 #animation #만화 #벌꿀",
+          "description": "\"여왕벌을 협박한 꿀벌의 최후\" 다음엔 어떤일이? #쇼츠 #animation #만화 #벌꿀"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT39S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "43567",
+        "likeCount": "604",
+        "favoriteCount": "0",
+        "commentCount": "3"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "hYhJFlehuK0y2btsOsM64zBD8RA",
+      "id": "lzAzszgRHaQ",
+      "snippet": {
+        "publishedAt": "2026-06-20T01:00:16Z",
+        "channelId": "UCQ2BA4CBQrbfJ99ka8rv73w",
+        "title": "등운동의 정석. #쇼츠 #등운동",
+        "description": "💌비즈니스 문의 : dmsql5431@daum.net\n🧡홍핏 인스타 : @hoong_fit",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lzAzszgRHaQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lzAzszgRHaQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lzAzszgRHaQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/lzAzszgRHaQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/lzAzszgRHaQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "홍은비의 홍핏",
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "등운동의 정석. #쇼츠 #등운동",
+          "description": "💌비즈니스 문의 : dmsql5431@daum.net\n🧡홍핏 인스타 : @hoong_fit"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT22S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "123960",
+        "likeCount": "631",
+        "favoriteCount": "0",
+        "commentCount": "9"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "gBfDGSlBp-4U0LvYBEq9qdJAHeE",
+      "id": "gDKUPlFqe1A",
+      "snippet": {
+        "publishedAt": "2026-05-25T09:09:37Z",
+        "channelId": "UC5mP3pECh1o20x8XU4vO-ZA",
+        "title": "유료강의 듣지마세요. 쇼핑쇼츠 복붙해 월 3000만원 버는 법 다 공개합니다.(26년 최신판)",
+        "description": "https://1779069790125318.dbcart.net/?g=rk\n영상 속 주인공 쇼츠대장님의 하루1시간 \"6억원\" 벌게해준 비밀 템플릿!!\n영상 끝까지 보시고 \"구독\" \"댓글\"을 남겨주시는 분들께 모두 제공해 드리니\n많은 참여 부탁드립니다!·",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gDKUPlFqe1A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gDKUPlFqe1A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gDKUPlFqe1A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gDKUPlFqe1A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gDKUPlFqe1A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "록터뷰",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "유료강의 듣지마세요. 쇼핑쇼츠 복붙해 월 3000만원 버는 법 다 공개합니다.(26년 최신판)",
+          "description": "https://1779069790125318.dbcart.net/?g=rk\n영상 속 주인공 쇼츠대장님의 하루1시간 \"6억원\" 벌게해준 비밀 템플릿!!\n영상 끝까지 보시고 \"구독\" \"댓글\"을 남겨주시는 분들께 모두 제공해 드리니\n많은 참여 부탁드립니다!·"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT15M23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "25574",
+        "likeCount": "1133",
+        "favoriteCount": "0",
+        "commentCount": "957"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "jes0QBS_oh89LYooz1smIsg7duo",
+      "id": "mQgBxuJmCXE",
+      "snippet": {
+        "publishedAt": "2026-06-20T04:19:55Z",
+        "channelId": "UC4TwEg2y-pb-W6DlqaogXkA",
+        "title": "본캐 숨긴 임한림 수사관 #참교육 #teach_you_a_lesson #넷플릭스 #netflix #shorts #쇼츠",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mQgBxuJmCXE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mQgBxuJmCXE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mQgBxuJmCXE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mQgBxuJmCXE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mQgBxuJmCXE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "오늘쇼타임",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "본캐 숨긴 임한림 수사관 #참교육 #teach_you_a_lesson #넷플릭스 #netflix #shorts #쇼츠",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "18352",
+        "likeCount": "31",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "SsHCx-WTeiEI3qbkOqza4f2Ki0g",
+      "id": "F0IusuWB9ZI",
+      "snippet": {
+        "publishedAt": "2026-06-17T15:15:30Z",
+        "channelId": "UC8MWD_uoT_3ISZNO3hwk91g",
+        "title": "대학원 졸업 후 직업을 듣자 나온 이상준의 레전드 한마디 #쇼츠 #shorts",
+        "description": "💛 예능킹 한줄 💛\n🔹스펙은 기회를 넓혀주지만, 인생의 결과까지 보장해 주지는 않는다!\n\n한국 온지 7년,\n대학, 대학원까지 졸업한 외국인 관객!\n그런데 현재 직업은 세븐일레븐 편의점 알바?!\n스펙은 높을수록 좋지만, \n결국 중요한 건 지금의 나를 만드는 경험이겠죠?\n좋은 대학과 스펙도 중요하지만 자신의 길을 찾는 것이 더 중요합니다.\n\n\n\n#이상준 #이상준쇼 #스탠드업코미디 #standupcomedy",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F0IusuWB9ZI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F0IusuWB9ZI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F0IusuWB9ZI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/F0IusuWB9ZI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/F0IusuWB9ZI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "예능킹",
+        "tags": [
+          "예능",
+          "예능클립",
+          "쇼츠",
+          "바이럴",
+          "코미디",
+          "웃긴영상",
+          "예능킹",
+          "예능KING",
+          "예능레전드",
+          "순발력레전드",
+          "티키타카",
+          "입담폭발",
+          "상황극",
+          "comedy",
+          "kcomedy",
+          "kvariety",
+          "fun",
+          "funny",
+          "funnyclip",
+          "legendmoment",
+          "viral",
+          "banter",
+          "comedytalk",
+          "shorts",
+          "standupcomedy",
+          "이상준",
+          "이상준쇼",
+          "스탠드업코미디"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "대학원 졸업 후 직업을 듣자 나온 이상준의 레전드 한마디 #쇼츠 #shorts",
+          "description": "💛 예능킹 한줄 💛\n🔹스펙은 기회를 넓혀주지만, 인생의 결과까지 보장해 주지는 않는다!\n\n한국 온지 7년,\n대학, 대학원까지 졸업한 외국인 관객!\n그런데 현재 직업은 세븐일레븐 편의점 알바?!\n스펙은 높을수록 좋지만, \n결국 중요한 건 지금의 나를 만드는 경험이겠죠?\n좋은 대학과 스펙도 중요하지만 자신의 길을 찾는 것이 더 중요합니다.\n\n\n\n#이상준 #이상준쇼 #스탠드업코미디 #standupcomedy"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT57S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "144325",
+        "likeCount": "1222",
+        "favoriteCount": "0",
+        "commentCount": "10"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Yjix4NQpO0M_0guv0RbP5XPTPm4",
+      "id": "ZdB3dIwI9Do",
+      "snippet": {
+        "publishedAt": "2026-06-16T01:00:19Z",
+        "channelId": "UCVAxq7CystUJuNn1Yv-sA_Q",
+        "title": "세상 가장 우울한 댕댕이#동물다큐#동물쇼츠#강아지",
+        "description": "#동물다큐#동물쇼츠#쇼츠#강아지",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZdB3dIwI9Do/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZdB3dIwI9Do/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZdB3dIwI9Do/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZdB3dIwI9Do/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZdB3dIwI9Do/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "지구생명탐방",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "세상 가장 우울한 댕댕이#동물다큐#동물쇼츠#강아지",
+          "description": "#동물다큐#동물쇼츠#쇼츠#강아지"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT48S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "120116",
+        "likeCount": "513",
+        "favoriteCount": "0",
+        "commentCount": "21"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "cC66Naw7znO7fyhFeJg1pA2GJgw",
+      "id": "rPGC8AItzRo",
+      "snippet": {
+        "publishedAt": "2026-06-20T09:00:30Z",
+        "channelId": "UCQ2BA4CBQrbfJ99ka8rv73w",
+        "title": "벨런스 미쳤네 ??? #쇼츠 #보디빌딩",
+        "description": "💌비즈니스 문의 : dmsql5431@daum.net\n🧡홍핏 인스타 : @hoong_fit",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rPGC8AItzRo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rPGC8AItzRo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rPGC8AItzRo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rPGC8AItzRo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rPGC8AItzRo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "홍은비의 홍핏",
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "벨런스 미쳤네 ??? #쇼츠 #보디빌딩",
+          "description": "💌비즈니스 문의 : dmsql5431@daum.net\n🧡홍핏 인스타 : @hoong_fit"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT27S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "10562",
+        "likeCount": "152",
+        "favoriteCount": "0",
+        "commentCount": "13"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "VUYW0Vi29GoPF29vn5bEFaG5rxc",
+      "id": "83in0b-BJZk",
+      "snippet": {
+        "publishedAt": "2026-06-20T09:00:38Z",
+        "channelId": "UCHEVGvzskSy_MOlZp50iExA",
+        "title": "남자가 와아프에게 월급 바쳐야 하는 이유~ #쇼츠 #각종유머 #각종유머 #기막힌",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/83in0b-BJZk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/83in0b-BJZk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/83in0b-BJZk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/83in0b-BJZk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/83in0b-BJZk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Comic Everyday",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "남자가 와아프에게 월급 바쳐야 하는 이유~ #쇼츠 #각종유머 #각종유머 #기막힌",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1562",
+        "likeCount": "6",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7E5ClIrqjseve_cy48TKGeZO-u0",
+      "id": "CwXi6upuAiE",
+      "snippet": {
+        "publishedAt": "2026-06-07T11:00:06Z",
+        "channelId": "UCN8KI6dSzxtYgX6euaaPG7A",
+        "title": "머리 날아간 바퀴벌레의 마지막 미션ㅋㅋㅋ #쇼츠 #쇼츠애니",
+        "description": "바퀴벌레는 왜 머리가 없어도 한동안 움직일 수 있을까요?\n\n사람과 달리 바퀴벌레는 몸통 옆의 숨구멍으로 호흡하고,\n몸통에 남은 신경계가 움직임을 어느 정도 조절할 수 있습니다.\n\n그래서 머리가 없어도 잠깐은 움직일 수 있지만,\n결국 먹이를 먹지 못해 오래 버티지는 못한다고 합니다.\n\n무섭지만 신기한 바퀴벌레의 생존력,\n여러분은 알고 있었나요? 🪳😱\n\n---\n#바퀴벌레 #생존력 #과학상식 #동물상식 #곤충상식",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CwXi6upuAiE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CwXi6upuAiE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CwXi6upuAiE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CwXi6upuAiE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CwXi6upuAiE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "모모리툰",
+        "tags": [
+          "short",
+          "애니",
+          "피식",
+          "바퀴벌레",
+          "생존력",
+          "곤충 상식",
+          "생존 본능",
+          "유튜브 쇼츠",
+          "쇼츠"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "머리 날아간 바퀴벌레의 마지막 미션ㅋㅋㅋ #쇼츠 #쇼츠애니",
+          "description": "바퀴벌레는 왜 머리가 없어도 한동안 움직일 수 있을까요?\n\n사람과 달리 바퀴벌레는 몸통 옆의 숨구멍으로 호흡하고,\n몸통에 남은 신경계가 움직임을 어느 정도 조절할 수 있습니다.\n\n그래서 머리가 없어도 잠깐은 움직일 수 있지만,\n결국 먹이를 먹지 못해 오래 버티지는 못한다고 합니다.\n\n무섭지만 신기한 바퀴벌레의 생존력,\n여러분은 알고 있었나요? 🪳😱\n\n---\n#바퀴벌레 #생존력 #과학상식 #동물상식 #곤충상식"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT53S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "284562",
+        "likeCount": "2839",
+        "favoriteCount": "0",
+        "commentCount": "48"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "mEeTrdSb0p89TYNwpmPyKRomNKw",
+      "id": "HrlIWuxwSJo",
+      "snippet": {
+        "publishedAt": "2026-06-20T02:30:05Z",
+        "channelId": "UComhAmtkBwTPF_PvwN8Gc6w",
+        "title": "사전투표 직접 입 연 선관위 진상규명위원회 #쇼츠 #선관위 #사전투표 #사전투표폐지",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HrlIWuxwSJo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HrlIWuxwSJo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HrlIWuxwSJo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/HrlIWuxwSJo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/HrlIWuxwSJo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OBS뉴스",
+        "tags": [
+          "obs",
+          "obs news",
+          "오비에스",
+          "오비에스 뉴스",
+          "obs 뉴스",
+          "경인방송",
+          "지상파",
+          "경인",
+          "뉴스오늘",
+          "경인티비",
+          "730",
+          "530",
+          "1030",
+          "뉴스경인",
+          "월드뉴스",
+          "오늘의 월드뉴스",
+          "국민의힘",
+          "더불어민주당",
+          "민주당",
+          "국힘",
+          "총선",
+          "개혁신당",
+          "윤석열",
+          "김건희",
+          "이재명",
+          "김혜경",
+          "한동훈",
+          "대표",
+          "위원장",
+          "이준석",
+          "국회",
+          "대통령실",
+          "용산",
+          "여의도",
+          "국회의원",
+          "공천",
+          "위성정당",
+          "쇼츠",
+          "정치",
+          "유튜브",
+          "사건",
+          "사고",
+          "축구",
+          "웃긴영상",
+          "세계",
+          "소식",
+          "시사",
+          "경찰",
+          "검찰",
+          "진보",
+          "중도",
+          "보수",
+          "short",
+          "라디오",
+          "99.9",
+          "TV",
+          "조국"
+        ],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "사전투표 직접 입 연 선관위 진상규명위원회 #쇼츠 #선관위 #사전투표 #사전투표폐지",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT26S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "6813",
+        "likeCount": "168",
+        "favoriteCount": "0",
+        "commentCount": "68"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "YpPunVwIZI_wbUTx67xUCbhM7NY",
+      "id": "l6nwEJNPc0M",
+      "snippet": {
+        "publishedAt": "2026-06-08T10:00:18Z",
+        "channelId": "UCoYvhh8xodyFTDiL9LiBhbw",
+        "title": "전광판에 잡힌 커플들의 반전 #쇼츠 #유머 #꿀잼 #웃긴영상 #일상 #공감 #웃긴 #funny #커플",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l6nwEJNPc0M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l6nwEJNPc0M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l6nwEJNPc0M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/l6nwEJNPc0M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/l6nwEJNPc0M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BOOP",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "전광판에 잡힌 커플들의 반전 #쇼츠 #유머 #꿀잼 #웃긴영상 #일상 #공감 #웃긴 #funny #커플",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "251946",
+        "likeCount": "537",
+        "favoriteCount": "0",
+        "commentCount": "17"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "6mIFhcOhOv_pGkxlf9gNjWTtEFw",
+      "id": "Buz2-ICuQHg",
+      "snippet": {
+        "publishedAt": "2026-06-20T02:00:04Z",
+        "channelId": "UCRCJUmpFfq1HRSancZZ_2MA",
+        "title": "'과유불급' 너무 과해! 이가 누렇게 변하는 이유 #웃긴동영상 #쇼츠 #병맛",
+        "description": "'과유불급' 너무 과해! 이가 누렇게 변하는 이유\n\n#애니 #만화 #영상툰 #치아 #차",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Buz2-ICuQHg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Buz2-ICuQHg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Buz2-ICuQHg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Buz2-ICuQHg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Buz2-ICuQHg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "쓸담쓸담",
+        "tags": [
+          "애니메이션",
+          "애니",
+          "쇼츠",
+          "추천",
+          "알고리즘",
+          "일상",
+          "유머",
+          "공감",
+          "짧은영상",
+          "재밌는영상",
+          "스토리",
+          "귀여운",
+          "웃긴영상",
+          "힐링영상",
+          "감성영상",
+          "병맛",
+          "상확극",
+          "패러디",
+          "shorts",
+          "animation",
+          "cartoon",
+          "viral"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "'과유불급' 너무 과해! 이가 누렇게 변하는 이유 #웃긴동영상 #쇼츠 #병맛",
+          "description": "'과유불급' 너무 과해! 이가 누렇게 변하는 이유\n\n#애니 #만화 #영상툰 #치아 #차"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT22S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "6569",
+        "likeCount": "31",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "MzA93eLTvXuWxixk0ukJUL09d7o",
+      "id": "fX7emT9ACpY",
+      "snippet": {
+        "publishedAt": "2026-06-13T12:30:00Z",
+        "channelId": "UC3tBHdUh7_GVnQLKTD6Z5qg",
+        "title": "데빌구가 탄생해버린 이유 ㅋㅋㅋ #쇼츠 #짱구는못말려 #짱구",
+        "description": "#쇼츠 #짱구는못말려 #짱구",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fX7emT9ACpY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fX7emT9ACpY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fX7emT9ACpY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fX7emT9ACpY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fX7emT9ACpY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "짱구타임",
+        "tags": [
+          "#shorts",
+          "#짱구는못말려",
+          "#짱구"
+        ],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "데빌구가 탄생해버린 이유 ㅋㅋㅋ #쇼츠 #짱구는못말려 #짱구",
+          "description": "#쇼츠 #짱구는못말려 #짱구"
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "contentDetails": {
+        "duration": "PT14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1189247",
+        "likeCount": "11912",
+        "favoriteCount": "0",
+        "commentCount": "72"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Cr-XYDfnFT6gqXsjvOFXfP2O5pg",
+      "id": "rnLnO4heT4s",
+      "snippet": {
+        "publishedAt": "2026-06-19T00:00:05Z",
+        "channelId": "UCV5kpk-hE67MgG7OIptAVqw",
+        "title": "한가인이 아이들에게 아이스크림 안 사주는 이유#쇼츠#살림템#꿀템#추천템#아이스크림",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rnLnO4heT4s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rnLnO4heT4s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rnLnO4heT4s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rnLnO4heT4s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rnLnO4heT4s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "핫앤템",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "한가인이 아이들에게 아이스크림 안 사주는 이유#쇼츠#살림템#꿀템#추천템#아이스크림",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT26S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "356396",
+        "likeCount": "937",
+        "favoriteCount": "0",
+        "commentCount": "131"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ObeveMyWkW8Hc5r5gvAfOS9Zgeg",
+      "id": "4lwpcQ6WGF8",
+      "snippet": {
+        "publishedAt": "2026-06-20T06:21:25Z",
+        "channelId": "UCKiWXRPctluBzRS1-C4QuSw",
+        "title": "\"안중근이 사형 직전 남긴 마지막 한마디\" #역사쇼츠 #역사이야기 #한국사",
+        "description": "1910년 3월 26일 사형 직전, 안중근 의사가 남긴 마지막 다짐. 죽음 앞에서도 흔들리지 않았던 그의 신념은 오늘날까지 많은 사람들에게 깊은 울림을 주고 있습니다.\n#안중근 #안중근의사 #독립운동 #대한독립만세 #역사쇼츠 #한국사 #역사이야기 #하얼빈의거 #이토히로부미 #순국선열 #광복 #감동실화 #역사채널 #쇼츠 #shorts",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4lwpcQ6WGF8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4lwpcQ6WGF8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4lwpcQ6WGF8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4lwpcQ6WGF8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4lwpcQ6WGF8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "대한역사탐구",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "\"안중근이 사형 직전 남긴 마지막 한마디\" #역사쇼츠 #역사이야기 #한국사",
+          "description": "1910년 3월 26일 사형 직전, 안중근 의사가 남긴 마지막 다짐. 죽음 앞에서도 흔들리지 않았던 그의 신념은 오늘날까지 많은 사람들에게 깊은 울림을 주고 있습니다.\n#안중근 #안중근의사 #독립운동 #대한독립만세 #역사쇼츠 #한국사 #역사이야기 #하얼빈의거 #이토히로부미 #순국선열 #광복 #감동실화 #역사채널 #쇼츠 #shorts"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT49S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1170",
+        "likeCount": "71",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Hqv_omCf3l1zq9NECsP4bOEJSPg",
+      "id": "VnBQ-uy1B6c",
+      "snippet": {
+        "publishedAt": "2026-06-19T13:31:08Z",
+        "channelId": "UCA12yqwan_vhRCpFRW3Bw_g",
+        "title": "나 생각보다 작아(고압산소 체험)  #shorts #쇼츠",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VnBQ-uy1B6c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VnBQ-uy1B6c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VnBQ-uy1B6c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VnBQ-uy1B6c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VnBQ-uy1B6c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "샵뚱",
+        "tags": [
+          "#메이크업",
+          "#메이크업아티스트",
+          "#한현재",
+          "#청담동",
+          "#청담메이크업샵",
+          "#청담메이크업",
+          "#예고",
+          "#유튜브시작",
+          "#전참시",
+          "#먹방",
+          "#일상",
+          "#필라테스",
+          "#코스트코",
+          "#샤머니즘",
+          "#쇼핑",
+          "#쇼핑리스트",
+          "#큰옷",
+          "#빅사이즈",
+          "#리빙",
+          "#리빙템",
+          "#접시",
+          "#그릇",
+          "#라이프스타일",
+          "#음식",
+          "#FOOD",
+          "#대용량",
+          "#화장품",
+          "#립",
+          "#꿀팁",
+          "#다이어트",
+          "#맛집",
+          "#카페",
+          "#스킨케어",
+          "#블러셔",
+          "#팩트",
+          "#쿠션",
+          "#샵한현재",
+          "#메이크업추천",
+          "#추천템",
+          "#명품",
+          "#피부과",
+          "#럭셔리",
+          "#디올",
+          "#이지혜",
+          "추천템",
+          "라카",
+          "틴트",
+          "블러셔",
+          "아이섀도",
+          "올리브영",
+          "올영",
+          "올영세일",
+          "파운데이션",
+          "쿠션",
+          "헤라",
+          "팝업",
+          "네이밍",
+          "홀리카홀리카",
+          "수분크림",
+          "기초",
+          "기초화장",
+          "필라테스",
+          "디바이스",
+          "샵뚱",
+          "전참시",
+          "최화정",
+          "서인영",
+          "관리",
+          "에스테틱",
+          "접시",
+          "택배",
+          "택배맛집",
+          "먹방",
+          "다이소",
+          "베이스",
+          "파데",
+          "태그",
+          "저렴이",
+          "pdrn",
+          "정샘물",
+          "브러쉬",
+          "뷰티",
+          "오버립",
+          "화장꿀팁",
+          "화장법",
+          "애교살",
+          "애교살메이크업",
+          "스테이크",
+          "피클",
+          "레시피",
+          "풀텐자",
+          "뷰티디바이스",
+          "eoa",
+          "경락",
+          "발사지",
+          "고압산소",
+          "클리닉",
+          "경락마사지",
+          "마사지",
+          "위뷰티"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "나 생각보다 작아(고압산소 체험)  #shorts #쇼츠",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT54S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "28944",
+        "likeCount": "244",
+        "favoriteCount": "0",
+        "commentCount": "16"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "xY3d-TwXQngsLx1UQTsqxyyeXHM",
+      "id": "PmVPsbD8LeA",
+      "snippet": {
+        "publishedAt": "2026-06-16T08:15:10Z",
+        "channelId": "UCtag3ZREOwpqJ0ku-XIXE7Q",
+        "title": "아기를 노예취급하는 짱아 ㅋㅋㅋ #쇼츠 #짱구는못말려 #애니",
+        "description": "#쇼츠 #짱구는못말려 #애니",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PmVPsbD8LeA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PmVPsbD8LeA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PmVPsbD8LeA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PmVPsbD8LeA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PmVPsbD8LeA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "짱구가 좋다!",
+        "tags": [
+          "#쇼츠",
+          "#짱구는못말려",
+          "#애니"
+        ],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "아기를 노예취급하는 짱아 ㅋㅋㅋ #쇼츠 #짱구는못말려 #애니",
+          "description": "#쇼츠 #짱구는못말려 #애니"
+        },
+        "defaultAudioLanguage": "ja"
+      },
+      "contentDetails": {
+        "duration": "PT7S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "100112",
+        "likeCount": "573",
+        "favoriteCount": "0",
+        "commentCount": "6"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "YspfkYuPLmT1MC5hzMUdbePRWJ4",
+      "id": "gkMg6MdO15E",
+      "snippet": {
+        "publishedAt": "2026-06-18T10:26:14Z",
+        "channelId": "UCKSMT_chYb4Dp8thTL1lIUA",
+        "title": "예상못한 숨바꼭질의 달인 #코미디 #쇼츠 #웃긴영상 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gkMg6MdO15E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gkMg6MdO15E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gkMg6MdO15E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gkMg6MdO15E/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gkMg6MdO15E/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "셀렉노트",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "예상못한 숨바꼭질의 달인 #코미디 #쇼츠 #웃긴영상 #shorts",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT16S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "144330",
+        "likeCount": "897",
+        "favoriteCount": "0",
+        "commentCount": "30"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7kN1xkJXHRgxheQl5eDLT1t-GFc",
+      "id": "SZJ52BKddOk",
+      "snippet": {
+        "publishedAt": "2026-06-15T08:12:34Z",
+        "channelId": "UCfhlPp6UKvdoC_I43ByWR9Q",
+        "title": "오뚜기가 약올리며 굳이 안파는 제품 #쇼츠 #썰쇼츠 #오뚜기  #꿀조합  #빵순이 #빵돌이 #Shorts",
+        "description": "📌영상설명\n\n'갓뚜기'라고 불리는 오뚜기가 아웃백과 독점 계약을 맺어 절대 시중에는 안 판다는 전설의 '망고 스프레드'..!!🤫\n\n사고 싶어도 못 사서 빡친 한국의 쩝쩝박사들이 눈물 흘리며 온갖 시행착오 끝에 찾아낸 100% 싱크로율 대체 레시피를 소개합니다.\n\n이제 빵 포장해와서 소스 모자라다고 눈물 흘리지 마세요!\n마트에서 '이것'만 사서 섞으면 아웃백 웨이팅 안 해도 됩니다 빵순이, 빵돌이 친구들에게 빨리 공유해 주세용!\n\n👉 쩝쩝박사 피셜 황금 비율:\n'복음자리 망고잼' + '버터' (취향에 따라 버터 비율을 조절해 보세요!)\n\n⚠️ 본 영상은 특정 기업을 비방하거나 명예를 훼손할 목적이 없으며, 대중적으로 알려진 비하인드 스토리와 네티즌들의 공익적 레시피 정보를 기반으로 제작된 유머 및 정보성 콘텐츠입니다.\n\n🎬 [우리가 몰랐던 제품 속 숨겨진 비하인드 스토리]\n본 채널은 우리가 일상에서 흔히 먹고 소비하는 다양한 식품, 브랜드 제품, 그리고 흥미로운 발명품 이면에 숨겨진 실화와 제조 비하인드를 발굴하여 전달하는 정보·교양 콘텐츠입니다.\n\n지루한 설명 대신, 시청자분들이 몰입할 수 있도록 위트 있는 스토리텔링과 AI 시각화 기술을 결합하여 사물의 새로운 가치를 재구성합니다.\n\n🔍 기획 의도 및 채널의 가치\n숨은 제조의 비밀 추적: 단순한 제품 리뷰를 넘어, 특정 인기 제품이 어디서 어떻게 만들어지는지(제조사, 원료, 유통 과정 등) 대중이 궁금해하는 흥미로운 사실을 철저히 추적합니다.\n\n유익한 성분과 기능성 정보: 제품 속에 숨겨진 기능성 성분과 그에 얽힌 과학적·역사적 에피소드를 알기 쉽게 풀어내어 일상에 유익한 지식을 확산합니다.\n\n소비자의 현명한 안목 형성: 무분별한 광고성 정보 속에서 제품의 본질과 탄생 배경을 명확히 짚어냄으로써, 세상을 바라보는 새로운 통찰력과 올바른 이해를 제시합니다.\n\n⚖️ 콘텐츠 제작 방식 및 면책 조항 (Disclaimer)\nAI 연출 및 스토리텔링 각색 (Faction): 본 콘텐츠는 실제 제품의 역사, 제조 프로세스, 공식 발표된 일화를 바탕으로 하되, 정보 전달력과 극적 재미를 극대화하기 위해 AI 기술(시각 자료 생성 등)과 일부 각색이 가미된 '픽션(Faction)'입니다.\n\n주관적 분석과 유익한 정보 공유: 특정 브랜드나 제품에 대한 근거 없는 비방이나 옹호 목적이 없으며, 오직 소비자의 알 권리 충족과 교육적 가치 전달을 목적으로 합니다.\n\n시각 자료 안내: 채널 내 등장하는 일부 제품 이미지 및 배경 화면은 시각적 이해를 돕기 위해 AI로 생성된 연출 컷으로, 실제 제품의 외관이나 세부 스펙과 일부 차이가 있을 수 있습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SZJ52BKddOk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SZJ52BKddOk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SZJ52BKddOk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SZJ52BKddOk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SZJ52BKddOk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "썰푸는 녀석들",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "오뚜기가 약올리며 굳이 안파는 제품 #쇼츠 #썰쇼츠 #오뚜기  #꿀조합  #빵순이 #빵돌이 #Shorts",
+          "description": "📌영상설명\n\n'갓뚜기'라고 불리는 오뚜기가 아웃백과 독점 계약을 맺어 절대 시중에는 안 판다는 전설의 '망고 스프레드'..!!🤫\n\n사고 싶어도 못 사서 빡친 한국의 쩝쩝박사들이 눈물 흘리며 온갖 시행착오 끝에 찾아낸 100% 싱크로율 대체 레시피를 소개합니다.\n\n이제 빵 포장해와서 소스 모자라다고 눈물 흘리지 마세요!\n마트에서 '이것'만 사서 섞으면 아웃백 웨이팅 안 해도 됩니다 빵순이, 빵돌이 친구들에게 빨리 공유해 주세용!\n\n👉 쩝쩝박사 피셜 황금 비율:\n'복음자리 망고잼' + '버터' (취향에 따라 버터 비율을 조절해 보세요!)\n\n⚠️ 본 영상은 특정 기업을 비방하거나 명예를 훼손할 목적이 없으며, 대중적으로 알려진 비하인드 스토리와 네티즌들의 공익적 레시피 정보를 기반으로 제작된 유머 및 정보성 콘텐츠입니다.\n\n🎬 [우리가 몰랐던 제품 속 숨겨진 비하인드 스토리]\n본 채널은 우리가 일상에서 흔히 먹고 소비하는 다양한 식품, 브랜드 제품, 그리고 흥미로운 발명품 이면에 숨겨진 실화와 제조 비하인드를 발굴하여 전달하는 정보·교양 콘텐츠입니다.\n\n지루한 설명 대신, 시청자분들이 몰입할 수 있도록 위트 있는 스토리텔링과 AI 시각화 기술을 결합하여 사물의 새로운 가치를 재구성합니다.\n\n🔍 기획 의도 및 채널의 가치\n숨은 제조의 비밀 추적: 단순한 제품 리뷰를 넘어, 특정 인기 제품이 어디서 어떻게 만들어지는지(제조사, 원료, 유통 과정 등) 대중이 궁금해하는 흥미로운 사실을 철저히 추적합니다.\n\n유익한 성분과 기능성 정보: 제품 속에 숨겨진 기능성 성분과 그에 얽힌 과학적·역사적 에피소드를 알기 쉽게 풀어내어 일상에 유익한 지식을 확산합니다.\n\n소비자의 현명한 안목 형성: 무분별한 광고성 정보 속에서 제품의 본질과 탄생 배경을 명확히 짚어냄으로써, 세상을 바라보는 새로운 통찰력과 올바른 이해를 제시합니다.\n\n⚖️ 콘텐츠 제작 방식 및 면책 조항 (Disclaimer)\nAI 연출 및 스토리텔링 각색 (Faction): 본 콘텐츠는 실제 제품의 역사, 제조 프로세스, 공식 발표된 일화를 바탕으로 하되, 정보 전달력과 극적 재미를 극대화하기 위해 AI 기술(시각 자료 생성 등)과 일부 각색이 가미된 '픽션(Faction)'입니다.\n\n주관적 분석과 유익한 정보 공유: 특정 브랜드나 제품에 대한 근거 없는 비방이나 옹호 목적이 없으며, 오직 소비자의 알 권리 충족과 교육적 가치 전달을 목적으로 합니다.\n\n시각 자료 안내: 채널 내 등장하는 일부 제품 이미지 및 배경 화면은 시각적 이해를 돕기 위해 AI로 생성된 연출 컷으로, 실제 제품의 외관이나 세부 스펙과 일부 차이가 있을 수 있습니다."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT59S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "78569",
+        "likeCount": "510",
+        "favoriteCount": "0",
+        "commentCount": "22"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "VQ1fI7M2CBQJDqozZi6oXZXnq3o",
+      "id": "_4ibPYSV7R4",
+      "snippet": {
+        "publishedAt": "2026-06-08T11:00:10Z",
+        "channelId": "UCN8KI6dSzxtYgX6euaaPG7A",
+        "title": "입냄새 원인이 설마 머릿속 칼이라고?!ㅋㅋ #쇼츠애니 #쇼츠",
+        "description": "입에서 이상한 냄새가 나서 병원을 찾은 남자.\n그런데 수술을 해보니 상상도 못 한 물건이 머릿속에서 나왔다?!\n\n웃기지만 어딘가 섬뜩한 병원 코미디 이야기입니다.\n끝까지 보면 진짜 어이없는 반전이 기다립니다. ㅋㅋ\n#입냄새 #병원코미디 #병맛애니 #반전애니",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_4ibPYSV7R4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_4ibPYSV7R4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_4ibPYSV7R4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_4ibPYSV7R4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_4ibPYSV7R4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "모모리툰",
+        "tags": [
+          "short",
+          "애니",
+          "피식",
+          "입냄새",
+          "머릿속 칼",
+          "병원 코미디",
+          "의사 애니메이션",
+          "병맛 애니",
+          "반전 애니",
+          "웃긴 애니",
+          "쇼츠 애니메이션",
+          "블랙코미디",
+          "반전 쇼츠",
+          "이상한 수술",
+          "수술 반전",
+          "기괴한 애니",
+          "코믹 애니",
+          "병맛"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "입냄새 원인이 설마 머릿속 칼이라고?!ㅋㅋ #쇼츠애니 #쇼츠",
+          "description": "입에서 이상한 냄새가 나서 병원을 찾은 남자.\n그런데 수술을 해보니 상상도 못 한 물건이 머릿속에서 나왔다?!\n\n웃기지만 어딘가 섬뜩한 병원 코미디 이야기입니다.\n끝까지 보면 진짜 어이없는 반전이 기다립니다. ㅋㅋ\n#입냄새 #병원코미디 #병맛애니 #반전애니"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "106100",
+        "likeCount": "1466",
+        "favoriteCount": "0",
+        "commentCount": "16"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "qmIlbelQv73Nou4DLFDWtPe4gXc",
+      "id": "D46KMnhvdaA",
+      "snippet": {
+        "publishedAt": "2026-06-17T11:02:17Z",
+        "channelId": "UCNyT1sARCvw9XQP_HZ8Nszg",
+        "title": "상상을 초월하는 역대급 속도 TOP5 ⚡ #속도 #랭킹 #쇼츠",
+        "description": "상상을 초월하는 역대급 속도 TOP5 ⚡ #속도 #랭킹 #쇼츠",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D46KMnhvdaA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D46KMnhvdaA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D46KMnhvdaA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/D46KMnhvdaA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/D46KMnhvdaA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "유머찹츄",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "상상을 초월하는 역대급 속도 TOP5 ⚡ #속도 #랭킹 #쇼츠",
+          "description": "상상을 초월하는 역대급 속도 TOP5 ⚡ #속도 #랭킹 #쇼츠"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT53S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "47497",
+        "likeCount": "637",
+        "favoriteCount": "0",
+        "commentCount": "20"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "lulXOYHJSR_gCNswDOTtaaX9dRc",
+      "id": "s_3RoQea-Ho",
+      "snippet": {
+        "publishedAt": "2026-06-20T09:33:47Z",
+        "channelId": "UCg8ujyo5DxeQYAsPnPyzLPA",
+        "title": "게으른 천재가 개발한 원터치화로 #쇼츠",
+        "description": "생활 속 꿀템을 찾기 위해 열심히 소식을 전달하는 아이디어연구소 입니다 :)\n쿠팡,다이소에서의  살림 꿀템, 신박템, 맛도리 간식템까지~!\n\n다양하고 좋은 아이템을 직접 사용해보고 추천해드려요🤗\n\n\"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\"",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s_3RoQea-Ho/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s_3RoQea-Ho/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s_3RoQea-Ho/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/s_3RoQea-Ho/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/s_3RoQea-Ho/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "아이디어연구소",
+        "tags": [
+          "살림남",
+          "쿠팡추천",
+          "쿠팡꿀템",
+          "쿠팡템리뷰",
+          "다이소추천",
+          "다이소꿀템",
+          "다이소리뷰",
+          "생활용품",
+          "주방용품",
+          "자취용품",
+          "애완용품",
+          "아기용품",
+          "욕실용품",
+          "다이소",
+          "신박템",
+          "꿀템"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "게으른 천재가 개발한 원터치화로 #쇼츠",
+          "description": "생활 속 꿀템을 찾기 위해 열심히 소식을 전달하는 아이디어연구소 입니다 :)\n쿠팡,다이소에서의  살림 꿀템, 신박템, 맛도리 간식템까지~!\n\n다양하고 좋은 아이템을 직접 사용해보고 추천해드려요🤗\n\n\"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT36S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1225",
+        "likeCount": "4",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "I0XXDGC03S6KBwvOTF_-hknJZks",
+      "id": "RPHmEqob9RY",
+      "snippet": {
+        "publishedAt": "2026-06-15T08:00:05Z",
+        "channelId": "UCnQRkIhRmXrxGrK4-8n-lVw",
+        "title": "일본 노포 감성 식당의 위생상태🤢.jpg",
+        "description": "Shorts\n쇼츠\n\n구독하기, 좋아요 한번씩 눌러주시면 너무 감사하겠습니다 ㅎ_ㅎ\n▶ https://goo.gl/c21mgR ◀구독하기!\n\n똘킹 유튜브 채널입니다 \n리그 오브 레전드, 각종 콘솔 비디오게임, 하이라이트 등등 재밌는 영상이 업로드됩니다\n\n똘킹의 전용 홈페이지, 똘킹왕국!! 많은 가입 부탁드려요~\n▶https://cafe.naver.com/ddolking555\n\n치지직, 유튜브에서 동시 스트리밍 중입니다!\n▶https://m.chzzk.naver.com/537d8cf388c6faf6693057dd48198a04\n\n궁금하신점이나 문의메일은 여기로 보내주세요 \n▶ddolking555@naver.com \n\n똘킹 인스타그램, 사생활을 보고싶다! \n▶https://www.instagram.com/ddolking555/\n\n생방송 시간은평일 저녁 9시, 주말은 랜덤입니다\n\n#shorts #쇼츠",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RPHmEqob9RY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RPHmEqob9RY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RPHmEqob9RY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RPHmEqob9RY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RPHmEqob9RY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "똘킹",
+        "tags": [
+          "똘킹",
+          "똘킹생방송",
+          "치지직",
+          "게임",
+          "공포게임",
+          "Short",
+          "서폿",
+          "서포터",
+          "Shorts",
+          "쇼츠",
+          "이상형월드컵",
+          "이상형 월드컵",
+          "웃긴영상"
+        ],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "일본 노포 감성 식당의 위생상태🤢.jpg",
+          "description": "Shorts\n쇼츠\n\n구독하기, 좋아요 한번씩 눌러주시면 너무 감사하겠습니다 ㅎ_ㅎ\n▶ https://goo.gl/c21mgR ◀구독하기!\n\n똘킹 유튜브 채널입니다 \n리그 오브 레전드, 각종 콘솔 비디오게임, 하이라이트 등등 재밌는 영상이 업로드됩니다\n\n똘킹의 전용 홈페이지, 똘킹왕국!! 많은 가입 부탁드려요~\n▶https://cafe.naver.com/ddolking555\n\n치지직, 유튜브에서 동시 스트리밍 중입니다!\n▶https://m.chzzk.naver.com/537d8cf388c6faf6693057dd48198a04\n\n궁금하신점이나 문의메일은 여기로 보내주세요 \n▶ddolking555@naver.com \n\n똘킹 인스타그램, 사생활을 보고싶다! \n▶https://www.instagram.com/ddolking555/\n\n생방송 시간은평일 저녁 9시, 주말은 랜덤입니다\n\n#shorts #쇼츠"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1059862",
+        "likeCount": "19901",
+        "favoriteCount": "0",
+        "commentCount": "1674"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "FH8QfOElWaWWixgmXkhob6-9Fik",
+      "id": "70fsku8g5Zs",
+      "snippet": {
+        "publishedAt": "2026-06-16T08:30:31Z",
+        "channelId": "UC8VRv6bx9Ms-eT1NcuNo93Q",
+        "title": "Ai가 아니냐고 의심받는 영상이라는데 #강아지 #유머 #쇼츠",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/70fsku8g5Zs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/70fsku8g5Zs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/70fsku8g5Zs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/70fsku8g5Zs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/70fsku8g5Zs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "30초도길다",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "Ai가 아니냐고 의심받는 영상이라는데 #강아지 #유머 #쇼츠",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "201099",
+        "likeCount": "409",
+        "favoriteCount": "0",
+        "commentCount": "11"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "CEGoIyeSDLuduOzX-v1OaTVSefc",
+      "id": "nOhA0Iky7gg",
+      "snippet": {
+        "publishedAt": "2026-06-15T08:00:39Z",
+        "channelId": "UC335hS3Ql2pPjwF-2oaJ0Cw",
+        "title": "엄마도 잘때 편하게 자고 싶다! #꿀잼 #아기 #유머 #쇼츠 #웃긴영상 #아빠#엄마",
+        "description": "⚠️  예쁜 아이들이 상처받지 않도록, 부정적인 댓글은 발견 즉시 삭제 조치하고 있습니다. 따뜻한 시선으로 바라봐 주세요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nOhA0Iky7gg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nOhA0Iky7gg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nOhA0Iky7gg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nOhA0Iky7gg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nOhA0Iky7gg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "인생 뭐있어?",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "엄마도 잘때 편하게 자고 싶다! #꿀잼 #아기 #유머 #쇼츠 #웃긴영상 #아빠#엄마",
+          "description": "⚠️  예쁜 아이들이 상처받지 않도록, 부정적인 댓글은 발견 즉시 삭제 조치하고 있습니다. 따뜻한 시선으로 바라봐 주세요."
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "792820",
+        "likeCount": "1974",
+        "favoriteCount": "0",
+        "commentCount": "85"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Xe_TxrURGf9eB7R8ruEBl4KG-vk",
+      "id": "8WreEuL_M5Y",
+      "snippet": {
+        "publishedAt": "2026-06-15T08:41:19Z",
+        "channelId": "UCcUqGIRRqBEGNZlUsOiIRlw",
+        "title": "키친타올 굴리기 반전게임 #게임 #가족 #실화 #웃긴 #감동 #쇼츠 #웃긴영상",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8WreEuL_M5Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8WreEuL_M5Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8WreEuL_M5Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8WreEuL_M5Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8WreEuL_M5Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "일분봐봐",
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "키친타올 굴리기 반전게임 #게임 #가족 #실화 #웃긴 #감동 #쇼츠 #웃긴영상",
+          "description": ""
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "152903",
+        "likeCount": "1237",
+        "favoriteCount": "0",
+        "commentCount": "8"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "eaOifsr0a92oISRTqbcnwJI5AV8",
+      "id": "2dL4yLrZtnI",
+      "snippet": {
+        "publishedAt": "2026-06-20T12:53:42Z",
+        "channelId": "UC7XSkP0ayEgIPpP4CltTRpA",
+        "title": "SSG 13연패 탈출 찐반응🥹🫠🔥 #ssg #shorts #쇼츠",
+        "description": "5연패 탈출 기념 ^_^ ♡",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2dL4yLrZtnI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2dL4yLrZtnI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2dL4yLrZtnI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2dL4yLrZtnI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2dL4yLrZtnI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "정혜봐 🐣",
+        "tags": [
+          "SSG",
+          "ssg랜더스",
+          "13연패",
+          "연패탈출",
+          "kbo",
+          "야구",
+          "야구리액션",
+          "13연패탈출리액션",
+          "vlog",
+          "shorts",
+          "쇼츠"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "SSG 13연패 탈출 찐반응🥹🫠🔥 #ssg #shorts #쇼츠",
+          "description": "5연패 탈출 기념 ^_^ ♡"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT39S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "334",
+        "likeCount": "3",
+        "favoriteCount": "0",
+        "commentCount": "1"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "4BnTiRzJf7UhV4zeQubvF9UJcUE",
+      "id": "moqYpIN6fQo",
+      "snippet": {
+        "publishedAt": "2026-06-20T12:53:30Z",
+        "channelId": "UCRrNQ9Ygc93Sd6eiWoIbJew",
+        "title": "6월 이상하게 억울한 일이 많아진다 #천월당 #쇼츠 #shorts",
+        "description": "내가 한 일인데 남이 인정받고,\n내가 노력했는데 결과는 늦게 오는 시기.\n생각보다 많은 사람들이\n지금 이 흐름을 겪고 있습니다.\n그런데 신기하게도\n운은 억울함 끝에서 갈리는 경우가 많습니다.\n이번 6월 개띠에게 들어오는\n평판운, 귀인운, 반전의 흐름을\n본편에서 자세히 말씀드리겠습니다.\n끝까지 버틴 사람이 가져가는 운이 보입니다.\n\n#개띠 #개띠운세 #6월운세 #귀인운 #재물운 #대운 #띠별운세 #박수무당 #무속 #사주 #천월당 #무당 #운세",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/moqYpIN6fQo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/moqYpIN6fQo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/moqYpIN6fQo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/moqYpIN6fQo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/moqYpIN6fQo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "천월당",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "6월 이상하게 억울한 일이 많아진다 #천월당 #쇼츠 #shorts",
+          "description": "내가 한 일인데 남이 인정받고,\n내가 노력했는데 결과는 늦게 오는 시기.\n생각보다 많은 사람들이\n지금 이 흐름을 겪고 있습니다.\n그런데 신기하게도\n운은 억울함 끝에서 갈리는 경우가 많습니다.\n이번 6월 개띠에게 들어오는\n평판운, 귀인운, 반전의 흐름을\n본편에서 자세히 말씀드리겠습니다.\n끝까지 버틴 사람이 가져가는 운이 보입니다.\n\n#개띠 #개띠운세 #6월운세 #귀인운 #재물운 #대운 #띠별운세 #박수무당 #무속 #사주 #천월당 #무당 #운세"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT52S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "765",
+        "likeCount": "19",
+        "favoriteCount": "0",
+        "commentCount": "6"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 49,
+    "resultsPerPage": 49
+  }
+}

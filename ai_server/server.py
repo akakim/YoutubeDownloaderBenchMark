@@ -1,10 +1,16 @@
-from enum import Enum 
-from fastapi import FastAPI
+from enum import Enum
+from fastapi import FastAPI, Request, HTTPException
+
+from controller.STTController import handle_stt
+
+import time
 
 class ModelName(str,Enum):
     alexnet = "alexnet"
     resnet = "resnet"
     lenet = "lenet"
+
+# class Job(str,str):
 
 app = FastAPI()
 
@@ -20,5 +26,17 @@ async def get_model(model_name: ModelName):
     if model_name.value == "lenet":
         return {"model_name" : model_name,"message": "LeCNN all the images"}
     
-    return {"model_name" : model_name,"message": "Have some residuals "}
-    
+@app.post("/stt")
+async def stt(request: Request):
+    try:
+        body = await request.json()
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid JSON payload")
+
+    if not isinstance(body, dict):
+        raise HTTPException(status_code=400, detail="JSON body must be an object")
+
+    # delegate to controller
+    response = await handle_stt(body)
+
+    return response    

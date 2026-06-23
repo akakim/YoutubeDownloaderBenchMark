@@ -1,0 +1,11 @@
+{
+  "uploadJobId": "0620201632_513d2e0c",
+  "status": "mp3_converted",
+  "originalFileName": "FB_LongJourney_스파인오이스터_가시굴조개.mp4",
+  "sourceMp4Path": "D:\\LLM\\YoutubeDownloaderBenchMark\\jobs\\0620201632_513d2e0c\\source.mp4",
+  "audioMp3Path": "D:\\LLM\\YoutubeDownloaderBenchMark\\jobs\\0620201632_513d2e0c\\audio.mp3",
+  "transcriptPath": "D:\\LLM\\YoutubeDownloaderBenchMark\\jobs\\0620201632_513d2e0c\\transcript.json",
+  "metadataPath": "D:\\LLM\\YoutubeDownloaderBenchMark\\jobs\\0620201632_513d2e0c\\metadata.json",
+  "createdAt": "2026-06-20T11:16:32.806Z",
+  "updatedAt": "2026-06-20T11:16:32.832Z"
+}

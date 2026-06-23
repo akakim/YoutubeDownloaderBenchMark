@@ -1,0 +1,1724 @@
+request:
+
+https://www.googleapis.com/youtube/v3/
+search?part=snippet&
+type=video&maxResults=50&
+order=viewCount&
+publishedAfter=2026-05-21T14%3A17%3A55.839Z&q=%EC%87%BC%EC%B8%A0&
+regionCode=KR&relevanceLanguage=ko&
+key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
+
+response
+
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "uMsc0G-sbpHzm15JozL617S0rKI",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 535459,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mF-4DfpWLKQ_SJwDk0Rf8vpZOho",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9NOa1wi9Y-g"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-25T14:15:14Z",
+        "channelId": "UCWuBZJIucBpe-SCWUBuKUlg",
+        "title": "Rich Girlfriend Vs Middle Class Boyfriend 😂 #shorts #teratrigun #richgirlfriend",
+        "description": "Rich Girlfriend Vs Middle Class Boyfriend.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9NOa1wi9Y-g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9NOa1wi9Y-g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9NOa1wi9Y-g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tera Trigun",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-25T14:15:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ciicMeARwLFQBs_-rBKcJSZyc3w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kOOWhGZ96Xw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-06T12:21:44Z",
+        "channelId": "UClyw32fdzLCsqbkfzhdrtXA",
+        "title": "सीधी बात No बकवास 😜🤪 Comedy Shorts #funny #comedy #shorts #trending #youtubeshorts",
+        "description": "सीधी बात No बकवास Comedy Shorts #funny #comedy #shorts #trending #youtubeshorts Keywords:- keshav ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kOOWhGZ96Xw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kOOWhGZ96Xw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kOOWhGZ96Xw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Keshav Shashi Vlogs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-06T12:21:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q958V8trA7of8EXhO7k17traQto",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5MyyUXCpTjQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-01T12:10:58Z",
+        "channelId": "UClyw32fdzLCsqbkfzhdrtXA",
+        "title": "Delivery को लेकर घर वालों की Excitement 😜🤪 Comedy Shorts #comedy #funny #viral #shorts #ytshorts",
+        "description": "Delivery को लेकर घर वालों की Excitement Comedy Shorts #comedy #funny #viral #shorts #ytshorts Keywords:- ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5MyyUXCpTjQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5MyyUXCpTjQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5MyyUXCpTjQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Keshav Shashi Vlogs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-01T12:10:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1AzRld9slnnZ06DWYOm3K7C3p8c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CKZ2A7fsLnQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-29T05:25:42Z",
+        "channelId": "UCijjYypSXku4VmuJPeHjV0Q",
+        "title": "hunari Chunari Dance Tutorial 💃✨ #shorts #dance",
+        "description": "Hey guys! Is YouTube Short mein maine Bollywood ke superhit song \"Chunari Chunari\" par ek easy dance tutorial share kiya hai.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CKZ2A7fsLnQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CKZ2A7fsLnQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CKZ2A7fsLnQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "3D DANCE ACADEMY JAIPUR",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-29T05:25:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UTU3urFyH1uH_Bh6WAJXO867KyU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JpREfw8rvSE"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-28T14:45:23Z",
+        "channelId": "UCHyMNXj5l7eTTQefXzT3MdQ",
+        "title": "Speedrunning YT Shorts #276 (triple t prompt)",
+        "description": "FYI the purpose of this video is satire and comedy, and I do not intend to disrespect or deprecate content creators featured in this ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JpREfw8rvSE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JpREfw8rvSE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JpREfw8rvSE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Joe Caine",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-28T14:45:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3itNc-3IWbzwGrKZx7bnoY7Ny20",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WJ0FAGFsGO0"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-28T11:17:33Z",
+        "channelId": "UClyw32fdzLCsqbkfzhdrtXA",
+        "title": "Power of Money 😂🤣 Comedy Shorts #comedy #funny #shorts #trending #youtubeshorts",
+        "description": "Power of Money Comedy Shorts #comedy #funny #shorts #trending #youtubeshorts Keywords:- keshav shashi vlogs, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WJ0FAGFsGO0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WJ0FAGFsGO0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WJ0FAGFsGO0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Keshav Shashi Vlogs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-28T11:17:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R3xCnkzFk7-WDhgfhUKegaGHgIc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1_2giDNw6J0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-06T07:30:38Z",
+        "channelId": "UCPQtgEj6Z0xve62aeSgo5qA",
+        "title": "Tabhi Main Kuch Seekh Nahin Paati 🙈 | RS 1313 SHORTS | Ramneek Singh 1313",
+        "description": "Please Subscribe Our YouTube Channels And Instagram Accounts Below ... https://www.youtube.com/c/RamneekSingh1313 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1_2giDNw6J0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1_2giDNw6J0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1_2giDNw6J0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RS 1313 SHORTS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-06T07:30:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "S4tltq8aZW5asQUpDtRAsQvSw28",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PYPVVy5nkAw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-10T05:55:48Z",
+        "channelId": "UCKCKHJ_GGUfSj-Z_bvTsswA",
+        "title": "Operation tiffin|#youtubeshorts #funny #shorts #tiffin #trending #student #fdccompany",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PYPVVy5nkAw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PYPVVy5nkAw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PYPVVy5nkAw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fdc company",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-10T05:55:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VwsiSNp_vDqt5ZOic0YOLmnEFJA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cnVzHVTfhXE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-05T08:45:11Z",
+        "channelId": "UCFO1188cmrrfzGxb9AqhyIQ",
+        "title": "&#39;얘들아 미안해&#39; 엄마의 마지막 한마디 #감동 #엄마 #모성애 #위대한사랑 #눈물주의 #눈물 #shorts #쇼츠 #유튜브쇼츠 #실화 #감동실화",
+        "description": "2014년 4월 27일, 미국 초대형 토네이도 재난 속에서 일어난 가슴 아픈 실화입니다. 시속 240km가 넘는 강풍이 집을 집어삼키기 직전, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cnVzHVTfhXE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cnVzHVTfhXE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cnVzHVTfhXE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "팅숏",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-05T08:45:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ccUrlhTkIgV6pH4nw50aC6nmKMg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fDGEv3f0yEw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-05T14:40:34Z",
+        "channelId": "UCCnMZHIlExevrmTOm0CqOSw",
+        "title": "Random things that happens with me 😭🤌🏻 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fDGEv3f0yEw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fDGEv3f0yEw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fDGEv3f0yEw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Kratika Moyal EXTRA",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-05T14:40:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bOpLaRUpYl3vXISUeIDSbtKP3bE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4zpB2XJrxPU"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-29T12:30:37Z",
+        "channelId": "UC6ylikHBX9_es8TIf0vmiUQ",
+        "title": "Mummi ko nahi bolna pdega ab🥰🙏🏻 | Raj Grover | #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4zpB2XJrxPU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4zpB2XJrxPU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4zpB2XJrxPU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Raj Grover",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-29T12:30:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9o5OfhPNuutExJ8TPd_v8iWb51Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DNUuJRX7YfQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-30T18:17:17Z",
+        "channelId": "UCgOjLy9aHn5zyhcnY-pUY7w",
+        "title": "She found this in deodorant... #shorts #shortsfeed #youtubeshorts #cringe #lifehack #comedy #funny",
+        "description": "Not the hidden ring deodorant hack... Video Credit: candy.superstar #shorts #shortsfeed #youtubeshorts #cringe #lifehack ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DNUuJRX7YfQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DNUuJRX7YfQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DNUuJRX7YfQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LouisAyy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-30T18:17:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7hTQgEpFc4qWdISXR4Z8GIUqfLI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QeTyWtgppZc"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-05T13:59:38Z",
+        "channelId": "UCWuBZJIucBpe-SCWUBuKUlg",
+        "title": "That Chapri Student in School 🤡 #shorts #teratrigun #chapri",
+        "description": "That Chapri Student in School #shorts #teratrigun #chapri.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QeTyWtgppZc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QeTyWtgppZc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QeTyWtgppZc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tera Trigun",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-05T13:59:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YGQNaZDl2T8dLwPgPENmhXe4hzg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4-z594VEwRk"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T09:54:12Z",
+        "channelId": "UClyw32fdzLCsqbkfzhdrtXA",
+        "title": "दोस्त नहीं❌️ जिगरी यार✅️ Comedy Shorts #comedy #funny #shorts #youtubeshorts #trending",
+        "description": "दोस्त नहीं❌️ जिगरी यार✅️ Comedy Shorts #comedy #funny #shorts #youtubeshorts #trending Keywords:- ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4-z594VEwRk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4-z594VEwRk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4-z594VEwRk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Keshav Shashi Vlogs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T09:54:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TuG5ANCsLFpi7Fqx0MURkAeEkQQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "N9tU-OWQoYA"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-10T18:32:15Z",
+        "channelId": "UCgOjLy9aHn5zyhcnY-pUY7w",
+        "title": "He filled his bath with prime... #shorts #shortsfeed #youtubeshorts #cringe #lifehack #comedy #funny",
+        "description": "It takes 400 bottles of prime to fill a bathtub... Video Credit: matthewbeem #shorts #shortsfeed #youtubeshorts #cringe #lifehack ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/N9tU-OWQoYA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/N9tU-OWQoYA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/N9tU-OWQoYA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LouisAyy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-10T18:32:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m5QctHcwLlIdqK8ol6qST3uUz5Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dSOClUCPRnA"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-04T12:52:07Z",
+        "channelId": "UCW-V3lJDUSz_AccP6rPRUtA",
+        "title": "That one Strict teacher in school 🏫 # shorts #school #sejalgabashorts #teacher",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dSOClUCPRnA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dSOClUCPRnA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dSOClUCPRnA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sejal Gaba",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-04T12:52:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Hglyi0vxChTRQnv-6P6ziOZNnM8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "w0ummBITD5k"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-06T21:23:18Z",
+        "channelId": "UC0mbGswi2sNwcmUcWGuvdxw",
+        "title": "김무열, 고딩 악마 끝판왕 자비 없는 참교육 ㄷㄷ",
+        "description": "김무열 #넷플릭스 #참교육 #사이다결말 #드라마명장면 #쇼츠.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w0ummBITD5k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w0ummBITD5k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w0ummBITD5k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "드라마아",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-06T21:23:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "15PeTxWSMPKIUs2vc6l38uSkf3g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rJDs8Lqp-G8"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-29T18:49:04Z",
+        "channelId": "UCgOjLy9aHn5zyhcnY-pUY7w",
+        "title": "He has unbreakable wine glass... #shorts #shortsfeed #youtubeshorts #cringe #lifehack #comedy #funny",
+        "description": "It kinda broke tho... Video Credit: parkerseidel #shorts #shortsfeed #youtubeshorts #cringe #lifehack #comedy #funny.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rJDs8Lqp-G8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rJDs8Lqp-G8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rJDs8Lqp-G8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LouisAyy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-29T18:49:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sQjIgk7BBADmQIBRpeajvb9HQEA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Di1jtWY06iI"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-02T08:30:10Z",
+        "channelId": "UCxVhPg6I2i9T109SMy0ttZw",
+        "title": "아빠 회초리 빼앗고 빗자루 들고 나타난 막둥이 #쇼츠 #shorts #일상 #브이로그 #자매우애",
+        "description": "언니 혼나는데 동생이 빗자루 들고 아빠에게 맞섰다?! 눈물 나는 자매 우애의 진실   #쇼츠 #shorts #일상 #브이로그 #자매우애.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Di1jtWY06iI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Di1jtWY06iI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Di1jtWY06iI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "복실이총각",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-02T08:30:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aUuU4TzbM_7Cx2MMMwRT17x4v6M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "khWv-mrHpzQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-11T03:30:16Z",
+        "channelId": "UC_kerVwmsCqY5zPi908ZpqQ",
+        "title": "Dekha hamara dimang 🤣🤣 #abramputan #youtube #shorts #comedy",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/khWv-mrHpzQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/khWv-mrHpzQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/khWv-mrHpzQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Abram Puttan Vlogs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-11T03:30:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LO8NYvbbE-jLj0LqsFeRL-b9msA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3v_ssVo5OfQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-31T15:30:03Z",
+        "channelId": "UCXhyQQjOLR2-nVhRA71f9hA",
+        "title": "YOU GUYS WILL NOT BELIEVE WHAT I FOUND!!😱😱#shorts",
+        "description": "More of Us       Couple: http://beacons.ai/isaacandandrea Andrea: https://theandrealopez.com/ Andrea's Snap: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3v_ssVo5OfQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3v_ssVo5OfQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3v_ssVo5OfQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Isaac & Andrea",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-31T15:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EOmI-S89pzAOGZC4Ezc_3n_DpQw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rj6a55jAqWg"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-10T08:45:18Z",
+        "channelId": "UCvTxRVOBcQxXqnzj-cut0GA",
+        "title": "첫 남자친구와 14년 사귀다 헤어진 소녀시대 수영#쇼츠",
+        "description": "14년 동안 공개 열애를 이어온 정경호와 수영이 결별을 인정했습니다. 그런데 결별 소식이 알려진 날, 정경호가 SNS에 올린 사진 한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rj6a55jAqWg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rj6a55jAqWg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rj6a55jAqWg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "결말뭐지",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-10T08:45:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mG4pbxSR-tezqM1thbRr_Bicdz0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X17L271hK3E"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-05T11:00:22Z",
+        "channelId": "UC-syrCmIFf5TAb7OYL4mv1A",
+        "title": "이게 왜 골이야? 잘 막고도 실점한 골키퍼",
+        "description": "쇼츠 #축구.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X17L271hK3E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X17L271hK3E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X17L271hK3E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스포츠학개론",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-05T11:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nsHrGTmn9pSqt4miVFs8_oAbFts",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3CBLh97_PRQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T14:30:37Z",
+        "channelId": "UC_iqL0trBANoXKUd6dYrc2g",
+        "title": "Ranking the funniest shorts in the world 😂 #shorts",
+        "description": "Ranking The Funniest YouTube Shorts! Get ready for a laugh challenge you probably can't win! We're ranking some of the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3CBLh97_PRQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3CBLh97_PRQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3CBLh97_PRQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Symprix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T14:30:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5arwQVbW5bmK53-kYfItvr93qpk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qqABiJ42MZk"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-23T12:00:09Z",
+        "channelId": "UC8HlbqYj-9qTta5WleFvNZw",
+        "title": "Acting Like My Family On A Road Trip!!! #shorts #funny #family #roadtrip",
+        "description": "shorts #funny #family #roadtrip Acting Like My Family On A Road Trip!!! Welcome to the CHAMILY!!! And don't forget to subscribe!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qqABiJ42MZk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qqABiJ42MZk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qqABiJ42MZk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The CAN Family",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-23T12:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Vg2Yv6NHiM5VwCXPW8kqJtV-BQs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CDiKuXYGLxY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-03T03:30:21Z",
+        "channelId": "UCOj-z9pn-Kej1YrkpBFhVyQ",
+        "title": "역대급 심해 낚시 모먼트 랭킹",
+        "description": "역대급 심해 낚시 모먼트 랭킹 TOP5 #쇼츠 #랭킹쇼츠 #낚시 #top5 #유머.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CDiKuXYGLxY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CDiKuXYGLxY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CDiKuXYGLxY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "킹딱",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-03T03:30:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qlQB0nPgGIJJlfbPCK-YbcEIdGo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EEWkKo6g0mM"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-29T02:30:39Z",
+        "channelId": "UC2NFRq9s2neD_Ml0tPhNC2Q",
+        "title": "뇌빼고 맞춰야 하는 게임#shorts",
+        "description": "우주하마 UZUHAMA#쇼츠.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EEWkKo6g0mM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EEWkKo6g0mM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EEWkKo6g0mM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우주하마",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-29T02:30:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E5LJP33foAiit0OvcOhxl4YxWus",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2z6lLwXVVMs"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T08:00:04Z",
+        "channelId": "UCJ4BghyzAdvXX_1ki7CPqTQ",
+        "title": "헬스장에 무단으로 침입한 중국인ㄷㄷ",
+        "description": "쇼츠 #유머.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2z6lLwXVVMs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2z6lLwXVVMs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2z6lLwXVVMs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쇼츠플래닛",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T08:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qqUtoDHDQ4wc4dt_MPewTkU0tH4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QPhbVh7YsQ0"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-22T04:20:00Z",
+        "channelId": "UCu0SWxML5JfWSKamNLzu7eg",
+        "title": "무개념동호회 참교육 #시니어#쇼츠#시니어쇼츠#재미#유머#사이다#군인#참교육#시니어인생#시니어용#시니어유머#시니어재미#시니어코메디#",
+        "description": "무개념동호회 참교육 #시니어#쇼츠#시니어쇼츠#재미#유머#사이다#군인#참교육#시니어인생#시니어용#시니어유머#시니어재미# ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QPhbVh7YsQ0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QPhbVh7YsQ0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QPhbVh7YsQ0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "사연 읽어주는 남자",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-22T04:20:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MsPSjN-SHh1XYgTlHFc76NkbeC4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Vf3knM_ruQ8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-06T08:00:12Z",
+        "channelId": "UCJ4BghyzAdvXX_1ki7CPqTQ",
+        "title": "레드레드 커버 영상 중 원탑임ㄷㄷ",
+        "description": "쇼츠 #웃긴영상 #유머.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Vf3knM_ruQ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Vf3knM_ruQ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Vf3knM_ruQ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쇼츠플래닛",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-06T08:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wkvC7AYyRZ8OGL2dEoCSTr2HRJM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1sZ-AHQQrI8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-14T06:42:27Z",
+        "channelId": "UCqaBy7dijpC6OWEe-Jc051w",
+        "title": "It’s NOT Funny.. | A Short Film | Yt #shorts daily | Funyaasi #shortsvideos",
+        "description": "It's NOT Funny.. | A Short Film | Yt #shorts daily | Funyaasi #shortsvideos.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1sZ-AHQQrI8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1sZ-AHQQrI8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1sZ-AHQQrI8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Funyaasi",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-14T06:42:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WUVTDgY0pbvWL-6idjFqoi3bjeE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gQ1cpeJjNVs"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-08T14:09:51Z",
+        "channelId": "UC2fvyma9iKsjN9EZW_FWW1A",
+        "title": "Surajactor new comedy shorts #surajactor",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gQ1cpeJjNVs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gQ1cpeJjNVs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gQ1cpeJjNVs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Filmy Surraj",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-08T14:09:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kSJtvcU9nApzOXayRfphl9n6UDY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XHORgqrRm7w"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-03T02:30:11Z",
+        "channelId": "UCNYE6N9YZmsUyReBLzE9x9Q",
+        "title": "유재석님이 먹고 표정 썩은 레전드 케이크 리뷰",
+        "description": "쇼츠 #shorts #디저트 #핑계고 #유재석 #무스케이크.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XHORgqrRm7w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XHORgqrRm7w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XHORgqrRm7w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이상한 과자가게  weird sweets shop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-03T02:30:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a-Llo_zpZ4r34EOzlTRhY33XaUA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dLWZabBilao"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-10T04:11:31Z",
+        "channelId": "UChtdyqmH0yVFWTBJERP2PKg",
+        "title": "감스트 없어서 하는 말인데..",
+        "description": "감스트 종합게임 채널 입니다! 구독,좋아요,알람설정,댓글 부탁드립니다!! #감스트 #쇼츠 #겜스트 #shorts ♥ GAMST YouTube ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dLWZabBilao/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dLWZabBilao/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dLWZabBilao/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "겜스트GAMEST",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-10T04:11:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eUMtMJZYqbF8Y5vQAdIjYeb4sPw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wVq0TioEBIQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-07T13:41:53Z",
+        "channelId": "UC0mbGswi2sNwcmUcWGuvdxw",
+        "title": "제가 원래 땀이 빨개요 ㅋㅋㅋ (김무열 참교육 레전드)",
+        "description": "참교육 #넷플릭스 #김무열 #명장면 #사이다 #웃긴영상 #쇼츠.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wVq0TioEBIQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wVq0TioEBIQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wVq0TioEBIQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "드라마아",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-07T13:41:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3vv_PJ8f_GR57zGwEwHzA4H8jWs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xVsGm5c8Yi4"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-30T08:00:32Z",
+        "channelId": "UCnQRkIhRmXrxGrK4-8n-lVw",
+        "title": "작화가 너무 바뀌어서 별점 테러난 웹툰🎨.jpg",
+        "description": "Shorts 쇼츠 구독하기, 좋아요 한번씩 눌러주시면 너무 감사하겠습니다 ㅎ_ㅎ ▷ https://goo.gl/c21mgR ◁구독하기! 똘킹 유튜브 채널 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xVsGm5c8Yi4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xVsGm5c8Yi4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xVsGm5c8Yi4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "똘킹",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-30T08:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1R_klilNu93f-Kt4UKg4kko4RaI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e1-c4Y_jHWw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-11T18:27:02Z",
+        "channelId": "UCgOjLy9aHn5zyhcnY-pUY7w",
+        "title": "Reacting to MrBeast&#39;s pizza... #shorts #shortsfeed #youtubeshorts #cringe #lifehack #comedy #funny",
+        "description": "Not sure you should cook pizza with power tools... Video Credit: mrbeast #shorts #shortsfeed #youtubeshorts #cringe #lifehack ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e1-c4Y_jHWw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e1-c4Y_jHWw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e1-c4Y_jHWw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LouisAyy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-11T18:27:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OJxoTB2Tys6_qd6xp-MqhW5ioR0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OCXb6182JRE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-17T20:50:21Z",
+        "channelId": "UCHyMNXj5l7eTTQefXzT3MdQ",
+        "title": "Speedrunning YT Shorts #279 (rarest Minecraft death)",
+        "description": "FYI the purpose of this video is satire and comedy, and I do not intend to disrespect or deprecate content creators featured in this ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OCXb6182JRE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OCXb6182JRE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OCXb6182JRE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Joe Caine",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-17T20:50:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EjPLZN2QzlZMzIKqic_V0fMgBeM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oXXj91I6nvM"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-09T00:38:35Z",
+        "channelId": "UC0mbGswi2sNwcmUcWGuvdxw",
+        "title": "촉법소년의 광란의 질주 참교육하는 김무열 ㄷㄷ",
+        "description": "참교육 #넷플릭스 #김무열 #촉법소년 #사이다 #액션 #드라마 #쇼츠.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oXXj91I6nvM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oXXj91I6nvM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oXXj91I6nvM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "드라마아",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-09T00:38:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d60zwlaQg4-5vHGSPnidk7Biy_4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "g6c-AOeHcv4"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-12T08:20:38Z",
+        "channelId": "UCV6lZM0h98Zfr8_who1I4QQ",
+        "title": "태권도 무시하면 안되는 이유ㄷㄷ #미드추천 #미드 #쇼츠 #shots #태권도 #movie",
+        "description": "제목 : Life After Fighting 줄거리: 흰 도복을 입은 초급반 수련생들 사이, \"태권도? 실전에서 쓸 데 없는 거 아닌가요?\" 도장 안에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g6c-AOeHcv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g6c-AOeHcv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g6c-AOeHcv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "존잼미드+",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-12T08:20:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O89VwFdHNh18pFnYpESfWjDQGQ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Z27pFtD9kWE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-07T04:20:24Z",
+        "channelId": "UCNYE6N9YZmsUyReBLzE9x9Q",
+        "title": "세상이 억까할 때 천일염을 밟으면 된다는 속설, 정말 효과가 있을까?",
+        "description": "쇼츠 #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z27pFtD9kWE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z27pFtD9kWE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z27pFtD9kWE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이상한 과자가게  weird sweets shop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-07T04:20:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0AfT-dfhxD3Bimcxzz12TKfGJwk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lIh_vjy85QI"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-21T21:30:00Z",
+        "channelId": "UCYvh5Y2T0DAzOWFl6pGgamw",
+        "title": "유럽반응 미쳤다는 트와이스 사나 직캠 #shorts",
+        "description": "shorts #쇼츠 #kpop #twice #트와이스 #사나 #sana #직캠 #아이돌.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lIh_vjy85QI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lIh_vjy85QI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lIh_vjy85QI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "같이덕질",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-21T21:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UCKuaM5x8b5wqCknwNeYy2CdYCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gF9KrVByMqo"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-07T00:40:50Z",
+        "channelId": "UC0uJTXwMPGcQUj0YowS3puQ",
+        "title": "쇼츠에서만 보던 일이 나에게도 일어난 날 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gF9KrVByMqo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gF9KrVByMqo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gF9KrVByMqo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소정아리",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-07T00:40:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E_Cr3k8cAm7esRAVVzvS9tngQlA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ji-yRNzrMQc"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-04T08:08:31Z",
+        "channelId": "UCxVhPg6I2i9T109SMy0ttZw",
+        "title": "이제 아빠랑은 끝이야 #쇼츠 #육아 #딸바보 #육아일상 #공감육아",
+        "description": "약 한 번 먹이려다 딸한테 절교 통보 받은 아빠의 하루 #쇼츠 #Shorts #쇼츠드라마 #육아 #육아일상 #딸바보 #약먹이기 #공감육아 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ji-yRNzrMQc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ji-yRNzrMQc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ji-yRNzrMQc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "복실이총각",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-04T08:08:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "raNmV3kjhnCxx6l95tKQQwg7v-k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UbWXU-lFTQY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-04T07:36:30Z",
+        "channelId": "UCoPIYJpGiCBOl12LTZmpYKw",
+        "title": "다시 선거하자!!  #shorts #쇼츠 #정치풍자 #레전드 #오세훈 #잠실투표소",
+        "description": "선거무효 #선관위 #부정선거 #이슈 #유머.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UbWXU-lFTQY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UbWXU-lFTQY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UbWXU-lFTQY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "폴리버스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-04T07:36:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zK_OgvHhdVDGnbsl2ycB7Vg7_ho",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s3oC-_cMxwU"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-15T21:35:06Z",
+        "channelId": "UCHyMNXj5l7eTTQefXzT3MdQ",
+        "title": "Speedrunning YT Shorts #278 (breathing technique)",
+        "description": "FYI the purpose of this video is satire and comedy, and I do not intend to disrespect or deprecate content creators featured in this ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s3oC-_cMxwU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s3oC-_cMxwU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s3oC-_cMxwU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Joe Caine",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-15T21:35:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RkR1SzOKcOxv-tcxf94BPdV0Cnk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2tsakugHSa8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-09T08:00:13Z",
+        "channelId": "UCYhUJGAH6HhOUJokzRupkpQ",
+        "title": "길이 맞히기 게임! 😱 인간 측정기 ㄷㄷㄷ",
+        "description": "인간 측정기 4관왕 버섯도리 ㅋㅋㅋ 길이 측정까지 ㄷㄷㄷ #쇼츠 #추천 #공감.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2tsakugHSa8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2tsakugHSa8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2tsakugHSa8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "버섯도리",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-09T08:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "niK9EaFF3znX8NpSyzbT_N8veT8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "06V4HKwFr_8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-13T12:41:31Z",
+        "channelId": "UComirotNSeSCFu0w3W9m27w",
+        "title": "윤남노도 웃참 실패한 이수지 유니버스ㅋㅋ",
+        "description": "이수지 유니버스 어디까지 가는 거냐ㅋㅋ 윤남노, 짭종원, 짭성재까지 총출동! #이수지 #윤남노 #쇼츠 #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/06V4HKwFr_8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/06V4HKwFr_8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/06V4HKwFr_8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쇼츠한입",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-13T12:41:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8goO6rEom26zO9L3LEKWPFwqpbM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jq7srVjaSjI"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-31T07:18:38Z",
+        "channelId": "UCgPQTBn0ZEHevHkkxG-qPOg",
+        "title": "대나무 장인의 놀라운 솜씨 #쇼츠 #재미있는 #놀라운",
+        "description": "중국의 대나무 만들기 장인이 영상입니다. #쇼츠 #기막힌 #신기한영상 #funny #foryou #fypシ #재미있는 #놀라운 #쇼츠추천 #중국 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jq7srVjaSjI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jq7srVjaSjI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jq7srVjaSjI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "신기하고 재미있고",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-31T07:18:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YugelIDriavT0N1zUuo35Wd-Gck",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3hs2Mwzq36c"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-01T08:00:34Z",
+        "channelId": "UCnQRkIhRmXrxGrK4-8n-lVw",
+        "title": "한국에 태어난걸 감사하게 만드는 나무🌳☠️.jpg",
+        "description": "Shorts 쇼츠 구독하기, 좋아요 한번씩 눌러주시면 너무 감사하겠습니다 ㅎ_ㅎ ▷ https://goo.gl/c21mgR ◁구독하기! 똘킹 유튜브 채널 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3hs2Mwzq36c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3hs2Mwzq36c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3hs2Mwzq36c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "똘킹",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-01T08:00:34Z"
+      }
+    }
+  ]
+}
