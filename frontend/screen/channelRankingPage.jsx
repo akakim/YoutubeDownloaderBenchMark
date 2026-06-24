@@ -1,23 +1,52 @@
 import React, { useRef,useState } from 'react';
 
 import '../css/screen_channelRankingPage.css';
+import ApiKeyBox from '../widget/apiKeyBox';
+import youtubeApiClient from "../network/youtubeDataApiClient";
+// import {AxiosRequestConfig} from 'axios';
 export default function ChannelRankingPage() {
 
-  const categories = [
-    "전체", "먹방", "요리", "뷰티", "게임", "브이로그", "운동/헬스",
-    "주식/투자", "부동산", "반려동물", "자동차", "여행", "육아", "패션",
-    "ASMR", "음악/커버", "IT/테크", "영화/드라마 리뷰", "책/독서", "코미디", "뉴스/시사",
-    "공부/학습", "DIY/공예", "인테리어/홈데코", "스포츠 관전", "자기계발", "만화/애니", "댄스/춤",
-    "캠핑/아웃도어", "낚시", "사진/카메라", "자연/풍경", "공포/미스터리", "직장/커리어", "외국어 학습",
-    "결혼/웨딩", "신기한 잡학/상식"
-  ];
+  const categories = {
+    전체:"전체", 먹방: "먹방", 요리: "요리",뷰티: "뷰티",게임: "게임",브이로그:"브이로그",운동: "운동/헬스",
+    주식: "주식/투자",부동산: "부동산",반려동물: "반려동물",자동차: "자동차",여행: "여행",육아: "육아",패션: "패션",
+    ASMR: "ASMR",음악: "음악/커버", IT: "IT/테크",영화리뷰: "영화 드라마 리뷰",책: "책/독서",코미디: "코미디",뉴스: "뉴스/시사",
+    공부: "공부/학습",DIY: "DIY/공예",인테리어: "인테리어/홈데코",스포츠: "스포츠 관전",자기계발: "자기계발",만화: "만화/애니",댄스: "댄스/춤",
+    캠핑: "캠핑/아웃도어",낚시: "낚시",사진: "사진/카메라",풍경: "자연/풍경",미스터리: "공포/미스터리",커리어: "직장/커리어",외국어: "외국어 학습",
+    결혼: "결혼/웨딩",상식: "신기한 잡학/상식"
+  };
+  
+  const TAB = {
+    KEYWORD: "keyword",
+    RANKING: "ranking",
+    GLOBAL: "global",
+  };
 
-  return (
+  const [activeTab, setActiveTab] = useState(TAB.KEYWORD);
+  const [activeCategories, setCategories] = useState(categories.전체);
+  const [showTabs, setShowTabs] = useState(true);
+
+  async function getSearch() {
+
+    const searchResponse = await youtubeApiClient.get('/search', { 
+      params: {
+        q: "cat",
+        maxResults: 10,
+        regionCode: "KR"
+      }
+    }
+    .then(res => console.log('then : ' + res.data)));
+
+      return searchResponse.data;
+  };
+
+  return (    
+
     <div className="page">
 
       {/* 상단 탭 */}
       <div className="topTabs">
-        <div className="tab">
+        <div className={`tab ${activeTab === TAB.KEYWORD ? "active" : ""}`}
+            onClick={()=>setActiveTab(TAB.KEYWORD)}>
           🎯
           <div>
             <h3>키워드 검색</h3>
@@ -25,7 +54,8 @@ export default function ChannelRankingPage() {
           </div>
         </div>
 
-        <div className="tab active">
+        <div className={`tab ${activeTab === TAB.RANKING ? "active" : ""}`}
+            onClick={()=>setActiveTab(TAB.RANKING)}>
           📊
           <div>
             <h3>요즘 잘하는 채널 랭킹!</h3>
@@ -33,7 +63,8 @@ export default function ChannelRankingPage() {
           </div>
         </div>
 
-        <div className="tab">
+        <div className={`tab ${activeTab === TAB.GLOBAL ? "active" : ""}`}
+            onClick={()=>setActiveTab(TAB.GLOBAL)}>
           🌎
           <div>
             <h3>터진 영상은 또 터진다!</h3>
@@ -42,16 +73,45 @@ export default function ChannelRankingPage() {
         </div>
       </div>
 
+      {/* API 카드 */}
+
+      <ApiKeyBox />
+
       {/* 제목 */}
-      <div className="titleArea">
-        <h1>📊 요즘 잘하는 채널 랭킹!</h1>
+      <div className="titleArea stickyTitle">
+        {/* <h1>📊 요즘 잘하는 채널 랭킹!</h1>
         <p>
           최근 1달 동안 조회수를 잘 뽑은 채널들을 카테고리별로 찾아보세요.
-        </p>
+        </p> */}
+
+        {
+          activeTab === TAB.RANKING ? (
+            <div className='tab'>
+              <div>
+                <h1>📊요즘 잘하는 채널 랭킹!</h1>
+                <p>카테고리별 급상승 채널</p>
+              </div>
+            </div>
+          ) : activeTab === TAB.GLOBAL ? (
+              <div className='tab'>
+                <div>
+                  <h1>🌎터진 영상은 또 터진다!</h1>
+                  <p>국가별 비교</p>
+                </div>
+              </div>
+          ) : (
+            <div className='tab'>
+              <div>
+                <h1>🎯 키워드 검색</h1>
+                <p>키워드/URL로 영상 탐색</p>
+              </div>
+            </div>
+          )
+        }
+
       </div>
 
-      {/* API 카드 */}
-      <div className="apiSection">
+      {/* <div className="apiSection">
         <div className="apiCard">
           <div>
             <strong>My First Project의 키</strong>
@@ -68,19 +128,21 @@ export default function ChannelRankingPage() {
           <button>발급방법</button>
           <button className="guideBtn">📺 영상 가이드</button>
         </div>
-      </div>
+      </div> */}
 
       {/* 토픽 선택 */}
       <div className="categorySection">
         <h3>토픽 선택</h3>
 
         <div className="categoryGrid">
-          {categories.map((item) => (
+          {Object.keys(categories).map((key) => (
             <button
-              key={item}
-              className={item === "전체" ? "category active" : "category"}
+              key={key}              
+              className={key === activeCategories ? "category active" : "category" }
+              onClick={()=>{ setCategories(key) }
+              }  
             >
-              {item}
+              {categories[key]}
             </button>
           ))}
         </div>

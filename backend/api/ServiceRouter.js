@@ -304,6 +304,7 @@ router.post('/convertMp3ToSTT', async (req, res) => {
   let stderr = "";
   
   console.log( req.body );
+  
   await runFasterWhisper(audioMp3Path,srtPath,model,language)
    .then((sttResult) =>{
        console.log(sttResult); // Python의 print 결과
@@ -323,7 +324,7 @@ router.post('/convertMp3ToSTT', async (req, res) => {
       });
     });
 
-});
+  });
 
 router.post('/download-srt/:jobId',(req,res)=>{
   const { jobId } = req.params;
