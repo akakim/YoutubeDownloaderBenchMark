@@ -1,0 +1,12 @@
+
+
+
+npm create vite@latest shadcn-test -- --template react
+
+npm install shadcn class-variance-authority clsx tailwind-merge lucide-react tw-animate-css
+
+문서대로 진행
+
+
+npx shadcn@latest init
+

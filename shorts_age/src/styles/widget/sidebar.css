@@ -1,0 +1,147 @@
+/* Sidebar.css */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #eef1f7;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, sans-serif;
+  border-right: 1px solid #d9dde7;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 24px 18px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: white;
+  display: grid;
+  place-items: center;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f2d63;
+}
+
+.brand p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #f59e0b;
+}
+
+.menu {
+  flex: 1;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  /* 내용이 넘치면 세로 스크롤 */
+  overflow-y: auto;
+
+  /* 가로 스크롤 방지 */
+  overflow-x: hidden;
+  /*space-y: 1.5;*/
+
+}
+
+.menu-item {
+  width: 100%;
+  height: 52px;
+  border: 0;
+  background: transparent;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0 20px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #1f2937;
+
+}
+
+.menu-item:hover {
+  background-color: white;
+  font-weight: 700;
+}
+
+.menu-item.active {
+  background: white;
+  font-weight: 700;
+}
+
+.icon {
+  width: 22px;
+}
+
+.right {
+  margin-left: auto;
+  color: #64748b;
+}
+
+.profile {
+  border-top: 1px solid #d9dde7;
+  padding: 14px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #7aa2ff;
+  display: grid;
+  place-items: center;
+}
+
+.profile strong {
+  font-size: 13px;
+}
+
+.profile p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.actions {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actions button {
+  height: 44px;
+  border: 0;
+  border-radius: 16px;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.red {
+  background: #f04444;
+}
+
+.green {
+  background: #16a34a;
+}
+
+footer {
+  padding: 18px 14px;
+  font-size: 11px;
+  color: #64748b;
+  line-height: 1.6;
+}
