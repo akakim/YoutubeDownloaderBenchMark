@@ -3,6 +3,8 @@
 
 npm create vite@latest shadcn-test -- --template react
 
+cd shadcn-test
+npm install
 npm install shadcn class-variance-authority clsx tailwind-merge lucide-react tw-animate-css
 
 문서대로 진행

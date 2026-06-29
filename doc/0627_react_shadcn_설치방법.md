@@ -2,16 +2,15 @@
 1. 
 ```
 
-# 테스트용 리엑트 프로젝트 생성.
-npm create vite@latest shadcn-test -- --template react
-cd shadcn-test
+# 테스트용 리엑트 프로젝트 생성. React + TypeScript, RSLint 
+# npm create vite@latest shadcn-test -- --template react
+PS D:\LLM> npm create vite@latest shadcn-lab -- --template react-ts
+
+cd shadcn-lab
 npm install
+# shadcn 설치 
+npm install shadcn class-variance-authority clsx tailwind-merge lucide-react tw-animate-css
 
-# 의존성 설치 
-npm install tailwindcss @tailwindcss/vite
-
-npx shadcn@latest init
-npx shadcn@latest add button card input
 ```
 1-1. 테스트용 리엑트 프로젝트 생성시  ESLint로 선택함. (Oxlint 설정과는 무관함 )
 
@@ -48,6 +47,9 @@ export default defineConfig({
 
 ```
 
+# 의존성 설치 
+npm install tailwindcss @tailwindcss/vite
+
 5. ./src/index.css 파일 내용 일부 추가. 
 
 ```
@@ -57,3 +59,6 @@ export default defineConfig({
 ... 기타 css  
 
 ```
+
+npx shadcn@latest init # 여러 파일을 생성함. ./src/index.css 같은것도 생성함.
+npx shadcn@latest add button card input

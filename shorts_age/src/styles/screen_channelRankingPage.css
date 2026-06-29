@@ -97,10 +97,10 @@
   background:#5cb85c;
 }
 
-.buttons{
+/* .buttons{
   display:flex;
   gap:10px;
-}
+} */
 
 .guideBtn{
   border:2px solid red;

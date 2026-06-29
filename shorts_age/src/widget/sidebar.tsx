@@ -70,8 +70,8 @@ export default function Sidebar({ activePage, onMenuClick }: SidebarProps) {
       </div>
 
       <div className="actions">
-        <button className="red">📺 준위야쇼츠하자</button>
-        <button className="green">🦘 캥거루스터디 카페</button>
+        <button className="red">📺 고양이쇼츠하자</button>
+        <button className="green">🦘 쇼츠 카페</button>
       </div>
 
       <footer>

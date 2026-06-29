@@ -4,8 +4,8 @@ import '../styles/screen_channelRankingPage.css';
 import ApiKeyBox from '../widget/apiKeyBox';
 import youtubeApiClient from "../network/youtubeDataApiClient";
 import { REGION_OPTIONS } from"../lib/region";
-// import { Button } from "@/components/ui/button"
-
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 // import {AxiosRequestConfig} from 'axios';
 export default function ChannelRankingPage() {
 
@@ -161,10 +161,14 @@ export default function ChannelRankingPage() {
             </button>
           ))}
         </div>
+        
       </div>
 
       {/* 국가 */}
       <div className="countrySection">
+        <Button varient="outline"> TailwindCSS</Button>
+ 
+        <Input></Input>
         <label>🌎 국가 - 현재 : KR 한국</label>
 
         <select>
