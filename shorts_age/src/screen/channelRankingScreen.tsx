@@ -6,16 +6,22 @@ import youtubeApiClient from "../network/youtubeDataApiClient";
 import { REGION_OPTIONS } from"../lib/region";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-// import {AxiosRequestConfig} from 'axios';
-export default function ChannelRankingPage() {
+import {
+  NativeSelect,
+  NativeSelectOptGroup,
+  NativeSelectOption,
+} from "@/components/ui/native-select"
+
+
+export default function ChannelRankingScreen() {
 
   const categories = {
-    전체:"전체", 먹방: "먹방", 요리: "요리",뷰티: "뷰티",게임: "게임",브이로그:"브이로그",운동: "운동/헬스",
-    주식: "주식/투자",부동산: "부동산",반려동물: "반려동물",자동차: "자동차",여행: "여행",육아: "육아",패션: "패션",
-    ASMR: "ASMR",음악: "음악/커버", IT: "IT/테크",영화리뷰: "영화 드라마 리뷰",책: "책/독서",코미디: "코미디",뉴스: "뉴스/시사",
-    공부: "공부/학습",DIY: "DIY/공예",인테리어: "인테리어/홈데코",스포츠: "스포츠 관전",자기계발: "자기계발",만화: "만화/애니",댄스: "댄스/춤",
-    캠핑: "캠핑/아웃도어",낚시: "낚시",사진: "사진/카메라",풍경: "자연/풍경",미스터리: "공포/미스터리",커리어: "직장/커리어",외국어: "외국어 학습",
-    결혼: "결혼/웨딩",상식: "신기한 잡학/상식"
+    ALL:"전체", MUKBANG: "먹방", COOK: "요리",BEAUTY: "뷰티",GAME: "게임",VLOG:"브이로그",HEALTH: "운동/헬스",
+    STOCK: "주식/투자",REAL_ESTATE: "부동산",ANIMAL: "반려동물",CAR: "자동차",TRAVEL: "여행",KIDDING: "육아",FASHION: "패션",
+    ASMR: "ASMR",MUSIC: "음악/커버", IT: "IT/테크",MOVIE_REVIEW: "영화 드라마 리뷰",BOOK: "책/독서",COMEDY: "코미디",NEWS: "뉴스/시사",
+    STUDY: "공부/학습",DIY: "DIY/공예",INTERIOR: "인테리어/홈데코",SPORTS: "스포츠 관전",SELF_DEV: "자기계발",COMICS: "만화/애니",DANCE: "댄스/춤",
+    CAMPING: "캠핑/아웃도어",FISHING: "낚시",PICTURE: "사진/카메라",NATURE: "자연/풍경",MYSTERY: "공포/미스터리",CAREER: "직장/커리어",FOREIGN: "외국어 학습",
+    MARRY: "결혼/웨딩",KNOW: "신기한 잡학/상식"
   };
 
   const PERIOD = {
@@ -34,11 +40,43 @@ export default function ChannelRankingPage() {
     GLOBAL: "global",
   };
 
+  const SUBSCRIBE_FILTER={
+    ALL:"전체", 
+    MILLION:"~1만", 
+    TEN_MILLION:"1만~10만", 
+    FIFTY_MILLION:"10만~50만", 
+    HUNDRED_MILLION:"50만~100만", 
+    THOUSAND_MILLION:"100만+"
+  }
+
+  const resultFilter = { 
+    DAY: "일일 조회수",
+    TOTAL: "총 조회수",
+    AVERAGE: "평균 조회수",
+    HIT_RATE: "히트율(체급대비)",
+    SUBSCRIBER: "구독자"
+  }
+
   const [activeTab, setActiveTab] = useState(TAB.KEYWORD);
-  const [activeCategories, setCategories] = useState(categories.전체);
-  // const []=useState(day);
+  const [activeCategories, setCategories] = useState(categories.ALL);
+  const [activeRegion,setRegion] = useState(REGION_OPTIONS[0].value);
+  const previousRegionCodeRef = useRef(activeRegion);
+  const [period, setPeriod] = useState(PERIOD.WEEK);
+  const [subscribeFilter, setSubScribeFilter] = useState(SUBSCRIBE_FILTER.ALL);
   const [showTabs, setShowTabs] = useState(true);
-  const [regionCode, setRegionCode] = useState("");
+  const [filteredData, setFilteredData] = useState(resultFilter.DAY);
+  const [isSearching, setIsSearching] = useState(false);
+
+  const handleRegionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  const nextRegionCode = event.target.value
+  const previousRegionCode = activeRegion
+
+    previousRegionCodeRef.current = previousRegionCode
+    setRegion(nextRegionCode)
+
+    console.log("이전 값:", previousRegionCode)
+    console.log("새 값:", nextRegionCode)
+  }
 
   // async function getSearch() {
 
@@ -58,71 +96,27 @@ export default function ChannelRankingPage() {
 
     <div className="page">
 
-      {/* 상단 탭 */}
-      <div className="topTabs">
-        <div className={`tab ${activeTab === TAB.KEYWORD ? "active" : ""}`}
-            onClick={()=>setActiveTab(TAB.KEYWORD)}>
-          🎯
-          <div>
-            <h3>키워드 검색</h3>
-            <p>키워드/URL로 영상 탐색</p>
-          </div>
-        </div>
-
-        <div className={`tab ${activeTab === TAB.RANKING ? "active" : ""}`}
-            onClick={()=>setActiveTab(TAB.RANKING)}>
-          📊
-          <div>
-            <h3>요즘 잘하는 채널 랭킹!</h3>
-            <p>카테고리별 급상승 채널</p>
-          </div>
-        </div>
-
-        <div className={`tab ${activeTab === TAB.GLOBAL ? "active" : ""}`}
-            onClick={()=>setActiveTab(TAB.GLOBAL)}>
-          🌎
-          <div>
-            <h3>터진 영상은 또 터진다!</h3>
-            <p>국가별 비교</p>
-          </div>
-        </div>
-      </div>
+      
 
       {/* API 카드 */}
 
-      <ApiKeyBox />
+      {/* <ApiKeyBox /> */}
 
-      {/* 제목 */}
+      
       <div className="titleArea stickyTitle">
         {/* <h1>📊 요즘 잘하는 채널 랭킹!</h1>
         <p>
           최근 1달 동안 조회수를 잘 뽑은 채널들을 카테고리별로 찾아보세요.
         </p> */}
 
-        {
-          activeTab === TAB.RANKING ? (
-            <div className='tab'>
-              <div>
-                <h1>📊요즘 잘하는 채널 랭킹!</h1>
-                <p>카테고리별 급상승 채널</p>
-              </div>
-            </div>
-          ) : activeTab === TAB.GLOBAL ? (
-              <div className='tab'>
-                <div>
-                  <h1>🌎터진 영상은 또 터진다!</h1>
-                  <p>국가별 비교</p>
-                </div>
-              </div>
-          ) : (
-            <div className='tab'>
-              <div>
-                <h1>🎯 키워드 검색</h1>
-                <p>키워드/URL로 영상 탐색</p>
-              </div>
-            </div>
-          )
-        }
+         
+        <div className='tab'>
+          <div>
+            <h1>📊요즘 잘하는 채널 랭킹!</h1>
+            <p>카테고리별 급상승 채널</p>
+          </div>
+        </div>
+           
 
       </div>
 
@@ -145,20 +139,21 @@ export default function ChannelRankingPage() {
         </div>
       </div> */}
 
-      {/* 토픽 선택 */}
+      
       <div className="categorySection">
         <h3>토픽 선택</h3>
 
         <div className="categoryGrid">
           {Object.entries(categories).map(([key, value]) => (
-            <button
-              key={key}              
-              className={key === activeCategories ? "category active" : "category" }
-              onClick={()=>{ setCategories(key) }
-              }  
-            >
-              {value}
-            </button>
+
+            <Button 
+              key = {key}
+              variant={value === activeCategories ? "":"outline" }
+              onClick={()=>{ setCategories(value) }} 
+              >
+               {value}
+            </Button>
+
           ))}
         </div>
         
@@ -166,31 +161,35 @@ export default function ChannelRankingPage() {
 
       {/* 국가 */}
       <div className="countrySection">
-        <Button varient="outline"> TailwindCSS</Button>
  
-        <Input></Input>
-        <label>🌎 국가 - 현재 : KR 한국</label>
+        <label>🌎 국가 </label>
 
-        <select>
+        <NativeSelect value={activeRegion} onChange={handleRegionChange}>
           {REGION_OPTIONS.map((region) => (
-            <option key={region.value} value={region.value}>
-              {region.label}
-            </option>
+            <NativeSelectOption key={region.value} value={region.value}>{region.label}</NativeSelectOption>
           ))}
-        </select>
+        </NativeSelect>
+
       </div>
 
       {/* 기간 */}
       <div className="periodSection">
-        <label>📅 기간 - 현재 : 1달</label>
+        <label>📅 기간 </label>
 
         <div className="periodButtons">
-          <button>1주일</button>
-          <button className="active">1달</button>
-          <button>2달</button>
-          <button>3달</button>
-          <button>6달</button>
-          <button>1년</button>
+          
+          {Object.entries(PERIOD).map(([key, value]) => (
+              
+            <Button 
+              key = {key}
+              variant={value === period ? "":"outline" }
+              onClick={()=>{ setPeriod(value) }} 
+              >
+               {value}
+            </Button>
+
+          ))}
+
         </div>
       </div>
 
@@ -202,24 +201,56 @@ export default function ChannelRankingPage() {
           </div>
 
           <div className="sortButtons">
-            <button className="active">⚡ 일일 조회수</button>
-            <button>🔥 총 조회수</button>
-            <button>📊 평균 조회수</button>
-            <button>💥 히트율(체급대비)</button>
-            <button>👥 구독자</button>
+            {Object.entries(resultFilter).map(([key, value]) => (
+              <Button
+                key={key}
+                variant={value === filteredData ? "":"outline" }
+                onClick={()=>{ 
+                  setFilteredData(value); 
+                  console.log('filteredData : '+ filteredData);
+                  console.log('value : '+ value);
+                  console.log('value === filteredData : '+ (value === filteredData));
+                  
+
+                }}>
+                  {value}
+                </Button>
+
+            ))}  
+            
+
           </div>
         </div>
 
         <div className="subscriberFilter">
           <span>👥 구독자 필터:</span>
-          {["전체", "~1만", "1만~10만", "10만~50만", "50만~100만", "100만+"].map(
-            (item) => (
-              <button key={item} className={item === "전체" ? "active" : ""}>
-                {item}
-              </button>
-            )
-          )}
+          {Object.entries(SUBSCRIBE_FILTER).map(
+            ([key, value]) => (
+              <Button 
+                key={key} 
+                variant={value === subscribeFilter ? "":"outline" }
+                onClick={()=>{ setSubScribeFilter(value)}}>
+                
+                {value}
+              </Button>
+          ))}
         </div>
+
+        <Button 
+          key="searchChannelRanking"
+          onClick={()=>{ 
+
+            if(!isSearching) {
+              setIsSearching(true);
+              youtubeApiClient.get('/search', {
+                
+              })
+            } 
+          }}
+        >
+          검색
+
+        </Button>
 
         <div className="rankingTable">
           <div className="tableHead">

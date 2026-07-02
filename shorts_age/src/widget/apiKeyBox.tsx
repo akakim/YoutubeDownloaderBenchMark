@@ -1,5 +1,13 @@
 import { useState } from "react";
 import "../styles/widget/ApiKeyBox.css";
+import {
+  Field,
+  FieldDescription,
+  FieldLabel,
+} from "@/components/ui/field"
+
+import { Input } from "@/components/ui/input"
+import {Button } from "@/components/ui/button"
 
 export default function ApiKeyBox() {
   const [isAdding, setIsAdding] = useState(false);
@@ -21,9 +29,9 @@ export default function ApiKeyBox() {
 
   if (!isAdding) {
     return (
-      <button className="add-key-btn" onClick={() => setIsAdding(true)}>
+      <Button onClick={() => setIsAdding(true)} >
         키 추가
-      </button>
+      </Button>
     );
   }
 
@@ -43,9 +51,9 @@ export default function ApiKeyBox() {
         </div>
 
         <div className="buttons">
-          <button>+ 키 추가</button>
-          <button>발급방법</button>
-          <button className="guideBtn">📺 영상 가이드</button>
+          <Button>+ 키 추가</Button>
+          <Button>발급방법</Button>
+          <Button variant="ghost">📺 영상 가이드</Button>
         </div>
       </div>
 
@@ -63,13 +71,13 @@ export default function ApiKeyBox() {
         className="api-input key-input"
       />
 
-      <button className="cancel-btn" onClick={() => setIsAdding(false)}>
+      <Button onClick={() => setIsAdding(false)}>
         취소
-      </button>
+      </Button>
 
-      <button className="add-btn" onClick={handleAdd}>
+      <Button onClick={handleAdd}>
         추가
-      </button>
+      </Button>
     </div>
   );
 }

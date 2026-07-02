@@ -173,23 +173,6 @@
   gap:10px;
 }
 
-.sortButtons button,
-.subscriberFilter button{
-  border:1px solid #dfe4ef;
-  background:white;
-  border-radius:12px;
-  padding:9px 16px;
-  font-weight:700;
-  color:#66708a;
-}
-
-.sortButtons button.active,
-.subscriberFilter button.active{
-  background:#c88700;
-  color:white;
-  border-color:#c88700;
-}
-
 .subscriberFilter{
   margin:22px 0 14px;
   display:flex;
@@ -327,22 +310,7 @@
   gap:10px;
 }
 
-.sortButtons button,
-.subscriberFilter button{
-  border:1px solid #dfe4ef;
-  background:white;
-  border-radius:12px;
-  padding:9px 16px;
-  font-weight:700;
-  color:#66708a;
-}
 
-.sortButtons button.active,
-.subscriberFilter button.active{
-  background:#c88700;
-  color:white;
-  border-color:#c88700;
-}
 
 .subscriberFilter{
   margin:22px 0 14px;
