@@ -35,20 +35,26 @@ export function DataTable<TData, TValue>({
 
   return (
 //overflow-hidden
-    <div className="rounded-md border">
-      <Table>
-        <TableHeader stickyTitle className="top-10 z-[30] bg-white">
+    <div className="w-full overflow-hidden rounded-md border [&_[data-slot=table-container]]:overflow-hidden">
+      <Table className="w-full table-fixed">
+        <TableHeader className="top-10 z-[30] bg-white">
           {table.getHeaderGroups().map((headerGroup) => (
             <TableRow key={headerGroup.id}>
               {headerGroup.headers.map((header) => {
                 return (
-                  <TableHead key={header.id}>
-                    {header.isPlaceholder
-                      ? null
-                      : flexRender(
-                          header.column.columnDef.header,
-                          header.getContext()
-                        )}
+                  <TableHead
+                    key={header.id}
+                    className="max-w-0 overflow-hidden"
+                    style={{ width: header.getSize() }}
+                  >
+                    <div className="truncate">
+                      {header.isPlaceholder
+                        ? null
+                        : flexRender(
+                            header.column.columnDef.header,
+                            header.getContext()
+                          )}
+                    </div>
                   </TableHead>
                 )
               })}
@@ -63,8 +69,21 @@ export function DataTable<TData, TValue>({
                 data-state={row.getIsSelected() && "selected"}
               >
                 {row.getVisibleCells().map((cell) => (
-                  <TableCell key={cell.id}>
-                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  <TableCell
+                    key={cell.id}
+                    className="max-w-0 overflow-hidden"
+                    style={{ width: cell.column.getSize() }}
+                  >
+                    <div
+                      className={
+                        cell.column.id === "title"
+                          ? "whitespace-normal"
+                          : "truncate"
+                      }
+                      title={String(cell.getValue() ?? "")}
+                    >
+                      {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                    </div>
                   </TableCell>
                 ))}
               </TableRow>

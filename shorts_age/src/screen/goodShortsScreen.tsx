@@ -183,7 +183,7 @@ export default function GoodShortsPage() {
 
         <select>
           {REGION_OPTIONS.map((region) => (
-            <option key={region.value} value={region.value}>
+            <option key={region.ISO_3166_1_value} value={region.ISO_3166_1_value}>
               {region.label}
             </option>
           ))}

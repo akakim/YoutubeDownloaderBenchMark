@@ -19,6 +19,22 @@ export type SearchListResponse = {
 export type VideoListResponse = {
   items: {
     id: string;
+    snippet?: {
+      channelId?: string;
+      channelTitle?: string;
+      publishedAt?: string;
+      publishAt?: string;
+      localized?: {
+        title?: string;
+      };
+      thumbnails?: {
+        default?: {
+          url?: string;
+          width?: number;
+          height?: number;
+        };
+      };
+    };
     statistics?: {
       viewCount?: string;
       likeCount?: string;

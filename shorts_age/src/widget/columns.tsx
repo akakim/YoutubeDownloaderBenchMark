@@ -1,8 +1,9 @@
 import type { ColumnDef } from "@tanstack/react-table"
  
 export type YoutubeTableRow = {
-  id: string
+  videoId: string
   source: "Search" | "Video" | "Channel"
+  thumbnail: string
   title: string
   channelTitle: string
   publishedAt: string
@@ -49,35 +50,61 @@ function formatCompactNumber(value: number) {
  
 export const columns: ColumnDef<YoutubeTableRow>[] = [
   {
-    accessorKey: "source",
-    header: "Source",
+    accessorKey: "thumbnail",
+    header: "Thumbnail",
+    size: 140,
+    cell: ({ row }) => {
+      const thumbnail = row.original.thumbnail
+
+      return thumbnail ? (
+        <div className="h-[90px] w-[120px] min-w-[120px] overflow-hidden rounded bg-black">
+          <img
+            src={thumbnail}
+            alt={row.original.title}
+            width={120}
+            height={90}
+            className="block h-full w-full max-w-none object-contain"
+          />
+        </div>
+      ) : (
+        "-"
+      )
+    },
   },
   {
     accessorKey: "title",
     header: "Title",
+    size: 560,
+    cell: ({ row }) => (
+      <div
+        className="whitespace-normal break-words text-left leading-snug"
+        style={{
+          display: "-webkit-box",
+          WebkitLineClamp: 3,
+          WebkitBoxOrient: "vertical",
+          overflow: "hidden",
+        }}
+        title={row.original.title}
+      >
+        {row.original.title}
+      </div>
+    ),
   },
   {
     accessorKey: "channelTitle",
     header: "Channel",
+    size: 180,
   },
   {
     accessorKey: "publishedAt",
     header: "Published",
+    size: 120,
     cell: ({ row }) => formatPublishedDate(row.original.publishedAt),
   },
   {
     accessorKey: "viewCount",
     header: "Views",
+    size: 120,
     cell: ({ row }) => formatCount(row.original.viewCount),
-  },
-  {
-    accessorKey: "subscriberCount",
-    header: "Subscribers",
-    cell: ({ row }) => formatCount(row.original.subscriberCount, "명"),
-  },
-  {
-    accessorKey: "videoCount",
-    header: "Videos",
-    cell: ({ row }) => formatCount(row.original.videoCount, "개"),
   },
 ]

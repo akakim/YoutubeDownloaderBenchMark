@@ -1,23 +1,30 @@
 import React, { useRef,useState } from 'react';
-
 import '../styles/screen_channelRankingPage.css';
 import ApiKeyBox from '../widget/apiKeyBox';
-
-import {youtubeApiClient,youtubeAPIMocClient} from "../network/youtubeDataApiClient";
+import DemoPage from '../widget/page';
+import { youtubeAPIMocClient } from "../network/youtubeDataApiClient";
 import { REGION_OPTIONS } from"../lib/region";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-// import {AxiosRequestConfig} from 'axios';
-export default function keywordSearchScreen() {
+import type { YoutubeTableRow } from "@/widget/columns";
+import type {
+  ChannelListResponse,
+  VideoListResponse,
+  SearchListItem,
+  SearchListResponse
+} from "@/network/mockItemType";
+import { Marker, MarkerContent, MarkerIcon } from "@/components/ui/marker"
 
-  const categories = {
-    전체:"전체", 먹방: "먹방", 요리: "요리",뷰티: "뷰티",게임: "게임",브이로그:"브이로그",운동: "운동/헬스",
-    주식: "주식/투자",부동산: "부동산",반려동물: "반려동물",자동차: "자동차",여행: "여행",육아: "육아",패션: "패션",
-    ASMR: "ASMR",음악: "음악/커버", IT: "IT/테크",영화리뷰: "영화 드라마 리뷰",책: "책/독서",코미디: "코미디",뉴스: "뉴스/시사",
-    공부: "공부/학습",DIY: "DIY/공예",인테리어: "인테리어/홈데코",스포츠: "스포츠 관전",자기계발: "자기계발",만화: "만화/애니",댄스: "댄스/춤",
-    캠핑: "캠핑/아웃도어",낚시: "낚시",사진: "사진/카메라",풍경: "자연/풍경",미스터리: "공포/미스터리",커리어: "직장/커리어",외국어: "외국어 학습",
-    결혼: "결혼/웨딩",상식: "신기한 잡학/상식"
-  };
+import { Input } from "@/components/ui/input";
+import {
+  NativeSelect,
+  NativeSelectOptGroup,
+  NativeSelectOption,
+} from "@/components/ui/native-select"
+import { Spinner } from '@/components/ui/spinner';
+
+
+export default function KeywordSearchScreen() {
+ 
 
   const PERIOD = {
     WEEK: "1주일",
@@ -44,43 +51,120 @@ export default function keywordSearchScreen() {
     THOUSAND_MILLION:"100만+"
   }
 
-  const [activeTab, setActiveTab] = useState(TAB.KEYWORD);
-  const [activeCategories, setCategories] = useState(categories.전체);
+  const resultFilter = { 
+    DAY: "일일 조회수",
+    TOTAL: "총 조회수",
+    AVERAGE: "평균 조회수",
+    HIT_RATE: "히트율(체급대비)",
+    SUBSCRIBER: "구독자"
+  }
+
+  // const [activeCategories, setCategories] = useState(categories.ALL);
+  const [activeRegion,setRegion] = useState(REGION_OPTIONS[0].ISO_3166_1_value);
+  const previousRegionCodeRef = useRef(activeRegion);
   const [period, setPeriod] = useState(PERIOD.WEEK);
   const [subscribeFilter, setSubScribeFilter] = useState(SUBSCRIBE_FILTER.ALL);
-  // const []=useState(day);
-  const [showTabs, setShowTabs] = useState(true);
-  const [regionCode, setRegionCode] = useState("");
+  const [filteredData, setFilteredData] = useState(resultFilter.DAY);
+  const [isSearching, setIsSearching] = useState(false);
+  const [rankingRows, setRankingRows] = useState<YoutubeTableRow[]>([]);
 
-  // async function getSearch() {
+  const handleSearchChannelRanking = (event: React.MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
 
-  //   const searchResponse = await youtubeApiClient.get('/search', { 
-  //     params: {
-  //       q: "cat",
-  //       maxResults: 10,
-  //       regionCode: "KR"
-  //     }
-  //   }
-  //   .then(res => console.log('then : ' + res.data)));
+    if (isSearching) {
+      return;
+    }
 
-  //     return searchResponse.data;
-  // };
+    setIsSearching(true);
+
+    youtubeAPIMocClient.get<SearchListResponse>('/api/testSearchList',{
+      params: {
+        part: 'snippet'
+      }
+    }).then((SearchListResponse) => {
+      const videoIds = SearchListResponse.data.items
+        .map((item) => item.id.videoId)
+        .filter(Boolean)
+        .join(',');
+
+      console.log('videoIds', videoIds);
+
+        youtubeAPIMocClient.get<VideoListResponse>('/api/testSmallVideoList',{
+          params: {
+            part: 'snippet,statistics,contentDetails',
+            id: videoIds,
+            type: 'video',
+            maxResults:'50',
+            order: 'viewCount',
+            publishedAfter: '2023-01-01T00:00:00Z',
+            q: '쇼츠',
+            regionCode: 'KR',
+            relevanceLanguage: 'ko',
+            key: import.meta.env.VITE_YOUTUBE_DATA_API_KEY, 
+
+          },
+        })
+      .then((videoResponse) => {
+        const videoItems = videoResponse.data.items;
+
+        const rows :YoutubeTableRow[] = videoItems.map((video) => ({
+          videoId: video.id,
+          source: 'Video',
+          thumbnail: video.snippet?.thumbnails?.default?.url ?? '',
+          title: video.snippet?.localized?.title ?? '',
+          channelTitle: video.snippet?.channelTitle ?? '',
+          publishedAt: video.snippet?.publishedAt ?? video.snippet?.publishAt ?? '',
+          viewCount: video.statistics?.viewCount ?? '-',
+          subscriberCount: '-',
+          videoCount: '-',
+        }));
+
+        setRankingRows(rows);
+        return rows;
+
+      })
+
+    })
+    .catch((error) => {
+      console.error('channel ranking mock request error', error);
+    })
+    .finally(() => {
+      setIsSearching(false);
+  });
+  };
+
+  const handleRegionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  const nextRegionCode = event.target.value
+  const previousRegionCode = activeRegion
+
+    previousRegionCodeRef.current = previousRegionCode
+    setRegion(nextRegionCode)
+
+    console.log("이전 값:", previousRegionCode)
+    console.log("새 값:", nextRegionCode)
+  }
+
 
   return (    
 
     <div className="page">
 
-      {/* 제목 */}
-      <div className="titleArea stickyTitle">
+
+      
+      <div className="titleArea">
+        {/* <h1>📊 요즘 잘하는 채널 랭킹!</h1>
+        <p>
+          최근 1달 동안 조회수를 잘 뽑은 채널들을 카테고리별로 찾아보세요.
+        </p> */}
 
          
         <div className='tab'>
           <div>
-            <h1>🎯 키워드 검색</h1>
-            <p>키워드/URL로 영상 탐색</p>
+            <h1>키워드 검색</h1>
+            <p> 잘나가는 키워드 </p>
           </div>
         </div>
-          
+           
 
       </div>
 
@@ -107,48 +191,35 @@ export default function keywordSearchScreen() {
       <div className="categorySection">
         <h3>토픽 선택</h3>
 
-        <div className="categoryGrid">
-          {Object.entries(categories).map(([key, value]) => (
-
-            <Button 
-              key = {key}
-              variant={key === activeCategories ? "":"outline" }
-              onClick={()=>{ setCategories(key) }} 
-              >
-               {value}
-            </Button>
-
-          ))}
-        </div>
+         
         
       </div>
 
       {/* 국가 */}
       <div className="countrySection">
  
-        <label>🌎 국가 - 현재 : KR 한국</label>
+        <label>🌎 국가 </label>
 
-        <select>
+        <NativeSelect value={activeRegion} onChange={handleRegionChange}>
           {REGION_OPTIONS.map((region) => (
-            <option key={region.value} value={region.value}>
-              {region.label}
-            </option>
+            <NativeSelectOption key={region.value} value={region.value}>{region.label}</NativeSelectOption>
           ))}
-        </select>
+        </NativeSelect>
+
       </div>
 
       {/* 기간 */}
       <div className="periodSection">
-        <label>📅 기간 - 현재 : 1달</label>
+        <label>📅 기간 </label>
 
         <div className="periodButtons">
-        
+          
           {Object.entries(PERIOD).map(([key, value]) => (
-
+              
             <Button 
               key = {key}
-              variant={key === period ? "":"outline" }
-              onClick={()=>{ setPeriod(key) }} 
+              variant={value === period ? "default":"outline" }
+              onClick={()=>{ setPeriod(value) }} 
               >
                {value}
             </Button>
@@ -166,11 +237,24 @@ export default function keywordSearchScreen() {
           </div>
 
           <div className="sortButtons">
-            <button className="active">⚡ 일일 조회수</button>
-            <button>🔥 총 조회수</button>
-            <button>📊 평균 조회수</button>
-            <button>💥 히트율(체급대비)</button>
-            <button>👥 구독자</button>
+            {Object.entries(resultFilter).map(([key, value]) => (
+              <Button
+                key={key}
+                variant={value === filteredData ? "":"outline" }
+                onClick={()=>{ 
+                  setFilteredData(value); 
+                  console.log('filteredData : '+ filteredData);
+                  console.log('value : '+ value);
+                  console.log('value === filteredData : '+ (value === filteredData));
+                  
+
+                }}>
+                  {value}
+                </Button>
+
+            ))}  
+            
+
           </div>
         </div>
 
@@ -180,14 +264,52 @@ export default function keywordSearchScreen() {
             ([key, value]) => (
               <Button 
                 key={key} 
-                variant={key === SUBSCRIBE_FILTER.ALL ? "":"outline" }
-                onClick={()=>{ setSubScribeFilter(key)}}>
+                variant={value === subscribeFilter ? "":"outline" }
+                onClick={()=>{ setSubScribeFilter(value)}}>
                 
                 {value}
               </Button>
           ))}
         </div>
+        
+          {isSearching && (<div className="flex w-full justify-center py-12">
+            <Marker role="status" className="max-w-sm flex-col justify-center gap-4 text-center">
+              <MarkerIcon className="size-16">
+                <Spinner className="size-16 text-indigo-500"/> 
+              </MarkerIcon>
+              <MarkerContent className="w-full text-center">
+                Loading channel ranking
+              </MarkerContent>
+            </Marker>
+          </div>
+          )}
 
+
+        <div className="keywordSearchBar" aria-label="검색 키워드 입력 영역">
+          <div className="keywordSearchInputBox">
+            <span className="keywordSearchIcon">🎯</span>
+            <Input
+              placeholder="검색 키워드 또는 유튜브 영상 URL"
+            >
+
+            </Input>
+          </div>
+          <Button 
+            key="searchChannelRanking"
+            disabled={isSearching}
+            onClick={handleSearchChannelRanking}
+          >
+            검색
+
+          </Button>
+          <button type="button" className="keywordResetButton">
+            🔄 초기화
+          </button>
+        </div>
+
+         
+        <DemoPage data={rankingRows}></DemoPage>
+        
         <div className="rankingTable">
           <div className="tableHead">
             <span>순위</span>

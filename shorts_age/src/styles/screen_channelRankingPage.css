@@ -289,6 +289,248 @@
   color:#8791aa;
 }
 
+.dark .page{
+  background:#050507;
+  color:#f5f5f6;
+  min-height:100vh;
+}
+
+.dark .tab,
+.dark .categorySection,
+.dark .apiSection,
+.dark .rankingTable,
+.dark .guideBox{
+  background:#111318;
+  border-color:#292d36;
+  color:#f5f5f6;
+}
+
+.dark .stickyTitle{
+  background:#050507;
+  border-bottom-color:#292d36;
+}
+
+.dark .tab p,
+.dark .titleBox p,
+.dark .subscriberFilter,
+.dark .channelInfo p,
+.dark .videoThumb p,
+.dark .keywordSearchPlaceholder{
+  color:#a9b0c0;
+}
+
+.dark .rankingHeader,
+.dark .rankingHeader b,
+.dark .rank,
+.dark .tableHead{
+  color:#f1b443;
+}
+
+.dark .tableHead{
+  background:#171a21;
+}
+
+.dark .tableRow{
+  border-top-color:#292d36;
+}
+
+.dark .channelName{
+  color:#f5f5f6;
+}
+
+.dark .channelName em{
+  background:#252a34;
+  color:#c8cedb;
+}
+
+.dark .keywordSearchBar{
+  background:#17130a;
+  border:1px solid #49320b;
+}
+
+.dark .keywordSearchInputBox{
+  background:#0d0f14;
+  border-color:#d38a00;
+}
+
+.dark .keywordResetButton{
+  background:#111318;
+  color:#d6dbe7;
+  border-color:#303642;
+}
+
+.dark .rounded-md.border{
+  border-color:#292d36;
+  background:#111318;
+}
+
+.dark [data-slot="table"],
+.dark [data-slot="table-header"],
+.dark [data-slot="table-row"],
+.dark [data-slot="table-cell"],
+.dark [data-slot="table-head"]{
+  background:#111318;
+  color:#f5f5f6;
+  border-color:#292d36;
+}
+
+.dark [data-slot="table-header"]{
+  background:#171a21;
+}
+
+.dark .page{
+  background:#050507;
+  color:#f5f5f6;
+  min-height:100vh;
+}
+
+.dark .tab,
+.dark .categorySection,
+.dark .apiSection,
+.dark .rankingTable,
+.dark .guideBox{
+  background:#111318;
+  border-color:#292d36;
+  color:#f5f5f6;
+}
+
+.dark .stickyTitle{
+  background:#050507;
+  border-bottom-color:#292d36;
+}
+
+.dark .tab p,
+.dark .titleBox p,
+.dark .subscriberFilter,
+.dark .channelInfo p,
+.dark .videoThumb p,
+.dark .keywordSearchPlaceholder{
+  color:#a9b0c0;
+}
+
+.dark .rankingHeader,
+.dark .rankingHeader b,
+.dark .rank,
+.dark .tableHead{
+  color:#f1b443;
+}
+
+.dark .tableHead{
+  background:#171a21;
+}
+
+.dark .tableRow{
+  border-top-color:#292d36;
+}
+
+.dark .channelName{
+  color:#f5f5f6;
+}
+
+.dark .channelName em{
+  background:#252a34;
+  color:#c8cedb;
+}
+
+.dark .keywordSearchBar{
+  background:#17130a;
+  border:1px solid #49320b;
+}
+
+.dark .keywordSearchInputBox{
+  background:#0d0f14;
+  border-color:#d38a00;
+}
+
+.dark .keywordResetButton{
+  background:#111318;
+  color:#d6dbe7;
+  border-color:#303642;
+}
+
+.dark .rounded-md.border{
+  border-color:#292d36;
+  background:#111318;
+}
+
+.dark [data-slot="table"],
+.dark [data-slot="table-header"],
+.dark [data-slot="table-row"],
+.dark [data-slot="table-cell"],
+.dark [data-slot="table-head"]{
+  background:#111318;
+  color:#f5f5f6;
+  border-color:#292d36;
+}
+
+.dark [data-slot="table-header"]{
+  background:#171a21;
+}
+
+.keywordSearchBar{
+  width:100%;
+  margin:18px 0 16px;
+  padding:7px;
+  border-radius:18px;
+  background:#f6e8c4;
+  display:grid;
+  grid-template-columns:minmax(0, 1fr) 132px 104px;
+  gap:10px;
+  align-items:center;
+}
+
+.keywordSearchInputBox{
+  height:64px;
+  padding:0 28px;
+  border:2px solid #d98b00;
+  border-radius:14px;
+  background:#fff;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:0;
+  box-sizing:border-box;
+}
+
+.keywordSearchIcon{
+  font-size:18px;
+  line-height:1;
+  flex:0 0 auto;
+}
+
+.keywordSearchPlaceholder{
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:#8791aa;
+  font-size:16px;
+  font-weight:700;
+}
+
+.keywordSearchButton,
+.keywordResetButton{
+  height:66px;
+  border:0;
+  border-radius:14px;
+  font-size:15px;
+  font-weight:800;
+  cursor:default;
+}
+
+.keywordSearchButton{
+  background:#d38a00;
+  color:#fff;
+  box-shadow:0 8px 18px rgba(180, 112, 0, 0.25);
+}
+
+.keywordResetButton{
+  background:#fff;
+  color:#66708a;
+  border:2px solid #e1e5ee;
+  box-shadow:0 5px 12px rgba(80, 90, 120, 0.08);
+}
+
 .rankingWrap{
   margin-top:30px;
 }

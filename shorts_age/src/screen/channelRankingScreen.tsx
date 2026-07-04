@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button";
 import type { YoutubeTableRow } from "@/widget/columns";
 import type {
   ChannelListResponse,
-  SearchListResponse,
   VideoListResponse,
 } from "@/network/mockItemType";
 import { Marker, MarkerContent, MarkerIcon } from "@/components/ui/marker"
@@ -69,7 +68,7 @@ export default function ChannelRankingScreen() {
 
   const [activeTab, setActiveTab] = useState(TAB.KEYWORD);
   const [activeCategories, setCategories] = useState(categories.ALL);
-  const [activeRegion,setRegion] = useState(REGION_OPTIONS[0].value);
+  const [activeRegion,setRegion] = useState(REGION_OPTIONS[0].ISO_3166_1_value);
   const previousRegionCodeRef = useRef(activeRegion);
   const [period, setPeriod] = useState(PERIOD.WEEK);
   const [subscribeFilter, setSubScribeFilter] = useState(SUBSCRIBE_FILTER.ALL);
@@ -88,7 +87,7 @@ export default function ChannelRankingScreen() {
     setIsSearching(true);
 
     youtubeAPIMocClient
-      .get<SearchListResponse>('/api/testSearchList',{
+      .get<VideoListResponse>('/api/testSmallVideoList',{
           params: {
             part: 'snippet,statistics,contentDetails',
             type: 'video',
@@ -102,93 +101,27 @@ export default function ChannelRankingScreen() {
 
           },
         })
-      .then((searchResponse) => {
-        const videoIds = searchResponse.data.items
-          .map((item) => item.id.videoId)
-          .join(',');
+      .then((videoResponse) => {
+        const videoItems = videoResponse.data.items;
 
-        const parsedItems = searchResponse.data.items.map((item) => ({
-          videoId: item.id.videoId,
-          channelId: item.snippet.channelId,
-          title: item.snippet.title,
-          channelTitle: item.snippet.channelTitle,
-          publishTime: item.snippet.publishTime,
+        const rows :YoutubeTableRow[] = videoItems.map((video) => ({
+          videoId: video.id,
+          channelId: video.snippet?.channelId ?? '',
+          thumbnail: video.snippet?.thumbnails?.default?.url ?? '',
+          title: video.snippet?.localized?.title ?? '',
+          channelTitle: video.snippet?.channelTitle ?? '',
+          publishedAt: video.snippet?.publishedAt ?? video.snippet?.publishAt ?? '',
+          viewCount: Number(video.statistics?.viewCount ?? 0),
+          likeCount: Number(video.statistics?.likeCount ?? 0),
+          commentCount: Number(video.statistics?.commentCount ?? 0),
+          duration: video.contentDetails?.duration,
         }));
-
-        console.log('parsedSearchItems', parsedItems);
-
-        return youtubeAPIMocClient.get<VideoListResponse>('/api/testVideoList', {
-          params: {
-            part: 'snippet,statistics,contentDetails',
-            id: videoIds,
-          },
-        }).then((videoResponse) => ({
-        parsedItems,
-        videoItems: videoResponse.data.items,
-      }));
-      })
-      .then(({ parsedItems, videoItems }) => {
-        console.log('testVideoList', videoItems);
-         const videoMap = new Map(
-          videoItems.map((video) => [
-            video.id,
-            {
-              viewCount: Number(video.statistics?.viewCount ?? 0),
-              likeCount: Number(video.statistics?.likeCount ?? 0),
-              commentCount: Number(video.statistics?.commentCount ?? 0),
-              duration: video.contentDetails?.duration,
-            },
-          ])
-        );
-        const mergedVideoRows = parsedItems.map((searchItem) => {
-        const videoData = videoMap.get(searchItem.videoId);
-
-        return {
-          ...searchItem,
-          ...videoData,
-        };
-        });
-
-        return youtubeAPIMocClient.get<ChannelListResponse>('/api/testChannelList')
-        .then((channelResponse) => ({
-          mergedVideoRows,
-          channelItems: channelResponse.data.items,
-        }));
-
-
-      })
-      .then(({mergedVideoRows,channelItems}) => {
-        console.log('mergedVideoRows', mergedVideoRows);
-        console.log('channelItems', channelItems);
-
-        const channelMap = new Map(
-          channelItems.map((channel) => [
-            channel.id,
-            {
-              subscriberCount: channel.statistics?.subscriberCount ?? '-',
-              videoCount: channel.statistics?.videoCount ?? '-',
-            },
-          ])
-        );
-
-        const rows: YoutubeTableRow[] = mergedVideoRows.map((item) => {
-          const channelData = channelMap.get(item.channelId);
-
-          return {
-            id: item.videoId,
-            source: 'Search',
-            title: item.title,
-            channelTitle: item.channelTitle,
-            publishedAt: item.publishTime,
-            viewCount: String(item.viewCount ?? '-'),
-            subscriberCount: channelData?.subscriberCount ?? '-',
-            videoCount: channelData?.videoCount ?? '-',
-          };
-        });
 
         setRankingRows(rows);
         return rows;
+
       })
+       
       .catch((error) => {
         console.error('channel ranking mock request error', error);
       })
