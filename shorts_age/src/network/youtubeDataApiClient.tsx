@@ -4,4 +4,9 @@ const youtubeApiClient = axios.create({
   baseURL: import.meta.env.YOUTUBE_DATA_API_V3_URL,
 });
 
-export default youtubeApiClient;
+const youtubeAPIMocClient = axios.create({
+  baseURL: import.meta.env.VITE_API_URL,
+}); 
+
+
+export { youtubeApiClient, youtubeAPIMocClient };

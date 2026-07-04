@@ -2,15 +2,25 @@ import React, { useRef,useState } from 'react';
 
 import '../styles/screen_channelRankingPage.css';
 import ApiKeyBox from '../widget/apiKeyBox';
-import youtubeApiClient from "../network/youtubeDataApiClient";
+import DemoPage from '../widget/page';
+import { youtubeAPIMocClient } from "../network/youtubeDataApiClient";
 import { REGION_OPTIONS } from"../lib/region";
 import { Button } from "@/components/ui/button";
+import type { YoutubeTableRow } from "@/widget/columns";
+import type {
+  ChannelListResponse,
+  SearchListResponse,
+  VideoListResponse,
+} from "@/network/mockItemType";
+import { Marker, MarkerContent, MarkerIcon } from "@/components/ui/marker"
+
 import { Input } from "@/components/ui/input";
 import {
   NativeSelect,
   NativeSelectOptGroup,
   NativeSelectOption,
 } from "@/components/ui/native-select"
+import { Spinner } from '@/components/ui/spinner';
 
 
 export default function ChannelRankingScreen() {
@@ -66,6 +76,126 @@ export default function ChannelRankingScreen() {
   const [showTabs, setShowTabs] = useState(true);
   const [filteredData, setFilteredData] = useState(resultFilter.DAY);
   const [isSearching, setIsSearching] = useState(false);
+  const [rankingRows, setRankingRows] = useState<YoutubeTableRow[]>([]);
+
+  const handleSearchChannelRanking = (event: React.MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+
+    if (isSearching) {
+      return;
+    }
+
+    setIsSearching(true);
+
+    youtubeAPIMocClient
+      .get<SearchListResponse>('/api/testSearchList',{
+          params: {
+            part: 'snippet,statistics,contentDetails',
+            type: 'video',
+            maxResults:'50',
+            order: 'viewCount',
+            publishedAfter: '2023-01-01T00:00:00Z',
+            q: '쇼츠',
+            regionCode: 'KR',
+            relevanceLanguage: 'ko',
+            key: import.meta.env.VITE_YOUTUBE_DATA_API_KEY, 
+
+          },
+        })
+      .then((searchResponse) => {
+        const videoIds = searchResponse.data.items
+          .map((item) => item.id.videoId)
+          .join(',');
+
+        const parsedItems = searchResponse.data.items.map((item) => ({
+          videoId: item.id.videoId,
+          channelId: item.snippet.channelId,
+          title: item.snippet.title,
+          channelTitle: item.snippet.channelTitle,
+          publishTime: item.snippet.publishTime,
+        }));
+
+        console.log('parsedSearchItems', parsedItems);
+
+        return youtubeAPIMocClient.get<VideoListResponse>('/api/testVideoList', {
+          params: {
+            part: 'snippet,statistics,contentDetails',
+            id: videoIds,
+          },
+        }).then((videoResponse) => ({
+        parsedItems,
+        videoItems: videoResponse.data.items,
+      }));
+      })
+      .then(({ parsedItems, videoItems }) => {
+        console.log('testVideoList', videoItems);
+         const videoMap = new Map(
+          videoItems.map((video) => [
+            video.id,
+            {
+              viewCount: Number(video.statistics?.viewCount ?? 0),
+              likeCount: Number(video.statistics?.likeCount ?? 0),
+              commentCount: Number(video.statistics?.commentCount ?? 0),
+              duration: video.contentDetails?.duration,
+            },
+          ])
+        );
+        const mergedVideoRows = parsedItems.map((searchItem) => {
+        const videoData = videoMap.get(searchItem.videoId);
+
+        return {
+          ...searchItem,
+          ...videoData,
+        };
+        });
+
+        return youtubeAPIMocClient.get<ChannelListResponse>('/api/testChannelList')
+        .then((channelResponse) => ({
+          mergedVideoRows,
+          channelItems: channelResponse.data.items,
+        }));
+
+
+      })
+      .then(({mergedVideoRows,channelItems}) => {
+        console.log('mergedVideoRows', mergedVideoRows);
+        console.log('channelItems', channelItems);
+
+        const channelMap = new Map(
+          channelItems.map((channel) => [
+            channel.id,
+            {
+              subscriberCount: channel.statistics?.subscriberCount ?? '-',
+              videoCount: channel.statistics?.videoCount ?? '-',
+            },
+          ])
+        );
+
+        const rows: YoutubeTableRow[] = mergedVideoRows.map((item) => {
+          const channelData = channelMap.get(item.channelId);
+
+          return {
+            id: item.videoId,
+            source: 'Search',
+            title: item.title,
+            channelTitle: item.channelTitle,
+            publishedAt: item.publishTime,
+            viewCount: String(item.viewCount ?? '-'),
+            subscriberCount: channelData?.subscriberCount ?? '-',
+            videoCount: channelData?.videoCount ?? '-',
+          };
+        });
+
+        setRankingRows(rows);
+        return rows;
+      })
+      .catch((error) => {
+        console.error('channel ranking mock request error', error);
+      })
+      .finally(() => {
+        setIsSearching(false);
+      });
+  };
 
   const handleRegionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
   const nextRegionCode = event.target.value
@@ -78,32 +208,14 @@ export default function ChannelRankingScreen() {
     console.log("새 값:", nextRegionCode)
   }
 
-  // async function getSearch() {
-
-  //   const searchResponse = await youtubeApiClient.get('/search', { 
-  //     params: {
-  //       q: "cat",
-  //       maxResults: 10,
-  //       regionCode: "KR"
-  //     }
-  //   }
-  //   .then(res => console.log('then : ' + res.data)));
-
-  //     return searchResponse.data;
-  // };
 
   return (    
 
     <div className="page">
 
-      
-
-      {/* API 카드 */}
-
-      {/* <ApiKeyBox /> */}
 
       
-      <div className="titleArea stickyTitle">
+      <div className="titleArea">
         {/* <h1>📊 요즘 잘하는 채널 랭킹!</h1>
         <p>
           최근 1달 동안 조회수를 잘 뽑은 채널들을 카테고리별로 찾아보세요.
@@ -235,23 +347,42 @@ export default function ChannelRankingScreen() {
               </Button>
           ))}
         </div>
+        
+          {isSearching && (<div className="flex w-full justify-center py-12">
+            <Marker role="status" className="max-w-sm flex-col justify-center gap-4 text-center">
+              <MarkerIcon className="size-16">
+                <Spinner className="size-16 text-indigo-500"/> 
+              </MarkerIcon>
+              <MarkerContent className="w-full text-center">
+                Loading channel ranking
+              </MarkerContent>
+            </Marker>
+          </div>
+          )}
+
 
         <Button 
           key="searchChannelRanking"
-          onClick={()=>{ 
-
-            if(!isSearching) {
-              setIsSearching(true);
-              youtubeApiClient.get('/search', {
-                
-              })
-            } 
-          }}
+          disabled={isSearching}
+          onClick={handleSearchChannelRanking}
         >
           검색
 
         </Button>
 
+        <div className="titleArea stickyTitle">
+          
+          <div className='tab'>
+            <div>
+              <h1>📊요즘 잘하는 채널 랭킹!</h1>
+              <p>카테고리별 급상승 채널</p>
+            </div>
+          </div>
+            
+
+        </div>
+        <DemoPage data={rankingRows}></DemoPage>
+        
         <div className="rankingTable">
           <div className="tableHead">
             <span>순위</span>

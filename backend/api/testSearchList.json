@@ -1,0 +1,1713 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "6kP-YgQkZnbY842M2TgNdbRlebM",
+  "nextPageToken": "CGQQAA",
+  "prevPageToken": "CDIQAQ",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 364071,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vkNVXI6sLJXVt5p_NyLnQDlqB_w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nFG-Qx2XF8M"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T08:00:28Z",
+        "channelId": "UCFCtZJTuJhE18k8IXwmXTYQ",
+        "title": "프랑스 생활 접고 혼자 한옥에 사는 40대 여자｜서울 18평 한옥을 샀다｜건축탐구 집｜#골라듄다큐",
+        "description": "골라듄몰(golladune.com) X 트렉스타 : https://buly.kr/Chr54eT 인터넷 최저가보다 더욱 강력한 골라듄몰의 제조사 직판가격!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nFG-Qx2XF8M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nFG-Qx2XF8M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nFG-Qx2XF8M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBSDocumentary (EBS 다큐)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T08:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X77b2XXN1YRHRGsQAHqOa0fTmXA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5CFNL9lqxGc"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T14:30:38Z",
+        "channelId": "UCM0GKaNZ75nZp-8_c3mV09Q",
+        "title": "혁명의 시대 프랑스의 나폴레옹이 되어보자 (2) [나폴레옹 토탈워]",
+        "description": "적용 모드는 티스토리 블로그를 참고하시길 바랍니다. https://ashyard.tistory.com/8 #나폴레옹 #토탈워 #프랑스.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5CFNL9lqxGc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5CFNL9lqxGc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5CFNL9lqxGc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "잿마당",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T14:30:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_mr8UF_oRiXAvFzwuAM-CynK94c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NrSLsXZ6kpM"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T05:52:57Z",
+        "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
+        "title": "[에디터픽] 이례적인 폭염에 프랑스 &#39;마비&#39;…녹아내리는 유럽 / YTN",
+        "description": "서유럽에서 천명 이상의 목숨을 앗아간 폭염이 동쪽으로 이동한 뒤에도 40도를 웃돌면서 상당한 인명피해가 또 우려됩니다. 사망자가 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NrSLsXZ6kpM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NrSLsXZ6kpM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NrSLsXZ6kpM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": " YTN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T05:52:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JboO4GP6nL7kD3S1qXouyJkFK6I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MDD9F-aWQXE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T18:31:15Z",
+        "channelId": "UCPKIEO9SoLyfLj7DtauTaBQ",
+        "title": "DISGUSTING in France!",
+        "description": "motorhome #roadtrip #europe The Slaws continue their early summer holiday and stay on a new aire just East of Paris.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MDD9F-aWQXE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MDD9F-aWQXE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MDD9F-aWQXE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Slaw’s Adventures",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T18:31:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Oswh0Gc9DjR0kjWYLBtVnb0w8AU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e83QHmCCmDE"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T15:45:09Z",
+        "channelId": "UCGiMu1AOSupMtA4PfVEHRFQ",
+        "title": "Opening The Coffins Of France&#39;s Guillotine Victims ",
+        "description": "Throughout the time period of the french revolution, there were thousands of people who made their way up the stairs to the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e83QHmCCmDE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e83QHmCCmDE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e83QHmCCmDE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Skye School",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T15:45:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vlNTbAviJbENJcyIaHs54ONjS4c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7jJjB3JdTKs"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T13:00:05Z",
+        "channelId": "UCsKxSUaSZwl-Ie9XB2bP3uA",
+        "title": "World Cup 2026 | FRANCE vs NORWAY | Jun 26 2026 Football match | eFootball Gameplay ",
+        "description": "Experience an exciting virtual football showdown as France takes on Norway in this eFootball Gameplay inspired by the 2026 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7jJjB3JdTKs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7jJjB3JdTKs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7jJjB3JdTKs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Football 99+",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T13:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZwhOPMmbOmPsiS3bQo8HKYmGklc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pIvOPRYFZBo"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T10:00:04Z",
+        "channelId": "UCDWFk8Z6-6XLei8ts6Chpuw",
+        "title": "왜! 우리가 일본과 해야합니까 프랑스 마카롱 대통령이 한국을 선택한 진짜 이유!ㅣ해외감동사연",
+        "description": "'왜! 우리가 일본과 해야합니까 프랑스 마카롱 대통령이 한국을 선택한 진짜 이유!ㅣ해외감동사연 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pIvOPRYFZBo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pIvOPRYFZBo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pIvOPRYFZBo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Dawn Letter",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T10:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Li42adLnYTbVF1SBCzLplJbFkp0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bzLqBFL4g4Y"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-01T10:30:10Z",
+        "channelId": "UCyiKRNE5JI_7UV7j0e6_OMA",
+        "title": "[해외감동사연] 미국도, 프랑스도 한국은 뚫지 못했다 미국 하버드대 교수의 일침 초강대국들이 한국을 부러워하는 이유",
+        "description": "감동담기\"는 전세계인들이 대한민국을 경험한 다양한 사연의 감동을 담아 전달하여 여러분의 마음에 깊은 인상을 남기거나 의미 있는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bzLqBFL4g4Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bzLqBFL4g4Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bzLqBFL4g4Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "감동모아",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-01T10:30:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ze0YEtOsdmYyEahV5a2gqy2kckQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QRBn6jE24Ao"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T13:12:48Z",
+        "channelId": "UChtCk_buYtrLlwakVA6QMPg",
+        "title": "역대급 폭염 프랑스 유럽 더위!! - 근데 과거와 다른 한일 반응, 사실 이 모든게 정치임",
+        "description": "역대급 폭염 프랑스 유럽 더위!! - 근데 과거와 다른 한일 반응, 사실 이 모든게 정치임 00:00 도입부 01:07 루이비통 인공폭포 논란 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QRBn6jE24Ao/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QRBn6jE24Ao/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QRBn6jE24Ao/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "얼음사이다",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T13:12:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eXfitGX4Zoe1TUCuKygToI4DHaE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fNc9rMiDELg"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T05:32:12Z",
+        "channelId": "UC_2bdyabLdJQ51XQ2f2xGCg",
+        "title": "WILL RENNIE START RUBEN LOVE AGAINST FRANCE!? | Roundtable",
+        "description": "The highly anticipated international test season is officially here, and our expert roundtable is completely divided. Mark Watson ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fNc9rMiDELg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fNc9rMiDELg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fNc9rMiDELg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DSPN Rugby",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T05:32:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "K6hyxpkpoHiPRlD0EsOkgAj3luM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r-AdrMMU48U"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T09:30:00Z",
+        "channelId": "UCGuGTkGGmRqBcEA2Mng9V2Q",
+        "title": "[해외감동사연] ＂미국이 막으면 유럽이 나선다＂ 프랑스의 파격 제안에 전 세계가 경악한 이유",
+        "description": "해외에서 화제가 된 이야기와 여러분의 소중한 사연을 오디오북 형식으로 전합니다.   한국과 세계를 잇는 놀라운 순간들 눈물과 웃음, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r-AdrMMU48U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r-AdrMMU48U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r-AdrMMU48U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "오디오북하우스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T09:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Yt22p9ljFJcpwn2Sk9_g7JKd-K8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eC9kQ0h0NfY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T09:40:55Z",
+        "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+        "title": "[🔴속보] 이란 &quot;프랑스 끼어들지마&quot;…&#39;호르무즈 개입 불허&#39; 경고｜미·이란 협상 신경전…&quot;30일 회담&quot; VS &quot;계획 없어&quot;/ 연합뉴스TV(YonhapnewsTV)",
+        "description": "에마뉘엘 마크롱 프랑스 대통령이 호르무즈 해협 기뢰 제거 작업 참여 가능성을 언급한 데 대해 이란이 이를 도발로 간주하고 강하게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eC9kQ0h0NfY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eC9kQ0h0NfY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eC9kQ0h0NfY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "연합뉴스TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T09:40:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CqNERvoycMjel3QCg91BPHVU4Xk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vD-5AoLaD6I"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T04:22:24Z",
+        "channelId": "UCPP3etACgdUWvizcES1dJ8Q",
+        "title": "France Heatwave News Live: Europe में गर्मी से हाहाकार, फ्रांस में हीटवेव ने ली 1000 जानें |Top News",
+        "description": "France Heatwave News Live: Europe में गर्मी से हाहाकार, फ्रांस में हीटवेव ने ली 1000 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vD-5AoLaD6I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vD-5AoLaD6I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vD-5AoLaD6I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "News18 India",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T04:22:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gzdZefDKtFHOXIh25dsj7I7kRMU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "urmV4ipYIaQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T23:51:20Z",
+        "channelId": "UCxYQuD40yIn81t0i2l516XA",
+        "title": "박재욱 율리아노 사제서품식, 프랑스 엑상프로방스-아를 대교구ㅣ2026년 6월 21일",
+        "description": "2026년 6월 21일 주일, 박재욱 율리아노 형제가 프랑스 엑상프로방스-아를 대교구 소속 사제로 서품되었습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/urmV4ipYIaQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/urmV4ipYIaQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/urmV4ipYIaQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "그레곰 Gregom",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T23:51:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kvlAVI_fjc4ip8HTcSfTza0Ix6M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IhBfOCfQLsk"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T07:56:54Z",
+        "channelId": "UCh16E-fwFh06L_CgWkPE7Rw",
+        "title": "🇰🇷🇫🇷한프커플 | 영포티 프랑스인과 함께하는 2주 일상 | 프랑스 가족들과 프랑스음식 이상형 월드컵 | 레전드 기싸움",
+        "description": "오히어 X 카카오톡 선물하기 그랜드 오픈   꽃의 에너지를 피부 깊숙이 전달해 맑고 환한 피부를 완성하는 미백∙광채 케어, 오히어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IhBfOCfQLsk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IhBfOCfQLsk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IhBfOCfQLsk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "박혁거세",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T07:56:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "07JUOdSbFztGBPfv2DYWdgn4D2M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FEwaXTX5YpY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T21:07:40Z",
+        "channelId": "UC3iTa1tVjlCdwdes1z0lJUw",
+        "title": "AES: France Responds After Burkina Faso Breaks Diplomatic Relations",
+        "description": "\"2AM in Venezuela\" (OFFICIAL VIDEO): https://youtu.be/GtvkwgbVKF8 BLACK WINTER (Full Album): ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FEwaXTX5YpY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FEwaXTX5YpY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FEwaXTX5YpY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Neferkare T. Dessalines",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T21:07:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VTtBullGG5IQiOV15JVWkC3HT60",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GPoOxmFgddI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-01T01:04:05Z",
+        "channelId": "UCgAVxsQISgSDIP8geLES1IA",
+        "title": "Tchouameni or Scott? France v Sweden! - United Transfer News",
+        "description": "Live Video! Tchouameni situation truth! Scott unavailable or... Perhaps? United prepared for this. United's final offer for Fernandes ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GPoOxmFgddI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GPoOxmFgddI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GPoOxmFgddI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Manchester United Muppetiers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-01T01:04:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "v9-BtbYfgR7IJ8y2iCAM5H_lIYw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1wUMVqw2wHw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T11:06:12Z",
+        "channelId": "UCK-dnaIqAPsg1jwbCXC28ig",
+        "title": "“프랑스를 제치고 유럽 원전을 따냈다” 체코가 한국 원전을 선택한 진짜 이유",
+        "description": "체코가 프랑스 대신 한국 원전을 선택했다는 소식은 단순한 수주 뉴스로만 볼 수 없습니다. 프랑스는 오랫동안 유럽의 대표적인 원전 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1wUMVqw2wHw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1wUMVqw2wHw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1wUMVqw2wHw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "오늘 우리",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T11:06:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LtxViM0UGZxE-ek94PFz7uijPDQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B1-P-L5ZJmY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T07:00:24Z",
+        "channelId": "UCC8RxWtn5Xi1BHlYmZxZQTQ",
+        "title": "SOUTH OF FRANCE ROAD TRIP | VLOG | Amy Beth",
+        "description": "We did one of my dream holidays! These 10 days have been unbelievable, so excited for you guys to come with us xx Follow me ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B1-P-L5ZJmY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B1-P-L5ZJmY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B1-P-L5ZJmY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Amy Beth van der Lowen",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T07:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SeJFrTaeObOZ2Icc4Xj8Sn0pZq8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lmSUs9DE5_0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T21:32:50Z",
+        "channelId": "UC5Xy07jY1sa8kFQWtFYukoA",
+        "title": "[VAR입중계] 월드컵 I조 세네갈 vs 이라크 / 노르웨이 vs 프랑스",
+        "description": "월드컵 #대한민국축구대표팀 #세네갈 #이라크 #노르웨이 #프랑스 비즈니스 문의 bbjvar@footballdm.com 00:00 시작 3:35 인사 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lmSUs9DE5_0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lmSUs9DE5_0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lmSUs9DE5_0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브버지VAR",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T21:32:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XTeb9AZ-1J2valfKQ1NyjXb6nI0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jKgRtYbBFHI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-02T04:31:15Z",
+        "channelId": "UCL6QETEjueYACUEYY8sj0ww",
+        "title": "김성주 그만해!! &quot;곧 끝나간다&quot; · 김어준 프랑스에 식당 오픈 &quot;돈 많네? 인생 성공 부럽다..&quot;",
+        "description": "[7월 2일 방미TV 실시간방송] 국민연금 김성주 이사장 그만해!! \"곧 끝나간다\" 한김어준 프랑스에 식당 오픈 \"돈 많네? 인생 성공 부럽다 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jKgRtYbBFHI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jKgRtYbBFHI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jKgRtYbBFHI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BMTV 방미TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-02T04:31:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "F-stKLibGnyAupUwBup6DkgiPXE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "c0qtm1bpRs0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T04:09:48Z",
+        "channelId": "UCUveIhRevtnB6evJhpPTVWQ",
+        "title": "남프랑스의 모든것 🏖️ 샤넬 디올 생트로페 le club55 니스 칸 에즈 생폴드방스 비치클럽 럭셔리 호텔",
+        "description": "남프랑스 여행 코스 전부 공개! 예술가들이 사랑한 동화 마을 생폴드방스, 미로·피카소·샤갈 작품이 가득한 피카소 미술관, 절벽 위의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c0qtm1bpRs0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c0qtm1bpRs0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c0qtm1bpRs0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "사라와 박사생활",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T04:09:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Pn6qzmQ_yAIsrw04PiIGCjzThho",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p9VV3IvP9Co"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T10:00:09Z",
+        "channelId": "UChl_peTCDPvSZY_bnv-WHnA",
+        "title": "나에 대한 모든 것 💭 커리어, 프랑스 유학, 연애, 소라와 진경 비하인드, 데일리 추천템, 메이크업 팁",
+        "description": "오늘은 Q&A 영상을 들고 왔습니다! 그동안 여러분이 댓글과 인스타그램 스토리로 보내주신 질문들을 하나씩 모아 답해봤어요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p9VV3IvP9Co/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p9VV3IvP9Co/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p9VV3IvP9Co/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민킴 minkimmakeup",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T10:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CXKhuT4tPcLMyQ58TgEvj1a_nh4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iKjPcnG5UDM"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T08:34:45Z",
+        "channelId": "UC_l5pPSN1_zElIcxpNKLc4w",
+        "title": "A Day Out in France 🇫🇷 | Waterfall, Beach &amp; Streets",
+        "description": "What a day in the beautiful city of Nice, France! We started off exploring the incredible Cascade du Château waterfall and took in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iKjPcnG5UDM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iKjPcnG5UDM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iKjPcnG5UDM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Rayzodd",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T08:34:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lz0Ncys_fQM8U-HZZLRfvsioMBs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A0w1TXJcVDQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-01T10:00:04Z",
+        "channelId": "UCmyfBoeG5-0AipSLXlrf6pA",
+        "title": "프랑스 와인은 짝퉁이다?",
+        "description": "와인 하면 프랑스? 하지만 와인의 진짜 원조는 따로 있다? 조지아의 8천 년 와인 역사와 전통 와인 문화 이야기! 크베브리, 사페라비, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A0w1TXJcVDQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A0w1TXJcVDQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A0w1TXJcVDQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지식이 왜?",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-01T10:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g_F4JJbd_iuOrPTzcFRjc4YFA1Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pfMuUJgLp9U"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T17:54:40Z",
+        "channelId": "UCef1-8eOpJgud7szVPlZQAQ",
+        "title": "France Plane Crash LIVE Updates | Skydiving Aircraft Crashes, 11 Killed in Deadly Accident | N18G",
+        "description": "A tragic plane crash in northeastern France has claimed the lives of 11 people after a skydiving aircraft went down during a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pfMuUJgLp9U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pfMuUJgLp9U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pfMuUJgLp9U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN-News18",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T17:54:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DqLn6HgnWqWaB75F6wktjvz8IYk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qpBRn2UMGx0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T02:13:31Z",
+        "channelId": "UCEPgJ1RrkbyKAPcfdj31TOQ",
+        "title": "[해외감동사연] 한국만 가면 임신해서 귀화하는 프랑스 여성들, 한국 남자랑 결혼 확률 90% 넘는 충격적 이유",
+        "description": "안녕하세요, 전 세계의 따뜻하고 놀라운 이야기를 전하는 [감동시그널]입니다. 우리 kênh은 해외에서 전해온 감동적인 사연, 한국을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qpBRn2UMGx0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qpBRn2UMGx0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qpBRn2UMGx0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "감동시그널",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T02:13:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0vyftK10RsZLwj5Y1Ma1I9n1Zjk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "55_LQuisshw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T22:00:01Z",
+        "channelId": "UCLNsReLn8XmOSus4HT8ZpRQ",
+        "title": "France Wants to Ban Your Air Conditioner",
+        "description": "Joe Pags sits down with former climate activist Lucy Biggers to break down the shocking comments from Paris Deputy Mayor ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/55_LQuisshw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/55_LQuisshw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/55_LQuisshw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Joe Pags",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T22:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eB55-mU6r_wooX3rdwUBbTcCKgs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fPC6WAk5eGw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T16:15:21Z",
+        "channelId": "UCVwKxoAQXXSbc0brjgaOKgw",
+        "title": "Is This France’s Best (And Most Remote) Restaurant? Insane Journey To La Maison De La Pia Nr Nice!🇫🇷",
+        "description": "Is This France's Best (And Most Remote) Restaurant? ilInsane Journey To La Maison De Pia Near Nice!         If you have ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fPC6WAk5eGw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fPC6WAk5eGw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fPC6WAk5eGw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Me and Mon Ami",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T16:15:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6eEkCe182gSiKQ0-L9dptJqwt5s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PwfwwSxR8fw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T18:55:29Z",
+        "channelId": "UCV7ZZ2r3R8UACO3hou4BBDA",
+        "title": "Retiring to France? 7 Questions You Must Answer First",
+        "description": "For Americans planning a long-term retirement move to France, Aelos helps coordinate the moving parts through vetted ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PwfwwSxR8fw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PwfwwSxR8fw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PwfwwSxR8fw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "French Lifestyle by Johnny Benoit",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T18:55:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LZV6qHRn9lXtg9Kh1OEvw-6DHag",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6N31i58W-jw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T17:16:09Z",
+        "channelId": "UCi4t8VqTG-NwFHdTGa0ENaA",
+        "title": "La France que vous aimez disparait (et voici les dangers à venir)",
+        "description": "Aller plus loin : https://lecarnassier.com Nouvelle Page : https://kublai.fr/nouvelle-page.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6N31i58W-jw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6N31i58W-jw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6N31i58W-jw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Le Carnassier",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T17:16:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZewG3HUm6lXexsuZH30AFCijm3c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "36N6XeIdYak"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T16:30:34Z",
+        "channelId": "UCM1leHWFH9KVdPtpsiITGpQ",
+        "title": "The secrets &amp; scandals of France&#39;s 2010 World Cup squad",
+        "description": "France's 2010 World Cup squad was absolutely full of wrong'uns. From illegal organ harvesting to sex tape blackmail, meet the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/36N6XeIdYak/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/36N6XeIdYak/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/36N6XeIdYak/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Upshot Podcast",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T16:30:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nydqD01DDmr6rqEi6EEtzWmg4IE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ND_gmWUGgWw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T11:15:28Z",
+        "channelId": "UCXnswZgftBE2S5RxqtKwzWA",
+        "title": "🇫🇷 레게머리 프랑스 남친이랑 사귀면 생기는 일;; | 🥟교자 만들다 전여친 썰이요? | 한프 국제커플 브이로그",
+        "description": "오랜만에 국제커플 브이로그♥︎ 이번 영상 원본 4시간이었는데 편집 하다보니 고작 20분짜리 나와버렸어욬ㅋㅋㅋㅋ   그럼 이번 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ND_gmWUGgWw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ND_gmWUGgWw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ND_gmWUGgWw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숩숩 Soovsoov",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T11:15:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MovCgPxsKkgp18e7dbqWPF4Jl1c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "auRAky0uno0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T02:08:14Z",
+        "channelId": "UC8f1U3h2TAcKOktgonnL0Yw",
+        "title": "All Blacks v France Preview: The French Are Dangerous! | The Aftermatch",
+        "description": "Your Home of Sport in New Zealand Catch all the action on Sky Sport Now ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/auRAky0uno0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/auRAky0uno0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/auRAky0uno0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sky Sport NZ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T02:08:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PXaq8eMHChqsFfILUqK96kdZJ2k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8N3IdT-xcYs"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T23:00:24Z",
+        "channelId": "UCkH37kxdynHSlsRDDdbtFxw",
+        "title": "[해외감동사연] 한국 수학여행 온 프랑스 명문학교 학생들 경악, 김치냄새 무시하고 조롱하던 한국의 진짜 모습에 대충격! 인천공항 프랑스인 한국행 입국대란!",
+        "description": "안녕하세요, '감동의방' 입니다. 머물고 싶은 작은 방처럼, 세상 곳곳에서 전해지는 감동 이야기를 담아두는 공간이에요. 외국인들이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8N3IdT-xcYs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8N3IdT-xcYs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8N3IdT-xcYs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "92prettyboy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T23:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lEDorGYgJxW8P5Ss-cJ6RwIn41A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CICkp-wL2d8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T01:00:13Z",
+        "channelId": "UCFw4M1BJYYdN1YtS8SzlDzg",
+        "title": "그림 같은 마을을 따라 떠나는 프랑스 남부 여행! 지중해가 품은 낭만과 풍경 [걸어서세계속으로] KBS 230624 방송",
+        "description": "kbsa트래블 #걸어서세계속으로 #가족여행 #해외여행 #여행 #해외 #여행 #우정여행 #프랑스 #프랑스여행 #프랑스남부 #프랑스남부 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CICkp-wL2d8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CICkp-wL2d8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CICkp-wL2d8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS 트래블-걸어서 세계속으로",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T01:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DAqXx-EueebilROhdO7u166xgmg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x71tR7IaboY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T10:00:02Z",
+        "channelId": "UChuu3KaoDnyttfN10GG169Q",
+        "title": "미국, 프랑스, 스페인, 몰타까지. 자국민의 암 검진을 한국 AI가 정복한 선진국 의료 영토, 루닛의 충격적인 독점 전략",
+        "description": "루닛 #의료AI #암검진 미국, 프랑스, 스페인, 몰타까지. 의료 선진국들이 자국민의 암 검진을 한국 AI에 맡기고 있습니다. 의사도 놓친 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x71tR7IaboY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x71tR7IaboY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x71tR7IaboY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "간단경제한스푼",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T10:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "v5MVdGDW9DltW08j2BifJYGJ_8M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1ZyWEOTfyts"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T11:00:25Z",
+        "channelId": "UCfM7HC0wkS_cWVIcgpy2XPA",
+        "title": "🇮🇹🍝이탈리아~프랑스 12박 13일 부모님과 유럽 여행🇫🇷🥖",
+        "description": "이 영상은 유료광고를 포함하지 않습니다. #유럽여행 #가족여행 #프랑스여행 안녕하세요 여러분 몌예요     드디어…! 지난 5월 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1ZyWEOTfyts/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1ZyWEOTfyts/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1ZyWEOTfyts/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "몌 myerry",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T11:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "B3308s8OZLbzoMEQfyO0nSrVZoo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "R49quhjGKQI"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T10:00:34Z",
+        "channelId": "UCcWWmyW4a-dEre-JGN7vWRw",
+        "title": "French Friday - Vichy Christianity",
+        "description": "It's a history lesson on today's French Friday. David French explains the parallels between the Vichy French government that ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/R49quhjGKQI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/R49quhjGKQI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/R49quhjGKQI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Holy Post Media",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T10:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JE8Uyz4Osg1jGB661JKb3y-6mIQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DYQqXlEUVYY"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-01T16:48:06Z",
+        "channelId": "UChoRNJ8IPEHwqYNxgvXMLlA",
+        "title": "1 July 2026 PARIS 🇫🇷 FRANCE STREET WALK BEST DESTINATION CITY TOUR PARIS EVEING CITY WALK ",
+        "description": "PARIS FRANCE EVENING WALK TOUR 2026 | Eiffel Tower ✨ Food Market 🍽️ Beautiful Summer Night Walk | July 2026 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DYQqXlEUVYY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DYQqXlEUVYY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DYQqXlEUVYY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "POSH TRAVELLER",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-01T16:48:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fsXSbRVrUnymqmPQp-_MTW8PRAg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p5wqxiLn8hw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T14:00:39Z",
+        "channelId": "UCUBpLyvEdaR5sJDOZUsr48g",
+        "title": "We Took Our Motorhome to France With 2 Young Kids 🇫🇷",
+        "description": "Are you scared of driving to France in your motorhome or campervan? You're not alone. It's one of the questions we're asked ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p5wqxiLn8hw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p5wqxiLn8hw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p5wqxiLn8hw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sonnie’s Adventures",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T14:00:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8zkj9v8SOo9yDDpw8YM8VhjmVo4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "spe0YJIuTp8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-25T12:30:16Z",
+        "channelId": "UC4ROMPgxjol5R_DQSihJ71A",
+        "title": "FC 26 - Norway vs. France - FIFA World Cup 2026 Full Match | PC™ [4K60]",
+        "description": "FC 26 - Norway vs. France - FIFA World Cup 2026 Full Match | PC™ [4K60] Thanks for watching! Subscribe for more Football ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/spe0YJIuTp8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/spe0YJIuTp8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/spe0YJIuTp8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mzpanda Gaming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-25T12:30:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y3ImJqlvjh_5GiQ2hxwVTZJFVpY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UJr8iuO3jL0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T18:12:42Z",
+        "channelId": "UCorkdKQOoZ9mdEpA9UDwdXA",
+        "title": "Did France Actually Prove Anything? Philippe Auclair &amp; Mark Gleeson",
+        "description": "France scored freely. Dembélé hit a hat-trick. Mbappé was creating. On paper, it looked like a statement. But did France actually ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UJr8iuO3jL0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UJr8iuO3jL0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UJr8iuO3jL0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Football Smash",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T18:12:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gVJbnpX6QPxeLjwlo31d94yUziU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A1jMQME_3b0"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T16:57:09Z",
+        "channelId": "UCz8QaiQxApLq8sLNcszYyJw",
+        "title": "LIVE: Europe&#39;s Historic Heatwave Triggers Crisis in France, UK; Shatters Records | Planet Pulse",
+        "description": "A historic and merciless heat dome has transformed a normal European summer into a full-blown climate crisis. From the UK and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A1jMQME_3b0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A1jMQME_3b0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A1jMQME_3b0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Firstpost",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T16:57:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Aq1xK26TZphtMMi5pfkKMi4WkIw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GElouGdHPGg"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T10:31:55Z",
+        "channelId": "UCMOYdGEA1qD5qa_kL-lZbhg",
+        "title": "한국 친구네 집에서 밥 먹은 프랑스 여자가 깜짝 놀란 이유",
+        "description": "한국 친구네 집에서 밥 먹은 프랑스 여자가 깜짝 놀란 이유.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GElouGdHPGg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GElouGdHPGg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GElouGdHPGg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "루안의 일기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T10:31:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZGg-6hWSlGc9i7SQc02mUvuA-og",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YpaLFGZh_7c"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T17:30:22Z",
+        "channelId": "UCm_dUG0kilg2CilQZg3bxHQ",
+        "title": "Escaping the HEAT ☀️ Our New Favourite Island in France 🇫🇷",
+        "description": "We are in the middle of France—and it is HOT! ☀️ We're trying to find a campervan stopover with a pool or a lake to escape the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YpaLFGZh_7c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YpaLFGZh_7c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YpaLFGZh_7c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Where We Wanda",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T17:30:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0PoFsV0e-PKwAW7yrQtON5qi8h8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "v2XUSQLzu9o"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-26T21:14:58Z",
+        "channelId": "UCRpiYIlKLwSa5OdAm8ozorw",
+        "title": "[입중계 LIVE] 🎙️최원근 x 김수빈🎙️ 노르웨이 vs 프랑스 I조 최종전",
+        "description": "북중미_월드컵 #노르웨이_프랑스 #음바페_홀란 [원투펀치 Plus 소식을 가장 빠르게 알고 싶다면?] YouTube ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v2XUSQLzu9o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v2XUSQLzu9o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v2XUSQLzu9o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "원투펀치 Plus",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-26T21:14:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YAPj_W-4kNlTqAxdyJPYEu9S2KU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NwajG3ENeG8"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-28T13:12:41Z",
+        "channelId": "UCJjJxfS0aVKrVXufawfxXLQ",
+        "title": "프랑스인이 직접 밝힌 프랑스 대혁명의 척박한 진실 feat 파비앙",
+        "description": "외국인 방송인 파비앙이 직접 들려주는 불꽃 튀는 프랑스 역사 이야기! 우리가 세계사 교과서에서만 보았던 프랑스 대혁명의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NwajG3ENeG8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NwajG3ENeG8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NwajG3ENeG8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "알 팟캐스트",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-28T13:12:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hWPM3kVuomHCozG_w7Aly0OC78M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xegABro2-h4"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T11:57:39Z",
+        "channelId": "UC00egJmhuSd7HIAmzJxHv9w",
+        "title": "P 200% 패션모델의 프랑스 여행? 출장? 나도 모름 ㅎ",
+        "description": "이번 영상은 스픽의 유료광고를 포함하고 있습니다. 스픽 프로모션 링크 https://bit.ly/4xEkIJM 스픽에서 오랜만에 70% 할인을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xegABro2-h4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xegABro2-h4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xegABro2-h4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "GO웅호 ungho",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T11:57:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Uc4tjDUVxVW_g021qHJZ5mFwx2k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jnwyYNz_BCw"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-27T21:00:22Z",
+        "channelId": "UCXaxB24I7tO2qPCQREVNxKw",
+        "title": "폴란드·프랑스 손잡고 배신, 한국 기술 통째로 탈취 음모!이재명 화약·부품 차단… 폴란드 120 억 불 무기 무산!도날드 투스크 굴욕적 고개 숙여 사죄, 50억 달러 배상!",
+        "description": "폴란드의 추악한 배신! 120억 달러 증발하며 나토 동부 전선 붕괴되다! ⚡ 도날드 투스크의 굴욕! 50억 달러 배상하고 한국에 무릎 꿇은 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jnwyYNz_BCw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jnwyYNz_BCw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jnwyYNz_BCw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yemek Tarifi TR",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-27T21:00:22Z"
+      }
+    }
+  ]
+}

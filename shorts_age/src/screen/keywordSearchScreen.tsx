@@ -2,7 +2,8 @@ import React, { useRef,useState } from 'react';
 
 import '../styles/screen_channelRankingPage.css';
 import ApiKeyBox from '../widget/apiKeyBox';
-import youtubeApiClient from "../network/youtubeDataApiClient";
+
+import {youtubeApiClient,youtubeAPIMocClient} from "../network/youtubeDataApiClient";
 import { REGION_OPTIONS } from"../lib/region";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -71,6 +72,7 @@ export default function keywordSearchScreen() {
 
       {/* 제목 */}
       <div className="titleArea stickyTitle">
+
          
         <div className='tab'>
           <div>

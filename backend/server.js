@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import SSulFactoryRouter from './api/SSulFactoryRouter.js';
 import ServiceRouter from './api/ServiceRouter.js';
+import TestRouter from './api/TestRouter.js';
+
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -30,6 +32,7 @@ app.use(cors({
 // Use SSulFactoryAPI routes
 app.use('/api',express.json(), SSulFactoryRouter);
 app.use('/api',express.json(), ServiceRouter);
+app.use('/api', express.json(), TestRouter);
 
 app.use('/upload', UploadRouter);
 

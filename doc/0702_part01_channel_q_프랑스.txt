@@ -1,0 +1,680 @@
+https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics&id=UCXGXTy_GDJAlRTk9ypTHNKQ%2CUCsJ6RuBiTVWRX156FVbeaGg%2CUC9HNi_aAXBgpI2zhibOAfAA%2CUC1dG3vI9FfHnH3YgyeKUz_A%2CUC_JsleTUh1GzJp8yruqThUQ%2CUCRDowcnvz5ZVh-3NVAdfiqg%2CUC-ZF42znvkbm83ovdmJY28Q%2CUCSb2WFb8m73erqFmP04Mokw%2CUC9fMEBHAqyi_W0Tqc2QszFw%2CUCn9mJ4htO64-1osMWYu9k5Q%2CUC75dJLCqpXw7v6dIfu-J1Qw%2CUC5YQ33CrvN0yMgkhR54LQqg%2CUCovqkt9CC5WoSdDUxql0MTg%2CUC6SSDAsu4E06brZG-QNSuLw%2CUCFCtZJTuJhE18k8IXwmXTYQ%2CUCM0GKaNZ75nZp-8_c3mV09Q%2CUChlgI3UHCOnwUGzWzbJ3H5w&key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
+
+response:
+
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "ZLKvtG8UOo9AFLPB71dEBscv_8E",
+  "pageInfo": {
+    "totalResults": 17,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "LFjbye3G6XGysXfW66GVfDm4JTE",
+      "id": "UCsJ6RuBiTVWRX156FVbeaGg",
+      "snippet": {
+        "title": "슈카월드",
+        "description": "각종 문의 : ad@syukafriends.com으로 부탁드립니다.\n저널리즘을 지키는 채널이 되겠습니다.\n감사합니다.\n\n",
+        "customUrl": "@syukaworld",
+        "publishedAt": "2015-04-25T03:34:03Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_kqf6MgVU6c8LWzVAVqpggLLS4bTxdKe_aiQzM17HsqRhk=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_kqf6MgVU6c8LWzVAVqpggLLS4bTxdKe_aiQzM17HsqRhk=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_kqf6MgVU6c8LWzVAVqpggLLS4bTxdKe_aiQzM17HsqRhk=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "슈카월드",
+          "description": "각종 문의 : ad@syukafriends.com으로 부탁드립니다.\n저널리즘을 지키는 채널이 되겠습니다.\n감사합니다.\n\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "1602614279",
+        "subscriberCount": "3710000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "2301"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "QsXoXm3rKvThJJl1-1YEQMyKDDE",
+      "id": "UC9HNi_aAXBgpI2zhibOAfAA",
+      "snippet": {
+        "title": "어썸코리아 Awesome Korea",
+        "description": "한국을 사랑하는 외국인들의 한국 이야기\n\n광고 및 비즈니스 문의 : awesomekorea01@gmail.com\n커머스 문의 : commerce@awesomeent.kr\n\n제작 : 어썸엔터테인먼트 (주)\nⓒ2024. Awesome Entertainment All rights reserved.\n",
+        "customUrl": "@awesomekorea",
+        "publishedAt": "2013-11-12T12:40:56Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/vhwWZXMNModc8xfOXa8QGgO4A71iybiYU8fpl9QhTky5dqXviw0uhMpLD3EgC4pnCT0L2EVqJ_s=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/vhwWZXMNModc8xfOXa8QGgO4A71iybiYU8fpl9QhTky5dqXviw0uhMpLD3EgC4pnCT0L2EVqJ_s=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/vhwWZXMNModc8xfOXa8QGgO4A71iybiYU8fpl9QhTky5dqXviw0uhMpLD3EgC4pnCT0L2EVqJ_s=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "어썸코리아 Awesome Korea",
+          "description": "한국을 사랑하는 외국인들의 한국 이야기\n\n광고 및 비즈니스 문의 : awesomekorea01@gmail.com\n커머스 문의 : commerce@awesomeent.kr\n\n제작 : 어썸엔터테인먼트 (주)\nⓒ2024. Awesome Entertainment All rights reserved.\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "1238813542",
+        "subscriberCount": "1250000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "2206"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "ZNO4C0gC_mZw4p0dsH9LAtHi9Ms",
+      "id": "UCRDowcnvz5ZVh-3NVAdfiqg",
+      "snippet": {
+        "title": "달수네라이브",
+        "description": "축구 해설하는 '박펠레' 박문성의 '달수네라이브' 유튜브 공식 채널입니다\n\n여러분들의 좋댓구알과 광고 지원은 영상 창작에 큰 힘이 됩니다.\n\n압도적으로 감사합니다!\n\n협찬, 광고문의 business@dalsoolive.com\n멤버십 가입링크 https://www.youtube.com/channel/UCRDowcnvz5ZVh-3NVAdfiqg/join\n",
+        "customUrl": "@dalsoolive",
+        "publishedAt": "2019-02-17T10:41:53Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/FK9Og-v5k9B6M8a70FISQk1_ddD_CYtB-pw8LrdjrSy8guEHO8fV34-dVtT7_LFKE-3rTXlTQg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/FK9Og-v5k9B6M8a70FISQk1_ddD_CYtB-pw8LrdjrSy8guEHO8fV34-dVtT7_LFKE-3rTXlTQg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/FK9Og-v5k9B6M8a70FISQk1_ddD_CYtB-pw8LrdjrSy8guEHO8fV34-dVtT7_LFKE-3rTXlTQg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "달수네라이브",
+          "description": "축구 해설하는 '박펠레' 박문성의 '달수네라이브' 유튜브 공식 채널입니다\n\n여러분들의 좋댓구알과 광고 지원은 영상 창작에 큰 힘이 됩니다.\n\n압도적으로 감사합니다!\n\n협찬, 광고문의 business@dalsoolive.com\n멤버십 가입링크 https://www.youtube.com/channel/UCRDowcnvz5ZVh-3NVAdfiqg/join\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "974224063",
+        "subscriberCount": "791000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "8663"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "kuDyTzp-dECU0BxfK4AQiJZ0fi8",
+      "id": "UCn9mJ4htO64-1osMWYu9k5Q",
+      "snippet": {
+        "title": "이스타TV",
+        "description": "대한민국 축구 종합 예능 채널 이스타TV\n",
+        "customUrl": "@leestartv",
+        "publishedAt": "2016-04-16T13:46:28Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/bLbCLv2C1ZVAU869AyyJx2Q6XXbCyqzC3MSDAcH1y-HWPtcIGPy8XYC2kcZKpzFqfCZ499_hjw=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/bLbCLv2C1ZVAU869AyyJx2Q6XXbCyqzC3MSDAcH1y-HWPtcIGPy8XYC2kcZKpzFqfCZ499_hjw=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/bLbCLv2C1ZVAU869AyyJx2Q6XXbCyqzC3MSDAcH1y-HWPtcIGPy8XYC2kcZKpzFqfCZ499_hjw=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "이스타TV",
+          "description": "대한민국 축구 종합 예능 채널 이스타TV\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "2176909083",
+        "subscriberCount": "825000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "14834"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "2WSgxrBUMb1EE16lcXW3d-Bgyx0",
+      "id": "UCM0GKaNZ75nZp-8_c3mV09Q",
+      "snippet": {
+        "title": "잿마당",
+        "description": "그냥 싸움 구경하는 채널",
+        "customUrl": "@잿마당",
+        "publishedAt": "2024-11-28T23:25:08.179461Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/R0G_IO9mX3yKmUtspFXCaHMpZWBbinUJiVmjgyt1gQ69PR3I3Uuhbp1VYIoBVWv6-po1r0F2zg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/R0G_IO9mX3yKmUtspFXCaHMpZWBbinUJiVmjgyt1gQ69PR3I3Uuhbp1VYIoBVWv6-po1r0F2zg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/R0G_IO9mX3yKmUtspFXCaHMpZWBbinUJiVmjgyt1gQ69PR3I3Uuhbp1VYIoBVWv6-po1r0F2zg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "잿마당",
+          "description": "그냥 싸움 구경하는 채널"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "3082802",
+        "subscriberCount": "17500",
+        "hiddenSubscriberCount": false,
+        "videoCount": "72"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "P763lzXqGX4-nc00RRlOfc_4nqw",
+      "id": "UC_JsleTUh1GzJp8yruqThUQ",
+      "snippet": {
+        "title": "마님파이브 Manim Five",
+        "description": "프랑스 시골에 사는 마님 +파이브 가족의 이야기 \n\nOur channel strives to be a family-friendly platform is that it does not tolerate vulgar or explicit language\nwill be classified as verbal defamation.\nAll of those words, regardless of the context, will be deleted without any notification in advance.\n\nMoreover, there are certain content topics that do not reflect the actual content of the video or deceptively driving viewers off-site, covering, depicting, promoting, it will be removed as well.\n\n\nAll Rights Reserved\n\nAll copyright holder reserved and holds for its own use.\n\nAll videos and photos in this channel is fixed in a physical medium that have the exclusive copy right to use the work.\n\nUnauthorized use of all photos and videos, reproduce, distribute, display or perform the protected work, or to\nmake derivative are a very strongly prohibited.\n",
+        "customUrl": "@manimfive",
+        "publishedAt": "2022-02-15T16:46:39.352899Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/K0_qAuBpcgrvz4Gb450FiDsA0hJHcm6Y3Oo1FerSjEMbMkpjwQgYL7rV-sETrdpvZjKbLaDZJNY=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/K0_qAuBpcgrvz4Gb450FiDsA0hJHcm6Y3Oo1FerSjEMbMkpjwQgYL7rV-sETrdpvZjKbLaDZJNY=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/K0_qAuBpcgrvz4Gb450FiDsA0hJHcm6Y3Oo1FerSjEMbMkpjwQgYL7rV-sETrdpvZjKbLaDZJNY=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "마님파이브 Manim Five",
+          "description": "프랑스 시골에 사는 마님 +파이브 가족의 이야기 \n\nOur channel strives to be a family-friendly platform is that it does not tolerate vulgar or explicit language\nwill be classified as verbal defamation.\nAll of those words, regardless of the context, will be deleted without any notification in advance.\n\nMoreover, there are certain content topics that do not reflect the actual content of the video or deceptively driving viewers off-site, covering, depicting, promoting, it will be removed as well.\n\n\nAll Rights Reserved\n\nAll copyright holder reserved and holds for its own use.\n\nAll videos and photos in this channel is fixed in a physical medium that have the exclusive copy right to use the work.\n\nUnauthorized use of all photos and videos, reproduce, distribute, display or perform the protected work, or to\nmake derivative are a very strongly prohibited.\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "262486171",
+        "subscriberCount": "282000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "1332"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "Tm0KhgevOx-mJMuo4Vk4O8qXpzQ",
+      "id": "UC6SSDAsu4E06brZG-QNSuLw",
+      "snippet": {
+        "title": "행가집",
+        "description": "사람을 통해 공간을 이야기합니다.\n\n디자인하우스 공식 채널입니다\nhttps://www.designhouse.co.kr/\n기획 및 제작 : 컬츠업 노성산 대표, 이슬 디렉터\n비즈니스/제보/출연 문의 : hgzip@design.co.kr\n",
+        "customUrl": "@hgzip-space",
+        "publishedAt": "2024-08-12T07:23:04.02319Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/NSO0YhMZCVswJAKjkHskfrrUXxi1-xXCnwC_WMi8wu4Wb1eOqku4OnsP5swyyzKhe8b90gwn5bo=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/NSO0YhMZCVswJAKjkHskfrrUXxi1-xXCnwC_WMi8wu4Wb1eOqku4OnsP5swyyzKhe8b90gwn5bo=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/NSO0YhMZCVswJAKjkHskfrrUXxi1-xXCnwC_WMi8wu4Wb1eOqku4OnsP5swyyzKhe8b90gwn5bo=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "행가집",
+          "description": "사람을 통해 공간을 이야기합니다.\n\n디자인하우스 공식 채널입니다\nhttps://www.designhouse.co.kr/\n기획 및 제작 : 컬츠업 노성산 대표, 이슬 디렉터\n비즈니스/제보/출연 문의 : hgzip@design.co.kr\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "30955747",
+        "subscriberCount": "144000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "302"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "uTGLa806fKEoz-qhvDCr3slLKlA",
+      "id": "UCXGXTy_GDJAlRTk9ypTHNKQ",
+      "snippet": {
+        "title": "김치와 바게뜨 / Kimchi & Baguette",
+        "description": "인생이란 여행\n\n청춘 부부 대한과 사라의 세계정복과 10년 후 우리의 게스트하우스 창업까지의 과정을 담을 유튜브 일기장!\n\n발전해나가는 저희의 과정과 추억을 이 안에 담아보고자 합니다~\n\n\n\n문의: twinsdm1@naver.com",
+        "customUrl": "@kimchi_baguette",
+        "publishedAt": "2023-01-10T14:23:37.534828Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/HtJVFAVKCJL-YoEgWog-lHBdH3PtG306UTmPeLPqjAAjq3D5etSMgBPAD-kItdEVr4Za-yPV=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/HtJVFAVKCJL-YoEgWog-lHBdH3PtG306UTmPeLPqjAAjq3D5etSMgBPAD-kItdEVr4Za-yPV=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/HtJVFAVKCJL-YoEgWog-lHBdH3PtG306UTmPeLPqjAAjq3D5etSMgBPAD-kItdEVr4Za-yPV=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "김치와 바게뜨 / Kimchi & Baguette",
+          "description": "인생이란 여행\n\n청춘 부부 대한과 사라의 세계정복과 10년 후 우리의 게스트하우스 창업까지의 과정을 담을 유튜브 일기장!\n\n발전해나가는 저희의 과정과 추억을 이 안에 담아보고자 합니다~\n\n\n\n문의: twinsdm1@naver.com"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "380960854",
+        "subscriberCount": "759000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "431"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "hOgnDVJBz2wXqSJgPU5WFDdG7UM",
+      "id": "UChlgI3UHCOnwUGzWzbJ3H5w",
+      "snippet": {
+        "title": " YTN",
+        "description": "24시간 생중계되는 대한민국 대표 뉴스\nYTN 공식채널을 지금 바로 구독하세요\n\n▶ 구독하기 : http://goo.gl/Ytb5SZ\n\n▶ YTN 기사제보 안내\n- 홈페이지: https://mj.ytn.co.kr/mj/mj_write.php?sort=0\n- 모바일: YTN 앱의 제보하기\n- 이메일: social@ytn.co.kr\n- 전화: 02-398-8282 또는 8585 \n\n▶ 라이브 스트리밍 대체광고 및 콘텐츠 협업 문의\n - 이메일 : ljk@ytn.co.kr\n\n▶ 영상 사용 및 구매 문의\n - https://www.ytn.co.kr/business/sell_program.php\n",
+        "customUrl": "@ytnnews24",
+        "publishedAt": "2013-05-23T07:07:42Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/Sd77hfGXNh1K4VgLCnYVrzWVkUKh04N5VDClPweoP-sbaZXzH3llUz2W1N_-Z4RX5_XauYpvSQ=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/Sd77hfGXNh1K4VgLCnYVrzWVkUKh04N5VDClPweoP-sbaZXzH3llUz2W1N_-Z4RX5_XauYpvSQ=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/Sd77hfGXNh1K4VgLCnYVrzWVkUKh04N5VDClPweoP-sbaZXzH3llUz2W1N_-Z4RX5_XauYpvSQ=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": " YTN",
+          "description": "24시간 생중계되는 대한민국 대표 뉴스\nYTN 공식채널을 지금 바로 구독하세요\n\n▶ 구독하기 : http://goo.gl/Ytb5SZ\n\n▶ YTN 기사제보 안내\n- 홈페이지: https://mj.ytn.co.kr/mj/mj_write.php?sort=0\n- 모바일: YTN 앱의 제보하기\n- 이메일: social@ytn.co.kr\n- 전화: 02-398-8282 또는 8585 \n\n▶ 라이브 스트리밍 대체광고 및 콘텐츠 협업 문의\n - 이메일 : ljk@ytn.co.kr\n\n▶ 영상 사용 및 구매 문의\n - https://www.ytn.co.kr/business/sell_program.php\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "20772477175",
+        "subscriberCount": "5370000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "965694"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "c7U3PDcanSiqDoglbWJ93LH2sb8",
+      "id": "UC1dG3vI9FfHnH3YgyeKUz_A",
+      "snippet": {
+        "title": "저라뎃 JUSTLIKETHAT",
+        "description": "Welcome to KR Challenger Jungler Justlikethat’s official YouTube channel !\nYou can enjoy interesting and informative LOL vids and streaming  :D\nIf you want to reach high ELo, subscribe to my channel ! \n( highly recommended to Junglers )\n\n각종 광고&협찬문의 : starfish@starfishentertainment.co.kr",
+        "customUrl": "@justlikethatkr_",
+        "publishedAt": "2013-12-05T04:19:26Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/QKlm-Msm4K62-CJYKMKjaPfjfHRa87ZHLN4JWAP0EY7mYhv1wXsnmMsQWGB8QHg61Uq_VnO1Qw=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/QKlm-Msm4K62-CJYKMKjaPfjfHRa87ZHLN4JWAP0EY7mYhv1wXsnmMsQWGB8QHg61Uq_VnO1Qw=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/QKlm-Msm4K62-CJYKMKjaPfjfHRa87ZHLN4JWAP0EY7mYhv1wXsnmMsQWGB8QHg61Uq_VnO1Qw=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "저라뎃 JUSTLIKETHAT",
+          "description": "Welcome to KR Challenger Jungler Justlikethat’s official YouTube channel !\nYou can enjoy interesting and informative LOL vids and streaming  :D\nIf you want to reach high ELo, subscribe to my channel ! \n( highly recommended to Junglers )\n\n각종 광고&협찬문의 : starfish@starfishentertainment.co.kr"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "991516739",
+        "subscriberCount": "722000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "4200"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "KKbsFGOhxPng2rNBWrriE6IFOqc",
+      "id": "UCovqkt9CC5WoSdDUxql0MTg",
+      "snippet": {
+        "title": "첼루키",
+        "description": "🚨 생방송은 '치지직'에서 주로 진행됩니다 🚨\n\n[비즈니스 문의]\n📨 chelookey01@gmail.com\n💬 @chelookey01 (인스타)\n\n[후원]\n🔵 https://toon.at/donate/chelookey (투네이션)\n🐔 닭가슴살 파격 할인 구매 링크   https://buly.kr/jYrv9q\n\n🎖️첼루키 유튜브 멤버십  ㅣ  https://www.youtube.com/@chelookey/join\n🍵 첼루키 네이버 카페     ㅣ https://cafe.naver.com/chelookey0629\n",
+        "customUrl": "@chelookey",
+        "publishedAt": "2020-07-14T09:21:09.401467Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/RGw-f_BU-vN3jPjrQBUwkI05i6gJaa-0oy7DimY4fbaNzhVjYWobVDxRyCRh167EHGh1BeHwdK8=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/RGw-f_BU-vN3jPjrQBUwkI05i6gJaa-0oy7DimY4fbaNzhVjYWobVDxRyCRh167EHGh1BeHwdK8=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/RGw-f_BU-vN3jPjrQBUwkI05i6gJaa-0oy7DimY4fbaNzhVjYWobVDxRyCRh167EHGh1BeHwdK8=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "첼루키",
+          "description": "🚨 생방송은 '치지직'에서 주로 진행됩니다 🚨\n\n[비즈니스 문의]\n📨 chelookey01@gmail.com\n💬 @chelookey01 (인스타)\n\n[후원]\n🔵 https://toon.at/donate/chelookey (투네이션)\n🐔 닭가슴살 파격 할인 구매 링크   https://buly.kr/jYrv9q\n\n🎖️첼루키 유튜브 멤버십  ㅣ  https://www.youtube.com/@chelookey/join\n🍵 첼루키 네이버 카페     ㅣ https://cafe.naver.com/chelookey0629\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "33692009",
+        "subscriberCount": "74300",
+        "hiddenSubscriberCount": false,
+        "videoCount": "2013"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "k1uqsTuwVKQfmqFDrKHXOT61Uss",
+      "id": "UCSb2WFb8m73erqFmP04Mokw",
+      "snippet": {
+        "title": "손석희의 12시",
+        "description": "\"세상의 어떤 일도, 어떤 음악도 우리와 무관하지 않음을...\"\n국제뉴스와 음악, 그리고 인터뷰\nMBC 라디오 낮 12시의 변혁, 손석희의 12시\n\n📻 MBC 표준FM 95.9MHz /📱 MBC 스마트라디오 mini \n🕛 매일 낮 12:05~13:57\n📮 출연 및 협찬 문의 s12o.clock@gmail.com\n",
+        "customUrl": "@손석희의12시",
+        "publishedAt": "2026-01-14T05:44:17.54931Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/FSOFy7fNKphIZCJo1IsOoTpHvtQdfeKzlJ1tUscST1mWTcTkWX5ZucYRjC9NloKxwkV7xShC=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/FSOFy7fNKphIZCJo1IsOoTpHvtQdfeKzlJ1tUscST1mWTcTkWX5ZucYRjC9NloKxwkV7xShC=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/FSOFy7fNKphIZCJo1IsOoTpHvtQdfeKzlJ1tUscST1mWTcTkWX5ZucYRjC9NloKxwkV7xShC=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "손석희의 12시",
+          "description": "\"세상의 어떤 일도, 어떤 음악도 우리와 무관하지 않음을...\"\n국제뉴스와 음악, 그리고 인터뷰\nMBC 라디오 낮 12시의 변혁, 손석희의 12시\n\n📻 MBC 표준FM 95.9MHz /📱 MBC 스마트라디오 mini \n🕛 매일 낮 12:05~13:57\n📮 출연 및 협찬 문의 s12o.clock@gmail.com\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "478014",
+        "subscriberCount": "21600",
+        "hiddenSubscriberCount": false,
+        "videoCount": "38"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "6a_cCSNERKwLpRkO_uH3yenq7a8",
+      "id": "UC9fMEBHAqyi_W0Tqc2QszFw",
+      "snippet": {
+        "title": "부자의 경제학 - 경제 지식",
+        "description": "현실에 나타나는 현상을 쉽게 경제로 풀어주는 부자의 경제학 입니다.\n\n비지니스 문의는 이메일로 주세요.\n",
+        "customUrl": "@부자의경제학-d1p",
+        "publishedAt": "2025-11-17T01:35:14.114174Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/U0VxM0NuLF43EkR2ENQrVLEFkyS-_vXLuC0LPqrBUoybqeNpF2zYg200BfWFeDekzUOWg6kjHnI=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/U0VxM0NuLF43EkR2ENQrVLEFkyS-_vXLuC0LPqrBUoybqeNpF2zYg200BfWFeDekzUOWg6kjHnI=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/U0VxM0NuLF43EkR2ENQrVLEFkyS-_vXLuC0LPqrBUoybqeNpF2zYg200BfWFeDekzUOWg6kjHnI=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "부자의 경제학 - 경제 지식",
+          "description": "현실에 나타나는 현상을 쉽게 경제로 풀어주는 부자의 경제학 입니다.\n\n비지니스 문의는 이메일로 주세요.\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "5324968",
+        "subscriberCount": "32000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "87"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "rsWHfkx0c3cxezWlMFVpHbftydk",
+      "id": "UC5YQ33CrvN0yMgkhR54LQqg",
+      "snippet": {
+        "title": "로부부 _ Robooboo",
+        "description": "어느 30대 로부부의 이야기 :-)\nLife of a couple in their 30s :-)\n\n🙏🏻비즈니스 문의: robindeiana@gmail.com",
+        "customUrl": "@로부부_robooboo",
+        "publishedAt": "2025-03-30T14:21:01.999404Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/3l10d6b_CYVPFi_4Z-pIAAy40H_VODDYQZlzn9NW-BMpopp3mgBnNuMpTPaTaSUe02D6ir-8EA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/3l10d6b_CYVPFi_4Z-pIAAy40H_VODDYQZlzn9NW-BMpopp3mgBnNuMpTPaTaSUe02D6ir-8EA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/3l10d6b_CYVPFi_4Z-pIAAy40H_VODDYQZlzn9NW-BMpopp3mgBnNuMpTPaTaSUe02D6ir-8EA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "로부부 _ Robooboo",
+          "description": "어느 30대 로부부의 이야기 :-)\nLife of a couple in their 30s :-)\n\n🙏🏻비즈니스 문의: robindeiana@gmail.com"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "29488304",
+        "subscriberCount": "26000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "418"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "s3uLRyI4I6Kd4aYmlF4vSYwLOlc",
+      "id": "UC-ZF42znvkbm83ovdmJY28Q",
+      "snippet": {
+        "title": "고체극장",
+        "description": "시청해 주셔서 항상 감사드립니다. 😍\n",
+        "customUrl": "@koche0815",
+        "publishedAt": "2023-07-01T12:13:32.199488Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/f90iMsERsDcKStR4PiOcizTH4VOIMQ8XcvZTtaa3kS7mcoCIEzSjgFghfXlv67BpjS9jniHvVA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/f90iMsERsDcKStR4PiOcizTH4VOIMQ8XcvZTtaa3kS7mcoCIEzSjgFghfXlv67BpjS9jniHvVA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/f90iMsERsDcKStR4PiOcizTH4VOIMQ8XcvZTtaa3kS7mcoCIEzSjgFghfXlv67BpjS9jniHvVA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "고체극장",
+          "description": "시청해 주셔서 항상 감사드립니다. 😍\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "62582614",
+        "subscriberCount": "169000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "238"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "eMlxG8TJ91y2AytWxnuIqtiD8JY",
+      "id": "UC75dJLCqpXw7v6dIfu-J1Qw",
+      "snippet": {
+        "title": "와우사연",
+        "description": "🌸 와우사연 | 감동사연 · 인생사연 · 오디오북\n\n듣는 순간, 내 이야기가 됩니다.\n와우사연은 시니어 세대가 깊이 공감할 수 있는 \n감동사연과 인생사연을 오디오북 형식으로 전하는 이야기 채널입니다.\n\n재벌가의 숨겨진 비밀, 백만장자의 파란만장한 인생역전,\n시어머니와 며느리의 가슴 뜨거운 화해, 그리고 누구도 예상하지 못한 신분반전까지\n한번 듣기 시작하면 멈출 수 없는 이야기를 매일 찾아뵙겠습니다.\n\n📖 이런 이야기를 만나실 수 있습니다\n• 재벌·백만장자의 극적 인생역전과 신분반전 드라마\n• 시어머니·며느리, 가족 간의 눈물과 화해 이야기\n• 고부갈등, 부부갈등 속 사이다 반전 실화사연\n• 야담과 전통 이야기에서 길어 올린 명문가 대서사\n• 황혼로맨스, 노후의 새로운 시작을 그린 감동실화\n\n🎧 업로드 일정: 매주 새로운 사연\n⏱️ 영상 길이: 90분 ~120분 정도의 몰입형 롱폼\n\n💌 사연 제보 및 문의: kevinkim928@gmail.com\n\n🎤 본 채널의 모든 콘텐츠는 실제 사연을 바탕으로 각색·재구성한 창작물이며, 등장하는 인물·지명·사건은 실제와 관련이 없습니다.\n\n© 와우사연 채널에 업로드된 모든 영상의 저작권은 와우사연에 있습니다.\n\n#감동사연 #인생사연 #오디오북 #실화사연 #시니어사연 #노후사연 #재벌 #백만장자 #시어머니 #며느리 #고부갈등 #신분반전 #인생반전 #사이다반전 #실화극장 #인생드라마 #가족드라마\n",
+        "customUrl": "@와우사연",
+        "publishedAt": "2026-04-14T04:07:04.624534Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/AjlI2xpcfASZnuPR8lYDzskqvajxhRtD3GLCPrz5RPPoN9hgt9wvQahXRW6BQLFEywAvkRSniw=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/AjlI2xpcfASZnuPR8lYDzskqvajxhRtD3GLCPrz5RPPoN9hgt9wvQahXRW6BQLFEywAvkRSniw=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/AjlI2xpcfASZnuPR8lYDzskqvajxhRtD3GLCPrz5RPPoN9hgt9wvQahXRW6BQLFEywAvkRSniw=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "와우사연",
+          "description": "🌸 와우사연 | 감동사연 · 인생사연 · 오디오북\n\n듣는 순간, 내 이야기가 됩니다.\n와우사연은 시니어 세대가 깊이 공감할 수 있는 \n감동사연과 인생사연을 오디오북 형식으로 전하는 이야기 채널입니다.\n\n재벌가의 숨겨진 비밀, 백만장자의 파란만장한 인생역전,\n시어머니와 며느리의 가슴 뜨거운 화해, 그리고 누구도 예상하지 못한 신분반전까지\n한번 듣기 시작하면 멈출 수 없는 이야기를 매일 찾아뵙겠습니다.\n\n📖 이런 이야기를 만나실 수 있습니다\n• 재벌·백만장자의 극적 인생역전과 신분반전 드라마\n• 시어머니·며느리, 가족 간의 눈물과 화해 이야기\n• 고부갈등, 부부갈등 속 사이다 반전 실화사연\n• 야담과 전통 이야기에서 길어 올린 명문가 대서사\n• 황혼로맨스, 노후의 새로운 시작을 그린 감동실화\n\n🎧 업로드 일정: 매주 새로운 사연\n⏱️ 영상 길이: 90분 ~120분 정도의 몰입형 롱폼\n\n💌 사연 제보 및 문의: kevinkim928@gmail.com\n\n🎤 본 채널의 모든 콘텐츠는 실제 사연을 바탕으로 각색·재구성한 창작물이며, 등장하는 인물·지명·사건은 실제와 관련이 없습니다.\n\n© 와우사연 채널에 업로드된 모든 영상의 저작권은 와우사연에 있습니다.\n\n#감동사연 #인생사연 #오디오북 #실화사연 #시니어사연 #노후사연 #재벌 #백만장자 #시어머니 #며느리 #고부갈등 #신분반전 #인생반전 #사이다반전 #실화극장 #인생드라마 #가족드라마\n"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "1826824",
+        "subscriberCount": "32100",
+        "hiddenSubscriberCount": false,
+        "videoCount": "23"
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "w50Nv26h_K7skDXKhjd2N6brZqw",
+      "id": "UCFCtZJTuJhE18k8IXwmXTYQ",
+      "snippet": {
+        "title": "EBSDocumentary (EBS 다큐)",
+        "description": "EBS offers a wide range of high-quality documentaries dealing with subjects, such as knowledge, science, culture and others.\n\nEBS는 지식, 과학, 문화, 교육 등 다양한 고품질의 다큐멘터리를 선보이고 있습니다.",
+        "customUrl": "@ebsdocumentary",
+        "publishedAt": "2012-05-30T02:13:06Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/JCoc_tttfLn5nzycdjiSFwv0gg-AKMIU2pyLw_13CzftUAchPNt4pJ8sHymyp_PcpF9KqSH-yIQ=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/JCoc_tttfLn5nzycdjiSFwv0gg-AKMIU2pyLw_13CzftUAchPNt4pJ8sHymyp_PcpF9KqSH-yIQ=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/JCoc_tttfLn5nzycdjiSFwv0gg-AKMIU2pyLw_13CzftUAchPNt4pJ8sHymyp_PcpF9KqSH-yIQ=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "EBSDocumentary (EBS 다큐)",
+          "description": "EBS offers a wide range of high-quality documentaries dealing with subjects, such as knowledge, science, culture and others.\n\nEBS는 지식, 과학, 문화, 교육 등 다양한 고품질의 다큐멘터리를 선보이고 있습니다."
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "7528676345",
+        "subscriberCount": "5400000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "67870"
+      }
+    }
+  ]
+}
