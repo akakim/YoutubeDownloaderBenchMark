@@ -67,7 +67,7 @@ export default function GoodShortsPage() {
 
   return (    
 
-    <div className="page">
+    <div className="screen">
 
       {/* 상단 탭 */}
       <div className="topTabs">

@@ -20,9 +20,35 @@ const MockService = {
     getTestVideoList() {
         return this.readJson('testVideo.json');
     },
+    getTestSmallVideoList(ids) {
+        const videoList = this.readJson('testSmallVideo3.json');
+        const idSet = new Set(
+            String(ids ?? '')
+                .split(',')
+                .map((id) => id.trim())
+                .filter(Boolean)
+        );
+
+        if (idSet.size === 0) {
+            return videoList;
+        }
+
+        const items = videoList.items.filter((item) => idSet.has(item.id));
+
+        return {
+            ...videoList,
+            items,
+            pageInfo: {
+                ...videoList.pageInfo,
+                totalResults: items.length,
+                resultsPerPage: items.length,
+            },
+        };
+    },
     getTestChannelList() {
         return this.readJson('testChannel.json');
     },
+    
 };
 
 router.get('/testSearchList', (req, res) => {
@@ -35,6 +61,10 @@ router.get('/testVideoList', (req, res) => {
 });
 router.get('/testChannelList', (req, res) => {
     res.json(MockService.getTestChannelList());
+});
+router.get('/testSmallVideoList', (req, res) => {
+    console.log('testSmallVideoList query:', req.query);
+    res.json(MockService.getTestSmallVideoList(req.query.id));
 });
 
 export default router;

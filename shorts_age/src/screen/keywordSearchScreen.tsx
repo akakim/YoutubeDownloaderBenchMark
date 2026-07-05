@@ -1,3 +1,5 @@
+import { Search, Bot, Settings, FileSearch } from "lucide-react";
+
 import React, { useRef,useState } from 'react';
 import '../styles/screen_channelRankingPage.css';
 import ApiKeyBox from '../widget/apiKeyBox';
@@ -152,40 +154,14 @@ export default function KeywordSearchScreen() {
 
       
       <div className="titleArea">
-        {/* <h1>📊 요즘 잘하는 채널 랭킹!</h1>
-        <p>
-          최근 1달 동안 조회수를 잘 뽑은 채널들을 카테고리별로 찾아보세요.
-        </p> */}
-
-         
-        <div className='tab'>
-          <div>
-            <h1>키워드 검색</h1>
-            <p> 잘나가는 키워드 </p>
+          <div className="flex items-center gap-2">
+            <h1><FileSearch size={40} strokeWidth={2.25} />  </h1>
+            <p> 키워드 검색 </p>
           </div>
-        </div>
-           
-
+          <h2><p> 잘나가는 키워드 </p></h2>
       </div>
 
-      {/* <div className="apiSection">
-        <div className="apiCard">
-          <div>
-            <strong>My First Project의 키</strong>
-            <div>1,828 / 10,000</div>
-          </div>
-
-          <div className="progress">
-            <div className="fill"></div>
-          </div>
-        </div>
-
-        <div className="buttons">
-          <button>+ 키 추가</button>
-          <button>발급방법</button>
-          <button className="guideBtn">📺 영상 가이드</button>
-        </div>
-      </div> */}
+       
 
       
       <div className="categorySection">

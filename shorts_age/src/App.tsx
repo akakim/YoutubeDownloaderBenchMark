@@ -80,6 +80,9 @@ export function App() {
 
         {activeUrl === sideBarData.navMain[0].items?.[0]?.url && <KeywordSearchScreen/>}
         {activeUrl === sideBarData.navMain[0].items?.[1]?.url && <ChannelRankingScreen/>}
+        {activeUrl === sideBarData.navMain[1].items?.[0]?.url && <VideoToSTT/>}
+        {activeUrl === sideBarData.navMain[1].items?.[1]?.url && <ChannelRankingScreen/>}
+
         {activeUrl === MENU_KEYS.FILTER_VIDEO && <FilterVideo/>}
         <h1>{activeUrl}에 온걸 환영</h1>
       </main>

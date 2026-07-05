@@ -118,9 +118,9 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
 
 
   return (
-     <div className="stt-page">
+     <div className="screen">
        
-      <div className="stt-layout">
+      <div className="widget">
         <section className="file-card">
           <h3>
             파일 목록 <span>(드래그 앤 드롭 가능)</span>

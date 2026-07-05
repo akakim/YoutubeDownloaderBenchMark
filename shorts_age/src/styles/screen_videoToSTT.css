@@ -1,4 +1,4 @@
-.stt-page {
+.screen {
   width: 100%;
   min-height: 100vh;
   padding: 24px 16px;
@@ -55,7 +55,7 @@
   color: #60708f;
 }
 
-.stt-layout {
+.widget {
   max-width: 1020px;
   margin: 0 auto;
   display: grid;
@@ -217,8 +217,95 @@
   margin: 7px 0;
 }
 
+
+
+.dark .screen {
+  background: var(--dark-page-bg);
+  color: var(--dark-text);
+}
+
+.dark .file-card,
+.dark .setting-card,
+.dark .cache-banner,
+.dark .info-banner {
+  background: var(--dark-surface);
+  border: 1px solid var(--dark-border);
+  color: var(--dark-text);
+  box-shadow: var(--dark-panel-shadow);
+}
+
+.dark .cache-banner {
+  background: var(--dark-accent-surface);
+  border-color: var(--dark-accent-border);
+}
+
+.dark .cache-banner strong,
+.dark .guide-row strong {
+  color: var(--dark-accent-text);
+}
+
+.dark .cache-banner span,
+.dark .info-banner,
+.dark .file-card h3 span,
+.dark .drop-zone p,
+.dark .drop-zone small,
+.dark .empty,
+.dark .form-group small,
+.dark .guide-row span,
+.dark .guide-box p {
+  color: var(--dark-text-muted);
+}
+
+.dark .cache-banner button {
+  background: var(--dark-accent);
+  color: #fff;
+}
+
+.dark .drop-zone {
+  background: var(--dark-surface-input);
+  border-color: var(--dark-border-strong);
+}
+
+.dark .drop-zone.is-dragging {
+  background: var(--dark-accent-surface);
+  border-color: var(--dark-accent);
+}
+
+.dark .file-item {
+  background: var(--dark-surface-raised);
+  color: var(--dark-text-soft);
+}
+
+.dark .form-group select {
+  background: var(--dark-surface-input);
+  border-color: var(--dark-border-strong);
+  color: var(--dark-text);
+}
+
+.dark .form-group select:focus {
+  border-color: var(--dark-accent);
+  box-shadow: var(--dark-focus-ring);
+}
+
+.dark .start-button {
+  background: var(--dark-accent);
+  color: #fff;
+}
+
+.dark .start-button:disabled {
+  background: var(--dark-disabled-bg);
+  color: var(--dark-text-muted);
+}
+
+.dark .guide-box {
+  background: var(--dark-accent-surface);
+  border-color: var(--dark-accent-border);
+  color: var(--dark-text);
+}
+
+
 @media (max-width: 900px) {
-  .stt-layout {
+  .widget {
     grid-template-columns: 1fr;
   }
 }
