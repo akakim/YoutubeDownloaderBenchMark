@@ -9,7 +9,8 @@ import GoldChannel from './screen/goldChannel';
 import FilterVideo from './screen/filterVideo';
 import LinkHam from './screen/linkHam';
 import VideoToSTT from './screen/videoToSTT';
-import ShortsTool from './screen/shortsVideoFrameTool';
+import AnalyzeGoodvideo from './screen/analyzeGoodvideo';
+import ShortsTool from './screen/analyzeGoodvideo';
 import Setting from './screen/setting';
 import ErrorPopup from './widget/errorPopup';
 
@@ -81,7 +82,7 @@ export function App() {
         {activeUrl === sideBarData.navMain[0].items?.[0]?.url && <KeywordSearchScreen/>}
         {activeUrl === sideBarData.navMain[0].items?.[1]?.url && <ChannelRankingScreen/>}
         {activeUrl === sideBarData.navMain[1].items?.[0]?.url && <VideoToSTT/>}
-        {activeUrl === sideBarData.navMain[1].items?.[1]?.url && <ChannelRankingScreen/>}
+        {activeUrl === sideBarData.navMain[1].items?.[1]?.url && <AnalyzeGoodvideo/>}
 
         {activeUrl === MENU_KEYS.FILTER_VIDEO && <FilterVideo/>}
         <h1>{activeUrl}에 온걸 환영</h1>
