@@ -131,6 +131,31 @@
   --dark-focus-ring: 0 0 0 2px rgba(211, 138, 0, 0.25);
 }
 
+
+.screen {
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px 16px;
+  background: #f4f6fb;
+  color: #27324a;
+}
+
+
+.large_widget {
+  width: 100vw;
+  min-height: 500vh;
+  padding: 24px 16px;
+  background: #f4f6fb;
+  color: #27324a;
+}
+.dark .screen,
+.dark .large_widget {
+  background: var(--dark-page-bg);
+  color: var(--dark-text);
+}
+
+
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

@@ -2,7 +2,7 @@
 
 // value : ISO 3166-1 나라를 나타내는 코드, subValue : ISO 639-1 언어를 나타내는 코드
 export const REGION_OPTIONS = [
-  { ISO_3166_1_value: "",ISO_639_1_value: "",label: "🌎 전세계" },
+  { ISO_3166_1_value: "wo",ISO_639_1_value: "wo",label: "🌎 전세계" },
   { ISO_3166_1_value: "KR", ISO_639_1_value: "ko", label: "🇰🇷 한국" },
   { ISO_3166_1_value: "US", ISO_639_1_value: "en", label: "🇺🇸 미국" },
   { ISO_3166_1_value: "JP", ISO_639_1_value: "ja", label: "🇯🇵 일본" },

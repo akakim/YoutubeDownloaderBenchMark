@@ -178,7 +178,7 @@ export default function KeywordSearchScreen() {
 
         <NativeSelect value={activeRegion} onChange={handleRegionChange}>
           {REGION_OPTIONS.map((region) => (
-            <NativeSelectOption key={region.value} value={region.value}>{region.label}</NativeSelectOption>
+            <NativeSelectOption key={region.ISO_3166_1_value} value={region.ISO_3166_1_value}>{region.label}</NativeSelectOption>
           ))}
         </NativeSelect>
 

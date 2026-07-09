@@ -21,6 +21,7 @@ import {
   RobotIcon,
   RowsIcon,
   TerminalIcon,
+  FactoryIcon
 } from "@phosphor-icons/react"
 
 export const sideBarData = {
@@ -73,69 +74,32 @@ export const sideBarData = {
       ],
     },
     {
-      title: "Documentation",
-      url: "/doc",
-      icon: <BookOpenIcon />,
+      title: "Scene 생성기",
+      url: "/scene",
+      icon: <FactoryIcon />,
       items: [
         {
-          title: "Introduction",
-          url: "#",
+          title: "씬 생성기",
+          url: "/maker",
         },
         {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
-          url: "#",
-        },
+          title: "고급 씬 생성기",
+          url: "/advanced-maker",
+        }
       ],
     },
     {
-      title: "Settings",
+      title: "설정",
       url: "/settings",
       icon: <GearIcon />,
       items: [
         {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
-        },
+          title: "API키 관리",
+          url: "/apikey",
+        }
       ],
     },
-  ],
-  projects: [
-    {
-      name: "Design Engineering",
-      url: "#",
-      icon: <CropIcon />,
-    },
-    {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: <ChartPieIcon />,
-    },
-    {
-      name: "Travel",
-      url: "#",
-      icon: <MapTrifoldIcon />,
-    },
-  ],
+  ]
 }
 
 type AppSidebarComponentProps = AppSidebarProps &
@@ -152,7 +116,7 @@ export function AppSidebar({
       </SidebarHeader>
       <SidebarContent>
         <NavMain onMenuClick={onMenuClick} items={sideBarData.navMain} />
-        <NavProjects projects={sideBarData.projects} />
+
       </SidebarContent>
       <SidebarFooter>
         <NavUser user={sideBarData.user} />
