@@ -8,12 +8,7 @@ import {
   FieldSet,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
-
-type KMSRow = {
-  serviceType: string
-  alias: string
-  value: string
-}
+import type { KMSRow } from "@/types/kmsRow"
 
 const GPT_PREFIX = "gpt-key-"
 const GEMINI_PREFIX = "gemini-key-"
@@ -42,17 +37,17 @@ export default function KSMWidget({ isKMSSUCCESS = false }: KMSWidgetProps) {
   const [fieldLabel, setFieldLabel] = useState("")
   const isDisabled = !isKMSSUCCESS
   function loadKMSRows(): KMSRow[] {
-    const savedRows = localStorage.getItem(KMS_STORAGE_KEY)
+        const savedRows = localStorage.getItem(KMS_STORAGE_KEY)
 
-    if (!savedRows) {
-        return []
-    }
+        if (!savedRows) {
+            return []
+        }
 
-    try {
-        return JSON.parse(savedRows) as KMSRow[]
-    } catch {
-        return []
-    }
+        try {
+            return JSON.parse(savedRows) as KMSRow[]
+        } catch {
+            return []
+        }
     }
 
   function addGPTRow() {
@@ -124,6 +119,7 @@ export default function KSMWidget({ isKMSSUCCESS = false }: KMSWidgetProps) {
         >
           Add Chat GPT
         </Button>
+        
         <Button
           className="m-[10px] whitespace-nowrap"
           disabled={isDisabled}
@@ -131,6 +127,7 @@ export default function KSMWidget({ isKMSSUCCESS = false }: KMSWidgetProps) {
         >
           Add Gemini
         </Button>
+        
         <Button
           className="m-[10px] whitespace-nowrap"
           disabled={isDisabled}
@@ -138,6 +135,7 @@ export default function KSMWidget({ isKMSSUCCESS = false }: KMSWidgetProps) {
         >
           Add Youtube API
         </Button>
+        
         <Button
           className="m-[10px] whitespace-nowrap"
           disabled={isDisabled}
@@ -145,6 +143,7 @@ export default function KSMWidget({ isKMSSUCCESS = false }: KMSWidgetProps) {
         >
           Remove Last Row
         </Button>
+
       </div>
 
       <form className="space-y-8">
@@ -177,6 +176,8 @@ export default function KSMWidget({ isKMSSUCCESS = false }: KMSWidgetProps) {
                       disabled={isDisabled}
                       onChange={(e) => updateRow(row.alias, e.target.value)}
                     />
+
+
                     <Button
                       variant="outline"
                       type="button"
@@ -185,6 +186,7 @@ export default function KSMWidget({ isKMSSUCCESS = false }: KMSWidgetProps) {
                     >
                       Remove
                     </Button>
+                    
                   </div>
                 </Field>
               ))}

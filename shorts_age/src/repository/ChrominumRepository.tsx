@@ -1,4 +1,9 @@
-import type { IRepository, RepositoryValue } from "./IRepository"
+import type { IRepository,RepositoryEntry, RepositoryValue } from "./IRepository"
+
+// export type RepositoryEntry<T extends RepositoryValue> = {
+//   key: string
+//   value: T
+// }
 
 type IndexedRepositoryRecord<T extends RepositoryValue = RepositoryValue> = {
   id: string
@@ -28,6 +33,30 @@ export class ChrominumRepository implements IRepository {
     await this.runStoreRequest("readwrite", (store) => store.put(record))
   }
 
+  async bulkPut<T extends RepositoryValue>(
+    tableName: string,
+    keys: string[],
+    values: T[],
+  ): Promise<void> {
+    if (keys.length !== values.length) {
+      throw new Error("bulkPut requires keys and values to have the same length")
+    }
+
+    const groupKey = "data"
+    const value = keys.reduce<Record<string, T>>((record, key, index) => {
+      record[key] = values[index]
+      return record
+    }, {})
+    const record: IndexedRepositoryRecord = {
+      id: this.createRecordId(tableName, groupKey),
+      tableName,
+      key: groupKey,
+      value,
+    }
+
+    await this.runStoreRequest("readwrite", (store) => store.put(record))
+  }
+
   async get<T extends RepositoryValue>(
     tableName: string,
     key: string,
@@ -40,16 +69,21 @@ export class ChrominumRepository implements IRepository {
     return record?.value
   }
 
-  async getAll<T extends RepositoryValue>(tableName: string): Promise<T[]> {
-    const records = await this.runStoreRequest<IndexedRepositoryRecord<T>[]>(
-      "readonly",
-      (store) => store.getAll(),
-    )
+  async getAll<T extends RepositoryValue>(
+  tableName: string,
+): Promise<RepositoryEntry<T>[]> {
+  const records = await this.runStoreRequest<IndexedRepositoryRecord<T>[]>(
+    "readonly",
+    (store) => store.getAll(),
+  )
 
-    return records
-      .filter((record) => record.tableName === tableName)
-      .map((record) => record.value)
-  }
+  return records
+    .filter((record) => record.tableName === tableName)
+    .map((record) => ({
+      key: record.key,
+      value: record.value,
+    }))
+}
 
   async remove(tableName: string, key: string): Promise<void> {
     await this.runStoreRequest("readwrite", (store) =>

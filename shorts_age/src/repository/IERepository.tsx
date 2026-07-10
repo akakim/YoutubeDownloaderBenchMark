@@ -1,4 +1,8 @@
-import type { IRepository, RepositoryValue } from "./IRepository"
+import type {
+  IRepository,
+  RepositoryEntry,
+  RepositoryValue,
+} from "./IRepository"
 
 type StoredRepositoryRecord<T extends RepositoryValue> = {
   tableName: string
@@ -20,6 +24,27 @@ export class IERepository implements IRepository {
     )
   }
 
+  async bulkPut<T extends RepositoryValue>(
+    tableName: string,
+    keys: string[],
+    values: T[],
+  ): Promise<void> {
+    if (keys.length !== values.length) {
+      throw new Error("bulkPut requires keys and values to have the same length")
+    }
+
+    const groupKey = "data"
+    const value = keys.reduce<Record<string, T>>((record, key, index) => {
+      record[key] = values[index]
+      return record
+    }, {})
+
+    localStorage.setItem(
+      this.createStorageKey(tableName, groupKey),
+      JSON.stringify({ tableName, key: groupKey, value }),
+    )
+  }
+
   async get<T extends RepositoryValue>(
     tableName: string,
     key: string,
@@ -33,27 +58,32 @@ export class IERepository implements IRepository {
     return this.parseRecord<T>(item)?.value
   }
 
-  async getAll<T extends RepositoryValue>(tableName: string): Promise<T[]> {
-    const values: T[] = []
-    const tablePrefix = this.createTablePrefix(tableName)
+  async getAll<T extends RepositoryValue>(
+      tableName: string,
+    ): Promise<RepositoryEntry<T>[]> {
+      const entries: RepositoryEntry<T>[] = []
+      const tablePrefix = this.createTablePrefix(tableName)
 
-    for (let index = 0; index < localStorage.length; index += 1) {
-      const storageKey = localStorage.key(index)
+      for (let index = 0; index < localStorage.length; index += 1) {
+        const storageKey = localStorage.key(index)
 
-      if (!storageKey?.startsWith(tablePrefix)) {
-        continue
+        if (!storageKey?.startsWith(tablePrefix)) {
+          continue
+        }
+
+        const item = localStorage.getItem(storageKey)
+        const record = item ? this.parseRecord<T>(item) : undefined
+
+        if (record) {
+          entries.push({
+            key: record.key,
+            value: record.value,
+          })
+        }
       }
 
-      const item = localStorage.getItem(storageKey)
-      const record = item ? this.parseRecord<T>(item) : undefined
-
-      if (record) {
-        values.push(record.value)
-      }
-    }
-
-    return values
-  }
+  return entries
+}
 
   async remove(tableName: string, key: string): Promise<void> {
     localStorage.removeItem(this.createStorageKey(tableName, key))

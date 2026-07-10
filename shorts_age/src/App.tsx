@@ -118,7 +118,7 @@ export function App() {
         {activeUrl === sideBarData.navMain[3].items?.[0]?.url && <KMSScreen isKMSSUCCESS={isKMSSUCCESS()} />}
 
         {activeUrl === MENU_KEYS.FILTER_VIDEO && <FilterVideo/>}
-        <h1>{activeUrl}에 온걸 환영</h1>
+        <h1>{activeUrl}에 온걸 환영합니다</h1>
       </main>
 
     </SidebarProvider>

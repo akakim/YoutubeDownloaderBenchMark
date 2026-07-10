@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const youtubeApiClient = axios.create({
-  baseURL: import.meta.env.YOUTUBE_DATA_API_V3_URL,
+  baseURL: import.meta.env.VITE_YOUTUBE_DATA_API_V3_URL,
 });
 
 const youtubeAPIMocClient = axios.create({

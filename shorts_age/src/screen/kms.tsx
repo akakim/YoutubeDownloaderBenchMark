@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
 import '../styles/global.css';
-import KMSWidget from '../widget/kmsWidget';
+import KMSYoutubeDataAPIV3Widget from '../widget/kmsYoutubeDataAPIV3Widget';
+import KMSGPTWidget from '../widget/kmsGPTWidget';
+// import kmsGeminiWidget from '../widget/kmsGeminiWidget';
 
 import { Button } from "@/components/ui/button"
-type KMSScreenProps = {
+export type KMSScreenProps = {
   isKMSSUCCESS?: boolean
 }
 
@@ -22,7 +24,9 @@ export default function KMSScreen({ isKMSSUCCESS = false }: KMSScreenProps) {
         }}}>
             테스트용 버튼
         </Button>
-            <KMSWidget isKMSSUCCESS={isKMSSUCCESS} />
+            <KMSGPTWidget isKMSSUCCESS={isKMSSUCCESS} />
+
+            <KMSYoutubeDataAPIV3Widget isKMSSUCCESS={isKMSSUCCESS} />
       </div>
       
     </div>
