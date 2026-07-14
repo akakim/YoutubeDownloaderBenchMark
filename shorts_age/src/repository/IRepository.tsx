@@ -17,18 +17,21 @@ export type RepositoryValue =
 export interface IRepository {
   put<T extends RepositoryValue>(
     tableName: string,
+    recordId:string,
     key: string,
     value: T,
   ): Promise<void>
 
   bulkPut<T extends RepositoryValue>(
     tableName: string,
+    recordId:string,
     keys: string[],
     values: T[],
   ): Promise<void>
 
   get<T extends RepositoryValue>(
     tableName: string,
+    recordId:string,
     key: string,
   ): Promise<T | undefined>
 
@@ -36,7 +39,7 @@ export interface IRepository {
     tableName: string,
   ): Promise<RepositoryEntry<T>[]>
 
-  remove(tableName: string, key: string): Promise<void>
+  remove(tableName: string, recordId: string): Promise<void>
   clear(tableName: string): Promise<void>
 }
 

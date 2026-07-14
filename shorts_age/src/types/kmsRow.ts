@@ -4,9 +4,15 @@
 export type KMSRow = {
   kmsID:string
   serviceType: string
-  alias: string
+  dAlias: string
   value: string
 };
+
+export type KMSFieldRow = KMSRow & {
+  u_isNew: boolean
+  u_id: string
+}
+
 
 
 export const GPT_PREFIX = "gpt-key-"

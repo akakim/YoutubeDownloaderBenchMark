@@ -12,7 +12,7 @@ type StoredRepositoryRecord<T extends RepositoryValue> = {
 
 export class IERepository implements IRepository {
   private readonly prefix = "shorts-age-repository"
-
+  private readonly GROUP_KEY = "data"
   async put<T extends RepositoryValue>(
     tableName: string,
     key: string,
@@ -26,30 +26,36 @@ export class IERepository implements IRepository {
 
   async bulkPut<T extends RepositoryValue>(
     tableName: string,
+    recordId:string,
     keys: string[],
     values: T[],
   ): Promise<void> {
+
+    if( recordId === null || recordId === undefined ){
+      throw new Error("recordId must exist.")      
+    }
+
     if (keys.length !== values.length) {
       throw new Error("bulkPut requires keys and values to have the same length")
     }
 
-    const groupKey = "data"
+     
     const value = keys.reduce<Record<string, T>>((record, key, index) => {
       record[key] = values[index]
       return record
     }, {})
 
     localStorage.setItem(
-      this.createStorageKey(tableName, groupKey),
-      JSON.stringify({ tableName, key: groupKey, value }),
+      this.createStorageKey(tableName, this.GROUP_KEY),
+      JSON.stringify({ tableName, key: this.GROUP_KEY, value }),
     )
   }
 
   async get<T extends RepositoryValue>(
     tableName: string,
-    key: string,
+    recordId: string,
   ): Promise<T | undefined> {
-    const item = localStorage.getItem(this.createStorageKey(tableName, key))
+    const item = localStorage.getItem(this.createStorageKey(tableName, recordId))
 
     if (!item) {
       return undefined
@@ -85,8 +91,8 @@ export class IERepository implements IRepository {
   return entries
 }
 
-  async remove(tableName: string, key: string): Promise<void> {
-    localStorage.removeItem(this.createStorageKey(tableName, key))
+  async remove(tableName: string, recordId: string): Promise<void> {
+    localStorage.removeItem(this.createStorageKey(tableName, recordId))
   }
 
   async clear(tableName: string): Promise<void> {

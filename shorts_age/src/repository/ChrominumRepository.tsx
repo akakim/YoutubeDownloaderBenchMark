@@ -16,15 +16,24 @@ export class ChrominumRepository implements IRepository {
   private readonly dbName = "shorts-age-repository"
   private readonly dbVersion = 1
   private readonly storeName = "records"
+  private readonly GROUP_KEY = "value"
+
   private dbPromise?: Promise<IDBDatabase>
+
 
   async put<T extends RepositoryValue>(
     tableName: string,
+    recordId:string,
     key: string,
     value: T,
   ): Promise<void> {
+
+    if( recordId === null || recordId === undefined ){
+      throw new Error("recordId must exist.")      
+    }
+
     const record: IndexedRepositoryRecord<T> = {
-      id: this.createRecordId(tableName, key),
+      id: recordId,
       tableName,
       key,
       value,
@@ -35,22 +44,27 @@ export class ChrominumRepository implements IRepository {
 
   async bulkPut<T extends RepositoryValue>(
     tableName: string,
+    recordId:string,
     keys: string[],
     values: T[],
   ): Promise<void> {
+
+    if( recordId === null || recordId === undefined ){
+      throw new Error("recordId must exist.")      
+    }
     if (keys.length !== values.length) {
       throw new Error("bulkPut requires keys and values to have the same length")
     }
 
-    const groupKey = "data"
+    
     const value = keys.reduce<Record<string, T>>((record, key, index) => {
       record[key] = values[index]
       return record
     }, {})
     const record: IndexedRepositoryRecord = {
-      id: this.createRecordId(tableName, groupKey),
+      id: recordId,
       tableName,
-      key: groupKey,
+      key: this.GROUP_KEY,
       value,
     }
 
@@ -59,11 +73,11 @@ export class ChrominumRepository implements IRepository {
 
   async get<T extends RepositoryValue>(
     tableName: string,
-    key: string,
+    recordId: string,
   ): Promise<T | undefined> {
     const record = await this.runStoreRequest<IndexedRepositoryRecord<T>>(
       "readonly",
-      (store) => store.get(this.createRecordId(tableName, key)),
+      (store) => store.get( recordId ),
     )
 
     return record?.value
@@ -83,11 +97,11 @@ export class ChrominumRepository implements IRepository {
       key: record.key,
       value: record.value,
     }))
-}
+  }
 
-  async remove(tableName: string, key: string): Promise<void> {
+  async remove(tableName: string, recordId: string): Promise<void> {
     await this.runStoreRequest("readwrite", (store) =>
-      store.delete(this.createRecordId(tableName, key)),
+      store.delete(this.createRecordId(tableName, recordId)),
     )
   }
 

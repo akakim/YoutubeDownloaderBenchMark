@@ -19,14 +19,10 @@ export default function KMSScreen({ isKMSSUCCESS = false }: KMSScreenProps) {
 
       <div className="large_widget">
       
-        <Button  className="m-[10px] whitespace-nowrap" onClick={()=>{{
-          console.log(`isKMSSUCCESS : ${isKMSSUCCESS}`)
-        }}}>
-            테스트용 버튼
-        </Button>
-            <KMSGPTWidget isKMSSUCCESS={isKMSSUCCESS} />
+        
+        <KMSGPTWidget isKMSSUCCESS={isKMSSUCCESS} />
 
-            <KMSYoutubeDataAPIV3Widget isKMSSUCCESS={isKMSSUCCESS} />
+        <KMSYoutubeDataAPIV3Widget isKMSSUCCESS={isKMSSUCCESS} />
       </div>
       
     </div>
