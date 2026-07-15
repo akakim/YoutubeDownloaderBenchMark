@@ -1,15 +1,14 @@
-import { useEffect } from 'react';
 import '../styles/global.css';
-import KMSYoutubeDataAPIV3Widget from '../widget/kmsYoutubeDataAPIV3Widget';
-import KMSGPTWidget from '../widget/kmsGPTWidget';
-// import kmsGeminiWidget from '../widget/kmsGeminiWidget';
 
-import { Button } from "@/components/ui/button"
+import APIKeyWidget from '../widget/APIKeyWidget';
+
+
+import { API_KEY_TYPES } from "@/types/kmsRow"
 export type KMSScreenProps = {
   isKMSSUCCESS?: boolean
 }
 
-export default function KMSScreen({ isKMSSUCCESS = false }: KMSScreenProps) {
+export default function KMSScreen(_props: KMSScreenProps) {
 
 
   return (
@@ -20,9 +19,26 @@ export default function KMSScreen({ isKMSSUCCESS = false }: KMSScreenProps) {
       <div className="large_widget">
       
         
-        <KMSGPTWidget isKMSSUCCESS={isKMSSUCCESS} />
+        <APIKeyWidget
+          table={API_KEY_TYPES[0].table}
+          prefix={API_KEY_TYPES[0].prefix}
+          title={API_KEY_TYPES[0].label}
+          addButtonText={API_KEY_TYPES[0].addButtonText}
+        />
 
-        <KMSYoutubeDataAPIV3Widget isKMSSUCCESS={isKMSSUCCESS} />
+        <APIKeyWidget
+          table={API_KEY_TYPES[1].table}
+          prefix={API_KEY_TYPES[1].prefix}
+          title={API_KEY_TYPES[1].label}
+          addButtonText={API_KEY_TYPES[1].addButtonText}
+        />
+
+        <APIKeyWidget
+          table={API_KEY_TYPES[2].table}
+          prefix={API_KEY_TYPES[2].prefix}
+          title={API_KEY_TYPES[2].label}
+          addButtonText={API_KEY_TYPES[2].addButtonText}
+        />
       </div>
       
     </div>

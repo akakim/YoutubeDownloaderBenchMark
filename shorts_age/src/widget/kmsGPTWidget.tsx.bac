@@ -1,0 +1,307 @@
+// import { useEffect, useRef, useState } from "react"
+// import { Button } from "@/components/ui/button"
+// import {
+//   Field,
+//   FieldGroup,
+//   FieldLabel,
+//   FieldLegend,
+//   FieldSet,
+// } from "@/components/ui/field"
+// import { Input } from "@/components/ui/input"
+// import type { KMSRow,KMSFieldRow } from "@/types/kmsRow"
+// import { GPT_PREFIX,GPT_TABLE } from "@/types/kmsRow"
+// import type { KMSScreenProps } from "@/screen/kms";
+// import type {RepositoryValue} from "@/repository/IRepository"
+// import { repository } from "@/repository/IRepository"
+// import type { RepositoryEntry } from "@/repository/IRepository"
+
+
+// import { Logger, LoggerShowing } from "@/lib/LogUtil"
+
+
+
+// function createKMSRow(
+//   dServiceType: string,
+//   dAlias: string,
+//   dValue: string,
+//   uIsNew: boolean,
+//   uID:string
+// ): KMSFieldRow {
+
+//   const dKmsID = `${dServiceType}:${dAlias}_${crypto.randomUUID()}`
+
+//   return {
+//     dKmsID: dKmsID,
+//     dServiceType,
+//     dAlias,
+//     dValue,
+//     uIsNew,
+//     uID
+//   }
+// }
+
+
+// export default function KSMGPTWidget(
+//   table:string,
+//   prefix:string,
+//   title:string,
+//   addButtonText:string
+// ) {
+  
+//   /**StrictMode 자체를 제거할수도 있지만, 개발 중 오류 감지에 유용하므로 남겨둠.
+//    *  useState(loadKMSRows)를 다음 소스로 변경함. */
+
+//   const gptItemCount = useRef<number>(0) 
+//   const hasLoadedKMSRows = useRef(false)
+//   const [fieldRows, setFieldRows] = useState<KMSFieldRow[]>([])
+//   const [dAlias,setDalias] = useState("")
+//   const [apiKeyValue, setapiKeyValue] = useState("")
+
+  
+//   useEffect(() => {
+//     if (hasLoadedKMSRows.current) {
+//       return
+//     }
+
+//     hasLoadedKMSRows.current = true
+//     loadKMSRows()
+//   }, [])
+
+//   async function loadKMSRows(): Promise<void> {
+//     try {
+//       const response: RepositoryEntry<RepositoryValue>[] =
+//         await repository.getAll<RepositoryValue>(GPT_TABLE)
+
+//       Logger("loadKMSRow()")
+
+//       let rowCount = 0;
+//       const rows = response.flatMap<KMSFieldRow>((dbValue) => {
+        
+//         Logger(`value: ${JSON.stringify(dbValue.value, null, 2)}`)
+
+//         const recordFromDB = dbValue.value
+//         if (
+//           typeof recordFromDB !== "object" ||
+//           recordFromDB === null ||
+//           Array.isArray(recordFromDB) ||
+//           typeof recordFromDB.dKmsID !== "string" ||
+//           typeof recordFromDB.dServiceType !== "string" ||
+//           typeof recordFromDB.dAlias !== "string" ||
+//           typeof recordFromDB.dValue !== "string" 
+
+//         ) {
+//           Logger(`loadKMSRow(): invalid row (${dbValue.key})`)
+//           return []
+//         }
+//         rowCount++;
+//         gptItemCount.current = rowCount;
+//         return [{
+//           dKmsID: recordFromDB.dKmsID,
+//           dServiceType: recordFromDB.dServiceType,
+//           dAlias: recordFromDB.dAlias,
+//           dValue: recordFromDB.dValue,
+//           uIsNew: false,
+//           uID:`${GPT_PREFIX}_${gptItemCount.current}`
+//         }]
+//       })
+
+//       setFieldRows(rows)
+//     } catch (error) {
+//       Logger(`loadKMSRow() ${error}`)
+//       setFieldRows([])
+//     }
+//   }
+
+//   function addGPTRow() {
+
+    
+//     setFieldRows((prevRows) => [
+//       createKMSRow(
+//         GPT_TABLE,
+//         dAlias,
+//         apiKeyValue,
+//         true,
+//         `${GPT_PREFIX}_${gptItemCount.current}`
+//       ),
+//       ...prevRows,
+//     ])
+
+//     gptItemCount.current++;
+//   }
+//   function putRowToRepo(row:KMSFieldRow,isNew:boolean){
+//     LoggerShowing(`d_dAlias : ${dAlias}`,false)
+//     LoggerShowing(`apiKeyValue : ${row.dValue}`,true)
+//     LoggerShowing(`dKmsID : ${row.dKmsID}`,true)
+
+//     const keys = ["dKmsID","dServiceType","dAlias","dValue"];
+//     const values = [row.dKmsID,row.dServiceType,row.dAlias,row.dValue];
+//     repository.bulkPut(GPT_TABLE,row.dKmsID,keys,values);
+
+//     if( isNew ){
+//      changeNewToOldBtn(row.dKmsID);
+//     }
+//   }
+
+//   function removeLastGPTRow() {
+//     setFieldRows((prevRows) => prevRows.slice(1))
+
+//   }
+
+//   function removeGPTRow(dKmsID: string,isNew: boolean) {
+//     setFieldRows((prevRows) => prevRows.filter((row) => row.dKmsID !== dKmsID))
+
+//     if (!isNew) {
+//     const [tableName,recordID] = dKmsID.split(":")
+     
+
+//     repository.remove(GPT_TABLE,recordID).then((response)=>{
+//        LoggerShowing(`createKMSRow success`,true);
+//     }).catch((error)=>{
+//       LoggerShowing(`createKMSRow error: ${error}`,true);
+//     });
+//     }
+
+//   }
+
+//   function updateRowDAlias(dKmsID: string, dAlias: string) {
+//     LoggerShowing('updateRowdAlias()',true)
+//     setFieldRows((prevRows) =>
+     
+//       prevRows.map((row) =>
+                
+//         row.dKmsID === dKmsID
+//           ? {
+//               ...row,
+//               dAlias,
+//             }
+//           : row,
+//         console.log(
+//           prevRows.map((r) => ({
+//             uID: r.uID,
+//             dKmsID: r.dKmsID,
+//             dAlias: r.dAlias,
+//             dValue: r.dValue,
+//           })),
+//         )
+//       ),
+      
+//     )
+//   }
+
+//   function updateRowValue(dKmsID: string, value: string) {
+//     LoggerShowing('updateRowValue()',true)
+//     setFieldRows((prevRows) =>
+//       prevRows.map((row) =>
+//         row.dKmsID === dKmsID
+//           ? {
+//               ...row,
+//               dValue:value,
+//             }
+//           : row,
+//       ),
+//     )
+//   }
+
+//   function changeNewToOldBtn( dKmsID: string){
+//     setFieldRows((prevRows) =>
+//         prevRows.map((fieldRow) =>
+//           fieldRow.dKmsID === dKmsID
+//             ? { ...fieldRow, uIsNew: false }
+//             : fieldRow,
+//         ),
+//       )
+//   }
+
+//   return (
+//     <div className="w-full max-w-3xl">
+//       <div className="mb-4 flex flex-nowrap items-center gap-2 overflow-x-auto">
+//         <Button
+//           className="m-[10px] whitespace-nowrap"
+//           onClick={addGPTRow}
+//         >
+//           Add Chat GPT API Key
+//         </Button>         
+        
+//       </div>
+
+//       <form className="space-y-8">
+//         <FieldGroup>
+//           <FieldSet>
+//             <Field>
+//                 <FieldLegend>GPT API Key 관리</FieldLegend>
+//                 <Input
+//                     id="dAlias"
+//                     placeholder="키의 별칭"
+//                     value={dAlias}
+//                     onChange={(e) => setDalias(e.target.value)}
+//                 />
+//                 <Input
+//                     id="api-key"
+//                     placeholder="GPT API Key 입력"
+//                     value={apiKeyValue}
+//                     onChange={(e) => setapiKeyValue(e.target.value)}
+//                 />
+//             </Field>
+//             <FieldGroup>
+//               {fieldRows.map((row,index) => (
+//                 <Field key={row.uID} orientation="vertical">
+                  
+
+//                   <div className="flex gap-2">
+
+//                     <Input
+//                       id={`${index}-alias`}
+//                       value={row.dAlias}
+//                       placeholder="키의 별칭"
+//                       onChange={(e) => updateRowDAlias(row.dKmsID, e.target.value)}
+//                     />
+
+//                     <Input
+//                       id={`${index}-value`}
+//                       value={row.dValue}
+//                       placeholder="키 값"
+//                       onChange={(e) => updateRowValue(row.dKmsID, e.target.value)}
+//                     />
+
+                    
+//                     {(row.uIsNew)? 
+//                       <Button
+//                         id={`${index}-btn-add`}
+//                         variant="outline"
+//                         type="button"
+//                         onClick={() => putRowToRepo(row,row.uIsNew)}
+//                       >
+//                       키 더하기 
+//                       </Button>                    
+//                     : 
+//                      <Button
+//                        id={`${index}-btn-update`}
+//                         variant="outline"
+//                         type="button"
+//                         onClick={() => putRowToRepo(row,row.uIsNew)}
+//                       >
+//                         키 값 업데이트 
+//                       </Button>
+//                       }
+             
+
+//                       <Button
+//                         id={`${index}-btn-remove`}
+//                         variant="outline"
+//                         type="button"
+//                         onClick={() => removeGPTRow(row.dKmsID,row.uIsNew)}
+//                       >
+//                         Remove
+//                       </Button>
+
+                    
+//                   </div>
+//                 </Field>
+//               ))}
+//             </FieldGroup>
+//           </FieldSet>
+//         </FieldGroup>
+//       </form>
+//     </div>
+//   )
+// }

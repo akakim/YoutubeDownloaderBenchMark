@@ -3,45 +3,53 @@ import { Button } from "@/components/ui/button"
 import {
   Field,
   FieldGroup,
-  FieldLabel,
   FieldLegend,
   FieldSet,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
-import type { KMSRow,KMSFieldRow } from "@/types/kmsRow"
-import { GPT_PREFIX,GPT_TABLE } from "@/types/kmsRow"
-import type { KMSScreenProps } from "@/screen/kms";
+import type { KMSFieldRow } from "@/types/kmsRow"
 import type {RepositoryValue} from "@/repository/IRepository"
 import { repository } from "@/repository/IRepository"
 import type { RepositoryEntry } from "@/repository/IRepository"
-
-
 import { Logger, LoggerShowing } from "@/lib/LogUtil"
+
+
+interface APIKeyWidgetProps {
+  table:string,
+  prefix:string,
+  title:string,
+  addButtonText:string
+}
 
 
 
 function createKMSRow(
-  serviceType: string,
+  dServiceType: string,
   dAlias: string,
-  value: string,
-  u_isNew: boolean,
-  u_id:string
+  dValue: string,
+  uIsNew: boolean,
+  uID:string
 ): KMSFieldRow {
 
-  const kmsID = `${serviceType}_${dAlias}_${crypto.randomUUID()}`
+  const dKmsID = `${dServiceType}:${dAlias}_${crypto.randomUUID()}`
 
   return {
-    kmsID: kmsID,
-    serviceType,
+    dKmsID: dKmsID,
+    dServiceType,
     dAlias,
-    value,
-    u_isNew,
-    u_id
+    dValue,
+    uIsNew,
+    uID
   }
 }
 
 
-export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
+export default function APIKeyWidget({
+  table,
+  prefix,
+  title,
+  addButtonText,
+}: APIKeyWidgetProps) {
   
   /**StrictMode 자체를 제거할수도 있지만, 개발 중 오류 감지에 유용하므로 남겨둠.
    *  useState(loadKMSRows)를 다음 소스로 변경함. */
@@ -65,7 +73,7 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
   async function loadKMSRows(): Promise<void> {
     try {
       const response: RepositoryEntry<RepositoryValue>[] =
-        await repository.getAll<RepositoryValue>(GPT_TABLE)
+        await repository.getAll<RepositoryValue>(table)
 
       Logger("loadKMSRow()")
 
@@ -74,15 +82,15 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
         
         Logger(`value: ${JSON.stringify(dbValue.value, null, 2)}`)
 
-        const value = dbValue.value
+        const recordFromDB = dbValue.value
         if (
-          typeof value !== "object" ||
-          value === null ||
-          Array.isArray(value) ||
-          typeof value.kmsID !== "string" ||
-          typeof value.serviceType !== "string" ||
-          typeof value.dAlias !== "string" ||
-          typeof value.value !== "string" 
+          typeof recordFromDB !== "object" ||
+          recordFromDB === null ||
+          Array.isArray(recordFromDB) ||
+          typeof recordFromDB.dKmsID !== "string" ||
+          typeof recordFromDB.dServiceType !== "string" ||
+          typeof recordFromDB.dAlias !== "string" ||
+          typeof recordFromDB.dValue !== "string" 
 
         ) {
           Logger(`loadKMSRow(): invalid row (${dbValue.key})`)
@@ -91,12 +99,12 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
         rowCount++;
         gptItemCount.current = rowCount;
         return [{
-          kmsID: value.kmsID,
-          serviceType: value.serviceType,
-          dAlias: value.dAlias,
-          value: value.value,
-          u_isNew: false,
-          u_id:`${GPT_PREFIX}_${rowCount}`
+          dKmsID: recordFromDB.dKmsID,
+          dServiceType: recordFromDB.dServiceType,
+          dAlias: recordFromDB.dAlias,
+          dValue: recordFromDB.dValue,
+          uIsNew: false,
+          uID:`${prefix}_${gptItemCount.current}`
         }]
       })
 
@@ -112,27 +120,29 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
     
     setFieldRows((prevRows) => [
       createKMSRow(
-        GPT_TABLE,
+        table,
         dAlias,
         apiKeyValue,
         true,
-        String(gptItemCount.current.valueOf())
+        `${prefix}_${gptItemCount.current}`
       ),
       ...prevRows,
     ])
 
-  
+    gptItemCount.current++;
   }
-  function putRowToRepo(row:KMSFieldRow){
+  function putRowToRepo(row:KMSFieldRow,isNew:boolean){
     LoggerShowing(`d_dAlias : ${dAlias}`,false)
-    LoggerShowing(`apiKeyValue : ${row.value}`,true)
-    LoggerShowing(`kmsID : ${row.kmsID}`,true)
+    LoggerShowing(`apiKeyValue : ${row.dValue}`,true)
+    LoggerShowing(`dKmsID : ${row.dKmsID}`,true)
 
-    const keys = ["kmsID","serviceType","dAlias","value"];
-    const values = [row.kmsID,row.serviceType,row.dAlias,row.value];
-    repository.bulkPut(GPT_TABLE,row.kmsID,keys,values);
+    const keys = ["dKmsID","dServiceType","dAlias","dValue"];
+    const values = [row.dKmsID,row.dServiceType,row.dAlias,row.dValue];
+    repository.bulkPut(table,row.dKmsID,keys,values);
 
-     changeNewToOldBtn(row.kmsID);
+    if( isNew ){
+     changeNewToOldBtn(row.dKmsID);
+    }
   }
 
   function removeLastGPTRow() {
@@ -140,26 +150,29 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
 
   }
 
-  function removeGPTRow(kmsID: string) {
-    setFieldRows((prevRows) => prevRows.filter((row) => row.kmsID !== kmsID))
+  function removeGPTRow(dKmsID: string,isNew: boolean) {
+    setFieldRows((prevRows) => prevRows.filter((row) => row.dKmsID !== dKmsID))
 
-    repository.remove(GPT_TABLE,kmsID).then((response)=>{
+    if (!isNew) {
+    const [tableName,recordID] = dKmsID.split(":")
+     
 
-    LoggerShowing(`createKMSRow success`,false);
+    repository.remove(table,recordID).then((response)=>{
+       LoggerShowing(`createKMSRow success`,true);
     }).catch((error)=>{
-
-      LoggerShowing(`createKMSRow error: ${error}`,false);
+      LoggerShowing(`createKMSRow error: ${error}`,true);
     });
+    }
 
   }
 
-  function updateRowDAlias(kmsID: string, dAlias: string) {
+  function updateRowDAlias(dKmsID: string, dAlias: string) {
     LoggerShowing('updateRowdAlias()',true)
     setFieldRows((prevRows) =>
      
       prevRows.map((row) =>
                 
-        row.kmsID === kmsID
+        row.dKmsID === dKmsID
           ? {
               ...row,
               dAlias,
@@ -167,10 +180,10 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
           : row,
         console.log(
           prevRows.map((r) => ({
-            u_id: r.u_id,
-            kmsID: r.kmsID,
+            uID: r.uID,
+            dKmsID: r.dKmsID,
             dAlias: r.dAlias,
-            value: r.value,
+            dValue: r.dValue,
           })),
         )
       ),
@@ -178,56 +191,28 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
     )
   }
 
-  function updateRowValue(kmsID: string, value: string) {
+  function updateRowValue(dKmsID: string, value: string) {
     LoggerShowing('updateRowValue()',true)
     setFieldRows((prevRows) =>
       prevRows.map((row) =>
-        row.kmsID === kmsID
+        row.dKmsID === dKmsID
           ? {
               ...row,
-              value,
+              dValue:value,
             }
           : row,
-          console.log(
-          prevRows.map((r) => ({
-            u_id: r.u_id,
-            kmsID: r.kmsID,
-            dAlias: r.dAlias,
-            value: r.value,
-          })),
-        )
       ),
     )
   }
 
-  function changeNewToOldBtn( kmsID: string){
+  function changeNewToOldBtn( dKmsID: string){
     setFieldRows((prevRows) =>
         prevRows.map((fieldRow) =>
-          fieldRow.kmsID === kmsID
-            ? { ...fieldRow, isNew: false }
+          fieldRow.dKmsID === dKmsID
+            ? { ...fieldRow, uIsNew: false }
             : fieldRow,
         ),
       )
-  }
-
-  function isExistAPIKey(kmsID:string){
-
-    let isExist = false;
-    const res = repository.get(GPT_TABLE,kmsID).then((response)=>{
-      Logger(`isExistAPIKey response : ${response}`);      
-      if( response ){
-        isExist = true;
-      }
-      return response
-    })
-    
-    .catch( () => {
-      Logger(`isExistAPIKey error : `);
-       return ''
-    });
-
-    return isExist;
-
   }
 
   return (
@@ -237,15 +222,8 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
           className="m-[10px] whitespace-nowrap"
           onClick={addGPTRow}
         >
-          Add Chat GPT
-        </Button>
-        
-        <Button
-          className="m-[10px] whitespace-nowrap"
-          onClick={removeLastGPTRow}
-        >
-          Remove Chat GPT
-        </Button>
+          {addButtonText}
+        </Button>         
         
       </div>
 
@@ -253,7 +231,7 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
         <FieldGroup>
           <FieldSet>
             <Field>
-                <FieldLegend>GPT API Key 관리</FieldLegend>
+                <FieldLegend>{title}</FieldLegend>
                 <Input
                     id="dAlias"
                     placeholder="키의 별칭"
@@ -269,13 +247,8 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
             </Field>
             <FieldGroup>
               {fieldRows.map((row,index) => (
-                <Field key={row.u_id} orientation="vertical">
-                  <FieldLabel
-                    htmlFor={`${row.dAlias}-value`}
-                    className="m-[10px] min-w-[160px] whitespace-nowrap"
-                  >
-                    {row.serviceType}
-                  </FieldLabel>
+                <Field key={row.uID} orientation="vertical">
+                  
 
                   <div className="flex gap-2">
 
@@ -283,51 +256,46 @@ export default function KSMGPTWidget({ isKMSSUCCESS = false }: KMSScreenProps) {
                       id={`${index}-alias`}
                       value={row.dAlias}
                       placeholder="키의 별칭"
-                      onChange={(e) => updateRowDAlias(row.kmsID, e.target.value)}
+                      onChange={(e) => updateRowDAlias(row.dKmsID, e.target.value)}
                     />
 
                     <Input
                       id={`${index}-value`}
-                      value={row.value}
+                      value={row.dValue}
                       placeholder="키 값"
-                      onChange={(e) => updateRowValue(row.kmsID, e.target.value)}
+                      onChange={(e) => updateRowValue(row.dKmsID, e.target.value)}
                     />
 
                     
-
-             
-                    {
-                    row.u_isNew&&
+                    {(row.uIsNew)? 
                       <Button
+                        id={`${index}-btn-add`}
                         variant="outline"
                         type="button"
-                        onClick={() => putRowToRepo(row)}
+                        onClick={() => putRowToRepo(row,row.uIsNew)}
                       >
-                        키 더하기 
-                      </Button>
-                    }
-                    {
-                    !row.u_isNew&&
-                      <Button
+                      키 더하기 
+                      </Button>                    
+                    : 
+                     <Button
+                       id={`${index}-btn-update`}
                         variant="outline"
                         type="button"
-                        onClick={() => putRowToRepo(row)}
+                        onClick={() => putRowToRepo(row,row.uIsNew)}
                       >
                         키 값 업데이트 
                       </Button>
-                    }
+                      }
+             
 
-
-                    {
-                    !row.u_isNew&&
                       <Button
+                        id={`${index}-btn-remove`}
                         variant="outline"
                         type="button"
-                        onClick={() => removeGPTRow(row.kmsID)}
+                        onClick={() => removeGPTRow(row.dKmsID,row.uIsNew)}
                       >
                         Remove
                       </Button>
-                    }
 
                     
                   </div>
