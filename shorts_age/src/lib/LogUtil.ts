@@ -16,9 +16,9 @@ export function LoggerShowing(message : string,isShow : boolean) {
     }
 }
 
-export function indexedDBDebug(obj : Object){
+export function indexedDBDebug(obj : Object,isShow : boolean){
 
-    LoggerShowing(JSON.stringify(obj, null, 2),true)
+    LoggerShowing(JSON.stringify(obj, null, 2), isShow )
 } 
 
 

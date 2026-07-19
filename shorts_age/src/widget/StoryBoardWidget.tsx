@@ -1,6 +1,6 @@
 import React, { useRef,useState } from 'react';
 import '../styles/global.css';
-export default function SceneMaker() {
+export default function StoryBoardWidget() {
 //   const [activeMenu,setActiveMenu] = useState("Home");
 
   return (

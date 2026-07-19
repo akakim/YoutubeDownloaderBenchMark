@@ -8,3 +8,5 @@ from .BaseModel import BaseModel
 class STTRequest(BaseModel):
 	"""STT request DTO inheriting common response metadata from BaseModel."""
 	job_id: Optional[str] = None
+	model: Optional[str] = None
+	language: Optional[str] = None

@@ -1,6 +1,15 @@
 request
 
-https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=50&order=viewCount&publishedAfter=2026-06-11T18%3A26%3A29.575Z&q=%EC%BD%94%EB%AF%B8%EB%94%94&videoCategoryId=23&regionCode=KR&relevanceLanguage=ko&key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
+https://www.googleapis.com/youtube/v3/search?part=snippet&
+type=video&
+maxResults=50&
+order=viewCount&
+publishedAfter=2026-06-11T18%3A26%3A29.575Z&
+q=%EC%BD%94%EB%AF%B8%EB%94%94&
+videoCategoryId=23&
+regionCode=KR&
+relevanceLanguage=ko&
+key=AIzaSyCwcQLb_gzcWWkBs7li4SPcID-4F_a2GXQ
 
 response
 

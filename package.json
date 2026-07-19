@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev:backend": "cross-env port=5174 VERBOSE=true node ./backend/server.js",
-    "dev:aiserver": "cd ai_server && uvicorn server:app --reload --host 0.0.0.0 --port 5175",
+    "dev:aiserver": "cd ai_server && uvicorn server:app --reload --host 0.0.0.0 --port 5175 --log-level debug",
+    
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:aiserver\""
   },
   "dependencies": {

@@ -11,7 +11,7 @@ import type { KMSFieldRow } from "@/types/kmsRow"
 import type {RepositoryValue} from "@/repository/IRepository"
 import { repository } from "@/repository/IRepository"
 import type { RepositoryEntry } from "@/repository/IRepository"
-import { Logger, LoggerShowing } from "@/lib/LogUtil"
+import { Logger, LoggerShowing,indexedDBDebug } from "@/lib/LogUtil"
 
 
 interface APIKeyWidgetProps {
@@ -75,12 +75,12 @@ export default function APIKeyWidget({
       const response: RepositoryEntry<RepositoryValue>[] =
         await repository.getAll<RepositoryValue>(table)
 
-      Logger("loadKMSRow()")
+      LoggerShowing("loadKMSRow()",false)
 
       let rowCount = 0;
       const rows = response.flatMap<KMSFieldRow>((dbValue) => {
         
-        Logger(`value: ${JSON.stringify(dbValue.value, null, 2)}`)
+        LoggerShowing(`value: ${JSON.stringify(dbValue.value, null, 2)}`,false)
 
         const recordFromDB = dbValue.value
         if (
@@ -93,7 +93,7 @@ export default function APIKeyWidget({
           typeof recordFromDB.dValue !== "string" 
 
         ) {
-          Logger(`loadKMSRow(): invalid row (${dbValue.key})`)
+          LoggerShowing(`loadKMSRow(): invalid row (${dbValue.key})`,true)
           return []
         }
         rowCount++;
@@ -110,7 +110,7 @@ export default function APIKeyWidget({
 
       setFieldRows(rows)
     } catch (error) {
-      Logger(`loadKMSRow() ${error}`)
+      LoggerShowing(`loadKMSRow() ${error}`,true)
       setFieldRows([])
     }
   }
@@ -133,8 +133,8 @@ export default function APIKeyWidget({
   }
   function putRowToRepo(row:KMSFieldRow,isNew:boolean){
     LoggerShowing(`d_dAlias : ${dAlias}`,false)
-    LoggerShowing(`apiKeyValue : ${row.dValue}`,true)
-    LoggerShowing(`dKmsID : ${row.dKmsID}`,true)
+    LoggerShowing(`apiKeyValue : ${row.dValue}`,false)
+    LoggerShowing(`dKmsID : ${row.dKmsID}`,false)
 
     const keys = ["dKmsID","dServiceType","dAlias","dValue"];
     const values = [row.dKmsID,row.dServiceType,row.dAlias,row.dValue];
@@ -158,7 +158,7 @@ export default function APIKeyWidget({
      
 
     repository.remove(table,recordID).then((response)=>{
-       LoggerShowing(`createKMSRow success`,true);
+       LoggerShowing(`createKMSRow success`,false);
     }).catch((error)=>{
       LoggerShowing(`createKMSRow error: ${error}`,true);
     });
@@ -167,10 +167,10 @@ export default function APIKeyWidget({
   }
 
   function updateRowDAlias(dKmsID: string, dAlias: string) {
-    LoggerShowing('updateRowdAlias()',true)
-    setFieldRows((prevRows) =>
+    LoggerShowing('updateRowdAlias()',false)
+    setFieldRows((prevRows) => {
      
-      prevRows.map((row) =>
+      const nextRows = prevRows.map((row) =>
                 
         row.dKmsID === dKmsID
           ? {
@@ -178,17 +178,16 @@ export default function APIKeyWidget({
               dAlias,
             }
           : row,
-        console.log(
-          prevRows.map((r) => ({
-            uID: r.uID,
-            dKmsID: r.dKmsID,
-            dAlias: r.dAlias,
-            dValue: r.dValue,
-          })),
-        )
-      ),
-      
-    )
+      )
+      indexedDBDebug( nextRows.map((row) => ({
+        uID: row.uID,
+        dKmsID: row.dKmsID,
+        dAlias: row.dAlias,
+        dValue: row.dValue,
+      })),false)
+
+      return nextRows
+    })
   }
 
   function updateRowValue(dKmsID: string, value: string) {
