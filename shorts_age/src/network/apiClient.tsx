@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiClient = axios.create({
+export const apiClient = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
 });
 
@@ -11,6 +11,13 @@ apiClient.interceptors.request.use((config) => {
   }
 
   return config;
+});
+
+export const aiServerClient = axios.create({
+  baseURL: import.meta.env.VITE_AI_SERVER_URL,
+  headers:{
+    "Content-Type": "application/json",
+  }
 });
 
 export default apiClient;

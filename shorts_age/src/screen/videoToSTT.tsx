@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
-import apiClient from "../network/apiClient";
+import {apiClient,aiServerClient} from "../network/apiClient";
 
 import '../styles/screen_videoToSTT.css';
+import '../lib/region';
 
 import type { ErrorObject } from "../types/error";
+import { REGION_OPTIONS } from '../lib/region';
+
+import { Button } from "@/components/ui/button";
+// import DownloadTestWidget from "@/widget/DownloadTestWidget";
+import DownloadTestWidget from '@/widget/downloadTestWidget';
 
 interface VideoToSTTProps {
   onError?: (errorObject: ErrorObject) => void;
@@ -32,18 +38,18 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
   const [language, setLanguage] = useState("ko");
   const [format, setFormat] = useState("srt");
   const [isDragging, setIsDragging] = useState(false);
-
+  const [convertStatus,setConvertStatus] = useState("None");
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const selectedFiles = Array.from(e.target.files ?? []);
-    setFiles(selectedFiles);
+    addFiles(e.target.files ?? []);
   };
 
   const addFiles = (fileList: FileList | File[]) => {
     const selected = Array.from(fileList ?? []);
     if (selected.length === 0) return;
 
-    setFiles((prev) => [...prev, ...selected]);
+    setFiles([selected[0]]);
+    setConvertStatus("None");
   };
 
   const handleDragOver = (e: React.DragEvent<HTMLLabelElement>) => {
@@ -79,7 +85,15 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
       }
 
       const jobId = uploadResult.jobId;
-      const mp3Response = await apiClient.post("/api/convertMp4ToMp3", { jobId });
+      const mp3Response = await apiClient.post("/api/convertMp4ToMp3", { jobId })
+      .then((response)=>{
+
+        aiServerClient.post("/stt",{job_id:jobId,model:model,language:language}).then((response)=>{
+          console.log(`/stt res : ${response.data}`)
+        })
+
+        return response
+      });
 
       if (!mp3Response.data.success) {
         throw new Error(mp3Response.data.error);
@@ -116,7 +130,6 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
   };
 
 
-
   return (
      <div className="screen">
        
@@ -135,7 +148,6 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
             <input
               type="file"
               accept="video/*,audio/*"
-              multiple
               onChange={handleFileChange}
             />
             <div className="drop-icon">🎬</div>
@@ -163,21 +175,27 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
           <div className="form-group">
             <label>모델 (정확도 ↔ 속도)</label>
             <select value={model} onChange={(e) => setModel(e.target.value)}>
-              <option value="tiny">tiny</option>
-              <option value="base">base</option>
-              <option value="small">small (추천) ⭐</option>
-              <option value="medium">medium</option>
+              <option value="large-v3"> large-v3</option>
+              <option value="large-v3-turbo">large-v3-turbo (추천) ⭐</option>
+              <option value="distil-large-v3">distil-large-v3</option>
             </select>
-            <small>250MB · 보통 · 한국어 정확도 좋음</small>
+            <small>large-v3-turbo 가장 빠름</small>
           </div>
 
           <div className="form-group">
             <label>언어</label>
+
+             
+             
             <select value={language} onChange={(e) => setLanguage(e.target.value)}>
-              <option value="ko">한국어</option>
-              <option value="en">영어</option>
-              <option value="ja">일본어</option>
-              <option value="zh">중국어</option>
+              {REGION_OPTIONS.slice(1,5).map((region) => (
+                          <option
+                            key={region.ISO_639_1_value}
+                            value={region.ISO_639_1_value}
+                          >
+                            {region.label}
+                          </option>
+                        ))}
             </select>
             <small>영상의 주 언어를 선택하세요</small>
           </div>
@@ -191,42 +209,24 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
             </select>
           </div>
 
-          <button
-            className="start-button"
+          <Button   
             disabled={files.length === 0}
             onClick={() => {
               void mp4ToSTT();
             }}
           >
             자막 추출 시작 ({files.length}개)
-          </button>
+          </Button>
+
+
+          <DownloadTestWidget></DownloadTestWidget>
+          
 
           <div className="guide-box">
             <h4>🎯 모델 선택 가이드</h4>
 
-            <div className="guide-row">
-              <strong>tiny</strong>
-              <span>영어 간단한 영상 · 테스트용</span>
-            </div>
-
-            <div className="guide-row">
-              <strong>base</strong>
-              <span>영어 일반 영상 · 한/중/일 정확도 아쉬움</span>
-            </div>
-
-            <div className="guide-row">
-              <strong>small ⭐</strong>
-              <span>기본 추천 · 대부분 영상 OK</span>
-            </div>
-
-            <div className="guide-row">
-              <strong>medium</strong>
-              <span>한국어 정확도 높음 · 느림</span>
-            </div>
-
             <hr />
 
-            <p>💡 첫 실행 시 모델 다운로드 1~5분</p>
             <p>💡 Chrome · Edge 최신 버전 권장</p>
             <p>💡 언어 선택은 꼭 영상 실제 언어로!</p>
           </div>

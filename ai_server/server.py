@@ -7,12 +7,12 @@ import traceback
 from enum import Enum
 from fastapi import FastAPI, Request, HTTPException
 from util.LogUtil import LogUtil
-from service.STTService import handle_stt
+from service.STTService import STTService
 from logging.handlers import TimedRotatingFileHandler
 from pathlib import Path
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
-
+from fastapi.middleware.cors import CORSMiddleware
 
 class ModelName(str,Enum):
     alexnet = "alexnet"
@@ -23,7 +23,30 @@ class ModelName(str,Enum):
 # class Job(str,str):
 
 app = FastAPI()
-print("SERVER FILE LOADED")
+
+origins = [
+    "http://localhost:3000",
+    "http://localhost:5173",  # Vite 기본 포트
+    "http://127.0.0.1:5173",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,       # 허용할 프론트엔드 주소
+    allow_credentials=True,      # 쿠키·인증 정보 허용
+    allow_methods=[
+        "GET",
+        "POST",
+    ],         # GET, POST, PUT, DELETE 등
+    allow_headers=[
+        "Authorization",
+        "Content-Type",
+    ],
+    expose_headers=[
+        "Content-Disposition",
+    ]
+)
+
 
 
 LOG_FILE_PATH = Path.cwd() / "logs" / "application.log"
@@ -80,20 +103,22 @@ async def get_model(model_name: ModelName):
     
 @app.post("/stt")
 async def stt(request: Request):
-    try:
-        body = await request.json()
-        logger.info("/STT Called")
-        logger.info("test $s","notable problem",exc_info=True)
-    except ValueError:
-        raise HTTPException(status_code=400, detail="Invalid JSON payload")
-
-    if not isinstance(body, dict):
-        raise HTTPException(status_code=400, detail="JSON body must be an object")
-
-    # delegate to controller
-    response = await handle_stt(body)
+ 
+    body = await get_json_body(request)
+  
+    response = await STTService.handleSTT(body)
 
     return response    
+
+@app.post("/downloadTester")
+async def downloadTester(request: Request):
+
+    body = await get_json_body(request)
+
+    # delegate to controller
+    response = await STTService.handleDownload(body)
+
+    return response 
 
 
 @app.exception_handler(Exception)
@@ -101,8 +126,12 @@ async def global_exception_handler(
     request: Request,
     exc: Exception,
 ) -> JSONResponse:
-    traceback.print_exc()
-
+    logger.exception(
+        "Unhandled exception: %s %s",
+        request.method,
+        request.url.path,
+        exc_info=exc,
+    )
     return JSONResponse(
         status_code=500,
         content={
@@ -111,3 +140,20 @@ async def global_exception_handler(
             "path": str(request.url),
         },
     )
+
+async def get_json_body(request: Request) -> dict[str, any]:
+    try:
+        body = await request.json()
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid JSON payload",
+        ) from exc
+
+    if not isinstance(body, dict):
+        raise HTTPException(
+            status_code=400,
+            detail="JSON body must be an object",
+        )
+
+    return body

@@ -5,8 +5,10 @@ import logging
 import argparse
 import json
 from typing import Any, Dict
+from dto.JobTester import JobTester
 from dto.STTRequest import STTRequest
 from dto.BaseModel import BaseModel
+from fastapi import HTTPException
 from faster_whisper import WhisperModel
 
 from util.utils import Util
@@ -14,6 +16,10 @@ from util.LogUtil import LogUtil
 from pathlib import Path
 import logging
 from logging.handlers import TimedRotatingFileHandler
+from fastapi import UploadFile, File, Response
+from urllib.parse import quote
+
+
 # JOBS_DIR = Path.cwd() / "jobs"
 
  
@@ -76,61 +82,115 @@ def seconds_to_srt_time(seconds: float) -> str:
         f"{millis:03d}"
     )
 
+class STTService:
+    async def handleSTT(request_body: Dict[str, Any]) -> Dict[str, Any]:
+        # stt_logger = logging.getLogger("uvicorn.error")    
+        JOBS_DIR = Path(__file__).resolve().parents[2] / "jobs"
+
+        # Build STTRequest from incoming body (tolerant to key names)
+        stt = STTRequest(
+            job_id=request_body.get("job_id"),
+            model=request_body.get("model"),
+            language=request_body.get("language")
+        )
+
+        stt_logger.info(f"인자값 {stt.job_id} ai_model명 {stt.model} 언어 : {stt.language}")
+
+        AUDIO_PATH = JOBS_DIR / stt.job_id / "audio.mp3"
+        OUTPUT_SRT_PATH = JOBS_DIR / stt.job_id / "translation.srt"
+    
+        device_str = "cuda"
+        compute_type= "int8"
+        cpu_threads = int(4)
+        num_workers = int(2)
+
+        stt_logger.info(f"오디오 경로 : {AUDIO_PATH}")
+        stt_logger.info(f"출력한 srt파일  : {OUTPUT_SRT_PATH}")
+
+        try:
+            ai_model = WhisperModel(
+                                model_size_or_path=stt.model, 
+                                device=device_str, 
+                                compute_type=compute_type, 
+                                cpu_threads=cpu_threads, 
+                                num_workers=num_workers 
+                            )
+            segments, info = ai_model.transcribe(str(AUDIO_PATH.resolve()), language=stt.language)
 
 
-async def handle_stt(request_body: Dict[str, Any]) -> Dict[str, Any]:
-    # stt_logger = logging.getLogger("uvicorn.error")    
-    JOBS_DIR = Path(__file__).resolve().parents[2] / "jobs"
+            full_text = ""
+            with open(OUTPUT_SRT_PATH, "w", encoding="utf-8") as f:
+                for i, segment in enumerate(segments, start=1):
+                    f.write(f"{i}\n")
+                    f.write(f"{seconds_to_srt_time(segment.start)} --> {seconds_to_srt_time(segment.end)}\n")
+                    f.write(f"{segment.text.strip()}\n\n")
+                    full_text+=f"{segment.text.strip()}\n\n"
+                end_time = time.perf_counter()
 
-    # Build STTRequest from incoming body (tolerant to key names)
-    stt = STTRequest(
-        job_id=request_body.get("job_id"),
-        model=request_body.get("model"),
-        language=request_body.get("language")
-    )
+            base = BaseModel(code=0, message="stt request accepted")
+            data = {
+                "job_id": stt.job_id,
+                
+            }
+        except FileNotFoundError as exc:
+            raise HTTPException(
+                status_code=404,
+                detail="요청한 파일을 찾을 수 없습니다.",
+            ) from exc
 
-    stt_logger.info(f"인자값 {stt.job_id} ai_model명 {stt.model} 언어 : {stt.language}")
-
-    AUDIO_PATH = JOBS_DIR / stt.job_id / "audio.mp3"
-    OUTPUT_SRT_PATH = JOBS_DIR / stt.job_id / "translation.srt"
+        except TimeoutError as exc:
+            raise HTTPException(
+                status_code=504,
+                detail="STT 처리 시간이 초과되었습니다.",
+            ) from exc
  
-    device_str = "cuda"
-    compute_type= "int8"
-    cpu_threads = int(4)
-    num_workers = int(2)
 
-    stt_logger.info(f"오디오 경로 : {AUDIO_PATH}")
-    stt_logger.info(f"출력한 srt파일  : {OUTPUT_SRT_PATH}")
-
-    ai_model = WhisperModel(
-                        model_size_or_path=stt.model, 
-                        device=device_str, 
-                        compute_type=compute_type, 
-                        cpu_threads=cpu_threads, 
-                        num_workers=num_workers 
-                     )
-    segments, info = ai_model.transcribe(str(AUDIO_PATH.resolve()), language=stt.language)
+        return Response(
+                content=OUTPUT_SRT_PATH,
+                media_type="application/x-subrip; charset=utf-8",
+                headers={
+                    "Content-Disposition": (
+                        f'attachment; filename="translated.srt"; '
+                        f"filename*=UTF-8''{quote("translation.srt")}"
+                    )
+                },
+            )
 
 
-    full_text = ""
-    with open(OUTPUT_SRT_PATH, "w", encoding="utf-8") as f:
-        for i, segment in enumerate(segments, start=1):
-            f.write(f"{i}\n")
-            f.write(f"{seconds_to_srt_time(segment.start)} --> {seconds_to_srt_time(segment.end)}\n")
-            f.write(f"{segment.text.strip()}\n\n")
-            full_text+=f"{segment.text.strip()}\n\n"
-        end_time = time.perf_counter()
+    async def handleDownload(request_body: Dict[str, Any]) -> Dict[str, Any]:
+        # stt_logger = logging.getLogger("uvicorn.error")    
+        JOBS_DIR = Path(__file__).resolve().parents[2] / "jobs"
 
-    base = BaseModel(code=0, message="stt request accepted")
-    data = {
-        "job_id": stt.job_id,
-        
-    }
+        # Build STTRequest from incoming body (tolerant to key names)
+        stt = JobTester(
+            job_id=request_body.get("job_id"),
+        )
 
-    # "transcript": full_text
+        FILE_PATH = JOBS_DIR / stt.job_id / "translation.srt"
+        try:
+            transcription  = FILE_PATH.read_text(encoding="utf-8")
+            
+        except FileNotFoundError as exc:
+            raise HTTPException(
+                status_code=404,
+                detail="요청한 파일을 찾을 수 없습니다.",
+            ) from exc
 
-    
+        except TimeoutError as exc:
+            raise HTTPException(
+                status_code=504,
+                detail="STT 처리 시간이 초과되었습니다.",
+            ) from exc
+        return Response(
+                content=transcription,
+                media_type="application/x-subrip; charset=utf-8",
+                headers={
+                    "Content-Disposition": (
+                        f'attachment; filename="translated.srt"; '
+                        f"filename*=UTF-8''{quote("translation.srt")}"
+                    )
+                },
+            )
+ 
 
-    
-
-    return base.to_response(data)
+      
