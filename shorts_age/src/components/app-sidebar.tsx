@@ -99,6 +99,18 @@ export const sideBarData = {
         }
       ],
     },
+    {
+      title: "테스터",
+      url: "/tester",
+      icon: <GearIcon />,
+      items: [
+        {
+          title: "화면 테스터",
+          url: "/uiTester",
+        }
+      ],
+    },
+
   ]
 }
 

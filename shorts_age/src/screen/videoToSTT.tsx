@@ -3,6 +3,7 @@ import {apiClient,aiServerClient} from "../network/apiClient";
 
 import '../styles/screen_videoToSTT.css';
 import '../lib/region';
+import { useProgressBar  } from "@/widget/progressBarProvider"
 
 import type { ErrorObject } from "../types/error";
 import { REGION_OPTIONS } from '../lib/region';
@@ -39,6 +40,20 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
   const [format, setFormat] = useState("srt");
   const [isDragging, setIsDragging] = useState(false);
   const [convertStatus,setConvertStatus] = useState("None");
+
+  const {
+    showProgress,
+    setProgress,
+    completeProgress,
+    hideProgress,
+  } = useProgressBar()
+
+
+   const STTOutputFormat = [
+    { key: "srt", value: "SRT" },
+    { key: "txt", value: "TXT" },
+    { key: "json", value: "JSON" }
+  ]
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     addFiles(e.target.files ?? []);
@@ -77,19 +92,46 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
       });
       return;
     }
-
+    
+    showProgress(5)
+    
     try {
       const uploadResult = await uploadVideo(files[0]);
       if (!uploadResult.success) {
         throw new Error(uploadResult.error);
       }
-
+      setProgress(30)
       const jobId = uploadResult.jobId;
       const mp3Response = await apiClient.post("/api/convertMp4ToMp3", { jobId })
       .then((response)=>{
-
-        aiServerClient.post("/stt",{job_id:jobId,model:model,language:language}).then((response)=>{
+        
+        setProgress(55)
+        aiServerClient.post("/stt",{job_id:jobId,model:model,language:language,output_format:format}
+          ,{
+              responseType: "blob",
+          }
+        ).then((response)=>{
+          setProgress(90)
           console.log(`/stt res : ${response.data}`)
+          const url = URL.createObjectURL(response.data)
+          const link = document.createElement("a")
+          const excludeExtName=files[0].name.split(".")[0]
+          link.href = url
+
+
+          if( format === STTOutputFormat[0].key ){
+            link.download = `${excludeExtName}.srt`
+          } else if( format === STTOutputFormat[1].key ){
+            link.download = `${excludeExtName}.txt`
+          } else if (format ===STTOutputFormat[2].key){
+            link.download = `${excludeExtName}.json`
+          } else {
+            link.download = `${excludeExtName}.srt`
+          }
+          link.click()
+          completeProgress()
+          URL.revokeObjectURL(url)
+          hideProgress()
         })
 
         return response
@@ -185,8 +227,6 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
           <div className="form-group">
             <label>언어</label>
 
-             
-             
             <select value={language} onChange={(e) => setLanguage(e.target.value)}>
               {REGION_OPTIONS.slice(1,5).map((region) => (
                           <option
@@ -203,9 +243,11 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
           <div className="form-group">
             <label>출력 포맷</label>
             <select value={format} onChange={(e) => setFormat(e.target.value)}>
-              <option value="srt">SRT (타임코드 포함, 영상편집용)</option>
-              <option value="txt">TXT</option>
-              <option value="json">JSON</option>
+              {STTOutputFormat.map((item) => (
+                <option key={item.key} value={item.key}>
+                  {item.value}
+                </option>
+              ))}
             </select>
           </div>
 
@@ -217,9 +259,6 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
           >
             자막 추출 시작 ({files.length}개)
           </Button>
-
-
-          <DownloadTestWidget></DownloadTestWidget>
           
 
           <div className="guide-box">

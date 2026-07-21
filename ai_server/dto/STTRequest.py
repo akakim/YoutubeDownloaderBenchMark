@@ -10,3 +10,4 @@ class STTRequest(BaseModel):
 	job_id: Optional[str] = None
 	model: Optional[str] = None
 	language: Optional[str] = None
+	output_format: Optional[str] = "srt"

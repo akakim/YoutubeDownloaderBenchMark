@@ -30,22 +30,6 @@ origins = [
     "http://127.0.0.1:5173",
 ]
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,       # 허용할 프론트엔드 주소
-    allow_credentials=True,      # 쿠키·인증 정보 허용
-    allow_methods=[
-        "GET",
-        "POST",
-    ],         # GET, POST, PUT, DELETE 등
-    allow_headers=[
-        "Authorization",
-        "Content-Type",
-    ],
-    expose_headers=[
-        "Content-Disposition",
-    ]
-)
 
 
 
@@ -157,3 +141,22 @@ async def get_json_body(request: Request) -> dict[str, any]:
         )
 
     return body
+
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,       # 허용할 프론트엔드 주소
+    allow_credentials=True,      # 쿠키·인증 정보 허용
+    allow_methods=[
+        "GET",
+        "POST",
+    ],         # GET, POST, PUT, DELETE 등
+    allow_headers=[
+        "Authorization",
+        "Content-Type",
+    ],
+    expose_headers=[
+        "Content-Disposition",
+    ]
+)

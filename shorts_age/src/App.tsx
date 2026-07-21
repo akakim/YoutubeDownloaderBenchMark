@@ -23,7 +23,9 @@ import { AppSidebar,sideBarData } from "./components/app-sidebar"
 import AdvancedSceneMaker from './screen/advancedSceneMaker';
 import SceneMaker from './screen/sceneMaker';
 import KMSScreen from './screen/kms';
+import TesterScreen from './screen/testerScreen';
 
+import ProgressBarProvider from './widget/progressBarProvider'
 // interface ErrorObject {
 //   title: string;
 //   message: string;
@@ -103,24 +105,26 @@ export function App() {
         } as React.CSSProperties
       }
     >
-      <AppSidebar onMenuClick={setActiveUrl} />
+       <ProgressBarProvider>
+          <AppSidebar onMenuClick={setActiveUrl} />
 
-      <main>
-        <SidebarTrigger >
-        </SidebarTrigger>
+          <main>
+            <SidebarTrigger >
+            </SidebarTrigger>
 
-        {activeUrl === sideBarData.navMain[0].items?.[0]?.url && <KeywordSearchScreen/>}
-        {activeUrl === sideBarData.navMain[0].items?.[1]?.url && <ChannelRankingScreen/>}
-        {activeUrl === sideBarData.navMain[1].items?.[0]?.url && <VideoToSTT/>}
-        {activeUrl === sideBarData.navMain[1].items?.[1]?.url && <AnalyzeGoodvideo/>}
-        {activeUrl === sideBarData.navMain[2].items?.[0]?.url && <SceneMaker/>}
-        {activeUrl === sideBarData.navMain[2].items?.[1]?.url && <AdvancedSceneMaker/>}
-        {activeUrl === sideBarData.navMain[3].items?.[0]?.url && <KMSScreen isKMSSUCCESS={isKMSSUCCESS()} />}
+            {activeUrl === sideBarData.navMain[0].items?.[0]?.url && <KeywordSearchScreen/>}
+            {activeUrl === sideBarData.navMain[0].items?.[1]?.url && <ChannelRankingScreen/>}
+            {activeUrl === sideBarData.navMain[1].items?.[0]?.url && <VideoToSTT/>}
+            {activeUrl === sideBarData.navMain[1].items?.[1]?.url && <AnalyzeGoodvideo/>}
+            {activeUrl === sideBarData.navMain[2].items?.[0]?.url && <SceneMaker/>}
+            {activeUrl === sideBarData.navMain[2].items?.[1]?.url && <AdvancedSceneMaker/>}
+            {activeUrl === sideBarData.navMain[3].items?.[0]?.url && <KMSScreen isKMSSUCCESS={isKMSSUCCESS()} />}
+            {activeUrl === sideBarData.navMain[4].items?.[0]?.url && <TesterScreen/>}
 
-        {activeUrl === MENU_KEYS.FILTER_VIDEO && <FilterVideo/>}
-        <h1>{activeUrl}에 온걸 환영합니다</h1>
-      </main>
-
+            {activeUrl === MENU_KEYS.FILTER_VIDEO && <FilterVideo/>}
+            <h1>{activeUrl}에 온걸 환영합니다</h1>
+          </main>
+      </ProgressBarProvider>
     </SidebarProvider>
   )
 }
