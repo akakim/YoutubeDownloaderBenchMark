@@ -12,11 +12,10 @@ import { GlobalSpinner } from "@/widget/globalSpinner"
 import { Logger, LoggerShowing } from "@/lib/LogUtil"
 
 interface ProgressBarContextValue {
-  progress: number
+  progress: string
   isVisible: boolean
-  showProgress: (initialValue?: number) => void
-  setProgress: (value: number) => void
-  increaseProgress: (amount?: number) => void
+  showProgress: (initialValue?: string) => void
+  setProgress: (value: string) => void
   hideProgress: () => void
   completeProgress: () => void
 }
@@ -31,39 +30,34 @@ interface ProgressBarProviderProps {
 export default function ProgressBarProvider({
   children,
 }: ProgressBarProviderProps) {
-  const [progress, setProgressState] = useState(0)
+  const INIT_PROGRESS_LABEL = "처리 중"
+  const [progress, setProgressState] = useState(INIT_PROGRESS_LABEL)
   const [isVisible, setIsVisible] = useState(false)
 
-  const setProgress = useCallback((value: number) => {
-    const normalizedValue = Math.min(100, Math.max(0, value))
+  const setProgress = useCallback((value: string) => {
     LoggerShowing(`setProgress : ${value}`,true)
-    setProgressState(normalizedValue)
+    setProgressState(value)
 
   }, [])
 
-  const showProgress = useCallback((initialValue = 0) => {
+  const showProgress = useCallback((initialValue = "") => {
     setProgressState(initialValue)
     LoggerShowing(`setProgress : ${initialValue}`,true)
     setIsVisible(true)
   }, [])
 
-  const increaseProgress = useCallback((amount = 10) => {
-    setProgressState((current) =>
-      Math.min(100, Math.max(0, current + amount)),
-    )
-  }, [])
 
   const hideProgress = useCallback(() => {
     setIsVisible(false)
-    setProgressState(0)
+    setProgressState("")
   }, [])
 
   const completeProgress = useCallback(() => {
-    setProgressState(100)
+    setProgressState(INIT_PROGRESS_LABEL)
 
     window.setTimeout(() => {
       setIsVisible(false)
-      setProgressState(0)
+      setProgressState(INIT_PROGRESS_LABEL)
     }, 400)
   }, [])
 
@@ -73,7 +67,6 @@ export default function ProgressBarProvider({
       isVisible,
       showProgress,
       setProgress,
-      increaseProgress,
       hideProgress,
       completeProgress,
     }),
@@ -82,7 +75,6 @@ export default function ProgressBarProvider({
       isVisible,
       showProgress,
       setProgress,
-      increaseProgress,
       hideProgress,
       completeProgress,
     ],
@@ -98,7 +90,7 @@ export default function ProgressBarProvider({
             value={progress}
             className="h-1 rounded-none bg-transparent"
           /> */}
-          <GlobalSpinner progress="처리중" />
+          <GlobalSpinner progress={progress} />
         </div>
       )}
     </ProgressBarContext.Provider>

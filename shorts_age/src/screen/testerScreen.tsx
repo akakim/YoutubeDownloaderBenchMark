@@ -15,13 +15,13 @@ export default function TesterScreen() {
 
   const testProgress = () => {
     clearTimers()
-    showProgress(0)
+    showProgress("처리중")
 
     timerIds.current = [
-      window.setTimeout(() => setProgress(33), 1_000),
-      window.setTimeout(() => setProgress(66), 2_000),
-      window.setTimeout(() => setProgress(100), 3_000),
-    window.setTimeout(() => hideProgress(), 3_500),
+      window.setTimeout(() => setProgress("Mp4 업로드중"), 1_000),
+      window.setTimeout(() => setProgress("Mp4 에서 Mp3로 변환중"), 2_000),
+      window.setTimeout(() => setProgress("AI가 음성인식중"), 3_000),
+        window.setTimeout(() => hideProgress(), 3_500),
     ]
   }
 

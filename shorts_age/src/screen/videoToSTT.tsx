@@ -93,25 +93,25 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
       return;
     }
     
-    showProgress(5)
+    showProgress("파일 업로드중 ")
     
     try {
       const uploadResult = await uploadVideo(files[0]);
       if (!uploadResult.success) {
         throw new Error(uploadResult.error);
       }
-      setProgress(30)
+      setProgress("파일 업로드 완료")
       const jobId = uploadResult.jobId;
       const mp3Response = await apiClient.post("/api/convertMp4ToMp3", { jobId })
       .then((response)=>{
         
-        setProgress(55)
+        setProgress("AI가 음성인식 중")
         aiServerClient.post("/stt",{job_id:jobId,model:model,language:language,output_format:format}
           ,{
               responseType: "blob",
           }
         ).then((response)=>{
-          setProgress(90)
+          setProgress("대본을 반환합니다.")
           console.log(`/stt res : ${response.data}`)
           const url = URL.createObjectURL(response.data)
           const link = document.createElement("a")
@@ -217,8 +217,8 @@ export default function VideoToSTT({ onError }: VideoToSTTProps) {
           <div className="form-group">
             <label>모델 (정확도 ↔ 속도)</label>
             <select value={model} onChange={(e) => setModel(e.target.value)}>
-              <option value="large-v3"> large-v3</option>
               <option value="large-v3-turbo">large-v3-turbo (추천) ⭐</option>
+              <option value="large-v3"> large-v3</option>
               <option value="distil-large-v3">distil-large-v3</option>
             </select>
             <small>large-v3-turbo 가장 빠름</small>
