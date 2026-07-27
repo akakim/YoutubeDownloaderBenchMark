@@ -22,3 +22,44 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Spring Tool Suite
+.springBeans
+.sts4-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Application secrets
+application-local.properties
+application-local.yml
+application-local.yaml
+.env
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+*.swp
+*~
