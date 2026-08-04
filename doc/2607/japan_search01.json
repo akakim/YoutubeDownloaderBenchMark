@@ -1,0 +1,1712 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "HMMZVik6cyrUgx1Y07bFQKgVbx8",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "JP",
+  "pageInfo": {
+    "totalResults": 971406,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1IX7hLng1lHac9bAxCNMUuuDLfY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NUpm4N9owiI"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T09:33:44Z",
+        "channelId": "UCuJVAGG_9WK-7-N5ilm5x0Q",
+        "title": "㊗️660万再生実家がガチで金持ちなサッカー選手3選 #芸能人 #サッカー日本代表 #ワールドカップ #雑学#金持ち",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NUpm4N9owiI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NUpm4N9owiI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NUpm4N9owiI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "芸能人ゴシップ帳",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T09:33:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sWCJGvuHKwPny5-rcNLbCF3_2fM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "k7ESiDW6JBY"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-06T09:00:38Z",
+        "channelId": "UCWk7yDmE3KUhAwo4-GCy-mg",
+        "title": "捨てるな！無限に増える野菜３選#雑学#デカボ#ビットスターアニメ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ □声の出演 整野トト：美坂朱音 整野ネネ：荒金いつき □スタッフ 原作・ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k7ESiDW6JBY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k7ESiDW6JBY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k7ESiDW6JBY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "デカデカ!デカボー",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-06T09:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GjsoN-_YGkakJyZZ2LR_whottyY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HK81cg4FM6Y"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-16T09:45:22Z",
+        "channelId": "UCgkUM6rrLSLEqRLSuUBhSGA",
+        "title": "鋼鉄の鎧を纏い世界を侵略する魚..😱#動物 #雑学 #豆知識 #プレコ #外来生物 #アマゾン川",
+        "description": "みんなが知らない動物のくだらない雑学を投稿しています   コメント・チャンネル登録よろしくお願いします！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HK81cg4FM6Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HK81cg4FM6Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HK81cg4FM6Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "動物ふしぎ発見",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-16T09:45:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N1g4qvF5BFJZ6Q66WPK63Ad9FSQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kZZIy3SR_Lg"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-17T11:03:31Z",
+        "channelId": "UC7eLzR9jOcjTHaqVLq0-mpA",
+        "title": "強すぎて使用禁止となった、ありえないサッカー用具 #スポーツ #サッカー #雑学",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kZZIy3SR_Lg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kZZIy3SR_Lg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kZZIy3SR_Lg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Nghi Nguyen",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-17T11:03:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HKhSwp8BLd5wZWZ5lpZVeRKVbTU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PD6YrEEF08U"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-14T09:00:06Z",
+        "channelId": "UCAdCAv2PbAN7no-WOOctdww",
+        "title": "【衝撃】自称環境活動家のグレタに関する雑学 #芸能雑学くん",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PD6YrEEF08U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PD6YrEEF08U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PD6YrEEF08U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Grzesiek Zal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-14T09:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bqrqt7qf-yTv2sl2njWAMA3mnxc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JQdZWRfztTg"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-09T11:19:10Z",
+        "channelId": "UCyB8GtEIacZEukF3ejMfofA",
+        "title": "【ワンピース】ワンピ史上一番ヤバくね?？#shorts #onepiece #雑学 #考察 #ワンピース　#最新1187話 #ワンピ最新話",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JQdZWRfztTg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JQdZWRfztTg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JQdZWRfztTg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "大人気アニメ・漫画の反応集、雑学",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-09T11:19:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IFyoN74YSHgOR8PK8V_KGWr2T2Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x-jTOfLGEp4"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-11T12:10:01Z",
+        "channelId": "UCJNOHwsXjY28e0MALCdiCGg",
+        "title": "X Æ A-12に関する雑学。#雑学 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x-jTOfLGEp4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x-jTOfLGEp4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x-jTOfLGEp4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "レアレモン",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-11T12:10:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "98jp__8BSbcQRi6amda9y3yPCWM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TsNp1o6f1uM"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-13T09:00:27Z",
+        "channelId": "UCWk7yDmE3KUhAwo4-GCy-mg",
+        "title": "夜に一人で絶対やってはいけないこと3選#雑学#デカボ#ビットスターアニメ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ □声の出演 整野トト：美坂朱音 整野ネネ：荒金いつき 悪霊、鏡の奥のトト： ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TsNp1o6f1uM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TsNp1o6f1uM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TsNp1o6f1uM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "デカデカ!デカボー",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-13T09:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a1DEWi26AbAffhn5vh9NbSyQCqw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LtRnUVOB3VQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-02T09:00:31Z",
+        "channelId": "UC-L6oKM0dDcwdWlJv6ZjCDw",
+        "title": "本当は怖い世界の昔ばなし3選 #都市伝説 #雑学 #ペケッツ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ ------------------------ ⭐️発売中⭐️ ①LINEスタンプ発売中！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LtRnUVOB3VQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LtRnUVOB3VQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LtRnUVOB3VQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ペケペケ!ペケッツくん",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-02T09:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "airjUocYldGrdSTTuNJJ7yXXQhk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9ENM1wtBPqg"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-01T09:00:38Z",
+        "channelId": "UCWk7yDmE3KUhAwo4-GCy-mg",
+        "title": "【危険】落ちていても絶対に拾ってはいけないもの3選#雑学#デカボ#ビットスターアニメ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ □声の出演 整野トト：美坂朱音 整野ネネ：荒金いつき おじさん：上野翔 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9ENM1wtBPqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9ENM1wtBPqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9ENM1wtBPqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "デカデカ!デカボー",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-01T09:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uMeOkyDNxKgi7MGNvyNpl72lsW0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PuLRKfoA3N8"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-10T17:08:47Z",
+        "channelId": "UCcfh8c7kysW7D4dhjDRgfDg",
+        "title": "【閲覧注意】ホホジロザメすら逃げ出す、海の恐怖ダルマザメ！　#雑学 #豆知識 #クッキーカッターシャーク #サメ #海の生き物 #動物の生態 #海洋生物 #衝撃映像 #生存戦略 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PuLRKfoA3N8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PuLRKfoA3N8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PuLRKfoA3N8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "釣る者達",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-10T17:08:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oawfwOwjnH1SPwWZEFTYXlP9C_U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nu3ZutsdAdw"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-19T10:00:13Z",
+        "channelId": "UCLdJCPNZ57BCG3jAO1XgdMw",
+        "title": "懸賞金額を勘違いして号泣する泣き虫ルフィ #onepiece #ワンピース #アニメ #雑学",
+        "description": "1億5000万…泣 【著作権について】 当チャンネルは皆様にお楽しみいただくことを目的としており、著作権や肖像権等の侵害を ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nu3ZutsdAdw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nu3ZutsdAdw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nu3ZutsdAdw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "チョッパー・ポーネグリフ【ワンピース】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-19T10:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6MhJc6B6cXUppIxBMh4tzGFSfOg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8s0452zGgZ8"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-19T09:00:04Z",
+        "channelId": "UCAdCAv2PbAN7no-WOOctdww",
+        "title": "【衝撃】実写版アラジンとウィル・スミスに関する雑学 #芸能雑学くん #雑学",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8s0452zGgZ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8s0452zGgZ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8s0452zGgZ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Grzesiek Zal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-19T09:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1mcGETnwxlZOeyvaYGSWPJpdkKQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TnOvn0BDFPE"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-06T06:29:51Z",
+        "channelId": "UCYIqnP4Zy46jKuBQxnf-Y_w",
+        "title": "外務省時代の同期と再開された雅子さまのご表情",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TnOvn0BDFPE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TnOvn0BDFPE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TnOvn0BDFPE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "日本の雑学",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-06T06:29:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xPu5vDwn3kHGLxGj-_RUqhyFAB0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VzYKgHcdOgY"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-24T10:00:30Z",
+        "channelId": "UCY7uzrS5F7JptQ8pTPV3Beg",
+        "title": "【ごく稀に出現する規格外すぎる日本人3選】 #日本 #日本人 #雑学 #江戸時代 #衝撃の事実",
+        "description": "死の直前まで絵に不満を持ち続けた絵師、55歳から地球一周を歩いた商人、鎖国中に世界を200年先取りした数学者。江戸時代の ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VzYKgHcdOgY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VzYKgHcdOgY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VzYKgHcdOgY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "深淵のアーカイブ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-24T10:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w1Dpym3upiDZ5-83OCM-XNYh96o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "37TTQSbfGCk"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-15T22:00:27Z",
+        "channelId": "UCAdCAv2PbAN7no-WOOctdww",
+        "title": "【衝撃】東京藝術大学と河野太郎に関する雑学 #芸能雑学くん #雑学",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/37TTQSbfGCk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/37TTQSbfGCk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/37TTQSbfGCk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Grzesiek Zal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-15T22:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "akV5bbI_Co1VnlGuBVAeJzDA5PU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1-7OYHKVsGA"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-04T11:00:23Z",
+        "channelId": "UCeLvdXCSDUQAZxuRTb3nE6A",
+        "title": "この運が悪すぎるアレックスを見てほしい！！",
+        "description": "I sincerely honor and respect the creator of the original content. This video is a transformative work produced for entertainment ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1-7OYHKVsGA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1-7OYHKVsGA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1-7OYHKVsGA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "オラに雑学を分けてくれ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-04T11:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PfeXfY6DFqYlprtiSoTOKED6ys0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xa6ODdjUVv4"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-16T09:00:22Z",
+        "channelId": "UC-L6oKM0dDcwdWlJv6ZjCDw",
+        "title": "本当にある世界のヤバいプール3選  #プール #雑学 #ペケッツ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ ------------------------ ⭐️発売中⭐️ ①LINEスタンプ発売中！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xa6ODdjUVv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xa6ODdjUVv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xa6ODdjUVv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ペケペケ!ペケッツくん",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-16T09:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sCApPbC1D1Ye7MR_JjNyaPGAzmc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6DiQ128KMRw"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-02T09:45:05Z",
+        "channelId": "UCkQYhRm53377oL7xzTejjFQ",
+        "title": "㊗️160万回再生‼️🎉眩しすぎる美人競泳選手3選 #今井月 #雑学 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6DiQ128KMRw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6DiQ128KMRw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6DiQ128KMRw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "花より美女",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-02T09:45:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "u_wOjQlB1k6sqRT92R1giJQPeek",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A6UqThYs54g"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-20T03:00:26Z",
+        "channelId": "UC2j1I4dzlC5M7EkFiDmv88g",
+        "title": "コンセントに差し込んだらどうなる？【ちぐさの子供の頃雑学】 #shortsっ",
+        "description": "チャンネル登録130万人目指してるよ！チャンネル登録よろしく.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A6UqThYs54g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A6UqThYs54g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A6UqThYs54g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ちぐさくん【AMPTAK】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-20T03:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uBIJxEF9afBDYxzGNmo5e_clmYU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A1zSmNdSTBo"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-11T09:00:36Z",
+        "channelId": "UCWk7yDmE3KUhAwo4-GCy-mg",
+        "title": "夏にやりたいアイスの裏ワザ3選#雑学#デカボ#ビットスターアニメ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ □声の出演 整野トト：美坂朱音 整野ネネ：荒金いつき □スタッフ 原作・ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A1zSmNdSTBo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A1zSmNdSTBo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A1zSmNdSTBo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "デカデカ!デカボー",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-11T09:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HK7yWqqPD1P14Ki2ZyXrhYwSWVA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h4GHVvJ9pBU"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T06:00:22Z",
+        "channelId": "UCeLvdXCSDUQAZxuRTb3nE6A",
+        "title": "この領域から出られない五条をみてほしい！！",
+        "description": "I sincerely honor and respect the creator of the original content. This video is a transformative work produced for entertainment ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h4GHVvJ9pBU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h4GHVvJ9pBU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h4GHVvJ9pBU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "オラに雑学を分けてくれ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T06:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ouVWLimpFxG1_gC3SBvVsmOqBSc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kf1j0xUghjw"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-22T10:00:03Z",
+        "channelId": "UCSDMf7EBkYZ6M2hWTs9DrlQ",
+        "title": "母にLANケーブルを切られていた空澄セナｗ【切り抜き/ぶいすぽっ！/Vtuber/雑学】",
+        "description": "引用した配信 https://www.youtube.com/watch?v=21uHRoa72p4 ▽動画解説 ゲーム：Minecraft メンバー：夜乃くろむ デビューし ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kf1j0xUghjw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kf1j0xUghjw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kf1j0xUghjw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "いいとこ鳥【ぶいすぽ雑学まとめch】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-22T10:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g-g6AThGhuPnS4iHkajdTQGj3XI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zs1C8fM_d34"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-13T13:00:38Z",
+        "channelId": "UCJS8ABmPtrTJdEc5_Axr5Wg",
+        "title": "【ダウン症の動物の見た目🐱】 #雑学 #ダウン症 #downsyndrome #トリビア",
+        "description": "医療業界出身クリエイターが語るトリビア.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zs1C8fM_d34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zs1C8fM_d34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zs1C8fM_d34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "天野友二朗",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-13T13:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Wa4k8XmKZO6-TExvo4FUVSV8HhU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AwwwpoGMBXY"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T10:28:12Z",
+        "channelId": "UCDtVdj7sm41Ysg3XSiSUH3w",
+        "title": "なにわ男子【お勉強企画！なにわ的雑学検定】目指せ！なにわのクイズ王！",
+        "description": "ちゅきちゅき～！なにわ男子です！ 今回はなんと！お勉強企画です！！ 昭和・平成・令和で流行っていた言葉や 意外と知らない ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AwwwpoGMBXY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AwwwpoGMBXY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AwwwpoGMBXY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "なにわ男子",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T10:28:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J_8wLoh5E7hJ5Fhnz8tkuBsSb_Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JdnCuxaqePo"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T12:00:25Z",
+        "channelId": "UCUTgXNqRBqR33D5q10DfQXw",
+        "title": "眠れない夜に聞きたい面白い宇宙の雑学14選【総集編】",
+        "description": "テイコウペンギンの公式LINE絵文字が登場！   ▽いつもの表情から使いやすいセリフまで、 毎日使えるセットが勢揃い✨ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JdnCuxaqePo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JdnCuxaqePo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JdnCuxaqePo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "テイコウペンギン",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T12:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mJqTW_jwaIZdoX6ecMm4oGtcj2s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4icfP53pzRw"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-03T09:00:35Z",
+        "channelId": "UCD5dOUFHj0t0VHGnXNQwrmQ",
+        "title": "【恋愛雑学】知らないと損する恋愛の３つの真実",
+        "description": "VOICEBOX:青山龍星 #雑学#トリビア#豆知識#恋愛.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4icfP53pzRw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4icfP53pzRw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4icfP53pzRw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "いろいろ雑学",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-03T09:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_N802bjgF8PDWYtV-NpnkL_Iiss",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3BL5p4CEAsI"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-29T09:00:33Z",
+        "channelId": "UCWk7yDmE3KUhAwo4-GCy-mg",
+        "title": "世界一アホな生き物３選#雑学#デカボ#ビットスターアニメ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ □声の出演 整野トト：美坂朱音 整野ネネ：荒金いつき 昭和先生：上野翔 モブ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3BL5p4CEAsI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3BL5p4CEAsI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3BL5p4CEAsI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "デカデカ!デカボー",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-29T09:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j29n_2znJT6E4KpSwcMB7Ov8rlY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2e4jb57LRGs"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-14T09:00:12Z",
+        "channelId": "UCArTg28DVH145gkuOukRtVA",
+        "title": "プーチンの食生活がもう人間じゃねぇ #プーチン #食生活 #雑学 #ゆっくり解説",
+        "description": "今回はプーチンの食生活がもう人間じゃねぇについて紹介しています。 これからもおもしろおかしく雑学を紹介していきます。",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2e4jb57LRGs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2e4jb57LRGs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2e4jb57LRGs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "雑学ねずみ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-14T09:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Fmz5-Hnj3J6raZ_pArmCEb65hqg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PBRoNo_9DxM"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-12T13:03:12Z",
+        "channelId": "UCiozhKr9CENoSnPk3aDl7Mg",
+        "title": "レーザーキーウィ #雑学 #まとめる犬",
+        "description": "楽曲提供 箕輪レコーズ.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PBRoNo_9DxM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PBRoNo_9DxM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PBRoNo_9DxM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "雑学をまとめる犬",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-12T13:03:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ikhkf7mTZOvr6s8RzhAu3bI7JN8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "smSXwvzDSQI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-02T01:00:24Z",
+        "channelId": "UCipDeG_30BpJsEEQh_PVnsw",
+        "title": "電撃婚確定のビッグカップル3選#芸能人 #芸能 #shorts",
+        "description": "shorts #芸能 #芸能人 #ゴシップ #炎上 #衝撃 #テレビ #芸能裏話 #雑学 #豆知識.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/smSXwvzDSQI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/smSXwvzDSQI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/smSXwvzDSQI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "毎日芸能ゴシップ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-02T01:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P3DT1pC2blNppErv_zQDUThhbKM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u5fROOJ9_pE"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-18T09:00:00Z",
+        "channelId": "UCWk7yDmE3KUhAwo4-GCy-mg",
+        "title": "実は知らない学校の秘密3選#雑学#デカボ#ビットスターアニメ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ □声の出演 整野トト：美坂朱音 整野ネネ：荒金いつき □スタッフ 原作・ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u5fROOJ9_pE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u5fROOJ9_pE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u5fROOJ9_pE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "デカデカ!デカボー",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-18T09:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IgFvNB8d_mXrVtE85YtkAZmRS6s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x84CJbfp6iU"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-02T10:13:54Z",
+        "channelId": "UCArTg28DVH145gkuOukRtVA",
+        "title": "トランプの食生活がもう人間じゃねぇ #トランプ #食生活 #雑学 #ゆっくり解説",
+        "description": "今回はトランプの食生活がもう人間じゃねぇについて紹介しています。 これからもおもしろおかしく雑学を紹介していきます。",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x84CJbfp6iU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x84CJbfp6iU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x84CJbfp6iU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "雑学ねずみ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-02T10:13:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "irVndd4hBZeRumtU9AIy4KsiaoQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HwlFFQkxogI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-22T10:00:23Z",
+        "channelId": "UCLdJCPNZ57BCG3jAO1XgdMw",
+        "title": "血反吐吐きながらイワを説得するサンジ #onepiece #ワンピース #アニメ #雑学",
+        "description": "おれだ…！ 【著作権について】 当チャンネルは皆様にお楽しみいただくことを目的としており、著作権や肖像権等の侵害を目的と ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HwlFFQkxogI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HwlFFQkxogI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HwlFFQkxogI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "チョッパー・ポーネグリフ【ワンピース】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-22T10:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eHZbNMhScTFIiNwkvT8weY3ODCc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7g-Ca6WOhBM"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-15T09:01:52Z",
+        "channelId": "UCgwEnQgdufIr0JRmqCIKBcA",
+        "title": "これはイエス・キリストが実在した証拠…??🤔#雑学 #豆知識 #都市伝説 #面白い #勉強",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7g-Ca6WOhBM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7g-Ca6WOhBM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7g-Ca6WOhBM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ビグムン🌝",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-15T09:01:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tYk2VGGR6hLH7920cTyuclm_10s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LXp-Y_8L2cI"
+      },
+      "snippet": {
+        "publishedAt": "2026-06-30T12:09:40Z",
+        "channelId": "UCiozhKr9CENoSnPk3aDl7Mg",
+        "title": "ベルメスの顔 #雑学 #まとめる犬",
+        "description": "楽曲提供 箕輪レコーズ.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LXp-Y_8L2cI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LXp-Y_8L2cI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LXp-Y_8L2cI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "雑学をまとめる犬",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-06-30T12:09:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4LpfCjOxVzinmHZZDTkihWFgJOs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gQE5zRbN7wI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-08T11:06:25Z",
+        "channelId": "UCAjX2_yCtfuTpwACv5zyRBQ",
+        "title": "登場だけで会場が揺れる伝説の声優さん#雑学 #アニメ #鬼滅の刃 #声優",
+        "description": "VOIXBOX：青山龍星.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gQE5zRbN7wI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gQE5zRbN7wI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gQE5zRbN7wI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "執事のアニメ・漫画雑学ラボ【ジャンプ特化】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-08T11:06:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4rCmQBrAMummOEE8cGImwibdS5A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "z_hPlmJzyqg"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-12T11:00:05Z",
+        "channelId": "UCfKjEWiRCZkpF8qtkSxzbaw",
+        "title": "【ワンピース】バギーのこのユルさが最高 #onepiece #ワンピース #雑学",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z_hPlmJzyqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z_hPlmJzyqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z_hPlmJzyqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "バズモード・ジャパン",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-12T11:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-msNExf8njFHeiYroWon-QX1ELs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UtC95I6sarc"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-12T08:30:02Z",
+        "channelId": "UCDpInmWmHNCdQLx1xt51nvA",
+        "title": "「日本を助けていた」ボリス・ジョンソンについての雑学",
+        "description": "ブリカス史上、最高の仕事をしてくれた！」──処理水問題でいわれのない風評被害を受けていた福島県。その救世主となったの ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UtC95I6sarc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UtC95I6sarc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UtC95I6sarc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ジョイ教授の雑学部屋",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-12T08:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-4qaxBkGhNnT8vO0NaMqsY0N4ls",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Duwkg6xJYKw"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-05T12:11:02Z",
+        "channelId": "UCbs82_Jnp500mw3Nn80JdBw",
+        "title": "【衝撃】昔バズった相撲少年の現在がすごい #相撲 #エンタメ #ニュース #雑学 #豆知識 #shorts",
+        "description": "うぷ主の一言 漫画みたいな展開はやっぱり見てて興奮するね ご視聴ありがとうございます！ このチャンネルではネットやSNSの ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Duwkg6xJYKw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Duwkg6xJYKw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Duwkg6xJYKw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "世界のエンタメラボ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-05T12:11:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gHf0L_qr3r-sw-ynK9k8oik3Nn0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hAIXGgEKu1c"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-18T09:00:01Z",
+        "channelId": "UCAdCAv2PbAN7no-WOOctdww",
+        "title": "【衝撃】ドウェインジョンソンに関する面白い雑学8選 #芸能雑学くん #雑学",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hAIXGgEKu1c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hAIXGgEKu1c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hAIXGgEKu1c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Grzesiek Zal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-18T09:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vKKQimtSKCXPbIL4JiUceu5qy4E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NE1rM00OPOQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-13T09:00:34Z",
+        "channelId": "UCAdCAv2PbAN7no-WOOctdww",
+        "title": "【衝撃】オタクを制御するコミケスタッフに関する雑学 #芸能雑学くん",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NE1rM00OPOQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NE1rM00OPOQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NE1rM00OPOQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Grzesiek Zal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-13T09:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "236sKcpx-qTMSF2mHFSsm9YoK5s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rommoiBHx9E"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-10T10:00:11Z",
+        "channelId": "UCLdJCPNZ57BCG3jAO1XgdMw",
+        "title": "狙撃勝負に賭けて楽しむロビン＆ナミ #onepiece #ワンピース #アニメ #雑学",
+        "description": "三連敗よ？ 【著作権について】 当チャンネルは皆様にお楽しみいただくことを目的としており、著作権や肖像権等の侵害を目的と ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rommoiBHx9E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rommoiBHx9E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rommoiBHx9E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "チョッパー・ポーネグリフ【ワンピース】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-10T10:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "e7gbeou-glEDbxR9dnqNL98e6rQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UZzYZcvI8WU"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-17T03:00:13Z",
+        "channelId": "UCAdCAv2PbAN7no-WOOctdww",
+        "title": "【衝撃】サンシャイン池崎に関する面白い雑学8選 #芸能雑学くん #雑学",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UZzYZcvI8WU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UZzYZcvI8WU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UZzYZcvI8WU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Grzesiek Zal",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-17T03:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4kzQUq4ButsZLnW3g5nOe119MBA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mD3XGmw67KI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-03T10:59:57Z",
+        "channelId": "UCk5WumPJ3E4FvpWHemQCB4Q",
+        "title": "なぜ地球誕生は46億年前と分かる？ #地球誕生 #宇宙雑学 #豆知識",
+        "description": "「青山龍星」 CV:みみっく=わんだぁぼっくす（©ななはぴ） 本チャンネルの動画は、AI生成技術をビジュアル素材として活用し ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mD3XGmw67KI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mD3XGmw67KI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mD3XGmw67KI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "宇宙雑学クエスト",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-03T10:59:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6CrnKsvD3XNuND2Xly5R1VBQgX4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-ZcCP_9bPmQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-09T09:00:09Z",
+        "channelId": "UCArTg28DVH145gkuOukRtVA",
+        "title": "アインシュタインの脳を解剖したら異常すぎた #アインシュタイン #解剖 #雑学 #ゆっくり解説",
+        "description": "今回はアインシュタインの脳を解剖したら異常すぎたについて紹介しています。 これからもおもしろおかしく雑学を紹介していき ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-ZcCP_9bPmQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-ZcCP_9bPmQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-ZcCP_9bPmQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "雑学ねずみ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-09T09:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hZDJ-mgieANItyGpH7mSMSY-oZY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OPTHrGBbSsQ"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-20T12:00:21Z",
+        "channelId": "UC-bQwtI1nN6t2R7Eb5aa3cA",
+        "title": "江戸時代に￼肥満や糖尿病、認知症がなかった本当の理由10選　#江戸時代 #病気 #健康",
+        "description": "このチャンネルでは健康で100歳まで生きることをテーマに発信しています。 いつまでも若々しい身体を保つ食事術、病気に ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OPTHrGBbSsQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OPTHrGBbSsQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OPTHrGBbSsQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "長生きする健康雑学",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-20T12:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Okt2dyzoabm8svbvRa_4uTRuTC4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0in_d_Rr-6o"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-09T09:00:18Z",
+        "channelId": "UC-L6oKM0dDcwdWlJv6ZjCDw",
+        "title": "お祭りで使える裏ワザ3選  #都市伝説 #雑学 #ペケッツ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ ------------------------ ⭐️発売中⭐️ ①LINEスタンプ発売中！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0in_d_Rr-6o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0in_d_Rr-6o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0in_d_Rr-6o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ペケペケ!ペケッツくん",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-09T09:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mBaj-Nws7Fa3XiTCxLuGeXRqnNc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "K6lYIfXdqzU"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-23T09:00:28Z",
+        "channelId": "UC-L6oKM0dDcwdWlJv6ZjCDw",
+        "title": "絶対に殺すな！キモいけど役に立つ虫３選 #雑学 #ペケッツ",
+        "description": "よかったらチャンネル登録・高評価お願いします！ ------------------------ ⭐️発売中⭐️ ①LINEスタンプ発売中！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/K6lYIfXdqzU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/K6lYIfXdqzU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/K6lYIfXdqzU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ペケペケ!ペケッツくん",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-23T09:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kx9afyje-HSF7FaTwDiSYVvXj68",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n56j3eTVOBI"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-07T08:45:35Z",
+        "channelId": "UCW_SXldsg7l5NLnsIK1g2Bw",
+        "title": "なぜか同じ口から出してもフーは冷たくハーは暖かい息問題＃科学＃ゆっくり解説＃雑学",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n56j3eTVOBI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n56j3eTVOBI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n56j3eTVOBI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "化け学のふしぎ【ゆっくり解説】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-07T08:45:35Z"
+      }
+    }
+  ]
+}
